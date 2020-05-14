@@ -1,5 +1,5 @@
 import csv
-from Similarity import Similarity
+import Similarity as ss
 from prettytable import PrettyTable
 
 # cd /Users/aleclock/Desktop/uni/TLN/dicaro/progettoTLN_DiCaro/esercitazione1
@@ -31,10 +31,10 @@ def main():
         'abst_generic': [],
         'abst_specific': []
     }
-    s = Similarity()
+
     for d in definizioni:
-        dProcessed = s.preProcess(definizioni[d])
-        vSimilarity = s.getSimilarity(dProcessed)
+        dProcessed = ss.preProcess(definizioni[d])
+        vSimilarity = ss.getSimilarity(dProcessed)
         similarity[d].append(vSimilarity)
 
     table = PrettyTable()
