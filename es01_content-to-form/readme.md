@@ -1,32 +1,24 @@
-# **Definition similarity**
+# **Content to form**
 
 <br/><br/>
 
->Questa esercitazione prevede i seguenti passaggi:
+>L’esercitazione prevede i seguenti passaggi:
 >
->1. Caricamento dei dati sulle definizioni (file definizioni.xls o documento Google presente su Moodle);
->2. Preprocessing (su frequenza minima dei termini, stemming, etc. a vostra scelta);
->3. Calcolo similarità tra definizioni (cardinalità dell’intersezione dei termini normalizzata su lunghezza minima tra le due, o varianti a scelta);
->4. Aggregazione sulle due dimensioni (concretezza / specificità come da schema in basso);
->5. Interpretazione dei risultati e scrittura di un piccolo report (da inserire nel vostro portfolio per l’esame).
+>1. Caricamento dei dati content-to-form (presente su Moodle);
+>2. Preprocessing (si veda esercitazione precedente, a vostra scelta);
+>3. Utilizzo di WordNet come sense inventory, per inferire il concetto descritto dalle diverse definizioni;
+>4. Definire ed implementare un algoritmo (efficace ma anche efficiente) di esplorazione dei sensi di WordNet, usando concetti di similarità (tra gloss e definizioni, esempi d’uso, rappresentazioni vettoriali, etc.);
+>
+>* Suggerimento A: sfruttare principi del genus-differentia;
+>* Suggerimento B: sfruttare tassonomia WordNet nell’esplorazione;
+>* Suggerimento C: pensare a meccanismi di backtracking.
+
 
 <br/>
 
 # 0. Caricamento dei dati sulle definizioni 
 
-Le definizioni presenti nel file sono state fornite da diverse persone e riguardano i seguenti termini:
-
-* building (concreto generico);
-* molecule (concreto specifico);
-* freedom (astratto generico);
-* compassion (astratto specifico).
-
-Il file *definizioni.csv* in input viene convertito, grazie alla funzione `load_csv()`, in un dizionario composto dalle seguenti chiavi:
-
-* `conc_generic`: definizioni generiche riguardanti l'elemento concreto;
-* `conc_specific`: definzioni specifiche riguardanti l'elemento concreto;
-* `abst_generic`: definizioni generiche riguardanti l'elemento astratto;
-* `abst_specific`: definizioni specifiche riguardanti l'elemento astratto.
+Il file *definizioni.csv* contiene 12 definizioni per ogni termine, per un totale di 8 termini. Il file in input viene convertito, grazie alla funzione `load_csv()`, in una lista di liste contenenti le varie definizioni per un termine.
 
 <br/><br/>
 

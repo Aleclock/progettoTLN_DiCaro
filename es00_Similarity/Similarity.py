@@ -23,7 +23,7 @@ def getSimilarity(definitions):
     return statistics.mean(similarities)
 
 """ 
-Made the pre-process of a sentence
+Apply sentence pre-process
 - stopword remuval
 - puntualization removal
 - lemmatization 
