@@ -14,9 +14,8 @@ Output: TODO
 """
 def getCommonTerms(dProcessed):
     d = list(itertools.chain.from_iterable(dProcessed)) # Unisce le liste in un'unica lista
-    for defi in dProcessed:
-        print (defi)
     most_common_words = [word for word, word_count in Counter(d).most_common()] # Dizionario con le occorrenze dei termini nelle varie definizioni
+    #print (most_common_words)
     return most_common_words
 
 """
@@ -66,16 +65,17 @@ Output:
     best_sense
 """
 def getBestSense(synsets,context):
+    all_sense = []
     best_sense = None
     max_overlap = 0
     for sense in synsets:
         signature = getSynsetContext(sense)
         overlap = computeOverlap(signature, context) + 1
-        saveString("out.txt", str(sense) + " - " + str(overlap))
+        all_sense.append((sense, overlap))
         if overlap > max_overlap:
             best_sense = sense
             max_overlap = overlap
-    return best_sense, max_overlap
+    return best_sense, max_overlap, all_sense
 
 
 """
@@ -148,7 +148,7 @@ Output:
     pos_tags: part-of-speech tags
 """
 def getPOS(sentence):
-    pos_tags=nltk.pos_tag(sentence, tagset='universal')
+    pos_tags=nltk.pos_tag(nltk.word_tokenize(sentence), tagset='universal')
     return pos_tags
 
 """
@@ -158,7 +158,7 @@ Input:
 Output:
     main term
 """
-def getMainTerm(pos):
+def getNouns(pos):
     terms = []
     for word, tag in pos:
         if tag == "NOUN":

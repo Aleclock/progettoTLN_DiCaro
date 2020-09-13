@@ -49,6 +49,8 @@ L'algoritmo sviluppato imposta a 3 la profondità nella ricerca sia degli iponim
 
 La funzione `getSynsetsFromLemma()` ritorna una lista contenente synset ottenuti a partire dai termini più frequenti presenti nelle definizioni del concetto.
 
+**ATTENZIONE**: Ho notato che la lista di synset che ottengo nella ricerca in base al lemma cambia di volta in volta, motivo per cui i risultati spesso cambiano. 
+
 <br/><br/>
 
 ## 1.3 Determinazione miglior senso (concetto)
@@ -74,18 +76,48 @@ Di seguito i risultati ottenuti
 
 Correct term | Calculated term | Definition
 ------------ | ------------ | -------------
-justice | Synset('right.n.01') | an abstract idea of that which is due to a person or governmental body by law or tradition or nature; ; - Eleanor Roosevelt
-patience | Synset('digest.v.03') | put up with something or somebody unpleasant
-greed | Synset('greed.n.01') | excessive desire to acquire or possess more (especially more material wealth) than one needs or deserves
-politics | Synset('governed.n.01') | the body of people who are citizens of a particular government; --Declaration of Independence
-food | Synset('carbohydrate.n.01') | an essential structural component of living cells and source of energy for animals; includes simple sugars with small molecules as well as macromolecular substances; are classified according to the number of monosaccharide groups they contain
-radiator | Synset('hot.a.01') | used of physical heat; having a high or higher than desirable temperature or giving off heat or feeling or causing a sensation of heat or burning
-vehicle | Synset('container.n.01') | any object that can be used to hold things (especially a large metal boxlike object of standardized dimensions that can be loaded from one form of transport to another)
-screw | Synset('band.n.11') | a thin flat strip or loop of flexible material that goes around or over something else, typically to hold it together or as a decoration
+justice | `Synset('right.n.01')` | an abstract idea of that which is due to a person or governmental body by law or tradition or nature; ; - Eleanor Roosevelt
+patience | `Synset('digest.v.03')` | put up with something or somebody unpleasant
+greed | `Synset('greed.n.01')` | excessive desire to acquire or possess more (especially more material wealth) than one needs or deserves
+politics | `Synset('governed.n.01')` | the body of people who are citizens of a particular government; --Declaration of Independence
+food | `Synset('carbohydrate.n.01')` | an essential structural component of living cells and source of energy for animals; includes simple sugars with small molecules as well as macromolecular substances; are classified according to the number of monosaccharide groups they contain
+radiator | `Synset('hot.a.01')` | used of physical heat; having a high or higher than desirable temperature or giving off heat or feeling or causing a sensation of heat or burning
+vehicle | `Synset('container.n.01')` | any object that can be used to hold things (especially a large metal boxlike object of standardized dimensions that can be loaded from one form of transport to another)
+screw | `Synset('band.n.11')` | a thin flat strip or loop of flexible material that goes around or over something else, typically to hold it together or as a decoration
 
 
 <br/><br/>
 
 # 3 Interpretazione dei risultati
 
-Si può notare, come è normale che sia, che le definizioni riguardanti i termini astratti risultino meno simili tra loro rispetto a quelli concreti. Importante notare che, mentre le definizioni del concetto generico concreto risultano più simili rispetto a quelle del termine specifco concreto (10% più simili), nel caso dei termini astratti avviene il contrario.
+In base ai risultati, solo in un caso c'è perfetta corrispondenza (greed , `Synset('greed.n.01')`), mentre negli altri casi il synset si avvicina al contesto del termine oppure il synset è completamente sbagliato.
+
+Nelle seguenti tabelle sono riportati i migliori 10 synset per un dato concetto. Come si può notare, in alcuni casi ci sono dei valori a pari merito. In altri casi il senso che sarebbe ottimale per il concetto risulta essere nelle prime 10 posizioni ma per poco non risulta essere il migliore
+
+Term | Synset | Value | &nbsp; | Term | Synset | Value
+------------ | ------------ | ------------- | ------------- | ------------ | ------------ | -------------
+justice | `Synset('right.n.01')` | 6 | &nbsp; | patience | `Synset('day.n.07')` | 5
+justice | `Synset('use.n.07')` | 4 | &nbsp; | patience | `Synset('digest.v.03')` | 5
+justice | `Synset('respect.n.01')` | 4 | &nbsp; | patience | `Synset('resourcefulness.n.01')` | 4
+justice | `Synset('force.n.04')` | 4 | &nbsp; | patience | `Synset('clock.v.01')` | 4
+justice | `Synset('jurisprudence.n.01')` | 4 | &nbsp; | patience | `Synset('convertibility.n.01')` | 4
+justice | `Synset('legal_right.n.01')` | 4 | &nbsp; | patience | `Synset('accept.v.07')` | 4
+justice | `Synset('entitlement.n.01')` | 4 | &nbsp; | patience | `Synset('end.n.02')` | 4
+justice | `Synset('interest.n.05')` | 4 | &nbsp; | patience | `Synset('duration.n.01')` | 4
+justice | `Synset('restraint.n.04')` | 4 | &nbsp; | patience | `Synset('stretch.n.06')` | 4
+justice | `Synset('law.n.01')` | 4 | &nbsp; | patience | `Synset('time_frame.n.01')` | 4
+
+<br/>
+
+Term | Synset | Value | &nbsp; | Term | Synset | Value
+------------ | ------------ | ------------- | ------------- | ------------ | ------------ | -------------
+greed | `Synset('greed.n.01')` | 7 | &nbsp; | politics | `Synset('section.n.03')` | 6
+greed | `Synset('actor.n.02')` | 7 | &nbsp; | politics | `Synset('governed.n.01')` | 6
+greed | `Synset('longer.n.01')` | 6 | &nbsp; | politics | `Synset('wing.n.08')` | 5
+greed | `Synset('covet.v.01')` | 5 | &nbsp; | politics | `Synset('politics.n.05')` | 5
+greed | `Synset('acquisitiveness.n.01')` | 5 | &nbsp; | politics | `Synset('area.n.01')` | 5
+greed | `Synset('wanter.n.01')` | 5 | &nbsp; | politics | `Synset('state.n.04')` | 5
+greed | `Synset('maniac.n.02')` | 5 | &nbsp; | politics | `Synset('code.n.01')` | 5
+greed | `Synset('kin.n.01')` | 4 | &nbsp; | politics | `Synset('population.n.04')` | 5
+greed | `Synset('itch.v.04')` | 4 | &nbsp; | politics | `Synset('relationship.n.03')` | 5
+greed | `Synset('user.n.01')` | 4 | &nbsp; | politics | `Synset('government.n.03')` | 5
