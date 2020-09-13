@@ -1,0 +1,1334 @@
+------------------------------------
+justice
+------------------------------------
+
+************************************
+[' ', 't', 'e', 'a', 'i', 'o', 'r', 'n', 's', 'l', 'c', 'h', 'f', 'p', 'd', 'g', 'b', 'w', 'u', 'm', 'y', 'v', ',', 'q', 'T', '.', 'U', 'j', '\n']
+************************************
+
+
+
+************************************
+{Synset('base.n.10'), Synset('matter.n.03'), Synset('gas_constant.n.01'), Synset('e.n.05'), Synset('integer.n.01'), Synset('azote.n.01'), Synset('substance.n.07'), Synset('oxygen.n.01'), Synset('iodine.n.01'), Synset('property.n.02'), Synset('singleton.n.01'), Synset('transcendental_number.n.01'), Synset('a.n.07'), Synset('iodine-125.n.01'), Synset('antioxidant.n.01'), Synset('deoxythymidine_monophosphate.n.01'), Synset('semidiameter.n.01'), Synset('written_symbol.n.01'), Synset('unit_of_measurement.n.01'), Synset('magnitude.n.01'), Synset('hormone.n.01'), Synset('radioactivity_unit.n.01'), Synset('fifty.s.01'), Synset('dimension.n.01'), Synset('radius.n.01'), Synset('fundamental_quantity.n.01'), Synset('south.n.03'), Synset('thymine.n.01'), Synset('body_substance.n.01'), Synset('part.n.01'), Synset('conductance_unit.n.01'), Synset('constant.n.02'), Synset('physical_entity.n.01'), Synset('relation.n.01'), Synset('fluid.n.02'), Synset('t.n.04'), Synset('randomness.n.01'), Synset('large_integer.n.01'), Synset('second.n.01'), Synset('definite_quantity.n.01'), Synset('vitamin_a.n.01'), Synset('halogen.n.01'), Synset('o.n.02'), Synset('einsteinium.n.01'), Synset('newton.n.02'), Synset('organic_compound.n.01'), Synset('adenine.n.01'), Synset('secretion.n.02'), Synset('liquid_oxygen.n.01'), Synset('brimstone.n.01'), Synset('a.n.06'), Synset('purine.n.01'), Synset('mass_unit.n.01'), Synset('force_unit.n.01'), Synset('s.n.05'), Synset('digit.n.01'), Synset('fifty.n.01'), Synset('illumination_unit.n.01'), Synset('abstraction.n.06'), Synset('i.n.03'), Synset('vitamin_e.n.01'), Synset('attribute.n.02'), Synset('metric_unit.n.01'), Synset('time_unit.n.01'), Synset('compound.n.02'), Synset('conformational_entropy.n.01'), Synset('electromagnetic_unit.n.01'), Synset('relative_quantity.n.01'), Synset('pyrimidine.n.01'), Synset('metric_weight_unit.n.01'), Synset('measure.n.02'), Synset('direction.n.02'), Synset('e.n.04'), Synset('real_number.n.01'), Synset('n.n.05'), Synset('length.n.01'), Synset('chemical.n.01'), Synset('complex_number.n.01'), Synset('leap_second.n.01'), Synset('one.s.01'), Synset('r.n.03'), Synset('east.n.01'), Synset('entity.n.01'), Synset('nutriment.n.01'), Synset('thyroxine.n.01'), Synset('metric_capacity_unit.n.01'), Synset('angstrom.n.01'), Synset('chemical_element.n.01'), Synset('volume_unit.n.01'), Synset('compass_point.n.01'), Synset('iodine-131.n.01'), Synset('blood.n.01'), Synset('position.n.07'), Synset('vitamin_a1.n.01'), Synset('one.n.01'), Synset('deoxyadenosine_monophosphate.n.01'), Synset('nitrogen.n.01'), Synset('triiodothyronine.n.01'), Synset('ester.n.01'), Synset('north.n.03'), Synset('lambert.n.01'), Synset('nucleotide.n.01'), Synset('vitamin_a2.n.01'), Synset('radius_of_curvature.n.01'), Synset('light_unit.n.01'), Synset('blood_group.n.01'), Synset('gas.n.02'), Synset('cardinal_compass_point.n.01'), Synset('food.n.01'), Synset('o.n.03'), Synset('liquid_body_substance.n.01'), Synset('monad.n.02'), Synset('liquid_nitrogen.n.01'), Synset('normality.n.02'), Synset('roentgen.n.01'), Synset('inhibitor.n.01'), Synset('metric_linear_unit.n.01'), Synset('mho.n.01'), Synset('l.n.04'), Synset('sulfur.n.01'), Synset('linear_unit.n.01'), Synset('vitamin.n.01'), Synset('ampere.n.02'), Synset('group.n.01'), Synset('metallic_element.n.01'), Synset('letter.n.02'), Synset('metric_ton.n.01'), Synset('substance.n.01'), Synset('symbol.n.01'), Synset('current_unit.n.01'), Synset('character.n.08'), Synset('liter.n.01'), Synset('number.n.02'), Synset('fat-soluble_vitamin.n.01'), Synset('irrational_number.n.01'), Synset('thyroid_hormone.n.01'), Synset('mate.n.06'), Synset('physical_property.n.01'), Synset('alpha-tocopheral.n.01')}
+************************************
+
+
+Synset('base.n.10') - 1
+Synset('matter.n.03') - 1
+Synset('gas_constant.n.01') - 2
+Synset('e.n.05') - 1
+Synset('integer.n.01') - 1
+Synset('azote.n.01') - 1
+Synset('substance.n.07') - 1
+Synset('oxygen.n.01') - 1
+Synset('iodine.n.01') - 1
+Synset('property.n.02') - 1
+Synset('singleton.n.01') - 1
+Synset('transcendental_number.n.01') - 1
+Synset('a.n.07') - 1
+Synset('iodine-125.n.01') - 1
+Synset('antioxidant.n.01') - 1
+Synset('deoxythymidine_monophosphate.n.01') - 1
+Synset('semidiameter.n.01') - 1
+Synset('written_symbol.n.01') - 1
+Synset('unit_of_measurement.n.01') - 1
+Synset('magnitude.n.01') - 1
+Synset('hormone.n.01') - 1
+Synset('radioactivity_unit.n.01') - 1
+Synset('fifty.s.01') - 1
+Synset('dimension.n.01') - 1
+Synset('radius.n.01') - 1
+Synset('fundamental_quantity.n.01') - 1
+Synset('south.n.03') - 1
+Synset('thymine.n.01') - 1
+Synset('body_substance.n.01') - 1
+Synset('part.n.01') - 1
+Synset('conductance_unit.n.01') - 1
+Synset('constant.n.02') - 1
+Synset('physical_entity.n.01') - 1
+Synset('relation.n.01') - 1
+Synset('fluid.n.02') - 1
+Synset('t.n.04') - 1
+Synset('randomness.n.01') - 1
+Synset('large_integer.n.01') - 1
+Synset('second.n.01') - 1
+Synset('definite_quantity.n.01') - 1
+Synset('vitamin_a.n.01') - 1
+Synset('halogen.n.01') - 1
+Synset('o.n.02') - 1
+Synset('einsteinium.n.01') - 1
+Synset('newton.n.02') - 1
+Synset('organic_compound.n.01') - 1
+Synset('adenine.n.01') - 1
+Synset('secretion.n.02') - 1
+Synset('liquid_oxygen.n.01') - 1
+Synset('brimstone.n.01') - 1
+Synset('a.n.06') - 1
+Synset('purine.n.01') - 1
+Synset('mass_unit.n.01') - 1
+Synset('force_unit.n.01') - 1
+Synset('s.n.05') - 1
+Synset('digit.n.01') - 1
+Synset('fifty.n.01') - 1
+Synset('illumination_unit.n.01') - 1
+Synset('abstraction.n.06') - 1
+Synset('i.n.03') - 1
+Synset('vitamin_e.n.01') - 1
+Synset('attribute.n.02') - 1
+Synset('metric_unit.n.01') - 1
+Synset('time_unit.n.01') - 1
+Synset('compound.n.02') - 1
+Synset('conformational_entropy.n.01') - 1
+Synset('electromagnetic_unit.n.01') - 1
+Synset('relative_quantity.n.01') - 1
+Synset('pyrimidine.n.01') - 1
+Synset('metric_weight_unit.n.01') - 1
+Synset('measure.n.02') - 1
+Synset('direction.n.02') - 1
+Synset('e.n.04') - 1
+Synset('real_number.n.01') - 1
+Synset('n.n.05') - 1
+Synset('length.n.01') - 1
+Synset('chemical.n.01') - 1
+Synset('complex_number.n.01') - 2
+Synset('leap_second.n.01') - 1
+Synset('one.s.01') - 1
+Synset('r.n.03') - 1
+Synset('east.n.01') - 1
+Synset('entity.n.01') - 1
+Synset('nutriment.n.01') - 1
+Synset('thyroxine.n.01') - 1
+Synset('metric_capacity_unit.n.01') - 1
+Synset('angstrom.n.01') - 1
+Synset('chemical_element.n.01') - 1
+Synset('volume_unit.n.01') - 1
+Synset('compass_point.n.01') - 1
+Synset('iodine-131.n.01') - 1
+Synset('blood.n.01') - 1
+Synset('position.n.07') - 1
+Synset('vitamin_a1.n.01') - 1
+Synset('one.n.01') - 1
+Synset('deoxyadenosine_monophosphate.n.01') - 1
+Synset('nitrogen.n.01') - 1
+Synset('triiodothyronine.n.01') - 1
+Synset('ester.n.01') - 1
+Synset('north.n.03') - 1
+Synset('lambert.n.01') - 1
+Synset('nucleotide.n.01') - 1
+Synset('vitamin_a2.n.01') - 1
+Synset('radius_of_curvature.n.01') - 1
+Synset('light_unit.n.01') - 1
+Synset('blood_group.n.01') - 1
+Synset('gas.n.02') - 1
+Synset('cardinal_compass_point.n.01') - 1
+Synset('food.n.01') - 1
+Synset('o.n.03') - 2
+Synset('liquid_body_substance.n.01') - 1
+Synset('monad.n.02') - 1
+Synset('liquid_nitrogen.n.01') - 1
+Synset('normality.n.02') - 1
+Synset('roentgen.n.01') - 1
+Synset('inhibitor.n.01') - 1
+Synset('metric_linear_unit.n.01') - 1
+Synset('mho.n.01') - 1
+Synset('l.n.04') - 1
+Synset('sulfur.n.01') - 1
+Synset('linear_unit.n.01') - 1
+Synset('vitamin.n.01') - 1
+Synset('ampere.n.02') - 1
+Synset('group.n.01') - 1
+Synset('metallic_element.n.01') - 1
+Synset('letter.n.02') - 1
+Synset('metric_ton.n.01') - 1
+Synset('substance.n.01') - 1
+Synset('symbol.n.01') - 1
+Synset('current_unit.n.01') - 1
+Synset('character.n.08') - 1
+Synset('liter.n.01') - 1
+Synset('number.n.02') - 1
+Synset('fat-soluble_vitamin.n.01') - 1
+Synset('irrational_number.n.01') - 1
+Synset('thyroid_hormone.n.01') - 1
+Synset('mate.n.06') - 1
+Synset('physical_property.n.01') - 1
+Synset('alpha-tocopheral.n.01') - 2
+
+
+====================================
+Synset('gas_constant.n.01') , 2
+====================================
+
+
+
+
+------------------------------------
+patience
+------------------------------------
+
+************************************
+[' ', 't', 'e', 'o', 'i', 'a', 'n', 'r', 'l', 's', 'b', 'p', 'y', 'c', 'u', 'f', 'd', 'h', 'g', 'm', 'v', 'w', 'q', ',', 'T', 'x', 'k', '\n']
+************************************
+
+
+
+************************************
+{Synset('base.n.10'), Synset('matter.n.03'), Synset('gas_constant.n.01'), Synset('e.n.05'), Synset('integer.n.01'), Synset('azote.n.01'), Synset('substance.n.07'), Synset('oxygen.n.01'), Synset('iodine.n.01'), Synset('property.n.02'), Synset('singleton.n.01'), Synset('transcendental_number.n.01'), Synset('a.n.07'), Synset('iodine-125.n.01'), Synset('antioxidant.n.01'), Synset('deoxythymidine_monophosphate.n.01'), Synset('semidiameter.n.01'), Synset('written_symbol.n.01'), Synset('unit_of_measurement.n.01'), Synset('magnitude.n.01'), Synset('hormone.n.01'), Synset('radioactivity_unit.n.01'), Synset('fifty.s.01'), Synset('dimension.n.01'), Synset('radius.n.01'), Synset('fundamental_quantity.n.01'), Synset('south.n.03'), Synset('thymine.n.01'), Synset('body_substance.n.01'), Synset('part.n.01'), Synset('conductance_unit.n.01'), Synset('constant.n.02'), Synset('physical_entity.n.01'), Synset('relation.n.01'), Synset('fluid.n.02'), Synset('t.n.04'), Synset('randomness.n.01'), Synset('large_integer.n.01'), Synset('second.n.01'), Synset('definite_quantity.n.01'), Synset('halogen.n.01'), Synset('vitamin_a.n.01'), Synset('o.n.02'), Synset('einsteinium.n.01'), Synset('newton.n.02'), Synset('organic_compound.n.01'), Synset('adenine.n.01'), Synset('secretion.n.02'), Synset('liquid_oxygen.n.01'), Synset('brimstone.n.01'), Synset('a.n.06'), Synset('purine.n.01'), Synset('mass_unit.n.01'), Synset('force_unit.n.01'), Synset('s.n.05'), Synset('digit.n.01'), Synset('fifty.n.01'), Synset('illumination_unit.n.01'), Synset('abstraction.n.06'), Synset('i.n.03'), Synset('vitamin_e.n.01'), Synset('attribute.n.02'), Synset('metric_unit.n.01'), Synset('time_unit.n.01'), Synset('compound.n.02'), Synset('conformational_entropy.n.01'), Synset('electromagnetic_unit.n.01'), Synset('relative_quantity.n.01'), Synset('pyrimidine.n.01'), Synset('metric_weight_unit.n.01'), Synset('measure.n.02'), Synset('direction.n.02'), Synset('e.n.04'), Synset('real_number.n.01'), Synset('n.n.05'), Synset('length.n.01'), Synset('chemical.n.01'), Synset('complex_number.n.01'), Synset('leap_second.n.01'), Synset('one.s.01'), Synset('r.n.03'), Synset('east.n.01'), Synset('entity.n.01'), Synset('nutriment.n.01'), Synset('thyroxine.n.01'), Synset('metric_capacity_unit.n.01'), Synset('angstrom.n.01'), Synset('chemical_element.n.01'), Synset('volume_unit.n.01'), Synset('compass_point.n.01'), Synset('iodine-131.n.01'), Synset('blood.n.01'), Synset('position.n.07'), Synset('vitamin_a1.n.01'), Synset('one.n.01'), Synset('deoxyadenosine_monophosphate.n.01'), Synset('nitrogen.n.01'), Synset('triiodothyronine.n.01'), Synset('ester.n.01'), Synset('north.n.03'), Synset('lambert.n.01'), Synset('nucleotide.n.01'), Synset('vitamin_a2.n.01'), Synset('radius_of_curvature.n.01'), Synset('light_unit.n.01'), Synset('blood_group.n.01'), Synset('gas.n.02'), Synset('cardinal_compass_point.n.01'), Synset('food.n.01'), Synset('o.n.03'), Synset('liquid_body_substance.n.01'), Synset('monad.n.02'), Synset('liquid_nitrogen.n.01'), Synset('normality.n.02'), Synset('roentgen.n.01'), Synset('inhibitor.n.01'), Synset('metric_linear_unit.n.01'), Synset('l.n.04'), Synset('mho.n.01'), Synset('sulfur.n.01'), Synset('linear_unit.n.01'), Synset('vitamin.n.01'), Synset('ampere.n.02'), Synset('group.n.01'), Synset('metallic_element.n.01'), Synset('letter.n.02'), Synset('metric_ton.n.01'), Synset('substance.n.01'), Synset('symbol.n.01'), Synset('current_unit.n.01'), Synset('character.n.08'), Synset('liter.n.01'), Synset('number.n.02'), Synset('fat-soluble_vitamin.n.01'), Synset('irrational_number.n.01'), Synset('thyroid_hormone.n.01'), Synset('mate.n.06'), Synset('physical_property.n.01'), Synset('alpha-tocopheral.n.01')}
+************************************
+
+
+Synset('base.n.10') - 1
+Synset('matter.n.03') - 1
+Synset('gas_constant.n.01') - 2
+Synset('e.n.05') - 1
+Synset('integer.n.01') - 1
+Synset('azote.n.01') - 1
+Synset('substance.n.07') - 1
+Synset('oxygen.n.01') - 1
+Synset('iodine.n.01') - 1
+Synset('property.n.02') - 1
+Synset('singleton.n.01') - 1
+Synset('transcendental_number.n.01') - 1
+Synset('a.n.07') - 1
+Synset('iodine-125.n.01') - 1
+Synset('antioxidant.n.01') - 1
+Synset('deoxythymidine_monophosphate.n.01') - 1
+Synset('semidiameter.n.01') - 1
+Synset('written_symbol.n.01') - 1
+Synset('unit_of_measurement.n.01') - 1
+Synset('magnitude.n.01') - 1
+Synset('hormone.n.01') - 1
+Synset('radioactivity_unit.n.01') - 1
+Synset('fifty.s.01') - 1
+Synset('dimension.n.01') - 1
+Synset('radius.n.01') - 1
+Synset('fundamental_quantity.n.01') - 1
+Synset('south.n.03') - 1
+Synset('thymine.n.01') - 1
+Synset('body_substance.n.01') - 1
+Synset('part.n.01') - 1
+Synset('conductance_unit.n.01') - 1
+Synset('constant.n.02') - 1
+Synset('physical_entity.n.01') - 1
+Synset('relation.n.01') - 1
+Synset('fluid.n.02') - 1
+Synset('t.n.04') - 1
+Synset('randomness.n.01') - 1
+Synset('large_integer.n.01') - 1
+Synset('second.n.01') - 1
+Synset('definite_quantity.n.01') - 1
+Synset('halogen.n.01') - 1
+Synset('vitamin_a.n.01') - 1
+Synset('o.n.02') - 1
+Synset('einsteinium.n.01') - 1
+Synset('newton.n.02') - 1
+Synset('organic_compound.n.01') - 1
+Synset('adenine.n.01') - 1
+Synset('secretion.n.02') - 1
+Synset('liquid_oxygen.n.01') - 1
+Synset('brimstone.n.01') - 1
+Synset('a.n.06') - 1
+Synset('purine.n.01') - 1
+Synset('mass_unit.n.01') - 1
+Synset('force_unit.n.01') - 1
+Synset('s.n.05') - 1
+Synset('digit.n.01') - 1
+Synset('fifty.n.01') - 1
+Synset('illumination_unit.n.01') - 1
+Synset('abstraction.n.06') - 1
+Synset('i.n.03') - 1
+Synset('vitamin_e.n.01') - 1
+Synset('attribute.n.02') - 1
+Synset('metric_unit.n.01') - 1
+Synset('time_unit.n.01') - 1
+Synset('compound.n.02') - 1
+Synset('conformational_entropy.n.01') - 1
+Synset('electromagnetic_unit.n.01') - 1
+Synset('relative_quantity.n.01') - 1
+Synset('pyrimidine.n.01') - 1
+Synset('metric_weight_unit.n.01') - 1
+Synset('measure.n.02') - 1
+Synset('direction.n.02') - 1
+Synset('e.n.04') - 1
+Synset('real_number.n.01') - 1
+Synset('n.n.05') - 1
+Synset('length.n.01') - 1
+Synset('chemical.n.01') - 1
+Synset('complex_number.n.01') - 2
+Synset('leap_second.n.01') - 1
+Synset('one.s.01') - 1
+Synset('r.n.03') - 1
+Synset('east.n.01') - 1
+Synset('entity.n.01') - 1
+Synset('nutriment.n.01') - 1
+Synset('thyroxine.n.01') - 1
+Synset('metric_capacity_unit.n.01') - 1
+Synset('angstrom.n.01') - 1
+Synset('chemical_element.n.01') - 1
+Synset('volume_unit.n.01') - 1
+Synset('compass_point.n.01') - 1
+Synset('iodine-131.n.01') - 1
+Synset('blood.n.01') - 1
+Synset('position.n.07') - 1
+Synset('vitamin_a1.n.01') - 1
+Synset('one.n.01') - 1
+Synset('deoxyadenosine_monophosphate.n.01') - 1
+Synset('nitrogen.n.01') - 1
+Synset('triiodothyronine.n.01') - 1
+Synset('ester.n.01') - 1
+Synset('north.n.03') - 1
+Synset('lambert.n.01') - 1
+Synset('nucleotide.n.01') - 1
+Synset('vitamin_a2.n.01') - 1
+Synset('radius_of_curvature.n.01') - 1
+Synset('light_unit.n.01') - 1
+Synset('blood_group.n.01') - 1
+Synset('gas.n.02') - 1
+Synset('cardinal_compass_point.n.01') - 1
+Synset('food.n.01') - 1
+Synset('o.n.03') - 2
+Synset('liquid_body_substance.n.01') - 1
+Synset('monad.n.02') - 1
+Synset('liquid_nitrogen.n.01') - 1
+Synset('normality.n.02') - 1
+Synset('roentgen.n.01') - 1
+Synset('inhibitor.n.01') - 1
+Synset('metric_linear_unit.n.01') - 1
+Synset('l.n.04') - 1
+Synset('mho.n.01') - 1
+Synset('sulfur.n.01') - 1
+Synset('linear_unit.n.01') - 1
+Synset('vitamin.n.01') - 1
+Synset('ampere.n.02') - 1
+Synset('group.n.01') - 1
+Synset('metallic_element.n.01') - 1
+Synset('letter.n.02') - 1
+Synset('metric_ton.n.01') - 1
+Synset('substance.n.01') - 1
+Synset('symbol.n.01') - 1
+Synset('current_unit.n.01') - 1
+Synset('character.n.08') - 1
+Synset('liter.n.01') - 1
+Synset('number.n.02') - 1
+Synset('fat-soluble_vitamin.n.01') - 1
+Synset('irrational_number.n.01') - 1
+Synset('thyroid_hormone.n.01') - 1
+Synset('mate.n.06') - 1
+Synset('physical_property.n.01') - 1
+Synset('alpha-tocopheral.n.01') - 2
+
+
+====================================
+Synset('gas_constant.n.01') , 2
+====================================
+
+
+
+
+------------------------------------
+greed
+------------------------------------
+
+************************************
+[' ', 'e', 'o', 't', 'n', 's', 'i', 'a', 'r', 'h', 'd', 'y', 'm', 'c', 'g', 'u', 'l', 'f', 'p', 'b', 'w', 'v', 'q', 'x', '"', ',', 'j', 'T', "'", '\n']
+************************************
+
+
+
+************************************
+{Synset('factor.n.05'), Synset('base.n.10'), Synset('matter.n.03'), Synset('gas_constant.n.01'), Synset('e.n.05'), Synset('integer.n.01'), Synset('azote.n.01'), Synset('substance.n.07'), Synset('oxygen.n.01'), Synset('iodine.n.01'), Synset('property.n.02'), Synset('singleton.n.01'), Synset('transcendental_number.n.01'), Synset('a.n.07'), Synset('iodine-125.n.01'), Synset('antioxidant.n.01'), Synset('deoxythymidine_monophosphate.n.01'), Synset('semidiameter.n.01'), Synset('written_symbol.n.01'), Synset('unit_of_measurement.n.01'), Synset('magnitude.n.01'), Synset('hormone.n.01'), Synset('radioactivity_unit.n.01'), Synset('dimension.n.01'), Synset('physical_property.n.01'), Synset('radius.n.01'), Synset('fundamental_quantity.n.01'), Synset('south.n.03'), Synset('thymine.n.01'), Synset('body_substance.n.01'), Synset('tritium.n.01'), Synset('part.n.01'), Synset('conductance_unit.n.01'), Synset('constant.n.02'), Synset('physical_entity.n.01'), Synset('relation.n.01'), Synset('fluid.n.02'), Synset('hydrogen.n.01'), Synset('t.n.04'), Synset('randomness.n.01'), Synset('second.n.01'), Synset('definite_quantity.n.01'), Synset('halogen.n.01'), Synset('vitamin_a.n.01'), Synset('o.n.02'), Synset('einsteinium.n.01'), Synset('planck's_constant.n.01'), Synset('newton.n.02'), Synset('organic_compound.n.01'), Synset('adenine.n.01'), Synset('secretion.n.02'), Synset('liquid_oxygen.n.01'), Synset('a.n.06'), Synset('purine.n.01'), Synset('mass_unit.n.01'), Synset('force_unit.n.01'), Synset('s.n.05'), Synset('digit.n.01'), Synset('abstraction.n.06'), Synset('time_unit.n.01'), Synset('vitamin_e.n.01'), Synset('conformational_entropy.n.01'), Synset('metric_unit.n.01'), Synset('attribute.n.02'), Synset('compound.n.02'), Synset('i.n.03'), Synset('relative_quantity.n.01'), Synset('electromagnetic_unit.n.01'), Synset('inductance_unit.n.01'), Synset('pyrimidine.n.01'), Synset('metric_weight_unit.n.01'), Synset('measure.n.02'), Synset('direction.n.02'), Synset('h.n.04'), Synset('e.n.04'), Synset('real_number.n.01'), Synset('n.n.05'), Synset('length.n.01'), Synset('chemical.n.01'), Synset('complex_number.n.01'), Synset('leap_second.n.01'), Synset('one.s.01'), Synset('r.n.03'), Synset('east.n.01'), Synset('entity.n.01'), Synset('nutriment.n.01'), Synset('heat_content.n.01'), Synset('thyroxine.n.01'), Synset('angstrom.n.01'), Synset('chemical_element.n.01'), Synset('compass_point.n.01'), Synset('iodine-131.n.01'), Synset('blood.n.01'), Synset('position.n.07'), Synset('vitamin_a1.n.01'), Synset('one.n.01'), Synset('deoxyadenosine_monophosphate.n.01'), Synset('nitrogen.n.01'), Synset('triiodothyronine.n.01'), Synset('ester.n.01'), Synset('north.n.03'), Synset('nucleotide.n.01'), Synset('vitamin_a2.n.01'), Synset('radius_of_curvature.n.01'), Synset('blood_group.n.01'), Synset('gas.n.02'), Synset('cardinal_compass_point.n.01'), Synset('food.n.01'), Synset('o.n.03'), Synset('liquid_body_substance.n.01'), Synset('factor_of_proportionality.n.01'), Synset('monad.n.02'), Synset('liquid_nitrogen.n.01'), Synset('normality.n.02'), Synset('roentgen.n.01'), Synset('inhibitor.n.01'), Synset('mho.n.01'), Synset('metric_linear_unit.n.01'), Synset('sulfur.n.01'), Synset('linear_unit.n.01'), Synset('henry.n.01'), Synset('vitamin.n.01'), Synset('ampere.n.02'), Synset('group.n.01'), Synset('metallic_element.n.01'), Synset('letter.n.02'), Synset('substance.n.01'), Synset('metric_ton.n.01'), Synset('symbol.n.01'), Synset('current_unit.n.01'), Synset('character.n.08'), Synset('number.n.02'), Synset('fat-soluble_vitamin.n.01'), Synset('irrational_number.n.01'), Synset('thyroid_hormone.n.01'), Synset('mate.n.06'), Synset('brimstone.n.01'), Synset('alpha-tocopheral.n.01')}
+************************************
+
+
+Synset('factor.n.05') - 1
+Synset('base.n.10') - 1
+Synset('matter.n.03') - 1
+Synset('gas_constant.n.01') - 2
+Synset('e.n.05') - 1
+Synset('integer.n.01') - 1
+Synset('azote.n.01') - 1
+Synset('substance.n.07') - 1
+Synset('oxygen.n.01') - 1
+Synset('iodine.n.01') - 1
+Synset('property.n.02') - 1
+Synset('singleton.n.01') - 1
+Synset('transcendental_number.n.01') - 1
+Synset('a.n.07') - 1
+Synset('iodine-125.n.01') - 1
+Synset('antioxidant.n.01') - 1
+Synset('deoxythymidine_monophosphate.n.01') - 1
+Synset('semidiameter.n.01') - 1
+Synset('written_symbol.n.01') - 1
+Synset('unit_of_measurement.n.01') - 1
+Synset('magnitude.n.01') - 1
+Synset('hormone.n.01') - 1
+Synset('radioactivity_unit.n.01') - 1
+Synset('dimension.n.01') - 1
+Synset('physical_property.n.01') - 1
+Synset('radius.n.01') - 1
+Synset('fundamental_quantity.n.01') - 1
+Synset('south.n.03') - 1
+Synset('thymine.n.01') - 1
+Synset('body_substance.n.01') - 1
+Synset('tritium.n.01') - 1
+Synset('part.n.01') - 1
+Synset('conductance_unit.n.01') - 1
+Synset('constant.n.02') - 1
+Synset('physical_entity.n.01') - 1
+Synset('relation.n.01') - 1
+Synset('fluid.n.02') - 1
+Synset('hydrogen.n.01') - 1
+Synset('t.n.04') - 1
+Synset('randomness.n.01') - 1
+Synset('second.n.01') - 1
+Synset('definite_quantity.n.01') - 1
+Synset('halogen.n.01') - 1
+Synset('vitamin_a.n.01') - 1
+Synset('o.n.02') - 1
+Synset('einsteinium.n.01') - 1
+Synset('planck's_constant.n.01') - 2
+Synset('newton.n.02') - 1
+Synset('organic_compound.n.01') - 1
+Synset('adenine.n.01') - 1
+Synset('secretion.n.02') - 1
+Synset('liquid_oxygen.n.01') - 1
+Synset('a.n.06') - 1
+Synset('purine.n.01') - 1
+Synset('mass_unit.n.01') - 1
+Synset('force_unit.n.01') - 1
+Synset('s.n.05') - 1
+Synset('digit.n.01') - 1
+Synset('abstraction.n.06') - 1
+Synset('time_unit.n.01') - 1
+Synset('vitamin_e.n.01') - 1
+Synset('conformational_entropy.n.01') - 1
+Synset('metric_unit.n.01') - 1
+Synset('attribute.n.02') - 1
+Synset('compound.n.02') - 1
+Synset('i.n.03') - 1
+Synset('relative_quantity.n.01') - 1
+Synset('electromagnetic_unit.n.01') - 1
+Synset('inductance_unit.n.01') - 1
+Synset('pyrimidine.n.01') - 1
+Synset('metric_weight_unit.n.01') - 1
+Synset('measure.n.02') - 1
+Synset('direction.n.02') - 1
+Synset('h.n.04') - 1
+Synset('e.n.04') - 1
+Synset('real_number.n.01') - 1
+Synset('n.n.05') - 1
+Synset('length.n.01') - 1
+Synset('chemical.n.01') - 1
+Synset('complex_number.n.01') - 2
+Synset('leap_second.n.01') - 1
+Synset('one.s.01') - 2
+Synset('r.n.03') - 1
+Synset('east.n.01') - 1
+Synset('entity.n.01') - 1
+Synset('nutriment.n.01') - 1
+Synset('heat_content.n.01') - 1
+Synset('thyroxine.n.01') - 1
+Synset('angstrom.n.01') - 1
+Synset('chemical_element.n.01') - 1
+Synset('compass_point.n.01') - 1
+Synset('iodine-131.n.01') - 1
+Synset('blood.n.01') - 1
+Synset('position.n.07') - 1
+Synset('vitamin_a1.n.01') - 1
+Synset('one.n.01') - 1
+Synset('deoxyadenosine_monophosphate.n.01') - 1
+Synset('nitrogen.n.01') - 1
+Synset('triiodothyronine.n.01') - 1
+Synset('ester.n.01') - 1
+Synset('north.n.03') - 1
+Synset('nucleotide.n.01') - 1
+Synset('vitamin_a2.n.01') - 1
+Synset('radius_of_curvature.n.01') - 1
+Synset('blood_group.n.01') - 1
+Synset('gas.n.02') - 1
+Synset('cardinal_compass_point.n.01') - 1
+Synset('food.n.01') - 1
+Synset('o.n.03') - 2
+Synset('liquid_body_substance.n.01') - 1
+Synset('factor_of_proportionality.n.01') - 2
+Synset('monad.n.02') - 1
+Synset('liquid_nitrogen.n.01') - 1
+Synset('normality.n.02') - 1
+Synset('roentgen.n.01') - 1
+Synset('inhibitor.n.01') - 1
+Synset('mho.n.01') - 1
+Synset('metric_linear_unit.n.01') - 1
+Synset('sulfur.n.01') - 1
+Synset('linear_unit.n.01') - 1
+Synset('henry.n.01') - 1
+Synset('vitamin.n.01') - 1
+Synset('ampere.n.02') - 1
+Synset('group.n.01') - 1
+Synset('metallic_element.n.01') - 1
+Synset('letter.n.02') - 1
+Synset('substance.n.01') - 1
+Synset('metric_ton.n.01') - 1
+Synset('symbol.n.01') - 1
+Synset('current_unit.n.01') - 1
+Synset('character.n.08') - 1
+Synset('number.n.02') - 1
+Synset('fat-soluble_vitamin.n.01') - 1
+Synset('irrational_number.n.01') - 1
+Synset('thyroid_hormone.n.01') - 1
+Synset('mate.n.06') - 1
+Synset('brimstone.n.01') - 1
+Synset('alpha-tocopheral.n.01') - 2
+
+
+====================================
+Synset('gas_constant.n.01') , 2
+====================================
+
+
+
+
+------------------------------------
+politics
+------------------------------------
+
+************************************
+[' ', 'e', 't', 'a', 'i', 'o', 'n', 'r', 'c', 's', 'h', 'l', 'd', 'p', 'v', 'g', 'f', 'u', 'y', 'm', 'b', 'w', 'x', 'T', 'j', '/', ',', 'z', '\n']
+************************************
+
+
+
+************************************
+{Synset('base.n.10'), Synset('carbon_black.n.01'), Synset('matter.n.03'), Synset('gas_constant.n.01'), Synset('activated_carbon.n.01'), Synset('lead.n.15'), Synset('e.n.05'), Synset('integer.n.01'), Synset('carbonado.n.01'), Synset('azote.n.01'), Synset('substance.n.07'), Synset('oxygen.n.01'), Synset('iodine.n.01'), Synset('property.n.02'), Synset('singleton.n.01'), Synset('transcendental_number.n.01'), Synset('a.n.07'), Synset('iodine-125.n.01'), Synset('antioxidant.n.01'), Synset('deoxythymidine_monophosphate.n.01'), Synset('fullerene.n.01'), Synset('semidiameter.n.01'), Synset('tonic.n.03'), Synset('written_symbol.n.01'), Synset('unit_of_measurement.n.01'), Synset('magnitude.n.01'), Synset('hormone.n.01'), Synset('radioactivity_unit.n.01'), Synset('c.n.11'), Synset('dimension.n.01'), Synset('radius.n.01'), Synset('fundamental_quantity.n.01'), Synset('south.n.03'), Synset('thymine.n.01'), Synset('body_substance.n.01'), Synset('part.n.01'), Synset('conductance_unit.n.01'), Synset('constant.n.02'), Synset('physical_entity.n.01'), Synset('char.n.01'), Synset('relation.n.01'), Synset('fluid.n.02'), Synset('musical_notation.n.01'), Synset('t.n.04'), Synset('randomness.n.01'), Synset('large_integer.n.01'), Synset('carbon.n.01'), Synset('definite_quantity.n.01'), Synset('vitamin_a.n.01'), Synset('halogen.n.01'), Synset('o.n.02'), Synset('degree_centigrade.n.01'), Synset('coke.n.03'), Synset('second.n.01'), Synset('einsteinium.n.01'), Synset('newton.n.02'), Synset('organic_compound.n.01'), Synset('adenine.n.01'), Synset('secretion.n.02'), Synset('liquid_oxygen.n.01'), Synset('c.n.09'), Synset('brimstone.n.01'), Synset('a.n.06'), Synset('radiocarbon.n.01'), Synset('narcotic.n.01'), Synset('purine.n.01'), Synset('mass_unit.n.01'), Synset('force_unit.n.01'), Synset('s.n.05'), Synset('digit.n.01'), Synset('abstraction.n.06'), Synset('snuff.n.01'), Synset('i.n.03'), Synset('vitamin_e.n.01'), Synset('attribute.n.02'), Synset('metric_unit.n.01'), Synset('time_unit.n.01'), Synset('compound.n.02'), Synset('conformational_entropy.n.01'), Synset('electromagnetic_unit.n.01'), Synset('relative_quantity.n.01'), Synset('controlled_substance.n.01'), Synset('pyrimidine.n.01'), Synset('degree.n.06'), Synset('metric_weight_unit.n.01'), Synset('hundred.s.01'), Synset('measure.n.02'), Synset('direction.n.02'), Synset('e.n.04'), Synset('real_number.n.01'), Synset('n.n.05'), Synset('length.n.01'), Synset('notation.n.01'), Synset('chemical.n.01'), Synset('complex_number.n.01'), Synset('leap_second.n.01'), Synset('one.s.01'), Synset('r.n.03'), Synset('east.n.01'), Synset('entity.n.01'), Synset('nutriment.n.01'), Synset('thyroxine.n.01'), Synset('magnitude_relation.n.01'), Synset('angstrom.n.01'), Synset('chemical_element.n.01'), Synset('compass_point.n.01'), Synset('temperature_unit.n.01'), Synset('iodine-131.n.01'), Synset('blood.n.01'), Synset('position.n.07'), Synset('vitamin_a1.n.01'), Synset('one.n.01'), Synset('deoxyadenosine_monophosphate.n.01'), Synset('nitrogen.n.01'), Synset('hundred.n.01'), Synset('coulomb.n.01'), Synset('triiodothyronine.n.01'), Synset('ester.n.01'), Synset('north.n.03'), Synset('speed_of_light.n.01'), Synset('vitamin_c.n.01'), Synset('nucleotide.n.01'), Synset('vitamin_a2.n.01'), Synset('speed.n.01'), Synset('drug.n.01'), Synset('radius_of_curvature.n.01'), Synset('pencil.n.02'), Synset('rate.n.01'), Synset('blood_group.n.01'), Synset('language.n.01'), Synset('gas.n.02'), Synset('cardinal_compass_point.n.01'), Synset('deoxycytidine_monophosphate.n.01'), Synset('note.n.03'), Synset('graphite.n.01'), Synset('food.n.01'), Synset('o.n.03'), Synset('cytosine.n.01'), Synset('diamond.n.02'), Synset('liquid_body_substance.n.01'), Synset('charcoal.n.01'), Synset('monad.n.02'), Synset('bone_black.n.01'), Synset('liquid_nitrogen.n.01'), Synset('carbon_nanotube.n.01'), Synset('normality.n.02'), Synset('roentgen.n.01'), Synset('cocaine.n.01'), Synset('inhibitor.n.01'), Synset('metric_linear_unit.n.01'), Synset('mho.n.01'), Synset('sulfur.n.01'), Synset('linear_unit.n.01'), Synset('programming_language.n.01'), Synset('vitamin.n.01'), Synset('water-soluble_vitamin.n.01'), Synset('ampere.n.02'), Synset('group.n.01'), Synset('metallic_element.n.01'), Synset('letter.n.02'), Synset('substance.n.01'), Synset('metric_ton.n.01'), Synset('stp.n.01'), Synset('symbol.n.01'), Synset('current_unit.n.01'), Synset('character.n.08'), Synset('c.n.10'), Synset('standard_temperature.n.01'), Synset('charge_unit.n.01'), Synset('number.n.02'), Synset('fat-soluble_vitamin.n.01'), Synset('artificial_language.n.01'), Synset('buckminsterfullerene.n.01'), Synset('irrational_number.n.01'), Synset('thyroid_hormone.n.01'), Synset('hard_drug.n.01'), Synset('mate.n.06'), Synset('communication.n.02'), Synset('physical_property.n.01'), Synset('alpha-tocopheral.n.01')}
+************************************
+
+
+Synset('base.n.10') - 1
+Synset('carbon_black.n.01') - 1
+Synset('matter.n.03') - 1
+Synset('gas_constant.n.01') - 2
+Synset('activated_carbon.n.01') - 1
+Synset('lead.n.15') - 1
+Synset('e.n.05') - 1
+Synset('integer.n.01') - 1
+Synset('carbonado.n.01') - 1
+Synset('azote.n.01') - 1
+Synset('substance.n.07') - 1
+Synset('oxygen.n.01') - 1
+Synset('iodine.n.01') - 1
+Synset('property.n.02') - 1
+Synset('singleton.n.01') - 1
+Synset('transcendental_number.n.01') - 1
+Synset('a.n.07') - 1
+Synset('iodine-125.n.01') - 1
+Synset('antioxidant.n.01') - 1
+Synset('deoxythymidine_monophosphate.n.01') - 1
+Synset('fullerene.n.01') - 1
+Synset('semidiameter.n.01') - 1
+Synset('tonic.n.03') - 1
+Synset('written_symbol.n.01') - 1
+Synset('unit_of_measurement.n.01') - 1
+Synset('magnitude.n.01') - 1
+Synset('hormone.n.01') - 1
+Synset('radioactivity_unit.n.01') - 1
+Synset('c.n.11') - 1
+Synset('dimension.n.01') - 1
+Synset('radius.n.01') - 1
+Synset('fundamental_quantity.n.01') - 1
+Synset('south.n.03') - 1
+Synset('thymine.n.01') - 1
+Synset('body_substance.n.01') - 1
+Synset('part.n.01') - 1
+Synset('conductance_unit.n.01') - 1
+Synset('constant.n.02') - 1
+Synset('physical_entity.n.01') - 1
+Synset('char.n.01') - 1
+Synset('relation.n.01') - 1
+Synset('fluid.n.02') - 1
+Synset('musical_notation.n.01') - 1
+Synset('t.n.04') - 1
+Synset('randomness.n.01') - 1
+Synset('large_integer.n.01') - 1
+Synset('carbon.n.01') - 1
+Synset('definite_quantity.n.01') - 1
+Synset('vitamin_a.n.01') - 1
+Synset('halogen.n.01') - 1
+Synset('o.n.02') - 1
+Synset('degree_centigrade.n.01') - 1
+Synset('coke.n.03') - 1
+Synset('second.n.01') - 1
+Synset('einsteinium.n.01') - 1
+Synset('newton.n.02') - 1
+Synset('organic_compound.n.01') - 1
+Synset('adenine.n.01') - 1
+Synset('secretion.n.02') - 1
+Synset('liquid_oxygen.n.01') - 1
+Synset('c.n.09') - 1
+Synset('brimstone.n.01') - 1
+Synset('a.n.06') - 1
+Synset('radiocarbon.n.01') - 1
+Synset('narcotic.n.01') - 1
+Synset('purine.n.01') - 1
+Synset('mass_unit.n.01') - 1
+Synset('force_unit.n.01') - 1
+Synset('s.n.05') - 1
+Synset('digit.n.01') - 1
+Synset('abstraction.n.06') - 1
+Synset('snuff.n.01') - 1
+Synset('i.n.03') - 1
+Synset('vitamin_e.n.01') - 1
+Synset('attribute.n.02') - 1
+Synset('metric_unit.n.01') - 1
+Synset('time_unit.n.01') - 1
+Synset('compound.n.02') - 1
+Synset('conformational_entropy.n.01') - 1
+Synset('electromagnetic_unit.n.01') - 1
+Synset('relative_quantity.n.01') - 1
+Synset('controlled_substance.n.01') - 1
+Synset('pyrimidine.n.01') - 1
+Synset('degree.n.06') - 1
+Synset('metric_weight_unit.n.01') - 1
+Synset('hundred.s.01') - 1
+Synset('measure.n.02') - 1
+Synset('direction.n.02') - 1
+Synset('e.n.04') - 1
+Synset('real_number.n.01') - 1
+Synset('n.n.05') - 1
+Synset('length.n.01') - 1
+Synset('notation.n.01') - 1
+Synset('chemical.n.01') - 1
+Synset('complex_number.n.01') - 2
+Synset('leap_second.n.01') - 1
+Synset('one.s.01') - 1
+Synset('r.n.03') - 1
+Synset('east.n.01') - 1
+Synset('entity.n.01') - 1
+Synset('nutriment.n.01') - 1
+Synset('thyroxine.n.01') - 1
+Synset('magnitude_relation.n.01') - 1
+Synset('angstrom.n.01') - 1
+Synset('chemical_element.n.01') - 1
+Synset('compass_point.n.01') - 1
+Synset('temperature_unit.n.01') - 1
+Synset('iodine-131.n.01') - 1
+Synset('blood.n.01') - 1
+Synset('position.n.07') - 1
+Synset('vitamin_a1.n.01') - 1
+Synset('one.n.01') - 1
+Synset('deoxyadenosine_monophosphate.n.01') - 1
+Synset('nitrogen.n.01') - 1
+Synset('hundred.n.01') - 1
+Synset('coulomb.n.01') - 1
+Synset('triiodothyronine.n.01') - 1
+Synset('ester.n.01') - 1
+Synset('north.n.03') - 1
+Synset('speed_of_light.n.01') - 1
+Synset('vitamin_c.n.01') - 1
+Synset('nucleotide.n.01') - 1
+Synset('vitamin_a2.n.01') - 1
+Synset('speed.n.01') - 1
+Synset('drug.n.01') - 1
+Synset('radius_of_curvature.n.01') - 1
+Synset('pencil.n.02') - 1
+Synset('rate.n.01') - 1
+Synset('blood_group.n.01') - 1
+Synset('language.n.01') - 1
+Synset('gas.n.02') - 1
+Synset('cardinal_compass_point.n.01') - 1
+Synset('deoxycytidine_monophosphate.n.01') - 1
+Synset('note.n.03') - 1
+Synset('graphite.n.01') - 1
+Synset('food.n.01') - 1
+Synset('o.n.03') - 2
+Synset('cytosine.n.01') - 1
+Synset('diamond.n.02') - 1
+Synset('liquid_body_substance.n.01') - 1
+Synset('charcoal.n.01') - 1
+Synset('monad.n.02') - 1
+Synset('bone_black.n.01') - 1
+Synset('liquid_nitrogen.n.01') - 1
+Synset('carbon_nanotube.n.01') - 1
+Synset('normality.n.02') - 1
+Synset('roentgen.n.01') - 1
+Synset('cocaine.n.01') - 1
+Synset('inhibitor.n.01') - 1
+Synset('metric_linear_unit.n.01') - 1
+Synset('mho.n.01') - 1
+Synset('sulfur.n.01') - 1
+Synset('linear_unit.n.01') - 1
+Synset('programming_language.n.01') - 1
+Synset('vitamin.n.01') - 1
+Synset('water-soluble_vitamin.n.01') - 1
+Synset('ampere.n.02') - 1
+Synset('group.n.01') - 1
+Synset('metallic_element.n.01') - 1
+Synset('letter.n.02') - 1
+Synset('substance.n.01') - 1
+Synset('metric_ton.n.01') - 1
+Synset('stp.n.01') - 1
+Synset('symbol.n.01') - 1
+Synset('current_unit.n.01') - 1
+Synset('character.n.08') - 1
+Synset('c.n.10') - 2
+Synset('standard_temperature.n.01') - 1
+Synset('charge_unit.n.01') - 1
+Synset('number.n.02') - 1
+Synset('fat-soluble_vitamin.n.01') - 1
+Synset('artificial_language.n.01') - 1
+Synset('buckminsterfullerene.n.01') - 1
+Synset('irrational_number.n.01') - 1
+Synset('thyroid_hormone.n.01') - 1
+Synset('hard_drug.n.01') - 1
+Synset('mate.n.06') - 1
+Synset('communication.n.02') - 1
+Synset('physical_property.n.01') - 1
+Synset('alpha-tocopheral.n.01') - 2
+
+
+====================================
+Synset('gas_constant.n.01') , 2
+====================================
+
+
+
+
+------------------------------------
+food
+------------------------------------
+
+************************************
+[' ', 'e', 'a', 't', 'n', 'i', 'o', 's', 'r', 'l', 'm', 'b', 'h', 'g', 'd', 'u', 'c', 'p', 'f', 'y', 'v', 'w', 'k', 'j', 'W', '\n']
+************************************
+
+
+
+************************************
+{Synset('base.n.10'), Synset('matter.n.03'), Synset('gas_constant.n.01'), Synset('e.n.05'), Synset('integer.n.01'), Synset('azote.n.01'), Synset('substance.n.07'), Synset('oxygen.n.01'), Synset('iodine.n.01'), Synset('property.n.02'), Synset('singleton.n.01'), Synset('transcendental_number.n.01'), Synset('a.n.07'), Synset('iodine-125.n.01'), Synset('antioxidant.n.01'), Synset('deoxythymidine_monophosphate.n.01'), Synset('semidiameter.n.01'), Synset('written_symbol.n.01'), Synset('unit_of_measurement.n.01'), Synset('magnitude.n.01'), Synset('hormone.n.01'), Synset('radioactivity_unit.n.01'), Synset('fifty.s.01'), Synset('dimension.n.01'), Synset('physical_property.n.01'), Synset('radius.n.01'), Synset('fundamental_quantity.n.01'), Synset('south.n.03'), Synset('thymine.n.01'), Synset('body_substance.n.01'), Synset('part.n.01'), Synset('conductance_unit.n.01'), Synset('constant.n.02'), Synset('physical_entity.n.01'), Synset('relation.n.01'), Synset('fluid.n.02'), Synset('t.n.04'), Synset('randomness.n.01'), Synset('large_integer.n.01'), Synset('second.n.01'), Synset('definite_quantity.n.01'), Synset('vitamin_a.n.01'), Synset('halogen.n.01'), Synset('o.n.02'), Synset('einsteinium.n.01'), Synset('newton.n.02'), Synset('organic_compound.n.01'), Synset('adenine.n.01'), Synset('secretion.n.02'), Synset('liquid_oxygen.n.01'), Synset('a.n.06'), Synset('purine.n.01'), Synset('mass_unit.n.01'), Synset('force_unit.n.01'), Synset('s.n.05'), Synset('digit.n.01'), Synset('fifty.n.01'), Synset('illumination_unit.n.01'), Synset('abstraction.n.06'), Synset('i.n.03'), Synset('vitamin_e.n.01'), Synset('time_unit.n.01'), Synset('metric_unit.n.01'), Synset('conformational_entropy.n.01'), Synset('compound.n.02'), Synset('attribute.n.02'), Synset('electromagnetic_unit.n.01'), Synset('relative_quantity.n.01'), Synset('pyrimidine.n.01'), Synset('metric_weight_unit.n.01'), Synset('measure.n.02'), Synset('direction.n.02'), Synset('e.n.04'), Synset('real_number.n.01'), Synset('n.n.05'), Synset('length.n.01'), Synset('chemical.n.01'), Synset('complex_number.n.01'), Synset('leap_second.n.01'), Synset('one.s.01'), Synset('r.n.03'), Synset('east.n.01'), Synset('entity.n.01'), Synset('nutriment.n.01'), Synset('thyroxine.n.01'), Synset('metric_capacity_unit.n.01'), Synset('angstrom.n.01'), Synset('chemical_element.n.01'), Synset('volume_unit.n.01'), Synset('compass_point.n.01'), Synset('iodine-131.n.01'), Synset('blood.n.01'), Synset('position.n.07'), Synset('vitamin_a1.n.01'), Synset('one.n.01'), Synset('deoxyadenosine_monophosphate.n.01'), Synset('nitrogen.n.01'), Synset('triiodothyronine.n.01'), Synset('ester.n.01'), Synset('north.n.03'), Synset('lambert.n.01'), Synset('nucleotide.n.01'), Synset('vitamin_a2.n.01'), Synset('radius_of_curvature.n.01'), Synset('light_unit.n.01'), Synset('blood_group.n.01'), Synset('gas.n.02'), Synset('cardinal_compass_point.n.01'), Synset('food.n.01'), Synset('o.n.03'), Synset('liquid_body_substance.n.01'), Synset('monad.n.02'), Synset('liquid_nitrogen.n.01'), Synset('normality.n.02'), Synset('roentgen.n.01'), Synset('inhibitor.n.01'), Synset('metric_linear_unit.n.01'), Synset('mho.n.01'), Synset('l.n.04'), Synset('sulfur.n.01'), Synset('linear_unit.n.01'), Synset('vitamin.n.01'), Synset('ampere.n.02'), Synset('group.n.01'), Synset('metallic_element.n.01'), Synset('letter.n.02'), Synset('substance.n.01'), Synset('metric_ton.n.01'), Synset('symbol.n.01'), Synset('current_unit.n.01'), Synset('character.n.08'), Synset('liter.n.01'), Synset('number.n.02'), Synset('fat-soluble_vitamin.n.01'), Synset('irrational_number.n.01'), Synset('thyroid_hormone.n.01'), Synset('mate.n.06'), Synset('brimstone.n.01'), Synset('alpha-tocopheral.n.01')}
+************************************
+
+
+Synset('base.n.10') - 1
+Synset('matter.n.03') - 1
+Synset('gas_constant.n.01') - 2
+Synset('e.n.05') - 1
+Synset('integer.n.01') - 1
+Synset('azote.n.01') - 1
+Synset('substance.n.07') - 1
+Synset('oxygen.n.01') - 1
+Synset('iodine.n.01') - 1
+Synset('property.n.02') - 1
+Synset('singleton.n.01') - 1
+Synset('transcendental_number.n.01') - 1
+Synset('a.n.07') - 1
+Synset('iodine-125.n.01') - 1
+Synset('antioxidant.n.01') - 1
+Synset('deoxythymidine_monophosphate.n.01') - 1
+Synset('semidiameter.n.01') - 1
+Synset('written_symbol.n.01') - 1
+Synset('unit_of_measurement.n.01') - 1
+Synset('magnitude.n.01') - 1
+Synset('hormone.n.01') - 1
+Synset('radioactivity_unit.n.01') - 1
+Synset('fifty.s.01') - 1
+Synset('dimension.n.01') - 1
+Synset('physical_property.n.01') - 1
+Synset('radius.n.01') - 1
+Synset('fundamental_quantity.n.01') - 1
+Synset('south.n.03') - 1
+Synset('thymine.n.01') - 1
+Synset('body_substance.n.01') - 1
+Synset('part.n.01') - 1
+Synset('conductance_unit.n.01') - 1
+Synset('constant.n.02') - 1
+Synset('physical_entity.n.01') - 1
+Synset('relation.n.01') - 1
+Synset('fluid.n.02') - 1
+Synset('t.n.04') - 1
+Synset('randomness.n.01') - 1
+Synset('large_integer.n.01') - 1
+Synset('second.n.01') - 1
+Synset('definite_quantity.n.01') - 1
+Synset('vitamin_a.n.01') - 1
+Synset('halogen.n.01') - 1
+Synset('o.n.02') - 1
+Synset('einsteinium.n.01') - 1
+Synset('newton.n.02') - 1
+Synset('organic_compound.n.01') - 1
+Synset('adenine.n.01') - 1
+Synset('secretion.n.02') - 1
+Synset('liquid_oxygen.n.01') - 1
+Synset('a.n.06') - 1
+Synset('purine.n.01') - 1
+Synset('mass_unit.n.01') - 1
+Synset('force_unit.n.01') - 1
+Synset('s.n.05') - 1
+Synset('digit.n.01') - 1
+Synset('fifty.n.01') - 1
+Synset('illumination_unit.n.01') - 1
+Synset('abstraction.n.06') - 1
+Synset('i.n.03') - 1
+Synset('vitamin_e.n.01') - 1
+Synset('time_unit.n.01') - 1
+Synset('metric_unit.n.01') - 1
+Synset('conformational_entropy.n.01') - 1
+Synset('compound.n.02') - 1
+Synset('attribute.n.02') - 1
+Synset('electromagnetic_unit.n.01') - 1
+Synset('relative_quantity.n.01') - 1
+Synset('pyrimidine.n.01') - 1
+Synset('metric_weight_unit.n.01') - 1
+Synset('measure.n.02') - 1
+Synset('direction.n.02') - 1
+Synset('e.n.04') - 1
+Synset('real_number.n.01') - 1
+Synset('n.n.05') - 1
+Synset('length.n.01') - 1
+Synset('chemical.n.01') - 1
+Synset('complex_number.n.01') - 2
+Synset('leap_second.n.01') - 1
+Synset('one.s.01') - 1
+Synset('r.n.03') - 1
+Synset('east.n.01') - 1
+Synset('entity.n.01') - 1
+Synset('nutriment.n.01') - 1
+Synset('thyroxine.n.01') - 1
+Synset('metric_capacity_unit.n.01') - 1
+Synset('angstrom.n.01') - 1
+Synset('chemical_element.n.01') - 1
+Synset('volume_unit.n.01') - 1
+Synset('compass_point.n.01') - 1
+Synset('iodine-131.n.01') - 1
+Synset('blood.n.01') - 1
+Synset('position.n.07') - 1
+Synset('vitamin_a1.n.01') - 1
+Synset('one.n.01') - 1
+Synset('deoxyadenosine_monophosphate.n.01') - 1
+Synset('nitrogen.n.01') - 1
+Synset('triiodothyronine.n.01') - 1
+Synset('ester.n.01') - 1
+Synset('north.n.03') - 1
+Synset('lambert.n.01') - 1
+Synset('nucleotide.n.01') - 1
+Synset('vitamin_a2.n.01') - 1
+Synset('radius_of_curvature.n.01') - 1
+Synset('light_unit.n.01') - 1
+Synset('blood_group.n.01') - 1
+Synset('gas.n.02') - 1
+Synset('cardinal_compass_point.n.01') - 1
+Synset('food.n.01') - 1
+Synset('o.n.03') - 2
+Synset('liquid_body_substance.n.01') - 1
+Synset('monad.n.02') - 1
+Synset('liquid_nitrogen.n.01') - 1
+Synset('normality.n.02') - 1
+Synset('roentgen.n.01') - 1
+Synset('inhibitor.n.01') - 1
+Synset('metric_linear_unit.n.01') - 1
+Synset('mho.n.01') - 1
+Synset('l.n.04') - 1
+Synset('sulfur.n.01') - 1
+Synset('linear_unit.n.01') - 1
+Synset('vitamin.n.01') - 1
+Synset('ampere.n.02') - 1
+Synset('group.n.01') - 1
+Synset('metallic_element.n.01') - 1
+Synset('letter.n.02') - 1
+Synset('substance.n.01') - 1
+Synset('metric_ton.n.01') - 1
+Synset('symbol.n.01') - 1
+Synset('current_unit.n.01') - 1
+Synset('character.n.08') - 1
+Synset('liter.n.01') - 1
+Synset('number.n.02') - 1
+Synset('fat-soluble_vitamin.n.01') - 1
+Synset('irrational_number.n.01') - 1
+Synset('thyroid_hormone.n.01') - 1
+Synset('mate.n.06') - 1
+Synset('brimstone.n.01') - 1
+Synset('alpha-tocopheral.n.01') - 2
+
+
+====================================
+Synset('gas_constant.n.01') , 2
+====================================
+
+
+
+
+------------------------------------
+radiator
+------------------------------------
+
+************************************
+[' ', 't', 'e', 'a', 'o', 'i', 'h', 's', 'r', 'n', 'm', 'c', 'u', 'd', 'p', 'l', 'f', 'w', 'b', 'g', 'j', ',', 'y', 'v', 'O', 'q', '\n']
+************************************
+
+
+
+************************************
+{Synset('factor.n.05'), Synset('base.n.10'), Synset('matter.n.03'), Synset('gas_constant.n.01'), Synset('e.n.05'), Synset('integer.n.01'), Synset('azote.n.01'), Synset('substance.n.07'), Synset('oxygen.n.01'), Synset('iodine.n.01'), Synset('property.n.02'), Synset('singleton.n.01'), Synset('transcendental_number.n.01'), Synset('a.n.07'), Synset('iodine-125.n.01'), Synset('antioxidant.n.01'), Synset('deoxythymidine_monophosphate.n.01'), Synset('semidiameter.n.01'), Synset('written_symbol.n.01'), Synset('unit_of_measurement.n.01'), Synset('magnitude.n.01'), Synset('hormone.n.01'), Synset('radioactivity_unit.n.01'), Synset('dimension.n.01'), Synset('radius.n.01'), Synset('fundamental_quantity.n.01'), Synset('south.n.03'), Synset('thymine.n.01'), Synset('body_substance.n.01'), Synset('tritium.n.01'), Synset('part.n.01'), Synset('conductance_unit.n.01'), Synset('constant.n.02'), Synset('physical_entity.n.01'), Synset('relation.n.01'), Synset('fluid.n.02'), Synset('hydrogen.n.01'), Synset('t.n.04'), Synset('randomness.n.01'), Synset('second.n.01'), Synset('definite_quantity.n.01'), Synset('vitamin_a.n.01'), Synset('halogen.n.01'), Synset('o.n.02'), Synset('einsteinium.n.01'), Synset('planck's_constant.n.01'), Synset('newton.n.02'), Synset('organic_compound.n.01'), Synset('adenine.n.01'), Synset('secretion.n.02'), Synset('liquid_oxygen.n.01'), Synset('brimstone.n.01'), Synset('a.n.06'), Synset('purine.n.01'), Synset('mass_unit.n.01'), Synset('force_unit.n.01'), Synset('s.n.05'), Synset('digit.n.01'), Synset('abstraction.n.06'), Synset('i.n.03'), Synset('vitamin_e.n.01'), Synset('attribute.n.02'), Synset('metric_unit.n.01'), Synset('time_unit.n.01'), Synset('compound.n.02'), Synset('inductance_unit.n.01'), Synset('electromagnetic_unit.n.01'), Synset('conformational_entropy.n.01'), Synset('relative_quantity.n.01'), Synset('pyrimidine.n.01'), Synset('metric_weight_unit.n.01'), Synset('h.n.04'), Synset('direction.n.02'), Synset('measure.n.02'), Synset('e.n.04'), Synset('real_number.n.01'), Synset('n.n.05'), Synset('length.n.01'), Synset('chemical.n.01'), Synset('complex_number.n.01'), Synset('leap_second.n.01'), Synset('one.s.01'), Synset('r.n.03'), Synset('east.n.01'), Synset('entity.n.01'), Synset('nutriment.n.01'), Synset('heat_content.n.01'), Synset('thyroxine.n.01'), Synset('angstrom.n.01'), Synset('chemical_element.n.01'), Synset('compass_point.n.01'), Synset('iodine-131.n.01'), Synset('blood.n.01'), Synset('position.n.07'), Synset('vitamin_a1.n.01'), Synset('one.n.01'), Synset('deoxyadenosine_monophosphate.n.01'), Synset('nitrogen.n.01'), Synset('triiodothyronine.n.01'), Synset('ester.n.01'), Synset('north.n.03'), Synset('nucleotide.n.01'), Synset('vitamin_a2.n.01'), Synset('radius_of_curvature.n.01'), Synset('blood_group.n.01'), Synset('gas.n.02'), Synset('cardinal_compass_point.n.01'), Synset('food.n.01'), Synset('o.n.03'), Synset('liquid_body_substance.n.01'), Synset('factor_of_proportionality.n.01'), Synset('monad.n.02'), Synset('liquid_nitrogen.n.01'), Synset('normality.n.02'), Synset('roentgen.n.01'), Synset('inhibitor.n.01'), Synset('metric_linear_unit.n.01'), Synset('mho.n.01'), Synset('sulfur.n.01'), Synset('linear_unit.n.01'), Synset('henry.n.01'), Synset('vitamin.n.01'), Synset('ampere.n.02'), Synset('group.n.01'), Synset('metallic_element.n.01'), Synset('letter.n.02'), Synset('metric_ton.n.01'), Synset('substance.n.01'), Synset('symbol.n.01'), Synset('current_unit.n.01'), Synset('character.n.08'), Synset('number.n.02'), Synset('fat-soluble_vitamin.n.01'), Synset('irrational_number.n.01'), Synset('thyroid_hormone.n.01'), Synset('mate.n.06'), Synset('physical_property.n.01'), Synset('alpha-tocopheral.n.01')}
+************************************
+
+
+Synset('factor.n.05') - 1
+Synset('base.n.10') - 1
+Synset('matter.n.03') - 1
+Synset('gas_constant.n.01') - 2
+Synset('e.n.05') - 1
+Synset('integer.n.01') - 1
+Synset('azote.n.01') - 1
+Synset('substance.n.07') - 1
+Synset('oxygen.n.01') - 1
+Synset('iodine.n.01') - 1
+Synset('property.n.02') - 1
+Synset('singleton.n.01') - 1
+Synset('transcendental_number.n.01') - 1
+Synset('a.n.07') - 1
+Synset('iodine-125.n.01') - 1
+Synset('antioxidant.n.01') - 1
+Synset('deoxythymidine_monophosphate.n.01') - 1
+Synset('semidiameter.n.01') - 1
+Synset('written_symbol.n.01') - 1
+Synset('unit_of_measurement.n.01') - 1
+Synset('magnitude.n.01') - 1
+Synset('hormone.n.01') - 1
+Synset('radioactivity_unit.n.01') - 1
+Synset('dimension.n.01') - 1
+Synset('radius.n.01') - 1
+Synset('fundamental_quantity.n.01') - 1
+Synset('south.n.03') - 1
+Synset('thymine.n.01') - 1
+Synset('body_substance.n.01') - 1
+Synset('tritium.n.01') - 1
+Synset('part.n.01') - 1
+Synset('conductance_unit.n.01') - 1
+Synset('constant.n.02') - 1
+Synset('physical_entity.n.01') - 1
+Synset('relation.n.01') - 1
+Synset('fluid.n.02') - 1
+Synset('hydrogen.n.01') - 1
+Synset('t.n.04') - 1
+Synset('randomness.n.01') - 1
+Synset('second.n.01') - 1
+Synset('definite_quantity.n.01') - 1
+Synset('vitamin_a.n.01') - 1
+Synset('halogen.n.01') - 1
+Synset('o.n.02') - 1
+Synset('einsteinium.n.01') - 1
+Synset('planck's_constant.n.01') - 1
+Synset('newton.n.02') - 1
+Synset('organic_compound.n.01') - 1
+Synset('adenine.n.01') - 1
+Synset('secretion.n.02') - 1
+Synset('liquid_oxygen.n.01') - 1
+Synset('brimstone.n.01') - 1
+Synset('a.n.06') - 1
+Synset('purine.n.01') - 1
+Synset('mass_unit.n.01') - 1
+Synset('force_unit.n.01') - 1
+Synset('s.n.05') - 1
+Synset('digit.n.01') - 1
+Synset('abstraction.n.06') - 1
+Synset('i.n.03') - 1
+Synset('vitamin_e.n.01') - 1
+Synset('attribute.n.02') - 1
+Synset('metric_unit.n.01') - 1
+Synset('time_unit.n.01') - 1
+Synset('compound.n.02') - 1
+Synset('inductance_unit.n.01') - 1
+Synset('electromagnetic_unit.n.01') - 1
+Synset('conformational_entropy.n.01') - 1
+Synset('relative_quantity.n.01') - 1
+Synset('pyrimidine.n.01') - 1
+Synset('metric_weight_unit.n.01') - 1
+Synset('h.n.04') - 1
+Synset('direction.n.02') - 1
+Synset('measure.n.02') - 1
+Synset('e.n.04') - 1
+Synset('real_number.n.01') - 1
+Synset('n.n.05') - 1
+Synset('length.n.01') - 1
+Synset('chemical.n.01') - 1
+Synset('complex_number.n.01') - 2
+Synset('leap_second.n.01') - 1
+Synset('one.s.01') - 1
+Synset('r.n.03') - 1
+Synset('east.n.01') - 1
+Synset('entity.n.01') - 1
+Synset('nutriment.n.01') - 1
+Synset('heat_content.n.01') - 1
+Synset('thyroxine.n.01') - 1
+Synset('angstrom.n.01') - 1
+Synset('chemical_element.n.01') - 1
+Synset('compass_point.n.01') - 1
+Synset('iodine-131.n.01') - 1
+Synset('blood.n.01') - 1
+Synset('position.n.07') - 1
+Synset('vitamin_a1.n.01') - 1
+Synset('one.n.01') - 1
+Synset('deoxyadenosine_monophosphate.n.01') - 1
+Synset('nitrogen.n.01') - 1
+Synset('triiodothyronine.n.01') - 1
+Synset('ester.n.01') - 1
+Synset('north.n.03') - 1
+Synset('nucleotide.n.01') - 1
+Synset('vitamin_a2.n.01') - 1
+Synset('radius_of_curvature.n.01') - 1
+Synset('blood_group.n.01') - 1
+Synset('gas.n.02') - 1
+Synset('cardinal_compass_point.n.01') - 1
+Synset('food.n.01') - 1
+Synset('o.n.03') - 2
+Synset('liquid_body_substance.n.01') - 1
+Synset('factor_of_proportionality.n.01') - 1
+Synset('monad.n.02') - 1
+Synset('liquid_nitrogen.n.01') - 1
+Synset('normality.n.02') - 1
+Synset('roentgen.n.01') - 1
+Synset('inhibitor.n.01') - 1
+Synset('metric_linear_unit.n.01') - 1
+Synset('mho.n.01') - 1
+Synset('sulfur.n.01') - 1
+Synset('linear_unit.n.01') - 1
+Synset('henry.n.01') - 1
+Synset('vitamin.n.01') - 1
+Synset('ampere.n.02') - 1
+Synset('group.n.01') - 1
+Synset('metallic_element.n.01') - 1
+Synset('letter.n.02') - 1
+Synset('metric_ton.n.01') - 1
+Synset('substance.n.01') - 1
+Synset('symbol.n.01') - 1
+Synset('current_unit.n.01') - 1
+Synset('character.n.08') - 1
+Synset('number.n.02') - 1
+Synset('fat-soluble_vitamin.n.01') - 1
+Synset('irrational_number.n.01') - 1
+Synset('thyroid_hormone.n.01') - 1
+Synset('mate.n.06') - 1
+Synset('physical_property.n.01') - 1
+Synset('alpha-tocopheral.n.01') - 2
+
+
+====================================
+Synset('gas_constant.n.01') , 2
+====================================
+
+
+
+
+------------------------------------
+vehicle
+------------------------------------
+
+************************************
+[' ', 'o', 'e', 't', 'a', 'r', 's', 'n', 'i', 'p', 'l', 'h', 'c', 'd', 'm', 'g', 'u', 'b', ',', 'f', 'w', 'v', 'y', 'j', 'O', '\n']
+************************************
+
+
+
+************************************
+{Synset('base.n.10'), Synset('matter.n.03'), Synset('gas_constant.n.01'), Synset('e.n.05'), Synset('integer.n.01'), Synset('azote.n.01'), Synset('substance.n.07'), Synset('oxygen.n.01'), Synset('iodine.n.01'), Synset('property.n.02'), Synset('singleton.n.01'), Synset('transcendental_number.n.01'), Synset('a.n.07'), Synset('iodine-125.n.01'), Synset('antioxidant.n.01'), Synset('deoxythymidine_monophosphate.n.01'), Synset('semidiameter.n.01'), Synset('written_symbol.n.01'), Synset('unit_of_measurement.n.01'), Synset('magnitude.n.01'), Synset('hormone.n.01'), Synset('radioactivity_unit.n.01'), Synset('dimension.n.01'), Synset('radius.n.01'), Synset('fundamental_quantity.n.01'), Synset('south.n.03'), Synset('thymine.n.01'), Synset('body_substance.n.01'), Synset('part.n.01'), Synset('conductance_unit.n.01'), Synset('constant.n.02'), Synset('physical_entity.n.01'), Synset('relation.n.01'), Synset('fluid.n.02'), Synset('t.n.04'), Synset('randomness.n.01'), Synset('phosphorus.n.01'), Synset('second.n.01'), Synset('definite_quantity.n.01'), Synset('vitamin_a.n.01'), Synset('halogen.n.01'), Synset('o.n.02'), Synset('einsteinium.n.01'), Synset('newton.n.02'), Synset('organic_compound.n.01'), Synset('adenine.n.01'), Synset('secretion.n.02'), Synset('liquid_oxygen.n.01'), Synset('brimstone.n.01'), Synset('a.n.06'), Synset('purine.n.01'), Synset('mass_unit.n.01'), Synset('force_unit.n.01'), Synset('s.n.05'), Synset('digit.n.01'), Synset('abstraction.n.06'), Synset('time_unit.n.01'), Synset('vitamin_e.n.01'), Synset('attribute.n.02'), Synset('metric_unit.n.01'), Synset('conformational_entropy.n.01'), Synset('compound.n.02'), Synset('i.n.03'), Synset('electromagnetic_unit.n.01'), Synset('relative_quantity.n.01'), Synset('p.n.02'), Synset('pyrimidine.n.01'), Synset('metric_weight_unit.n.01'), Synset('measure.n.02'), Synset('direction.n.02'), Synset('e.n.04'), Synset('real_number.n.01'), Synset('n.n.05'), Synset('length.n.01'), Synset('chemical.n.01'), Synset('complex_number.n.01'), Synset('leap_second.n.01'), Synset('one.s.01'), Synset('r.n.03'), Synset('east.n.01'), Synset('entity.n.01'), Synset('nutriment.n.01'), Synset('thyroxine.n.01'), Synset('angstrom.n.01'), Synset('chemical_element.n.01'), Synset('compass_point.n.01'), Synset('iodine-131.n.01'), Synset('blood.n.01'), Synset('position.n.07'), Synset('vitamin_a1.n.01'), Synset('one.n.01'), Synset('deoxyadenosine_monophosphate.n.01'), Synset('nitrogen.n.01'), Synset('triiodothyronine.n.01'), Synset('ester.n.01'), Synset('north.n.03'), Synset('nucleotide.n.01'), Synset('vitamin_a2.n.01'), Synset('radius_of_curvature.n.01'), Synset('blood_group.n.01'), Synset('gas.n.02'), Synset('cardinal_compass_point.n.01'), Synset('food.n.01'), Synset('o.n.03'), Synset('liquid_body_substance.n.01'), Synset('monad.n.02'), Synset('liquid_nitrogen.n.01'), Synset('normality.n.02'), Synset('roentgen.n.01'), Synset('inhibitor.n.01'), Synset('metric_linear_unit.n.01'), Synset('mho.n.01'), Synset('sulfur.n.01'), Synset('linear_unit.n.01'), Synset('vitamin.n.01'), Synset('ampere.n.02'), Synset('group.n.01'), Synset('metallic_element.n.01'), Synset('letter.n.02'), Synset('substance.n.01'), Synset('metric_ton.n.01'), Synset('symbol.n.01'), Synset('current_unit.n.01'), Synset('character.n.08'), Synset('number.n.02'), Synset('fat-soluble_vitamin.n.01'), Synset('irrational_number.n.01'), Synset('thyroid_hormone.n.01'), Synset('mate.n.06'), Synset('physical_property.n.01'), Synset('alpha-tocopheral.n.01')}
+************************************
+
+
+Synset('base.n.10') - 1
+Synset('matter.n.03') - 1
+Synset('gas_constant.n.01') - 2
+Synset('e.n.05') - 1
+Synset('integer.n.01') - 1
+Synset('azote.n.01') - 1
+Synset('substance.n.07') - 1
+Synset('oxygen.n.01') - 1
+Synset('iodine.n.01') - 1
+Synset('property.n.02') - 1
+Synset('singleton.n.01') - 1
+Synset('transcendental_number.n.01') - 1
+Synset('a.n.07') - 1
+Synset('iodine-125.n.01') - 1
+Synset('antioxidant.n.01') - 1
+Synset('deoxythymidine_monophosphate.n.01') - 1
+Synset('semidiameter.n.01') - 1
+Synset('written_symbol.n.01') - 1
+Synset('unit_of_measurement.n.01') - 1
+Synset('magnitude.n.01') - 1
+Synset('hormone.n.01') - 1
+Synset('radioactivity_unit.n.01') - 1
+Synset('dimension.n.01') - 1
+Synset('radius.n.01') - 1
+Synset('fundamental_quantity.n.01') - 1
+Synset('south.n.03') - 1
+Synset('thymine.n.01') - 1
+Synset('body_substance.n.01') - 1
+Synset('part.n.01') - 1
+Synset('conductance_unit.n.01') - 1
+Synset('constant.n.02') - 1
+Synset('physical_entity.n.01') - 1
+Synset('relation.n.01') - 1
+Synset('fluid.n.02') - 1
+Synset('t.n.04') - 1
+Synset('randomness.n.01') - 1
+Synset('phosphorus.n.01') - 1
+Synset('second.n.01') - 1
+Synset('definite_quantity.n.01') - 1
+Synset('vitamin_a.n.01') - 1
+Synset('halogen.n.01') - 1
+Synset('o.n.02') - 1
+Synset('einsteinium.n.01') - 1
+Synset('newton.n.02') - 1
+Synset('organic_compound.n.01') - 1
+Synset('adenine.n.01') - 1
+Synset('secretion.n.02') - 1
+Synset('liquid_oxygen.n.01') - 1
+Synset('brimstone.n.01') - 1
+Synset('a.n.06') - 1
+Synset('purine.n.01') - 1
+Synset('mass_unit.n.01') - 1
+Synset('force_unit.n.01') - 1
+Synset('s.n.05') - 1
+Synset('digit.n.01') - 1
+Synset('abstraction.n.06') - 1
+Synset('time_unit.n.01') - 1
+Synset('vitamin_e.n.01') - 1
+Synset('attribute.n.02') - 1
+Synset('metric_unit.n.01') - 1
+Synset('conformational_entropy.n.01') - 1
+Synset('compound.n.02') - 1
+Synset('i.n.03') - 1
+Synset('electromagnetic_unit.n.01') - 1
+Synset('relative_quantity.n.01') - 1
+Synset('p.n.02') - 1
+Synset('pyrimidine.n.01') - 1
+Synset('metric_weight_unit.n.01') - 1
+Synset('measure.n.02') - 1
+Synset('direction.n.02') - 1
+Synset('e.n.04') - 1
+Synset('real_number.n.01') - 1
+Synset('n.n.05') - 1
+Synset('length.n.01') - 1
+Synset('chemical.n.01') - 1
+Synset('complex_number.n.01') - 2
+Synset('leap_second.n.01') - 1
+Synset('one.s.01') - 1
+Synset('r.n.03') - 1
+Synset('east.n.01') - 1
+Synset('entity.n.01') - 1
+Synset('nutriment.n.01') - 1
+Synset('thyroxine.n.01') - 1
+Synset('angstrom.n.01') - 1
+Synset('chemical_element.n.01') - 1
+Synset('compass_point.n.01') - 1
+Synset('iodine-131.n.01') - 1
+Synset('blood.n.01') - 1
+Synset('position.n.07') - 1
+Synset('vitamin_a1.n.01') - 1
+Synset('one.n.01') - 1
+Synset('deoxyadenosine_monophosphate.n.01') - 1
+Synset('nitrogen.n.01') - 1
+Synset('triiodothyronine.n.01') - 1
+Synset('ester.n.01') - 1
+Synset('north.n.03') - 1
+Synset('nucleotide.n.01') - 1
+Synset('vitamin_a2.n.01') - 1
+Synset('radius_of_curvature.n.01') - 1
+Synset('blood_group.n.01') - 1
+Synset('gas.n.02') - 1
+Synset('cardinal_compass_point.n.01') - 1
+Synset('food.n.01') - 1
+Synset('o.n.03') - 2
+Synset('liquid_body_substance.n.01') - 1
+Synset('monad.n.02') - 1
+Synset('liquid_nitrogen.n.01') - 1
+Synset('normality.n.02') - 1
+Synset('roentgen.n.01') - 1
+Synset('inhibitor.n.01') - 1
+Synset('metric_linear_unit.n.01') - 1
+Synset('mho.n.01') - 1
+Synset('sulfur.n.01') - 1
+Synset('linear_unit.n.01') - 1
+Synset('vitamin.n.01') - 1
+Synset('ampere.n.02') - 1
+Synset('group.n.01') - 1
+Synset('metallic_element.n.01') - 1
+Synset('letter.n.02') - 1
+Synset('substance.n.01') - 1
+Synset('metric_ton.n.01') - 1
+Synset('symbol.n.01') - 1
+Synset('current_unit.n.01') - 1
+Synset('character.n.08') - 1
+Synset('number.n.02') - 1
+Synset('fat-soluble_vitamin.n.01') - 1
+Synset('irrational_number.n.01') - 1
+Synset('thyroid_hormone.n.01') - 1
+Synset('mate.n.06') - 1
+Synset('physical_property.n.01') - 1
+Synset('alpha-tocopheral.n.01') - 2
+
+
+====================================
+Synset('gas_constant.n.01') , 2
+====================================
+
+
+
+
+------------------------------------
+screw
+------------------------------------
+
+************************************
+[' ', 't', 'e', 'o', 'i', 'a', 'n', 's', 'r', 'h', 'd', 'l', 'c', 'p', 'u', 'g', 'm', 'b', 'f', 'w', 'j', ',', 'x', 'y', 'k', 'O', '-']
+************************************
+
+
+
+************************************
+{Synset('factor.n.05'), Synset('base.n.10'), Synset('matter.n.03'), Synset('gas_constant.n.01'), Synset('e.n.05'), Synset('integer.n.01'), Synset('azote.n.01'), Synset('substance.n.07'), Synset('oxygen.n.01'), Synset('iodine.n.01'), Synset('property.n.02'), Synset('singleton.n.01'), Synset('transcendental_number.n.01'), Synset('a.n.07'), Synset('iodine-125.n.01'), Synset('antioxidant.n.01'), Synset('deoxythymidine_monophosphate.n.01'), Synset('semidiameter.n.01'), Synset('written_symbol.n.01'), Synset('unit_of_measurement.n.01'), Synset('magnitude.n.01'), Synset('hormone.n.01'), Synset('radioactivity_unit.n.01'), Synset('dimension.n.01'), Synset('physical_property.n.01'), Synset('radius.n.01'), Synset('fundamental_quantity.n.01'), Synset('south.n.03'), Synset('thymine.n.01'), Synset('body_substance.n.01'), Synset('tritium.n.01'), Synset('part.n.01'), Synset('conductance_unit.n.01'), Synset('constant.n.02'), Synset('physical_entity.n.01'), Synset('relation.n.01'), Synset('fluid.n.02'), Synset('hydrogen.n.01'), Synset('t.n.04'), Synset('randomness.n.01'), Synset('second.n.01'), Synset('definite_quantity.n.01'), Synset('halogen.n.01'), Synset('vitamin_a.n.01'), Synset('o.n.02'), Synset('einsteinium.n.01'), Synset('planck's_constant.n.01'), Synset('newton.n.02'), Synset('organic_compound.n.01'), Synset('adenine.n.01'), Synset('secretion.n.02'), Synset('liquid_oxygen.n.01'), Synset('a.n.06'), Synset('purine.n.01'), Synset('mass_unit.n.01'), Synset('force_unit.n.01'), Synset('s.n.05'), Synset('digit.n.01'), Synset('abstraction.n.06'), Synset('i.n.03'), Synset('vitamin_e.n.01'), Synset('time_unit.n.01'), Synset('metric_unit.n.01'), Synset('conformational_entropy.n.01'), Synset('compound.n.02'), Synset('attribute.n.02'), Synset('electromagnetic_unit.n.01'), Synset('relative_quantity.n.01'), Synset('inductance_unit.n.01'), Synset('pyrimidine.n.01'), Synset('metric_weight_unit.n.01'), Synset('measure.n.02'), Synset('direction.n.02'), Synset('h.n.04'), Synset('e.n.04'), Synset('real_number.n.01'), Synset('n.n.05'), Synset('length.n.01'), Synset('chemical.n.01'), Synset('complex_number.n.01'), Synset('leap_second.n.01'), Synset('one.s.01'), Synset('r.n.03'), Synset('east.n.01'), Synset('entity.n.01'), Synset('nutriment.n.01'), Synset('heat_content.n.01'), Synset('thyroxine.n.01'), Synset('angstrom.n.01'), Synset('chemical_element.n.01'), Synset('compass_point.n.01'), Synset('iodine-131.n.01'), Synset('blood.n.01'), Synset('position.n.07'), Synset('vitamin_a1.n.01'), Synset('one.n.01'), Synset('deoxyadenosine_monophosphate.n.01'), Synset('nitrogen.n.01'), Synset('triiodothyronine.n.01'), Synset('ester.n.01'), Synset('north.n.03'), Synset('nucleotide.n.01'), Synset('vitamin_a2.n.01'), Synset('radius_of_curvature.n.01'), Synset('blood_group.n.01'), Synset('gas.n.02'), Synset('cardinal_compass_point.n.01'), Synset('food.n.01'), Synset('o.n.03'), Synset('liquid_body_substance.n.01'), Synset('factor_of_proportionality.n.01'), Synset('monad.n.02'), Synset('liquid_nitrogen.n.01'), Synset('normality.n.02'), Synset('roentgen.n.01'), Synset('inhibitor.n.01'), Synset('metric_linear_unit.n.01'), Synset('mho.n.01'), Synset('sulfur.n.01'), Synset('linear_unit.n.01'), Synset('henry.n.01'), Synset('vitamin.n.01'), Synset('ampere.n.02'), Synset('group.n.01'), Synset('metallic_element.n.01'), Synset('letter.n.02'), Synset('metric_ton.n.01'), Synset('substance.n.01'), Synset('symbol.n.01'), Synset('current_unit.n.01'), Synset('character.n.08'), Synset('number.n.02'), Synset('fat-soluble_vitamin.n.01'), Synset('irrational_number.n.01'), Synset('thyroid_hormone.n.01'), Synset('mate.n.06'), Synset('brimstone.n.01'), Synset('alpha-tocopheral.n.01')}
+************************************
+
+
+Synset('factor.n.05') - 1
+Synset('base.n.10') - 1
+Synset('matter.n.03') - 1
+Synset('gas_constant.n.01') - 2
+Synset('e.n.05') - 1
+Synset('integer.n.01') - 1
+Synset('azote.n.01') - 1
+Synset('substance.n.07') - 1
+Synset('oxygen.n.01') - 1
+Synset('iodine.n.01') - 1
+Synset('property.n.02') - 1
+Synset('singleton.n.01') - 1
+Synset('transcendental_number.n.01') - 1
+Synset('a.n.07') - 1
+Synset('iodine-125.n.01') - 1
+Synset('antioxidant.n.01') - 1
+Synset('deoxythymidine_monophosphate.n.01') - 1
+Synset('semidiameter.n.01') - 1
+Synset('written_symbol.n.01') - 1
+Synset('unit_of_measurement.n.01') - 1
+Synset('magnitude.n.01') - 1
+Synset('hormone.n.01') - 1
+Synset('radioactivity_unit.n.01') - 1
+Synset('dimension.n.01') - 1
+Synset('physical_property.n.01') - 1
+Synset('radius.n.01') - 1
+Synset('fundamental_quantity.n.01') - 1
+Synset('south.n.03') - 1
+Synset('thymine.n.01') - 1
+Synset('body_substance.n.01') - 1
+Synset('tritium.n.01') - 1
+Synset('part.n.01') - 1
+Synset('conductance_unit.n.01') - 1
+Synset('constant.n.02') - 1
+Synset('physical_entity.n.01') - 1
+Synset('relation.n.01') - 1
+Synset('fluid.n.02') - 1
+Synset('hydrogen.n.01') - 1
+Synset('t.n.04') - 1
+Synset('randomness.n.01') - 1
+Synset('second.n.01') - 1
+Synset('definite_quantity.n.01') - 1
+Synset('halogen.n.01') - 1
+Synset('vitamin_a.n.01') - 1
+Synset('o.n.02') - 1
+Synset('einsteinium.n.01') - 1
+Synset('planck's_constant.n.01') - 2
+Synset('newton.n.02') - 1
+Synset('organic_compound.n.01') - 1
+Synset('adenine.n.01') - 1
+Synset('secretion.n.02') - 1
+Synset('liquid_oxygen.n.01') - 1
+Synset('a.n.06') - 1
+Synset('purine.n.01') - 1
+Synset('mass_unit.n.01') - 1
+Synset('force_unit.n.01') - 1
+Synset('s.n.05') - 1
+Synset('digit.n.01') - 1
+Synset('abstraction.n.06') - 1
+Synset('i.n.03') - 1
+Synset('vitamin_e.n.01') - 1
+Synset('time_unit.n.01') - 1
+Synset('metric_unit.n.01') - 1
+Synset('conformational_entropy.n.01') - 1
+Synset('compound.n.02') - 1
+Synset('attribute.n.02') - 1
+Synset('electromagnetic_unit.n.01') - 1
+Synset('relative_quantity.n.01') - 1
+Synset('inductance_unit.n.01') - 1
+Synset('pyrimidine.n.01') - 1
+Synset('metric_weight_unit.n.01') - 1
+Synset('measure.n.02') - 1
+Synset('direction.n.02') - 1
+Synset('h.n.04') - 1
+Synset('e.n.04') - 1
+Synset('real_number.n.01') - 1
+Synset('n.n.05') - 1
+Synset('length.n.01') - 1
+Synset('chemical.n.01') - 1
+Synset('complex_number.n.01') - 2
+Synset('leap_second.n.01') - 1
+Synset('one.s.01') - 1
+Synset('r.n.03') - 1
+Synset('east.n.01') - 1
+Synset('entity.n.01') - 1
+Synset('nutriment.n.01') - 1
+Synset('heat_content.n.01') - 1
+Synset('thyroxine.n.01') - 1
+Synset('angstrom.n.01') - 1
+Synset('chemical_element.n.01') - 1
+Synset('compass_point.n.01') - 1
+Synset('iodine-131.n.01') - 1
+Synset('blood.n.01') - 1
+Synset('position.n.07') - 1
+Synset('vitamin_a1.n.01') - 1
+Synset('one.n.01') - 1
+Synset('deoxyadenosine_monophosphate.n.01') - 1
+Synset('nitrogen.n.01') - 1
+Synset('triiodothyronine.n.01') - 1
+Synset('ester.n.01') - 1
+Synset('north.n.03') - 1
+Synset('nucleotide.n.01') - 1
+Synset('vitamin_a2.n.01') - 1
+Synset('radius_of_curvature.n.01') - 1
+Synset('blood_group.n.01') - 1
+Synset('gas.n.02') - 1
+Synset('cardinal_compass_point.n.01') - 1
+Synset('food.n.01') - 1
+Synset('o.n.03') - 2
+Synset('liquid_body_substance.n.01') - 1
+Synset('factor_of_proportionality.n.01') - 3
+Synset('monad.n.02') - 1
+Synset('liquid_nitrogen.n.01') - 1
+Synset('normality.n.02') - 1
+Synset('roentgen.n.01') - 1
+Synset('inhibitor.n.01') - 1
+Synset('metric_linear_unit.n.01') - 1
+Synset('mho.n.01') - 1
+Synset('sulfur.n.01') - 1
+Synset('linear_unit.n.01') - 1
+Synset('henry.n.01') - 1
+Synset('vitamin.n.01') - 1
+Synset('ampere.n.02') - 1
+Synset('group.n.01') - 1
+Synset('metallic_element.n.01') - 1
+Synset('letter.n.02') - 1
+Synset('metric_ton.n.01') - 1
+Synset('substance.n.01') - 1
+Synset('symbol.n.01') - 1
+Synset('current_unit.n.01') - 1
+Synset('character.n.08') - 1
+Synset('number.n.02') - 1
+Synset('fat-soluble_vitamin.n.01') - 1
+Synset('irrational_number.n.01') - 1
+Synset('thyroid_hormone.n.01') - 1
+Synset('mate.n.06') - 1
+Synset('brimstone.n.01') - 1
+Synset('alpha-tocopheral.n.01') - 2
+
+
+====================================
+Synset('factor_of_proportionality.n.01') , 3
+====================================
+
+
+
+

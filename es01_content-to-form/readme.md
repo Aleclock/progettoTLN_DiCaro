@@ -22,42 +22,67 @@ Il file *definizioni.csv* contiene 12 definizioni per ogni termine, per un total
 
 <br/><br/>
 
-# 1.1 Preprocessing
+# 1. Determinazione concetto definito
 
-Per ogni termine definito (chiave del dizionario), viene applicato il pre-processing attraverso la funzione `preProcess()`, la quale applica le seguenti procedure:
+## 1.1 Preprocessing e 
 
-* tokenizzazione;
-* rimozione stopword;
-* rimozione punteggiatura;
-* lemmatizzazione;
-* stemming.
+Per ogni lista di definizioni del concetto viene calcolata una lista contenente i termini più comuni presenti nelle varie definizioni. Le definizioni sono soggette a pre-processing grazie alla funzione `preProcess()` (tokenizzazione, rimozione stopword e punteggiatura, lemmatizzazione).
 
-Per ogni definizione, viene applicato il preprocessing e la funzione ritorna una lista di liste contentenenti i termini presenti nelle varie definizioni.
-
-<br/><br/>
-
-# 1.2 Calcolo similarità tra definizioni
-
-La similarità tra le definizioni di uno stesso termine (contenute nella lista `dProcessed`) viene calcolata con la funzione `getSimilarity()`, la quale calcola la similarità tra tutte le possibili definizioni dello stesso termine. Il valore di similarità tra due definizioni `d1,d2` viene calcolato come
+La funzione `getCommonTerms()` permette di ottenere, a partire da una lista ottenuta unendo le varie definizioni/liste, una lista ordinata in base alla frequenza degli elementi. Questo viene fatto nel seguente modo
 
 ~~~~python
-sim = d1.intersection(d2) / (min(len(d1),len(d2)))
+most_common_words= [(word,word_count) for word, word_count in Counter(d).most_common()]
 ~~~~
-
-ovvero come la cardinalità dell'insieme intersezione tra gli insiemi normalizzata sulla cardinalità minima dei due insiemi.
-
-Il valore di similarità totale viene calcolato come la media tra le similarità tra le coppie di definizioni. Nel calcolo della similarità non si tiene conto della similarità tra due definizioni uguali
 
 <br/><br/>
 
-# 2 Aggregazione sulle due dimensioni
+## 1.2 Determinazione dei Synset in base ai lemmi
 
-Dopo aver calcolato la similarità generale per tutti e quattro i termini, il risultato è il seguente
+Dopo aver determinato in termini più comuni presenti nelle definizioni del concetto, con la funzione `getSynsetsFromLemma()` si calcolano i WordNet Synset associati ai termini più comuni. Questo viene fatto perchè si ipotizza che i termini più frequenti sono quelli più rilevanti nella definizione del concetto.
 
-&nbsp;| Abstract | Concrete
-------------: | :------------: | :-------------:
-**Generic** | 0.09 | 0.26
-**Specific** | 0.14 | 0.16
+La funzione determina i Synset a partire dai 10 termini più rilevanti e, per ogni termine, determina i synsets associati con la funzione WordNet `wn.synsets(lemma)`. Per ogni senso ottenuto viene fatta una ricerca in profondità in modo tale da aggiungere alla lista di sensi gli iponimi e gli iperonimi (`synset.hyponyms()` e `synset.hypernyms()`). La ricerca degli iponimi e degli iperonimi viene fatta anche sui nuovi sensi trovati. Il processo ricorsivo viene fermato in base a due variabili:
+
+* `hyponyms_limit`: imposta un limite nella ricerca in profondità degli iponimi;
+* `hypernyms_limit`: imposta un limite nella ricerca in profondità degli iperonimi.
+
+L'algoritmo sviluppato imposta a 3 la profondità nella ricerca sia degli iponimi sia degli iperonimi.
+
+La funzione `getSynsetsFromLemma()` ritorna una lista contenente synset ottenuti a partire dai termini più frequenti presenti nelle definizioni del concetto.
+
+<br/><br/>
+
+## 1.3 Determinazione miglior senso (concetto)
+
+Per determinare il synset migliore rispetto alle definizioni si utilizza un approccio bag-of-words. La similarità è calcolata come:
+
+~~~~plain
+cardinalità dell'insieme intersezione tra i due contesti + 1
+~~~~
+
+dove i due contesti sono formati da:
+
+* termini risultanti dal pre-processamento delle definizione del termine;
+* termini risultati dal pre-processamento della definizione e degli esempi contenuti nel synset (`s.definition()` e `s.examples()`)
+
+Il synset che ottiene l'overlap maggiore risulta essere quello che più corrisponde alle definizioni.
+
+<br/><br/>
+
+## 2 Risultati
+
+Di seguito i risultati ottenuti
+
+Correct term | Calculated term | Definition
+------------ | ------------ | -------------
+justice | Synset('right.n.01') | an abstract idea of that which is due to a person or governmental body by law or tradition or nature; ; - Eleanor Roosevelt
+patience | Synset('digest.v.03') | put up with something or somebody unpleasant
+greed | Synset('greed.n.01') | excessive desire to acquire or possess more (especially more material wealth) than one needs or deserves
+politics | Synset('governed.n.01') | the body of people who are citizens of a particular government; --Declaration of Independence
+food | Synset('carbohydrate.n.01') | an essential structural component of living cells and source of energy for animals; includes simple sugars with small molecules as well as macromolecular substances; are classified according to the number of monosaccharide groups they contain
+radiator | Synset('hot.a.01') | used of physical heat; having a high or higher than desirable temperature or giving off heat or feeling or causing a sensation of heat or burning
+vehicle | Synset('container.n.01') | any object that can be used to hold things (especially a large metal boxlike object of standardized dimensions that can be loaded from one form of transport to another)
+screw | Synset('band.n.11') | a thin flat strip or loop of flexible material that goes around or over something else, typically to hold it together or as a decoration
+
 
 <br/><br/>
 
