@@ -141,7 +141,7 @@ def preProcess_synset(d):
     return tokens
 
 """
-Allow to determinate the Part-of-Speech of frame name
+Allow to determinate the Part-of-Speech of sentence
 Input:
     sentence: name
 Output:
