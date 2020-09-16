@@ -3,6 +3,7 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import brown
 from leskUtils import lesk
+#from nltk.wsd import lesk
 
 from utils import *
 
@@ -11,48 +12,15 @@ from utils import *
 
 os.chdir("/Users/aleclock/Desktop/uni/TLN/dicaro/progettoTLN_DiCaro/es02_hanks")
 
+# TODO Cambiare nome alla classe
 class VerbInstance:
-    def __init__(self, sentence, subjs, objs, obls):
+    def __init__(self, sentence, subjs, objs):
         self.sentence = sentence
         self.subjs = subjs
         self.objs = objs
-        self.obls = obls
         self.subjs_ss = []
         self.objs_ss = []
-        self.obls_ss = []
 
-def loadList(path):
-    sentences_list = []
-    file = open(path,"r",encoding="utf-8")
-    for line in file.readlines():
-        sentences_list.append(line.replace("\n", ""))
-    file.close()
-    return sentences_list
-
-"""
-Save the annotation in form:    type, frame_name, element, synset
-Input:
-    path: path of file
-    list: list
-"""
-def saveList (path, list):
-    file = open(path, 'a')
-    for i in list:
-        file.write(" ".join(i) + "\n")
-    file.close()
-
-def saveToFile(path, string):
-    file = open(path, 'a')
-    file.write (str(string) + "\n")
-    file.close()
-
-"""
-Delete file in path
-Input: 
-    path: path of file
-"""
-def clear_file(path):
-    os.remove(path)
 
 """
 Extract from Brown Corpus sentences containing chosen verb
@@ -61,7 +29,7 @@ Input:
     verb: chosen verb
     verbs_pos: part-of-speech of verbs
 Output:
-    sentences: list of sentences, each sentence is a list of words
+    sentences: list of sentences
 """
 def extractBrownSentences(verb, verbs_pos):
     lemmatizer = WordNetLemmatizer()
@@ -73,9 +41,11 @@ def extractBrownSentences(verb, verbs_pos):
         for word in sent:
             if tags[word] in verbs_pos:
                 word = lemmatizer.lemmatize(word, 'v')
-                if word in verb:
-                    sentences.append(sent)
+                if word == verb:
+                    sentences.append(" ".join(sent))
     return sentences
+
+
 
 def main():
 
@@ -84,68 +54,61 @@ def main():
     # ---------------------------------------------
 
     verbs_pos = ['VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ']
-    #verb = ["watch", "watching", "watched", "watches"]
-    verb = ["send", "sent", "sending"]
+    #verb = "watch"
+    verb = "get"
+    #verb = "play"
 
     # ---------------------------------------------
     # ----      1. ESTRAZIONI FRASI - Recuperare da un corpus n istanze in cui esso viene usato
     # ---------------------------------------------
 
-    #sentences = extractBrownSentences(verb, verbs_pos)
-    #clear_file("./sentences.txt")
-    #saveList("./sentences00.txt", sentences)
-    # TODO valutare di salvare le frasi come testo e non come lista (così non serve fare il join nella funzione dependencyParsing())
-    #sentences = loadList("./sentences00.txt")
-    sentences = loadList("./sentences_ref.txt")
+    sentences = extractBrownSentences(verb, verbs_pos)
+    clear_file("./sentences_get.txt")
+    saveList("./sentences_get.txt", sentences)
+    #sentences = loadList("./sentences_play.txt")
+    #sentences = loadList("./sentences_watch.txt")
 
-    # ---------------------------------------------
-    # ----      2. PARSING
-    # ---------------------------------------------
+    print ("__ Loaded " + str(len(sentences)) + " sentences")
 
     instances = [] # List of verb istance [sentence, subj, obj, obl, subj_ss, obj_ss, obl_ss] ss: supersense
 
-    for s in sentences[:20]:
-        #print (s)
-        istance = []
+    #clear_file("./results.txt")
 
-        tag = getPOS(s)
+    for s in sentences[:]:
+
+        # ---------------------------------------------
+        # ----      2. PARSING
+        # ---------------------------------------------
+
         tree = dependencyParsing (s) # Siccome ogni frase è una lista di termini è necessario unirle (perchè previsto da spacy)
-        subjects, objects, obls = extractVerbSubjObj (verb, tree) # sentences arguments
-        saveToFile("./results.txt", (subjects, objects, obls))
+        subjects, objects = extractVerbSubjObj (verb, tree) # sentences arguments (fillers)
 
-        vi = VerbInstance(s, subjects, objects, obls)
+        vi = VerbInstance(s, subjects, objects)
 
         # ------------------------------------------------------
-        # ----      2.1 DISAMBIGUAZIONE E CALCOLO SUPERSENSI
+        # ----      3. DISAMBIGUAZIONE E CALCOLO SUPER SENSI
         # ------------------------------------------------------
 
-        if subjects or objects: # Se esiste il soggetto o l'oggetto nella frase, allora effettua la disambiguazione degli elementi (con Lesk)
-            #saveToFile("./results.txt", vi.sentence)
+        # Se ci sono i filler nella frase (valenza = 2), allora effettua la disambiguazione degli elementi (con Lesk)
+        if subjects and objects: 
+            #saveTree(tree, "./graph_play/", str(s[:20].replace(" ", "_")))
+            #saveToFile("./results/filler_play.txt", str((subjects,objects)))
             for subj in subjects:
-                #print (">>subj: " + subj)
-                bestSense = lesk(subj, s)
+                bestSense = lesk(subj, s) # personal lesk function
+                #bestSense = lesk(s, subj) # NLTK lesk funcion
+                #print ("subj \t" + str(subj) + "\t | " + str(bestSense))
                 if bestSense is not None:
                     vi.subjs_ss.append ((bestSense.lexname()))  # con lexname() si ottiene il supersenso
-                else:
-                    print ("subj NONE " + subj)
-            for o in objects:
-                #print (">>obj: " + o)
-                bestSense = lesk(o, s)
+            for obj in objects:
+                bestSense = lesk(obj, s)
+                #bestSense = lesk(s, o)
+                #print ("obj \t" + str(obj) + "\t | " + str(bestSense))
                 if bestSense is not None:
                     vi.objs_ss.append (bestSense.lexname())
-                else:
-                    print ("obj NONE " + o)
-            for o in obls:
-                #print (">>obl: " + o)
-                bestSense = lesk(o, s)
-                if bestSense is not None:
-                    vi.obls_ss.append (bestSense.lexname())
-                else:
-                    print ("obls NONE " + o)
-    
-            instances.append(vi)
 
-        print ("\n----\n")
+            instances.append(vi)
+    
+    print ("__ Parsing and disambiguation completed")
     
     # ---------------------------------------------
     # ----      4. CALCOLO DELLE FREQUENZE
@@ -154,20 +117,21 @@ def main():
     # Conteggio dei supersensi sui singoli argomenti
     freq_subj = getFrequency (instances, "subjs_ss")
     freq_obj = getFrequency (instances, "objs_ss")
-    freq_obl = getFrequency (instances, "obls_ss")
 
-    co_count = []   # Semantic frequency
+    semClusters = []   # Semantic clusters frequency
+    
     for i in instances:
-        for s in i.subjs_ss if i.subjs_ss else [None]:
-            for obj in i.objs_ss if i.objs_ss else [None]:
-                for obl in i.obls_ss if i.obls_ss else [None]:
-                    co_count.append((s, obj, obl))
+        #saveToFile("./results/instances_play.txt", str((i.subjs_ss,i.objs_ss)))
+        if i.subjs_ss != [] and i.objs_ss != []:
+            for s in i.subjs_ss:
+                for obj in i.objs_ss:
+                    semClusters.append((s, obj))
 
-    co_count_freq = getFrequency(co_count, "_")
+    semClusters_freq = getFrequency(semClusters, "_")
 
     print ("Total sentences: " + str(len(instances)))
     print ("frequency of subjs: " + str(freq_subj) + "\n")
     print ("frequency of obj: " + str(freq_obj) + "\n")
-    print ("frequency of obl: " + str(freq_obl) + "\n")
+    print ("frequency semantic clusters:" + str(semClusters_freq))
 
 main()

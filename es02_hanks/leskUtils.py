@@ -17,8 +17,8 @@ def lesk(word,sentences):
     context = bagOfWord(sentences)
 
     for sense in wn.synsets(word):
-        """if (best_sense is None):
-            best_sense = sense"""
+        if (best_sense is None):
+            best_sense = sense
 
         signature = bagOfWord(sense.definition())
         examples = sense.examples()
