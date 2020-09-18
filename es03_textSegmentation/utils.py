@@ -12,7 +12,9 @@ def getSimilarity(vector1, vector2):
         for v2 in vector2:
             wo = getWeightedOverlap(v1,v2) # square of Weighted Overlap
             similarity.append (wo)
-    return max(similarity) if len(similarity) > 0 else 0
+    mean = sum(similarity) / len(similarity) if len(similarity) > 0 else 0
+    maxSimilarity = max(similarity) if len(similarity) > 0 else 0
+    return maxSimilarity, mean
 
 
 """

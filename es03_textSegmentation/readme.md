@@ -10,192 +10,136 @@
 
 <br/>
 
-# 0. Lettura del documento e windowing
+# 0. Lettura del documento, windowing e lettura Nasari
 
-Il metodo del text tiling prevede che il testo venga separato in finestre di lunghezza fissa. Quindi il documento da analizzare (*document.txt*) viene letto come una stringa grazie alla funzione `loadDocument()` e successivamente diviso in finestre con la funzione `textWindowing()`. Questa funzione prende in input il documento da dividere e la dimensione delle finestre (inteso come numero di parole). Il documento viene tokenizzato (`nltk.word_tokenize(document.lower())`) e successivamente diviso in liste di dimensione fissa
-
-~~~~python
-j = 0
-for i in range(length, len(tokens), length):
-    sequences.append(tokens[j:i])
-    j = i
-~~~~
-
-<br/><br/>
-
-
-5. Document segmentation: in questo caso lo scopo è di individuare elementi
-diversi del discorso all'interno dei documenti per analizzare l'evoluzione di
-un tema, delle relazioni e altro ancora.
-Il metodo più famoso in questo campo è quello del text tiling.
-L'idea è di separare un testo in 􏰁nestre di lunghezza 􏰁ssata a priori. Al-
-l'interno di ogni 􏰁nestra viene calcolata una coesione intra-gruppo, una
-quantità che misura quanto le parole all'interno di una 􏰁nestra sono le-
-gate fra loro. Che misura utilizzare come coesione intra-gruppo non è
-importante. Ne esistono diverse implementazioni, ad esempio basate sulla
-co-occorrenza. A questo punto andiamo a cercare i break point, ovvero
-quei punti in cui la coesione intra-gruppo si abbassa bruscamente. È mol-
-to probabile che in tali punti 􏰁nisca una sezione del documento relativa
-ad un argomento e ne cominci una nuova. Mostriamo questa situazione in
-
-
-# 1. Ottenere le istanze contenenti il verbo scelto
-
-Le istanze vengono recuperate dal Brown Corpus. La funzione `extractBrownSentences()` permette di estrarre tutte le frasi dal corpus (attraverso la funzione `brown.sents()`).
-
-Successivamente si cicla su ogni termine di ogni frase estratta e si determina il part-of-speech della frase (`nltk.pos_tag(sent)`). Nel caso in cui il TAG del termine sia un verbo, allora viene lemmatizzato. Nel caso in cui il termine sia uguale al verbo scelto la frase viene selezionata e aggiunta alla lista di frasi da analizzare.
+Il metodo del text tiling prevede che il testo venga separato in finestre di lunghezza fissa. Quindi il documento da analizzare (*document.txt*) viene letto come una stringa grazie alla funzione `loadDocument()` e successivamente diviso in finestre con la funzione `textWindowing()`. 
 
 ~~~~python
-def extractBrownSentences(verb, verbs_pos):
-    lemmatizer = WordNetLemmatizer()
-
-    list_sent = brown.sents() #  Return all sentences in the corpus or in the specified file(s).
-    sentences = []
-    for sent in list_sent:
-        tags = dict(nltk.pos_tag(sent))
-        for word in sent:
-            if tags[word] in verbs_pos:
-                word = lemmatizer.lemmatize(word, 'v')
-                if word == verb:
-                    sentences.append(sent)
-    return sentences
+def loadDocument(path):
+    with open(path) as file:
+        lines = file.readlines()
+    return ''.join(lines)
 ~~~~
 
-Siccome questa operazione richiede parecchio tempo per essere eseguita, il risultato (le frasi estratte) vengono salvate nel file *sentences.txt* e lette ad ogni esecuzione.
+Questa funzione prende in input il documento da dividere e la dimensione delle finestre (inteso come numero di frasi). Il documento viene diviso in frasi (`re.split("\.\s+", document)`) e ogni frase viene tokenizzata (`[nltk.word_tokenize(sentence.lower()) for sentence in tokens]`). In base alla dimensione della finestra, vengono create delle liste contenenti il numero scelto di frasi tokenizzate. Nel caso in cui non tutte le frasi siano state finestrate, le restanti vengono unite in un'unica finestra.
 
-<br/><br/>
-
-## 2. Parsing e disambiguazione
-
-La teoria di Hanks si basa sull'idea che il verbo sia la radice del significato, in quanto non esistono espressioni senza verbo. Ad ogni verbo viene associata una valenza, ovvero il numero di argomenti necessari per il verbo. In base al numero di argomenti che un verbo richiede, in certi casi è possibile differenziarne il
-significato.
+~~~~python
+def textWindowing(document, length):
+    sequences = []
+    tokens = re.split("\.\s+", document)
+    tokens = [nltk.word_tokenize(sentence.lower()) for sentence in tokens]
+    j = 0
+    for i in range(length, len(tokens) + 1, length):
+        window = sum(tokens[j:i],[])
+        sequences.append(window)
+        j = i
+    
+    if len(tokens) != j:
+        diff = len(tokens) - j
+        sequences.append(sum(tokens[-diff:],[]))
+    return sequences
+~~~~
 
 <br/>
 
-Dopo aver ottenuto le frasi contenenti il verbo scelto, è necessario fare il parsing e la disambiguazione.
+Per valutare l'agreement tra finestre si utilizza la risorsa Nasari (*dd-nasari.txt*). Per questo motivo è necessario caricare i vettori Nasari grazie alla funzione `loadNasari()` la quale, a partire da un file *.txt*, crea un dizionario con la forma `{word: {term:score}}`
 
-Per ogni frase si determina l'albero a dipendenze grazie alla funzione `dependencyParsing()`. Successivamente si utilizza `spaCy`[1] per determinare il soggetto e l'oggetto associato al verbo scelto (gli argomenti del verbo).
+<br/><br/>
 
-Dato l'albero a dipendenze della frase (`tree`), i tre elementi si determinano come segue:
+# 1. Calcolo della coesione tra finestre
 
-* `verbAddress` è il termine nell'albero il quale corrisponde ai verbi scelti;
-* `subjects` è una lista contenente tutti i termini della frase il cui reggente (`head`) è `verbAddress`, la cui relazione sintattica (`dep_`) è `nsubj` e il cui part-of-speech (`tag_`) è `NN`;
-* `objects` è una lista contenente tutti i termini della frase il cui reggente (`head`) è `verbAddress`, la cui relazione sintattica (`dep_`) è `obj` e il cui part-of-speech (`tag_`) è `NN`;
+L'idea di questo procedimento è quella di calcolare la coesione di una finestra rispetto a quelle adiacenti, sulla base dei termini rilevanti (soggetti a pre-processing) presenti in ogni finestra. Invece di calcolare la coesione direttamente sui termini, per ogni termine si determina il vettore Nasari associato, in modo da determinare il concetto espresso dal termine.
+
+La funzione `getNasariVectors()` prende in ingresso la lista di termini (finestra) e il dizionario Nasari, la pre-processa (rimozione stopword e punteggiatura, lemmatizzazione) e, per ogni termine della lista pre-processata ritorna, se presente, il vettore Nasari associato.
 
 ~~~~python
-def extractVerbSubjObj (verb, tree):
-    verbAddress = next(t.text for t in tree if t.text in verb)
-    subjects = list(t.text for t in tree if str(t.head) == verbAddress and "nsubj" in t.dep_ and "NN" in t.tag_)
-    objects = list(t.text for t in tree if str(t.head) == verbAddress and "obj" in t.dep_ and "NN" in t.tag_)
-    return subjects, objects
+def getNasariVectors(sentence, nasari):
+    topic = bagOfWord(sentence)
+    vectors = []
+    for word in topic:
+        if word in nasari.keys():
+            vectors.append(nasari[word])
+    return vectors
 ~~~~
 
-In questo modo è possibile determinare i filler (soggetti nominali e oggetti) del verbo scelto [2].
+Per ogni finestra vengono calcolati i vettori Nasari della finestra corrente (`current`), della finestra precedente (`prev`) e quella successiva (`follo`). Successivamente si calcola la coesione tra le finestre  `current`-`prev` e `current`-`follo` grazie alla funzione `getSimilarity()`.
 
-Nel caso in cui il verbo abbia valenza 2 e quindi entrambi i filler sono presenti, si calcola attraverso l'algoritmo di Lesk il miglior WordNet synset associato ad ogni filler. L'algoritmo di Lesk prende in input un termine polisemico e la frase in cui occorre e restituisce il senso migliore.
+Questa funzione calcola, per ogni vettore di entrambe le liste la Weighted Overlap tra i due vettori. La Weighted Overlap è una funzione che permette di calcolare la similarità semantica tra concetti e si calcola come:
 
-Per ogni senso associato al termine da disambiguare (ottenuto tramite `wn.synsets(word)`), la funzione `lesk()` calcola l'overlap tra i contesti della frase e del synset. I due contesti sono ottenuti con un approccio bag-of-words e sono composti da:
+~~~~python
+n = sum(1 / (rank(q, list(vect1)) + rank(q, list(vect2))) for q in keys_overlap)
+d = sum(list(map(lambda x: 1 / (2 * x), list(range(1, len(keys_overlap) + 1)))))
 
-* `ctx_sentence`: composto da tutti i termini della frase soggetti a pre-processing (tokenizzazione, rimozione punteggiatura e stopwords, lemmatizzazione). 
-* `ctx_synset`: composto da tutti i termini presenti nella definizione e negli esempi soggetti a pre-processing (tokenizzazione, rimozione punteggiatura e stopwords, lemmatizzazione). 
+wo = n/d
+~~~~
 
-L'algoritmo ritorna il senso migliore, ovvero il synset che ha ottenuto l'overlap maggiore.
+dove:
+
+* `keys_overlap`: insieme delle chiavi comuni ai due vettori;
+* `rank`: calcola il rango del termine per un vettore, ovvero la sua rilevanza;
+* `n`: sommatoria del reciproco della somma tra i rank dei vettori Nasari e q, dove q è una chiave comune;
+* `d`: Sommatoria di i che va da 1 alla cardinalità dell'insieme delle chiavi in comune del reciproco del doppio di i.
+
+La funzione getWeightedOverlap() ritorna il rapporto se l'insieme delle chiavi in comuni non è vuoto, 0 altrimenti.
+
+La coesione tra due finestre è data dal massimo valore della radice quadrata della Weighted Overlap.
 
 <br/>
 
-Successivamente, nel caso in cui l'algoritmo di Lesk abbia ritornato un senso, si determinano i tipi semantici, ovvero delle generalizzazioni concettuali strutturate come una gerarchia. Questo procedimento viene fatto in quanto il significato di un verbo dipende dagli argomenti e dai tipi semantici ad esso associati.
-Il tipo semantico di un synset si ottiene determinando il suo super senso (attraverso la funzione `synset.lexname()` [3]).
-
-Infine gli argomenti del verbo con valenza 2 vengono aggiunti ad una lista (`instances`) in modo da semplificare il calcolo delle frequenze. `instances` è una lista contenente tutte le istanze (frasi) in cui il verbo ha valenza 2 (dove è presente sia il soggetto che l'oggetto del verbo).
-
+Dopo aver determinato la coesine di una finestra rispetto a quelle adiacenti, la coesione della finestra è data dalla media dei due valori di coesine appena calcolati.
 
 <br/><br/>
 
-## 3. Calcolo delle frequenze
+# 2. Calcolo split points
 
-L'ultimo step prevede l'aggregazione dei risultati attraverso il calcolo delle frequenze. Queste vengono calcolate con la funzione `getFrequency()`, la quale cicla su tutti gli elementi della lista istance `instances` e calcola la frequenza dei valori dei supersensi relativi ai filler desiderati ()
+Per determinare i punti in cui dividere il testo, in modo da determinare i paragrafi, si scorre la lista contenente i valori di coesione (`similarities`). Una finestra corrisponde ad un punto di divisione (split point) se il suo valore di coesione è minore rispetto la media dei valori totali e se il valore precedente non è già nella lista degli split points. Quest'ultima condizione viene ignorata solo nel caso in cui il valore di coesione corrente risulti essere più basso rispetto a quello precedente. Le valutazioni sugli elementi consecutivi dipendono dal fatto che finestre successive possono avere un valore correlato. Nel caso in cui due finestre successive abbiano valori simili ed entrambi minori rispetto alla media, questi verrebbero considerati come due punti di split.
 
-~~~~python
-count = collections.Counter([s for i in instances for s in i.arg]).most_common()
-~~~~
-
-Successivamente viene calcolata in maniera analoga la frequenza dei cluster semantici, ovvero la combinazione dei semantic types.
+I possibili punti di split (`splits`) vengono poi ordinati in base al valore di similarità della finestra. Sapendo il numero di paragrafi in cui dividere il testo, vengono estratti dalla lista gli split points con valore più basso di coesione.
 
 <br/><br/>
 
-## 4. Risultati
+# 3. Analisi dei risultati
 
-Nella seguente tabella sono presenti i risultati ottenuti:
+Il testo su cui sono stati fatti i test è un estratto della pagina inglese Wikipedia relativa all'Italia [1], il quale aveva la seguente struttura:
 
-~~~~plain
-VERB: play
-TOTAL SENTENCES: 308
-SENTENCES ANALYZED (valency = 2): 51
+Sentences | Title
+ ------------ | ------------ 
+15 | Etimology
+18 | Geography 
+32 | History (Early modern)
+27 | Economy
+19 | Cinema
+16 | Politics (Government)
 
-____ SEMANTIC TYPES
+<br/>
 
-SUBJ (46)
+Nelle seguenti immagini si può notare il plot relativo all'analisi fatta sul testo. Nei quattro grafici il testo utilizzato e la risorsa Nasari resta invariata, mentre varia la dimensione delle finestre, ovvero il numero di frasi contenuto in ognuna. Nel grafico:
 
-[('noun.person', 17), ('noun.attribute', 6), ('noun.cognition', 4), ('noun.relation', 4), ('noun.state', 4), ('noun.artifact', 2), ('verb.change', 1), ('verb.possession', 1), ('noun.phenomenon', 1), ('noun.group', 1), ('verb.stative', 1), ('noun.substance', 1), ('noun.act', 1), ('noun.event', 1), ('noun.animal', 1)]
+* La linea nera indica i valori di coesione delle varie finestre;
+* la linea orizzontale indica il valore medio;
+* Le linee verticali rosse indicano i corretti punti di split (determinati manualmente dal testo);
+* Le linee verticali verdi indicano i punti di split individuati dall'algoritmo.
 
-OBJ: (51)
-
-[('noun.act', 27), ('noun.person', 7), ('noun.artifact', 5), ('noun.cognition', 4), ('noun.attribute', 2), ('noun.location', 2), ('noun.animal', 1), ('noun.time', 1), ('noun.relation', 1), ('verb.motion', 1)]
-
-____ SEMANTIC CLUSTER (48)
-
-[(('noun.person', 'noun.act'), 8), (('noun.attribute', 'noun.act'), 4), (('noun.relation', 'noun.act'), 4), (('noun.person', 'noun.person'), 4), (('noun.state', 'noun.act'), 4), (('noun.person', 'noun.attribute'), 2), (('noun.cognition', 'noun.act'), 2), (('noun.person', 'noun.location'), 2), (('noun.artifact', 'noun.artifact'), 2), (('noun.person', 'noun.time'), 1), (('noun.cognition', 'noun.relation'), 1), (('noun.attribute', 'verb.motion'), 1), (('noun.attribute', 'noun.person'), 1), (('verb.change', 'noun.act'), 1), (('verb.possession', 'noun.cognition'), 1), (('noun.person', 'noun.cognition'), 1), (('noun.phenomenon', 'noun.cognition'), 1), (('noun.group', 'noun.act'), 1), (('verb.stative', 'noun.artifact'), 1), (('noun.cognition', 'noun.cognition'), 1), (('noun.substance', 'noun.act'), 1), (('noun.act', 'noun.act'), 1), (('noun.event', 'noun.act'), 1), (('noun.animal', 'noun.act'), 1), (('noun.person', 'noun.artifact'), 1)]
-~~~~
-
-~~~~plain
-VERB: watch
-TOTAL SENTENCES: 197
-SENTENCES ANALYZED (valency = 2): 16
-
-____ SEMANTIC TYPES
-
-SUBJ (14)
-
-frequency of subjs: [('noun.person', 9), ('noun.group', 1), ('noun.animal', 1), ('noun.quantity', 1), ('noun.plant', 1), ('noun.event', 1)]
-
-OBJ: (16)
-
-frequency of obj: [('noun.person', 3), ('noun.location', 2), ('noun.act', 2), ('noun.artifact', 2), ('noun.feeling', 1), ('noun.process', 1), ('verb.social', 1), ('noun.cognition', 1), ('verb.contact', 1), ('noun.food', 1), ('noun.state', 1)]
-
-____ SEMANTIC CLUSTER (14)
-
-[(('noun.person', 'noun.artifact'), 2), (('noun.person', 'noun.person'), 2), (('noun.group', 'noun.location'), 1), (('noun.person', 'noun.feeling'), 1), (('noun.person', 'noun.process'), 1), (('noun.person', 'noun.act'), 1), (('noun.person', 'noun.location'), 1), (('noun.person', 'verb.social'), 1), (('noun.animal', 'noun.act'), 1), (('noun.plant', 'verb.contact'), 1), (('noun.event', 'noun.food'), 1), (('noun.event', 'noun.state'), 1)]
-~~~~
-
-~~~~plain
-VERB: get
-TOTAL SENTENCES: 1407
-SENTENCES ANALYZED (valency = 2): 77
-
-____ SEMANTIC TYPES
-
-SUBJ (62) frequency
-
-[('noun.person', 31), ('noun.group', 5), ('noun.artifact', 5), ('noun.communication', 4), ('noun.animal', 3), ('noun.act', 3), ('noun.location', 3), ('noun.quantity', 2), ('noun.state', 2), ('verb.change', 1), ('noun.process', 1), ('verb.stative', 1), ('verb.emotion', 1)]
-
-OBJ: (81) frequency
-
-[('noun.act', 11), ('noun.artifact', 10), ('noun.communication', 8), ('noun.cognition', 7), ('noun.possession', 5), ('noun.attribute', 5), ('noun.person', 4), ('verb.social', 3), ('noun.time', 3), ('noun.group', 3), ('verb.motion', 3), ('verb.contact', 3), ('noun.location', 2), ('noun.animal', 2), ('noun.body', 2), ('noun.event', 1), ('noun.feeling', 1), ('verb.creation', 1), ('verb.change', 1), ('noun.food', 1), ('noun.Tops', 1), ('noun.state', 1), ('noun.quantity', 1), ('verb.possession', 1), ('verb.body', 1)]
-
-____ SEMANTIC CLUSTER (66)
-
-[(('noun.person', 'noun.cognition'), 5), (('noun.person', 'noun.communication'), 4), (('noun.animal', 'noun.act'), 3), (('noun.person', 'noun.act'), 3), (('noun.person', 'noun.possession'), 3), (('noun.person', 'noun.attribute'), 3), (('noun.person', 'noun.location'), 2), (('noun.animal', 'verb.social'), 2), (('noun.artifact', 'noun.communication'), 2), (('noun.person', 'noun.artifact'), 2), (('noun.person', 'noun.body'), 2), (('noun.state', 'noun.artifact'), 2), (('noun.act', 'noun.artifact'), 2), (('noun.person', 'verb.social'), 1), (('noun.group', 'noun.feeling'), 1), (('noun.act', 'noun.group'), 1), (('verb.change', 'noun.possession'), 1), (('noun.person', 'verb.creation'), 1), (('noun.artifact', 'noun.act'), 1), (('noun.person', 'noun.person'), 1), (('noun.process', 'noun.Tops'), 1), (('noun.communication', 'noun.time'), 1), (('noun.group', 'noun.time'), 1), (('noun.location', 'noun.cognition'), 1), (('noun.quantity', 'noun.attribute'), 1), (('noun.location', 'noun.possession'), 1), (('noun.quantity', 'noun.cognition'), 1), (('noun.person', 'noun.state'), 1), (('noun.person', 'noun.animal'), 1), (('noun.person', 'noun.group'), 1), (('noun.communication', 'noun.attribute'), 1), (('noun.location', 'noun.artifact'), 1), (('noun.group', 'noun.act'), 1), (('verb.stative', 'noun.act'), 1), (('noun.group', 'verb.contact'), 1), (('noun.group', 'noun.animal'), 1), (('noun.person', 'verb.possession'), 1), (('noun.artifact', 'verb.motion'), 1), (('noun.person', 'verb.contact'), 1), (('noun.artifact', 'noun.group'), 1), (('noun.communication', 'noun.act'), 1), (('verb.emotion', 'noun.person'), 1), (('noun.person', 'verb.motion'), 1), (('noun.communication', 'verb.body'), 1)]
-~~~~
-
-Term | Synset | Value | &nbsp; | Term | Synset | Value
------------- | ------------ | ------------- | ------------- | ------------ | ------------ | -------------
-greed | `Synset('greed.n.01')` | 7 | &nbsp; | politics | `Synset('section.n.03')` | 6
-greed | `Synset('actor.n.02')` | 7 | &nbsp; | politics | `Synset('governed.n.01')` | 6
+<img src="./output/plot_text_italy01_w1.png" alt="alt text" width="70%" height="whatever">
+<img src="./output/plot_text_italy01_w2.png" alt="alt text" width="70%" height="whatever">
+<img src="./output/plot_text_italy01_w3.png" alt="alt text" width="70%" height="whatever">
+<img src="./output/plot_text_italy01_w4.png" alt="alt text" width="70%" height="whatever">
 
 <br/><br/>
 
-# 5 Sitografia
+Nel caso in cui la finestra sia molto stretta (grafico 1), l'individuazione dei punti di split risulta essere quasi sempre sbagliata, in quanto è molto più probabile imbattersi in falsi positivi, ovvero frasi scollegate (quindi con score basso) presenti nello stesso paragrafo. In ogni caso viene sempre calcolato un valore di coesione basso nel punti reali di split, anche se l'algoritmo non li nomina punti di split effettivi. Nel grafico si può notare come, in corrispondenza degli ultimi due punti di split corretti, il valore di coesione sia molto basso.
 
-[1] <https://spacy.io/usage/linguistic-features> <br/>
-[2] <https://spacy.io/api/annotation> <br/>
-[3] <https://wordnet.princeton.edu/documentation/lexnames5wn>
+Aumentando la dimensione della finestra, diminuiscono i falsi positivi, ma aumentano i casi in cui non viene rilevata la variazione di coesione tipica di un split point. Nei grafici 2,3 e 4 il primo e l'ultimo split point non viene individuato. Questo può dipende dai seguenti fattori:
+
+* Nel caso in cui le finestre abbiamo dimensione 2, la finestra corrispondente allo split point contiene l'ultima frase del primo paragrafo e la prima frase del secondo. In questo modo la coesione viene ammortizzata.
+* Nel caso in cui le finestre abbiano dimensione 3, l'ultima frase del primo paragrafo e la prima frase del secondo risultano essere in due finestre separate. In questo caso non viene individuata la non coesione in quanto le due finestre contengono termini comuni.
+
+Nel grafico 3, il secondo e il quarto split point vengono individuati, mentre il terzo risulta essere sbagliato. La finestra corrispondente allo split (numero 20) contiene frasi riferite ad entrambi i paragrafi, non permettendo di individuare il cambio di paragrafo. Invece viene inviduato un breakpoint nella finestra numero 25 anche se l'ambito è sempre economico.
+
+Nel grafico 4 la dimensione delle finestre aumenta ancora, rendendo difficile l'individuazione dei breakpoints. L'algoritmo infatti ne determina solo 2, entrambi correttamente (finestre numero 9 e 23). 
+
+<br/><br/>
+
+# 4. Sitografia
+
+[1] <https://en.wikipedia.org/wiki/Italy> <br/>

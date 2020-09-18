@@ -1,0 +1,877 @@
+**************************************
+Info:
+./text_italy01.txt
+./asset/dd-nasari.txt
+Windows size: 2
+Number of windows: 64
+**************************************
+
+
+
+Window n:	1
+---------------------------
+
+Prev: 
+['hypotheses', 'for', 'the', 'etymology', 'of', 'the', 'name', '``', 'italia', "''", 'are', 'numerous', 'one', 'is', 'that', 'it', 'was', 'borrowed', 'via', 'greek', 'from', 'the', 'oscan', 'víteliú', "'land", 'of', 'calves', "'", '(', 'cf']
+
+Curr: 
+['lat', 'vitulus', '``', 'calf', "''", ',', 'umb', 'vitlo', '``', 'calf', "''", ')', 'greek', 'historian', 'dionysius', 'of', 'halicarnassus', 'states', 'this', 'account', 'together', 'with', 'the', 'legend', 'that', 'italy', 'was', 'named', 'after', 'italus', ',', 'mentioned', 'also', 'by', 'aristotle', 'and', 'thucydides']
+
+Foll: 
+['according', 'to', 'antiochus', 'of', 'syracuse', ',', 'the', 'term', 'italy', 'was', 'used', 'by', 'the', 'greeks', 'to', 'initially', 'refer', 'only', 'to', 'the', 'southern', 'portion', 'of', 'the', 'bruttium', 'peninsula', 'corresponding', 'to', 'the', 'modern', 'province', 'of', 'reggio', 'and', 'part', 'of', 'the', 'provinces', 'of', 'catanzaro', 'and', 'vibo', 'valentia', 'in', 'southern', 'italy', 'nevertheless', ',', 'by', 'his', 'time', 'the', 'larger', 'concept', 'of', 'oenotria', 'and', '``', 'italy', "''", 'had', 'become', 'synonymous', 'and', 'the', 'name', 'also', 'applied', 'to', 'most', 'of', 'lucania', 'as', 'well']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	2
+---------------------------
+
+Prev: 
+['lat', 'vitulus', '``', 'calf', "''", ',', 'umb', 'vitlo', '``', 'calf', "''", ')', 'greek', 'historian', 'dionysius', 'of', 'halicarnassus', 'states', 'this', 'account', 'together', 'with', 'the', 'legend', 'that', 'italy', 'was', 'named', 'after', 'italus', ',', 'mentioned', 'also', 'by', 'aristotle', 'and', 'thucydides']
+
+Curr: 
+['according', 'to', 'antiochus', 'of', 'syracuse', ',', 'the', 'term', 'italy', 'was', 'used', 'by', 'the', 'greeks', 'to', 'initially', 'refer', 'only', 'to', 'the', 'southern', 'portion', 'of', 'the', 'bruttium', 'peninsula', 'corresponding', 'to', 'the', 'modern', 'province', 'of', 'reggio', 'and', 'part', 'of', 'the', 'provinces', 'of', 'catanzaro', 'and', 'vibo', 'valentia', 'in', 'southern', 'italy', 'nevertheless', ',', 'by', 'his', 'time', 'the', 'larger', 'concept', 'of', 'oenotria', 'and', '``', 'italy', "''", 'had', 'become', 'synonymous', 'and', 'the', 'name', 'also', 'applied', 'to', 'most', 'of', 'lucania', 'as', 'well']
+
+Foll: 
+['according', 'to', 'strabo', "'s", 'geographica', ',', 'before', 'the', 'expansion', 'of', 'the', 'roman', 'republic', ',', 'the', 'name', 'was', 'used', 'by', 'greeks', 'to', 'indicate', 'the', 'land', 'between', 'the', 'strait', 'of', 'messina', 'and', 'the', 'line', 'connecting', 'the', 'gulf', 'of', 'salerno', 'and', 'gulf', 'of', 'taranto', ',', 'corresponding', 'roughly', 'to', 'the', 'current', 'region', 'of', 'calabria', 'the', 'greeks', 'gradually', 'came', 'to', 'apply', 'the', 'name', '``', 'italia', "''", 'to', 'a', 'larger', 'region', 'in', 'addition', 'to', 'the', '``', 'greek', 'italy', "''", 'in', 'the', 'south', ',', 'historians', 'have', 'suggested', 'the', 'existence', 'of', 'an', '``', 'etruscan', 'italy', "''", 'covering', 'variable', 'areas', 'of', 'central', 'italy']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	3
+---------------------------
+
+Prev: 
+['according', 'to', 'antiochus', 'of', 'syracuse', ',', 'the', 'term', 'italy', 'was', 'used', 'by', 'the', 'greeks', 'to', 'initially', 'refer', 'only', 'to', 'the', 'southern', 'portion', 'of', 'the', 'bruttium', 'peninsula', 'corresponding', 'to', 'the', 'modern', 'province', 'of', 'reggio', 'and', 'part', 'of', 'the', 'provinces', 'of', 'catanzaro', 'and', 'vibo', 'valentia', 'in', 'southern', 'italy', 'nevertheless', ',', 'by', 'his', 'time', 'the', 'larger', 'concept', 'of', 'oenotria', 'and', '``', 'italy', "''", 'had', 'become', 'synonymous', 'and', 'the', 'name', 'also', 'applied', 'to', 'most', 'of', 'lucania', 'as', 'well']
+
+Curr: 
+['according', 'to', 'strabo', "'s", 'geographica', ',', 'before', 'the', 'expansion', 'of', 'the', 'roman', 'republic', ',', 'the', 'name', 'was', 'used', 'by', 'greeks', 'to', 'indicate', 'the', 'land', 'between', 'the', 'strait', 'of', 'messina', 'and', 'the', 'line', 'connecting', 'the', 'gulf', 'of', 'salerno', 'and', 'gulf', 'of', 'taranto', ',', 'corresponding', 'roughly', 'to', 'the', 'current', 'region', 'of', 'calabria', 'the', 'greeks', 'gradually', 'came', 'to', 'apply', 'the', 'name', '``', 'italia', "''", 'to', 'a', 'larger', 'region', 'in', 'addition', 'to', 'the', '``', 'greek', 'italy', "''", 'in', 'the', 'south', ',', 'historians', 'have', 'suggested', 'the', 'existence', 'of', 'an', '``', 'etruscan', 'italy', "''", 'covering', 'variable', 'areas', 'of', 'central', 'italy']
+
+Foll: 
+['the', 'borders', 'of', 'roman', 'italy', ',', 'italia', ',', 'are', 'better', 'established', 'cato', "'s", 'origines', ',', 'the', 'first', 'work', 'of', 'history', 'composed', 'in', 'latin', ',', 'described', 'italy', 'as', 'the', 'entire', 'peninsula', 'south', 'of', 'the', 'alps']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	4
+---------------------------
+
+Prev: 
+['according', 'to', 'strabo', "'s", 'geographica', ',', 'before', 'the', 'expansion', 'of', 'the', 'roman', 'republic', ',', 'the', 'name', 'was', 'used', 'by', 'greeks', 'to', 'indicate', 'the', 'land', 'between', 'the', 'strait', 'of', 'messina', 'and', 'the', 'line', 'connecting', 'the', 'gulf', 'of', 'salerno', 'and', 'gulf', 'of', 'taranto', ',', 'corresponding', 'roughly', 'to', 'the', 'current', 'region', 'of', 'calabria', 'the', 'greeks', 'gradually', 'came', 'to', 'apply', 'the', 'name', '``', 'italia', "''", 'to', 'a', 'larger', 'region', 'in', 'addition', 'to', 'the', '``', 'greek', 'italy', "''", 'in', 'the', 'south', ',', 'historians', 'have', 'suggested', 'the', 'existence', 'of', 'an', '``', 'etruscan', 'italy', "''", 'covering', 'variable', 'areas', 'of', 'central', 'italy']
+
+Curr: 
+['the', 'borders', 'of', 'roman', 'italy', ',', 'italia', ',', 'are', 'better', 'established', 'cato', "'s", 'origines', ',', 'the', 'first', 'work', 'of', 'history', 'composed', 'in', 'latin', ',', 'described', 'italy', 'as', 'the', 'entire', 'peninsula', 'south', 'of', 'the', 'alps']
+
+Foll: 
+['according', 'to', 'cato', 'and', 'several', 'roman', 'authors', ',', 'the', 'alps', 'formed', 'the', '``', 'walls', 'of', 'italy', "''", 'in', '264', 'bc', ',', 'roman', 'italy', 'extended', 'from', 'the', 'arno', 'and', 'rubicon', 'rivers', 'of', 'the', 'centre-north', 'to', 'the', 'entire', 'south']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	5
+---------------------------
+
+Prev: 
+['the', 'borders', 'of', 'roman', 'italy', ',', 'italia', ',', 'are', 'better', 'established', 'cato', "'s", 'origines', ',', 'the', 'first', 'work', 'of', 'history', 'composed', 'in', 'latin', ',', 'described', 'italy', 'as', 'the', 'entire', 'peninsula', 'south', 'of', 'the', 'alps']
+
+Curr: 
+['according', 'to', 'cato', 'and', 'several', 'roman', 'authors', ',', 'the', 'alps', 'formed', 'the', '``', 'walls', 'of', 'italy', "''", 'in', '264', 'bc', ',', 'roman', 'italy', 'extended', 'from', 'the', 'arno', 'and', 'rubicon', 'rivers', 'of', 'the', 'centre-north', 'to', 'the', 'entire', 'south']
+
+Foll: 
+['the', 'northern', 'area', 'of', 'cisalpine', 'gaul', 'was', 'occupied', 'by', 'rome', 'in', 'the', '220s', 'bc', 'and', 'became', 'considered', 'geographically', 'and', 'de', 'facto', 'part', 'of', 'italy', ',', 'but', 'remained', 'politically', 'and', 'de', 'jure', 'separated', 'it', 'was', 'legally', 'merged', 'into', 'the', 'administrative', 'unit', 'of', 'italy', 'in', '42', 'bc', 'by', 'the', 'triumvir', 'octavian', 'as', 'a', 'ratification', 'of', 'caesar', "'s", 'unpublished', 'acts', '(', 'acta', 'caesaris', ')']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	6
+---------------------------
+
+Prev: 
+['according', 'to', 'cato', 'and', 'several', 'roman', 'authors', ',', 'the', 'alps', 'formed', 'the', '``', 'walls', 'of', 'italy', "''", 'in', '264', 'bc', ',', 'roman', 'italy', 'extended', 'from', 'the', 'arno', 'and', 'rubicon', 'rivers', 'of', 'the', 'centre-north', 'to', 'the', 'entire', 'south']
+
+Curr: 
+['the', 'northern', 'area', 'of', 'cisalpine', 'gaul', 'was', 'occupied', 'by', 'rome', 'in', 'the', '220s', 'bc', 'and', 'became', 'considered', 'geographically', 'and', 'de', 'facto', 'part', 'of', 'italy', ',', 'but', 'remained', 'politically', 'and', 'de', 'jure', 'separated', 'it', 'was', 'legally', 'merged', 'into', 'the', 'administrative', 'unit', 'of', 'italy', 'in', '42', 'bc', 'by', 'the', 'triumvir', 'octavian', 'as', 'a', 'ratification', 'of', 'caesar', "'s", 'unpublished', 'acts', '(', 'acta', 'caesaris', ')']
+
+Foll: 
+['the', 'islands', 'of', 'sardinia', ',', 'corsica', ',', 'sicily', 'and', 'malta', 'were', 'added', 'to', 'italy', 'by', 'diocletian', 'in', '292', 'ad', 'italy', 'is', 'located', 'in', 'southern', 'europe', '(', 'it', 'is', 'also', 'considered', 'a', 'part', 'of', 'western', 'europe', ')', 'between', 'latitudes', '35°', 'and', '47°', 'n', ',', 'and', 'longitudes', '6°', 'and', '19°', 'e']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	7
+---------------------------
+
+Prev: 
+['the', 'northern', 'area', 'of', 'cisalpine', 'gaul', 'was', 'occupied', 'by', 'rome', 'in', 'the', '220s', 'bc', 'and', 'became', 'considered', 'geographically', 'and', 'de', 'facto', 'part', 'of', 'italy', ',', 'but', 'remained', 'politically', 'and', 'de', 'jure', 'separated', 'it', 'was', 'legally', 'merged', 'into', 'the', 'administrative', 'unit', 'of', 'italy', 'in', '42', 'bc', 'by', 'the', 'triumvir', 'octavian', 'as', 'a', 'ratification', 'of', 'caesar', "'s", 'unpublished', 'acts', '(', 'acta', 'caesaris', ')']
+
+Curr: 
+['the', 'islands', 'of', 'sardinia', ',', 'corsica', ',', 'sicily', 'and', 'malta', 'were', 'added', 'to', 'italy', 'by', 'diocletian', 'in', '292', 'ad', 'italy', 'is', 'located', 'in', 'southern', 'europe', '(', 'it', 'is', 'also', 'considered', 'a', 'part', 'of', 'western', 'europe', ')', 'between', 'latitudes', '35°', 'and', '47°', 'n', ',', 'and', 'longitudes', '6°', 'and', '19°', 'e']
+
+Foll: 
+['to', 'the', 'north', ',', 'italy', 'borders', 'france', ',', 'switzerland', ',', 'austria', ',', 'and', 'slovenia', 'and', 'is', 'roughly', 'delimited', 'by', 'the', 'alpine', 'watershed', ',', 'enclosing', 'the', 'po', 'valley', 'and', 'the', 'venetian', 'plain', 'to', 'the', 'south', ',', 'it', 'consists', 'of', 'the', 'entirety', 'of', 'the', 'italian', 'peninsula', 'and', 'the', 'two', 'mediterranean', 'islands', 'of', 'sicily', 'and', 'sardinia', '(', 'the', 'two', 'biggest', 'islands', 'of', 'the', 'mediterranean', ')', ',', 'in', 'addition', 'to', 'many', 'smaller', 'islands']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	8
+---------------------------
+
+Prev: 
+['the', 'islands', 'of', 'sardinia', ',', 'corsica', ',', 'sicily', 'and', 'malta', 'were', 'added', 'to', 'italy', 'by', 'diocletian', 'in', '292', 'ad', 'italy', 'is', 'located', 'in', 'southern', 'europe', '(', 'it', 'is', 'also', 'considered', 'a', 'part', 'of', 'western', 'europe', ')', 'between', 'latitudes', '35°', 'and', '47°', 'n', ',', 'and', 'longitudes', '6°', 'and', '19°', 'e']
+
+Curr: 
+['to', 'the', 'north', ',', 'italy', 'borders', 'france', ',', 'switzerland', ',', 'austria', ',', 'and', 'slovenia', 'and', 'is', 'roughly', 'delimited', 'by', 'the', 'alpine', 'watershed', ',', 'enclosing', 'the', 'po', 'valley', 'and', 'the', 'venetian', 'plain', 'to', 'the', 'south', ',', 'it', 'consists', 'of', 'the', 'entirety', 'of', 'the', 'italian', 'peninsula', 'and', 'the', 'two', 'mediterranean', 'islands', 'of', 'sicily', 'and', 'sardinia', '(', 'the', 'two', 'biggest', 'islands', 'of', 'the', 'mediterranean', ')', ',', 'in', 'addition', 'to', 'many', 'smaller', 'islands']
+
+Foll: 
+['the', 'sovereign', 'states', 'of', 'san', 'marino', 'and', 'the', 'vatican', 'city', 'are', 'enclaves', 'within', 'italy', ',', 'while', 'campione', "d'italia", 'is', 'an', 'italian', 'exclave', 'in', 'switzerland', 'the', 'country', "'s", 'total', 'area', 'is', '301,230', 'square', 'kilometres', '(', '116,306', 'sq', 'mi', ')', ',', 'of', 'which', '294,020', 'km2', '(', '113,522', 'sq', 'mi', ')', 'is', 'land', 'and', '7,210', 'km2', '(', '2,784', 'sq', 'mi', ')', 'is', 'water']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	9
+---------------------------
+
+Prev: 
+['to', 'the', 'north', ',', 'italy', 'borders', 'france', ',', 'switzerland', ',', 'austria', ',', 'and', 'slovenia', 'and', 'is', 'roughly', 'delimited', 'by', 'the', 'alpine', 'watershed', ',', 'enclosing', 'the', 'po', 'valley', 'and', 'the', 'venetian', 'plain', 'to', 'the', 'south', ',', 'it', 'consists', 'of', 'the', 'entirety', 'of', 'the', 'italian', 'peninsula', 'and', 'the', 'two', 'mediterranean', 'islands', 'of', 'sicily', 'and', 'sardinia', '(', 'the', 'two', 'biggest', 'islands', 'of', 'the', 'mediterranean', ')', ',', 'in', 'addition', 'to', 'many', 'smaller', 'islands']
+
+Curr: 
+['the', 'sovereign', 'states', 'of', 'san', 'marino', 'and', 'the', 'vatican', 'city', 'are', 'enclaves', 'within', 'italy', ',', 'while', 'campione', "d'italia", 'is', 'an', 'italian', 'exclave', 'in', 'switzerland', 'the', 'country', "'s", 'total', 'area', 'is', '301,230', 'square', 'kilometres', '(', '116,306', 'sq', 'mi', ')', ',', 'of', 'which', '294,020', 'km2', '(', '113,522', 'sq', 'mi', ')', 'is', 'land', 'and', '7,210', 'km2', '(', '2,784', 'sq', 'mi', ')', 'is', 'water']
+
+Foll: 
+['including', 'the', 'islands', ',', 'italy', 'has', 'a', 'coastline', 'and', 'border', 'of', '7,600', 'kilometres', '(', '4,722', 'miles', ')', 'on', 'the', 'adriatic', ',', 'ionian', ',', 'tyrrhenian', 'seas', '(', '740', 'km', '(', '460', 'mi', ')', ')', ',', 'and', 'borders', 'shared', 'with', 'france', '(', '488', 'km', '(', '303', 'mi', ')', ')', ',', 'austria', '(', '430', 'km', '(', '267', 'mi', ')', ')', ',', 'slovenia', '(', '232', 'km', '(', '144', 'mi', ')', ')', 'and', 'switzerland', '(', '740', 'km', '(', '460', 'mi', ')', ')', 'san', 'marino', '(', '39', 'km', '(', '24', 'mi', ')', ')', 'and', 'vatican', 'city', '(', '3,2', 'km', '(', '2,0', 'mi', ')', ')', ',', 'both', 'enclaves', ',', 'account', 'for', 'the', 'remainder']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	10
+---------------------------
+
+Prev: 
+['the', 'sovereign', 'states', 'of', 'san', 'marino', 'and', 'the', 'vatican', 'city', 'are', 'enclaves', 'within', 'italy', ',', 'while', 'campione', "d'italia", 'is', 'an', 'italian', 'exclave', 'in', 'switzerland', 'the', 'country', "'s", 'total', 'area', 'is', '301,230', 'square', 'kilometres', '(', '116,306', 'sq', 'mi', ')', ',', 'of', 'which', '294,020', 'km2', '(', '113,522', 'sq', 'mi', ')', 'is', 'land', 'and', '7,210', 'km2', '(', '2,784', 'sq', 'mi', ')', 'is', 'water']
+
+Curr: 
+['including', 'the', 'islands', ',', 'italy', 'has', 'a', 'coastline', 'and', 'border', 'of', '7,600', 'kilometres', '(', '4,722', 'miles', ')', 'on', 'the', 'adriatic', ',', 'ionian', ',', 'tyrrhenian', 'seas', '(', '740', 'km', '(', '460', 'mi', ')', ')', ',', 'and', 'borders', 'shared', 'with', 'france', '(', '488', 'km', '(', '303', 'mi', ')', ')', ',', 'austria', '(', '430', 'km', '(', '267', 'mi', ')', ')', ',', 'slovenia', '(', '232', 'km', '(', '144', 'mi', ')', ')', 'and', 'switzerland', '(', '740', 'km', '(', '460', 'mi', ')', ')', 'san', 'marino', '(', '39', 'km', '(', '24', 'mi', ')', ')', 'and', 'vatican', 'city', '(', '3,2', 'km', '(', '2,0', 'mi', ')', ')', ',', 'both', 'enclaves', ',', 'account', 'for', 'the', 'remainder']
+
+Foll: 
+['over', '35', '%', 'of', 'the', 'italian', 'territory', 'is', 'mountainous', 'the', 'apennine', 'mountains', 'form', 'the', 'peninsula', "'s", 'backbone', ',', 'and', 'the', 'alps', 'form', 'most', 'of', 'its', 'northern', 'boundary', ',', 'where', 'italy', "'s", 'highest', 'point', 'is', 'located', 'on', 'mont', 'blanc', '(', 'monte', 'bianco', ')', '(', '4,810', 'm', 'or', '15,780', 'ft', ')']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	11
+---------------------------
+
+Prev: 
+['including', 'the', 'islands', ',', 'italy', 'has', 'a', 'coastline', 'and', 'border', 'of', '7,600', 'kilometres', '(', '4,722', 'miles', ')', 'on', 'the', 'adriatic', ',', 'ionian', ',', 'tyrrhenian', 'seas', '(', '740', 'km', '(', '460', 'mi', ')', ')', ',', 'and', 'borders', 'shared', 'with', 'france', '(', '488', 'km', '(', '303', 'mi', ')', ')', ',', 'austria', '(', '430', 'km', '(', '267', 'mi', ')', ')', ',', 'slovenia', '(', '232', 'km', '(', '144', 'mi', ')', ')', 'and', 'switzerland', '(', '740', 'km', '(', '460', 'mi', ')', ')', 'san', 'marino', '(', '39', 'km', '(', '24', 'mi', ')', ')', 'and', 'vatican', 'city', '(', '3,2', 'km', '(', '2,0', 'mi', ')', ')', ',', 'both', 'enclaves', ',', 'account', 'for', 'the', 'remainder']
+
+Curr: 
+['over', '35', '%', 'of', 'the', 'italian', 'territory', 'is', 'mountainous', 'the', 'apennine', 'mountains', 'form', 'the', 'peninsula', "'s", 'backbone', ',', 'and', 'the', 'alps', 'form', 'most', 'of', 'its', 'northern', 'boundary', ',', 'where', 'italy', "'s", 'highest', 'point', 'is', 'located', 'on', 'mont', 'blanc', '(', 'monte', 'bianco', ')', '(', '4,810', 'm', 'or', '15,780', 'ft', ')']
+
+Foll: 
+['other', 'worldwide-known', 'mountains', 'in', 'italy', 'include', 'the', 'matterhorn', '(', 'monte', 'cervino', ')', ',', 'monte', 'rosa', ',', 'gran', 'paradiso', 'in', 'the', 'west', 'alps', ',', 'and', 'bernina', ',', 'stelvio', 'and', 'dolomites', 'along', 'the', 'eastern', 'side', 'the', 'po', ',', 'italy', "'s", 'longest', 'river', '(', '652', 'kilometres', 'or', '405', 'miles', ')', ',', 'flows', 'from', 'the', 'alps', 'on', 'the', 'western', 'border', 'with', 'france', 'and', 'crosses', 'the', 'padan', 'plain', 'on', 'its', 'way', 'to', 'the', 'adriatic', 'sea']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	12
+---------------------------
+
+Prev: 
+['over', '35', '%', 'of', 'the', 'italian', 'territory', 'is', 'mountainous', 'the', 'apennine', 'mountains', 'form', 'the', 'peninsula', "'s", 'backbone', ',', 'and', 'the', 'alps', 'form', 'most', 'of', 'its', 'northern', 'boundary', ',', 'where', 'italy', "'s", 'highest', 'point', 'is', 'located', 'on', 'mont', 'blanc', '(', 'monte', 'bianco', ')', '(', '4,810', 'm', 'or', '15,780', 'ft', ')']
+
+Curr: 
+['other', 'worldwide-known', 'mountains', 'in', 'italy', 'include', 'the', 'matterhorn', '(', 'monte', 'cervino', ')', ',', 'monte', 'rosa', ',', 'gran', 'paradiso', 'in', 'the', 'west', 'alps', ',', 'and', 'bernina', ',', 'stelvio', 'and', 'dolomites', 'along', 'the', 'eastern', 'side', 'the', 'po', ',', 'italy', "'s", 'longest', 'river', '(', '652', 'kilometres', 'or', '405', 'miles', ')', ',', 'flows', 'from', 'the', 'alps', 'on', 'the', 'western', 'border', 'with', 'france', 'and', 'crosses', 'the', 'padan', 'plain', 'on', 'its', 'way', 'to', 'the', 'adriatic', 'sea']
+
+Foll: 
+['the', 'po', 'valley', 'is', 'the', 'largest', 'plain', 'in', 'italy', ',', 'with', '46,000', 'km2', '(', '18,000', 'sq', 'mi', ')', ',', 'and', 'it', 'represents', 'over', '70', '%', 'of', 'the', 'total', 'plain', 'area', 'in', 'the', 'country', 'many', 'elements', 'of', 'the', 'italian', 'territory', 'are', 'of', 'volcanic', 'origin']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	13
+---------------------------
+
+Prev: 
+['other', 'worldwide-known', 'mountains', 'in', 'italy', 'include', 'the', 'matterhorn', '(', 'monte', 'cervino', ')', ',', 'monte', 'rosa', ',', 'gran', 'paradiso', 'in', 'the', 'west', 'alps', ',', 'and', 'bernina', ',', 'stelvio', 'and', 'dolomites', 'along', 'the', 'eastern', 'side', 'the', 'po', ',', 'italy', "'s", 'longest', 'river', '(', '652', 'kilometres', 'or', '405', 'miles', ')', ',', 'flows', 'from', 'the', 'alps', 'on', 'the', 'western', 'border', 'with', 'france', 'and', 'crosses', 'the', 'padan', 'plain', 'on', 'its', 'way', 'to', 'the', 'adriatic', 'sea']
+
+Curr: 
+['the', 'po', 'valley', 'is', 'the', 'largest', 'plain', 'in', 'italy', ',', 'with', '46,000', 'km2', '(', '18,000', 'sq', 'mi', ')', ',', 'and', 'it', 'represents', 'over', '70', '%', 'of', 'the', 'total', 'plain', 'area', 'in', 'the', 'country', 'many', 'elements', 'of', 'the', 'italian', 'territory', 'are', 'of', 'volcanic', 'origin']
+
+Foll: 
+['most', 'of', 'the', 'small', 'islands', 'and', 'archipelagos', 'in', 'the', 'south', ',', 'like', 'capraia', ',', 'ponza', ',', 'ischia', ',', 'eolie', ',', 'ustica', 'and', 'pantelleria', 'are', 'volcanic', 'islands', 'there', 'are', 'also', 'active', 'volcanoes', ':', 'mount', 'etna', 'in', 'sicily', '(', 'the', 'largest', 'active', 'volcano', 'in', 'europe', ')', ',', 'vulcano', ',', 'stromboli', ',', 'and', 'vesuvius', '(', 'the', 'only', 'active', 'volcano', 'on', 'mainland', 'europe', ')']
+
+++++ Similarity 1.0 , 0.63 | 	0.82
+
+Window n:	14
+---------------------------
+
+Prev: 
+['the', 'po', 'valley', 'is', 'the', 'largest', 'plain', 'in', 'italy', ',', 'with', '46,000', 'km2', '(', '18,000', 'sq', 'mi', ')', ',', 'and', 'it', 'represents', 'over', '70', '%', 'of', 'the', 'total', 'plain', 'area', 'in', 'the', 'country', 'many', 'elements', 'of', 'the', 'italian', 'territory', 'are', 'of', 'volcanic', 'origin']
+
+Curr: 
+['most', 'of', 'the', 'small', 'islands', 'and', 'archipelagos', 'in', 'the', 'south', ',', 'like', 'capraia', ',', 'ponza', ',', 'ischia', ',', 'eolie', ',', 'ustica', 'and', 'pantelleria', 'are', 'volcanic', 'islands', 'there', 'are', 'also', 'active', 'volcanoes', ':', 'mount', 'etna', 'in', 'sicily', '(', 'the', 'largest', 'active', 'volcano', 'in', 'europe', ')', ',', 'vulcano', ',', 'stromboli', ',', 'and', 'vesuvius', '(', 'the', 'only', 'active', 'volcano', 'on', 'mainland', 'europe', ')']
+
+Foll: 
+['the', 'five', 'largest', 'lakes', 'are', ',', 'in', 'order', 'of', 'diminishing', 'size', ':', 'garda', '(', '367,94', 'km2', 'or', '142', 'sq', 'mi', ')', ',', 'maggiore', '(', '212,51', 'km2', 'or', '82', 'sq', 'mi', ',', 'whose', 'minor', 'northern', 'part', 'is', 'switzerland', ')', ',', 'como', '(', '145,9', 'km2', 'or', '56', 'sq', 'mi', ')', ',', 'trasimeno', '(', '124,29', 'km2', 'or', '48', 'sq', 'mi', ')', 'and', 'bolsena', '(', '113,55', 'km2', 'or', '44', 'sq', 'mi', ')', 'although', 'the', 'country', 'includes', 'the', 'italian', 'peninsula', ',', 'adjacent', 'islands', ',', 'and', 'most', 'of', 'the', 'southern', 'alpine', 'basin', ',', 'some', 'of', 'italy', "'s", 'territory', 'extends', 'beyond', 'the', 'alpine', 'basin', 'and', 'some', 'islands', 'are', 'located', 'outside', 'the', 'eurasian', 'continental', 'shelf']
+
+++++ Similarity 0.63 , 1.0 | 	0.82
+
+Window n:	15
+---------------------------
+
+Prev: 
+['most', 'of', 'the', 'small', 'islands', 'and', 'archipelagos', 'in', 'the', 'south', ',', 'like', 'capraia', ',', 'ponza', ',', 'ischia', ',', 'eolie', ',', 'ustica', 'and', 'pantelleria', 'are', 'volcanic', 'islands', 'there', 'are', 'also', 'active', 'volcanoes', ':', 'mount', 'etna', 'in', 'sicily', '(', 'the', 'largest', 'active', 'volcano', 'in', 'europe', ')', ',', 'vulcano', ',', 'stromboli', ',', 'and', 'vesuvius', '(', 'the', 'only', 'active', 'volcano', 'on', 'mainland', 'europe', ')']
+
+Curr: 
+['the', 'five', 'largest', 'lakes', 'are', ',', 'in', 'order', 'of', 'diminishing', 'size', ':', 'garda', '(', '367,94', 'km2', 'or', '142', 'sq', 'mi', ')', ',', 'maggiore', '(', '212,51', 'km2', 'or', '82', 'sq', 'mi', ',', 'whose', 'minor', 'northern', 'part', 'is', 'switzerland', ')', ',', 'como', '(', '145,9', 'km2', 'or', '56', 'sq', 'mi', ')', ',', 'trasimeno', '(', '124,29', 'km2', 'or', '48', 'sq', 'mi', ')', 'and', 'bolsena', '(', '113,55', 'km2', 'or', '44', 'sq', 'mi', ')', 'although', 'the', 'country', 'includes', 'the', 'italian', 'peninsula', ',', 'adjacent', 'islands', ',', 'and', 'most', 'of', 'the', 'southern', 'alpine', 'basin', ',', 'some', 'of', 'italy', "'s", 'territory', 'extends', 'beyond', 'the', 'alpine', 'basin', 'and', 'some', 'islands', 'are', 'located', 'outside', 'the', 'eurasian', 'continental', 'shelf']
+
+Foll: 
+['these', 'territories', 'are', 'the', 'comuni', 'of', ':', 'livigno', ',', 'sexten', ',', 'innichen', ',', 'toblach', '(', 'in', 'part', ')', ',', 'chiusaforte', ',', 'tarvisio', ',', 'graun', 'im', 'vinschgau', '(', 'in', 'part', ')', ',', 'which', 'are', 'all', 'part', 'of', 'the', 'danube', "'s", 'drainage', 'basin', ',', 'while', 'the', 'val', 'di', 'lei', 'constitutes', 'part', 'of', 'the', 'rhine', "'s", 'basin', 'and', 'the', 'islands', 'of', 'lampedusa', 'and', 'lampione', 'are', 'on', 'the', 'african', 'continental', 'shelf', 'italy', 'was', 'the', 'birthplace', 'and', 'heart', 'of', 'the', 'renaissance', 'during', 'the', '1400s', 'and', '1500s']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	16
+---------------------------
+
+Prev: 
+['the', 'five', 'largest', 'lakes', 'are', ',', 'in', 'order', 'of', 'diminishing', 'size', ':', 'garda', '(', '367,94', 'km2', 'or', '142', 'sq', 'mi', ')', ',', 'maggiore', '(', '212,51', 'km2', 'or', '82', 'sq', 'mi', ',', 'whose', 'minor', 'northern', 'part', 'is', 'switzerland', ')', ',', 'como', '(', '145,9', 'km2', 'or', '56', 'sq', 'mi', ')', ',', 'trasimeno', '(', '124,29', 'km2', 'or', '48', 'sq', 'mi', ')', 'and', 'bolsena', '(', '113,55', 'km2', 'or', '44', 'sq', 'mi', ')', 'although', 'the', 'country', 'includes', 'the', 'italian', 'peninsula', ',', 'adjacent', 'islands', ',', 'and', 'most', 'of', 'the', 'southern', 'alpine', 'basin', ',', 'some', 'of', 'italy', "'s", 'territory', 'extends', 'beyond', 'the', 'alpine', 'basin', 'and', 'some', 'islands', 'are', 'located', 'outside', 'the', 'eurasian', 'continental', 'shelf']
+
+Curr: 
+['these', 'territories', 'are', 'the', 'comuni', 'of', ':', 'livigno', ',', 'sexten', ',', 'innichen', ',', 'toblach', '(', 'in', 'part', ')', ',', 'chiusaforte', ',', 'tarvisio', ',', 'graun', 'im', 'vinschgau', '(', 'in', 'part', ')', ',', 'which', 'are', 'all', 'part', 'of', 'the', 'danube', "'s", 'drainage', 'basin', ',', 'while', 'the', 'val', 'di', 'lei', 'constitutes', 'part', 'of', 'the', 'rhine', "'s", 'basin', 'and', 'the', 'islands', 'of', 'lampedusa', 'and', 'lampione', 'are', 'on', 'the', 'african', 'continental', 'shelf', 'italy', 'was', 'the', 'birthplace', 'and', 'heart', 'of', 'the', 'renaissance', 'during', 'the', '1400s', 'and', '1500s']
+
+Foll: 
+['the', 'italian', 'renaissance', 'marked', 'the', 'transition', 'from', 'the', 'medieval', 'period', 'to', 'the', 'modern', 'age', 'as', 'europe', 'recovered', ',', 'economically', 'and', 'culturally', ',', 'from', 'the', 'crises', 'of', 'the', 'late', 'middle', 'ages', 'and', 'entered', 'the', 'early', 'modern', 'period', 'the', 'italian', 'polities', 'were', 'now', 'regional', 'states', 'effectively', 'ruled', 'by', 'princes', ',', 'de', 'facto', 'monarchs', 'in', 'control', 'of', 'trade', 'and', 'administration', ',', 'and', 'their', 'courts', 'became', 'major', 'centres', 'of', 'arts', 'and', 'sciences']
+
+++++ Similarity 1.0 , 0.53 | 	0.77
+
+Window n:	17
+---------------------------
+
+Prev: 
+['these', 'territories', 'are', 'the', 'comuni', 'of', ':', 'livigno', ',', 'sexten', ',', 'innichen', ',', 'toblach', '(', 'in', 'part', ')', ',', 'chiusaforte', ',', 'tarvisio', ',', 'graun', 'im', 'vinschgau', '(', 'in', 'part', ')', ',', 'which', 'are', 'all', 'part', 'of', 'the', 'danube', "'s", 'drainage', 'basin', ',', 'while', 'the', 'val', 'di', 'lei', 'constitutes', 'part', 'of', 'the', 'rhine', "'s", 'basin', 'and', 'the', 'islands', 'of', 'lampedusa', 'and', 'lampione', 'are', 'on', 'the', 'african', 'continental', 'shelf', 'italy', 'was', 'the', 'birthplace', 'and', 'heart', 'of', 'the', 'renaissance', 'during', 'the', '1400s', 'and', '1500s']
+
+Curr: 
+['the', 'italian', 'renaissance', 'marked', 'the', 'transition', 'from', 'the', 'medieval', 'period', 'to', 'the', 'modern', 'age', 'as', 'europe', 'recovered', ',', 'economically', 'and', 'culturally', ',', 'from', 'the', 'crises', 'of', 'the', 'late', 'middle', 'ages', 'and', 'entered', 'the', 'early', 'modern', 'period', 'the', 'italian', 'polities', 'were', 'now', 'regional', 'states', 'effectively', 'ruled', 'by', 'princes', ',', 'de', 'facto', 'monarchs', 'in', 'control', 'of', 'trade', 'and', 'administration', ',', 'and', 'their', 'courts', 'became', 'major', 'centres', 'of', 'arts', 'and', 'sciences']
+
+Foll: 
+['the', 'italian', 'princedoms', 'represented', 'a', 'first', 'form', 'of', 'modern', 'states', 'as', 'opposed', 'to', 'feudal', 'monarchies', 'and', 'multinational', 'empires', 'the', 'princedoms', 'were', 'led', 'by', 'political', 'dynasties', 'and', 'merchant', 'families', 'such', 'as', 'the', 'medici', 'in', 'florence', ',', 'the', 'visconti', 'and', 'sforza', 'in', 'the', 'duchy', 'of', 'milan', ',', 'the', 'doria', 'in', 'the', 'republic', 'of', 'genoa', ',', 'the', 'mocenigo', 'and', 'barbarigo', 'in', 'the', 'republic', 'of', 'venice', ',', 'the', 'este', 'in', 'ferrara', ',', 'and', 'the', 'gonzaga', 'in', 'mantua']
+
+++++ Similarity 0.53 , 0.93 | 	0.73
+
+Window n:	18
+---------------------------
+
+Prev: 
+['the', 'italian', 'renaissance', 'marked', 'the', 'transition', 'from', 'the', 'medieval', 'period', 'to', 'the', 'modern', 'age', 'as', 'europe', 'recovered', ',', 'economically', 'and', 'culturally', ',', 'from', 'the', 'crises', 'of', 'the', 'late', 'middle', 'ages', 'and', 'entered', 'the', 'early', 'modern', 'period', 'the', 'italian', 'polities', 'were', 'now', 'regional', 'states', 'effectively', 'ruled', 'by', 'princes', ',', 'de', 'facto', 'monarchs', 'in', 'control', 'of', 'trade', 'and', 'administration', ',', 'and', 'their', 'courts', 'became', 'major', 'centres', 'of', 'arts', 'and', 'sciences']
+
+Curr: 
+['the', 'italian', 'princedoms', 'represented', 'a', 'first', 'form', 'of', 'modern', 'states', 'as', 'opposed', 'to', 'feudal', 'monarchies', 'and', 'multinational', 'empires', 'the', 'princedoms', 'were', 'led', 'by', 'political', 'dynasties', 'and', 'merchant', 'families', 'such', 'as', 'the', 'medici', 'in', 'florence', ',', 'the', 'visconti', 'and', 'sforza', 'in', 'the', 'duchy', 'of', 'milan', ',', 'the', 'doria', 'in', 'the', 'republic', 'of', 'genoa', ',', 'the', 'mocenigo', 'and', 'barbarigo', 'in', 'the', 'republic', 'of', 'venice', ',', 'the', 'este', 'in', 'ferrara', ',', 'and', 'the', 'gonzaga', 'in', 'mantua']
+
+Foll: 
+['the', 'renaissance', 'was', 'therefore', 'a', 'result', 'of', 'the', 'great', 'wealth', 'accumulated', 'by', 'italian', 'merchant', 'cities', 'combined', 'with', 'the', 'patronage', 'of', 'its', 'dominant', 'families', 'italian', 'renaissance', 'exercised', 'a', 'dominant', 'influence', 'on', 'subsequent', 'european', 'painting', 'and', 'sculpture', 'for', 'centuries', 'afterwards', ',', 'with', 'artists', 'such', 'as', 'leonardo', 'da', 'vinci', ',', 'brunelleschi', ',', 'botticelli', ',', 'michelangelo', ',', 'raphael', ',', 'giotto', ',', 'donatello', ',', 'and', 'titian', ',', 'and', 'architects', 'such', 'as', 'filippo', 'brunelleschi', ',', 'leon', 'battista', 'alberti', ',', 'andrea', 'palladio', ',', 'and', 'donato', 'bramante']
+
+++++ Similarity 0.93 , 1.0 | 	0.97
+
+Window n:	19
+---------------------------
+
+Prev: 
+['the', 'italian', 'princedoms', 'represented', 'a', 'first', 'form', 'of', 'modern', 'states', 'as', 'opposed', 'to', 'feudal', 'monarchies', 'and', 'multinational', 'empires', 'the', 'princedoms', 'were', 'led', 'by', 'political', 'dynasties', 'and', 'merchant', 'families', 'such', 'as', 'the', 'medici', 'in', 'florence', ',', 'the', 'visconti', 'and', 'sforza', 'in', 'the', 'duchy', 'of', 'milan', ',', 'the', 'doria', 'in', 'the', 'republic', 'of', 'genoa', ',', 'the', 'mocenigo', 'and', 'barbarigo', 'in', 'the', 'republic', 'of', 'venice', ',', 'the', 'este', 'in', 'ferrara', ',', 'and', 'the', 'gonzaga', 'in', 'mantua']
+
+Curr: 
+['the', 'renaissance', 'was', 'therefore', 'a', 'result', 'of', 'the', 'great', 'wealth', 'accumulated', 'by', 'italian', 'merchant', 'cities', 'combined', 'with', 'the', 'patronage', 'of', 'its', 'dominant', 'families', 'italian', 'renaissance', 'exercised', 'a', 'dominant', 'influence', 'on', 'subsequent', 'european', 'painting', 'and', 'sculpture', 'for', 'centuries', 'afterwards', ',', 'with', 'artists', 'such', 'as', 'leonardo', 'da', 'vinci', ',', 'brunelleschi', ',', 'botticelli', ',', 'michelangelo', ',', 'raphael', ',', 'giotto', ',', 'donatello', ',', 'and', 'titian', ',', 'and', 'architects', 'such', 'as', 'filippo', 'brunelleschi', ',', 'leon', 'battista', 'alberti', ',', 'andrea', 'palladio', ',', 'and', 'donato', 'bramante']
+
+Foll: 
+['following', 'the', 'conclusion', 'of', 'the', 'western', 'schism', 'in', 'favor', 'of', 'rome', 'at', 'the', 'council', 'of', 'constance', '(', '1415–1417', ')', ',', 'the', 'new', 'pope', 'martin', 'v', 'returned', 'to', 'the', 'papal', 'states', 'after', 'a', 'three', 'years-long', 'journey', 'that', 'touched', 'many', 'italian', 'cities', 'and', 'restored', 'italy', 'as', 'the', 'sole', 'centre', 'of', 'western', 'christianity', 'during', 'the', 'course', 'of', 'this', 'voyage', ',', 'the', 'medici', 'bank', 'was', 'made', 'the', 'official', 'credit', 'institution', 'of', 'the', 'papacy', 'and', 'several', 'significant', 'ties', 'were', 'established', 'between', 'the', 'church', 'and', 'the', 'new', 'political', 'dynasties', 'of', 'the', 'peninsula']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	20
+---------------------------
+
+Prev: 
+['the', 'renaissance', 'was', 'therefore', 'a', 'result', 'of', 'the', 'great', 'wealth', 'accumulated', 'by', 'italian', 'merchant', 'cities', 'combined', 'with', 'the', 'patronage', 'of', 'its', 'dominant', 'families', 'italian', 'renaissance', 'exercised', 'a', 'dominant', 'influence', 'on', 'subsequent', 'european', 'painting', 'and', 'sculpture', 'for', 'centuries', 'afterwards', ',', 'with', 'artists', 'such', 'as', 'leonardo', 'da', 'vinci', ',', 'brunelleschi', ',', 'botticelli', ',', 'michelangelo', ',', 'raphael', ',', 'giotto', ',', 'donatello', ',', 'and', 'titian', ',', 'and', 'architects', 'such', 'as', 'filippo', 'brunelleschi', ',', 'leon', 'battista', 'alberti', ',', 'andrea', 'palladio', ',', 'and', 'donato', 'bramante']
+
+Curr: 
+['following', 'the', 'conclusion', 'of', 'the', 'western', 'schism', 'in', 'favor', 'of', 'rome', 'at', 'the', 'council', 'of', 'constance', '(', '1415–1417', ')', ',', 'the', 'new', 'pope', 'martin', 'v', 'returned', 'to', 'the', 'papal', 'states', 'after', 'a', 'three', 'years-long', 'journey', 'that', 'touched', 'many', 'italian', 'cities', 'and', 'restored', 'italy', 'as', 'the', 'sole', 'centre', 'of', 'western', 'christianity', 'during', 'the', 'course', 'of', 'this', 'voyage', ',', 'the', 'medici', 'bank', 'was', 'made', 'the', 'official', 'credit', 'institution', 'of', 'the', 'papacy', 'and', 'several', 'significant', 'ties', 'were', 'established', 'between', 'the', 'church', 'and', 'the', 'new', 'political', 'dynasties', 'of', 'the', 'peninsula']
+
+Foll: 
+['the', 'popes', "'", 'status', 'as', 'elective', 'monarchs', 'turned', 'the', 'conclaves', 'and', 'consistories', 'of', 'the', 'renaissance', 'into', 'political', 'battles', 'between', 'the', 'courts', 'of', 'italy', 'for', 'primacy', 'in', 'the', 'peninsula', 'and', 'access', 'to', 'the', 'immense', 'resources', 'of', 'the', 'catholic', 'church', 'in', '1439', ',', 'pope', 'eugenius', 'iv', 'and', 'the', 'byzantine', 'emperor', 'john', 'viii', 'palaiologos', 'signed', 'a', 'reconciliation', 'agreement', 'between', 'the', 'catholic', 'church', 'and', 'the', 'orthodox', 'church', 'at', 'the', 'council', 'of', 'florence', 'hosted', 'by', 'cosimo', 'the', 'old', 'de', 'medici']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	21
+---------------------------
+
+Prev: 
+['following', 'the', 'conclusion', 'of', 'the', 'western', 'schism', 'in', 'favor', 'of', 'rome', 'at', 'the', 'council', 'of', 'constance', '(', '1415–1417', ')', ',', 'the', 'new', 'pope', 'martin', 'v', 'returned', 'to', 'the', 'papal', 'states', 'after', 'a', 'three', 'years-long', 'journey', 'that', 'touched', 'many', 'italian', 'cities', 'and', 'restored', 'italy', 'as', 'the', 'sole', 'centre', 'of', 'western', 'christianity', 'during', 'the', 'course', 'of', 'this', 'voyage', ',', 'the', 'medici', 'bank', 'was', 'made', 'the', 'official', 'credit', 'institution', 'of', 'the', 'papacy', 'and', 'several', 'significant', 'ties', 'were', 'established', 'between', 'the', 'church', 'and', 'the', 'new', 'political', 'dynasties', 'of', 'the', 'peninsula']
+
+Curr: 
+['the', 'popes', "'", 'status', 'as', 'elective', 'monarchs', 'turned', 'the', 'conclaves', 'and', 'consistories', 'of', 'the', 'renaissance', 'into', 'political', 'battles', 'between', 'the', 'courts', 'of', 'italy', 'for', 'primacy', 'in', 'the', 'peninsula', 'and', 'access', 'to', 'the', 'immense', 'resources', 'of', 'the', 'catholic', 'church', 'in', '1439', ',', 'pope', 'eugenius', 'iv', 'and', 'the', 'byzantine', 'emperor', 'john', 'viii', 'palaiologos', 'signed', 'a', 'reconciliation', 'agreement', 'between', 'the', 'catholic', 'church', 'and', 'the', 'orthodox', 'church', 'at', 'the', 'council', 'of', 'florence', 'hosted', 'by', 'cosimo', 'the', 'old', 'de', 'medici']
+
+Foll: 
+['in', '1453', ',', 'italian', 'forces', 'under', 'giovanni', 'giustiniani', 'were', 'sent', 'by', 'pope', 'nicholas', 'v', 'to', 'defend', 'the', 'walls', 'of', 'constantinople', 'but', 'the', 'decisive', 'battle', 'was', 'lost', 'to', 'the', 'more', 'advanced', 'turkish', 'army', 'equipped', 'with', 'cannons', ',', 'and', 'byzantium', 'fell', 'to', 'sultan', 'mehmed', 'ii', 'the', 'fall', 'of', 'constantinople', 'led', 'to', 'the', 'migration', 'of', 'greek', 'scholars', 'and', 'texts', 'to', 'italy', ',', 'fueling', 'the', 'rediscovery', 'of', 'greco-roman', 'humanism']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	22
+---------------------------
+
+Prev: 
+['the', 'popes', "'", 'status', 'as', 'elective', 'monarchs', 'turned', 'the', 'conclaves', 'and', 'consistories', 'of', 'the', 'renaissance', 'into', 'political', 'battles', 'between', 'the', 'courts', 'of', 'italy', 'for', 'primacy', 'in', 'the', 'peninsula', 'and', 'access', 'to', 'the', 'immense', 'resources', 'of', 'the', 'catholic', 'church', 'in', '1439', ',', 'pope', 'eugenius', 'iv', 'and', 'the', 'byzantine', 'emperor', 'john', 'viii', 'palaiologos', 'signed', 'a', 'reconciliation', 'agreement', 'between', 'the', 'catholic', 'church', 'and', 'the', 'orthodox', 'church', 'at', 'the', 'council', 'of', 'florence', 'hosted', 'by', 'cosimo', 'the', 'old', 'de', 'medici']
+
+Curr: 
+['in', '1453', ',', 'italian', 'forces', 'under', 'giovanni', 'giustiniani', 'were', 'sent', 'by', 'pope', 'nicholas', 'v', 'to', 'defend', 'the', 'walls', 'of', 'constantinople', 'but', 'the', 'decisive', 'battle', 'was', 'lost', 'to', 'the', 'more', 'advanced', 'turkish', 'army', 'equipped', 'with', 'cannons', ',', 'and', 'byzantium', 'fell', 'to', 'sultan', 'mehmed', 'ii', 'the', 'fall', 'of', 'constantinople', 'led', 'to', 'the', 'migration', 'of', 'greek', 'scholars', 'and', 'texts', 'to', 'italy', ',', 'fueling', 'the', 'rediscovery', 'of', 'greco-roman', 'humanism']
+
+Foll: 
+['humanist', 'rulers', 'such', 'as', 'federico', 'da', 'montefeltro', 'and', 'pope', 'pius', 'ii', 'worked', 'to', 'establish', 'ideal', 'cities', 'where', 'man', 'is', 'the', 'measure', 'of', 'all', 'things', ',', 'and', 'therefore', 'founded', 'urbino', 'and', 'pienza', 'respectively', 'pico', 'della', 'mirandola', 'wrote', 'the', 'oration', 'on', 'the', 'dignity', 'of', 'man', ',', 'considered', 'the', 'manifesto', 'of', 'renaissance', 'humanism', ',', 'in', 'which', 'he', 'stressed', 'the', 'importance', 'of', 'free', 'will', 'in', 'human', 'beings']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	23
+---------------------------
+
+Prev: 
+['in', '1453', ',', 'italian', 'forces', 'under', 'giovanni', 'giustiniani', 'were', 'sent', 'by', 'pope', 'nicholas', 'v', 'to', 'defend', 'the', 'walls', 'of', 'constantinople', 'but', 'the', 'decisive', 'battle', 'was', 'lost', 'to', 'the', 'more', 'advanced', 'turkish', 'army', 'equipped', 'with', 'cannons', ',', 'and', 'byzantium', 'fell', 'to', 'sultan', 'mehmed', 'ii', 'the', 'fall', 'of', 'constantinople', 'led', 'to', 'the', 'migration', 'of', 'greek', 'scholars', 'and', 'texts', 'to', 'italy', ',', 'fueling', 'the', 'rediscovery', 'of', 'greco-roman', 'humanism']
+
+Curr: 
+['humanist', 'rulers', 'such', 'as', 'federico', 'da', 'montefeltro', 'and', 'pope', 'pius', 'ii', 'worked', 'to', 'establish', 'ideal', 'cities', 'where', 'man', 'is', 'the', 'measure', 'of', 'all', 'things', ',', 'and', 'therefore', 'founded', 'urbino', 'and', 'pienza', 'respectively', 'pico', 'della', 'mirandola', 'wrote', 'the', 'oration', 'on', 'the', 'dignity', 'of', 'man', ',', 'considered', 'the', 'manifesto', 'of', 'renaissance', 'humanism', ',', 'in', 'which', 'he', 'stressed', 'the', 'importance', 'of', 'free', 'will', 'in', 'human', 'beings']
+
+Foll: 
+['the', 'humanist', 'historian', 'leonardo', 'bruni', 'was', 'the', 'first', 'to', 'divide', 'human', 'history', 'in', 'three', 'periods', ':', 'antiquity', ',', 'middle', 'ages', 'and', 'modernity', 'the', 'second', 'consequence', 'of', 'the', 'fall', 'of', 'constantinople', 'was', 'the', 'beginning', 'of', 'the', 'age', 'of', 'discovery']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	24
+---------------------------
+
+Prev: 
+['humanist', 'rulers', 'such', 'as', 'federico', 'da', 'montefeltro', 'and', 'pope', 'pius', 'ii', 'worked', 'to', 'establish', 'ideal', 'cities', 'where', 'man', 'is', 'the', 'measure', 'of', 'all', 'things', ',', 'and', 'therefore', 'founded', 'urbino', 'and', 'pienza', 'respectively', 'pico', 'della', 'mirandola', 'wrote', 'the', 'oration', 'on', 'the', 'dignity', 'of', 'man', ',', 'considered', 'the', 'manifesto', 'of', 'renaissance', 'humanism', ',', 'in', 'which', 'he', 'stressed', 'the', 'importance', 'of', 'free', 'will', 'in', 'human', 'beings']
+
+Curr: 
+['the', 'humanist', 'historian', 'leonardo', 'bruni', 'was', 'the', 'first', 'to', 'divide', 'human', 'history', 'in', 'three', 'periods', ':', 'antiquity', ',', 'middle', 'ages', 'and', 'modernity', 'the', 'second', 'consequence', 'of', 'the', 'fall', 'of', 'constantinople', 'was', 'the', 'beginning', 'of', 'the', 'age', 'of', 'discovery']
+
+Foll: 
+['italian', 'explorers', 'and', 'navigators', 'from', 'the', 'dominant', 'maritime', 'republics', ',', 'eager', 'to', 'find', 'an', 'alternative', 'route', 'to', 'the', 'indies', 'in', 'order', 'to', 'bypass', 'the', 'ottoman', 'empire', ',', 'offered', 'their', 'services', 'to', 'monarchs', 'of', 'atlantic', 'countries', 'and', 'played', 'a', 'key', 'role', 'in', 'ushering', 'the', 'age', 'of', 'discovery', 'and', 'the', 'european', 'colonization', 'of', 'the', 'americas', 'the', 'most', 'notable', 'among', 'them', 'were', ':', 'christopher', 'columbus', ',', 'colonizer', 'in', 'the', 'name', 'of', 'spain', ',', 'who', 'is', 'credited', 'with', 'discovering', 'the', 'new', 'world', 'and', 'the', 'opening', 'of', 'the', 'americas', 'for', 'conquest', 'and', 'settlement', 'by', 'europeans', ';', 'john', 'cabot', ',', 'sailing', 'for', 'england', ',', 'who', 'was', 'the', 'first', 'european', 'to', 'set', 'foot', 'in', '``', 'new', 'found', 'land', "''", 'and', 'explore', 'parts', 'of', 'the', 'north', 'american', 'continent', 'in', '1497', ';', 'amerigo', 'vespucci', ',', 'sailing', 'for', 'portugal', ',', 'who', 'first', 'demonstrated', 'in', 'about', '1501', 'that', 'the', 'new', 'world', '(', 'in', 'particular', 'brazil', ')', 'was', 'not', 'asia', 'as', 'initially', 'conjectured', ',', 'but', 'a', 'fourth', 'continent', 'previously', 'unknown', 'to', 'people', 'of', 'the', 'old', 'world', '(', 'america', 'is', 'named', 'after', 'him', ')', ';', 'and', 'giovanni', 'da', 'verrazzano', ',', 'at', 'the', 'service', 'of', 'france', ',', 'renowned', 'as', 'the', 'first', 'european', 'to', 'explore', 'the', 'atlantic', 'coast', 'of', 'north', 'america', 'between', 'florida', 'and', 'new', 'brunswick', 'in', '1524', ';', 'following', 'the', 'fall', 'of', 'constantinople', ',', 'the', 'wars', 'in', 'lombardy', 'came', 'to', 'an', 'end', 'and', 'a', 'defensive', 'alliance', 'known', 'as', 'italic', 'league', 'was', 'formed', 'between', 'venice', ',', 'naples', ',', 'florence', ',', 'milan', ',', 'and', 'the', 'papacy']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	25
+---------------------------
+
+Prev: 
+['the', 'humanist', 'historian', 'leonardo', 'bruni', 'was', 'the', 'first', 'to', 'divide', 'human', 'history', 'in', 'three', 'periods', ':', 'antiquity', ',', 'middle', 'ages', 'and', 'modernity', 'the', 'second', 'consequence', 'of', 'the', 'fall', 'of', 'constantinople', 'was', 'the', 'beginning', 'of', 'the', 'age', 'of', 'discovery']
+
+Curr: 
+['italian', 'explorers', 'and', 'navigators', 'from', 'the', 'dominant', 'maritime', 'republics', ',', 'eager', 'to', 'find', 'an', 'alternative', 'route', 'to', 'the', 'indies', 'in', 'order', 'to', 'bypass', 'the', 'ottoman', 'empire', ',', 'offered', 'their', 'services', 'to', 'monarchs', 'of', 'atlantic', 'countries', 'and', 'played', 'a', 'key', 'role', 'in', 'ushering', 'the', 'age', 'of', 'discovery', 'and', 'the', 'european', 'colonization', 'of', 'the', 'americas', 'the', 'most', 'notable', 'among', 'them', 'were', ':', 'christopher', 'columbus', ',', 'colonizer', 'in', 'the', 'name', 'of', 'spain', ',', 'who', 'is', 'credited', 'with', 'discovering', 'the', 'new', 'world', 'and', 'the', 'opening', 'of', 'the', 'americas', 'for', 'conquest', 'and', 'settlement', 'by', 'europeans', ';', 'john', 'cabot', ',', 'sailing', 'for', 'england', ',', 'who', 'was', 'the', 'first', 'european', 'to', 'set', 'foot', 'in', '``', 'new', 'found', 'land', "''", 'and', 'explore', 'parts', 'of', 'the', 'north', 'american', 'continent', 'in', '1497', ';', 'amerigo', 'vespucci', ',', 'sailing', 'for', 'portugal', ',', 'who', 'first', 'demonstrated', 'in', 'about', '1501', 'that', 'the', 'new', 'world', '(', 'in', 'particular', 'brazil', ')', 'was', 'not', 'asia', 'as', 'initially', 'conjectured', ',', 'but', 'a', 'fourth', 'continent', 'previously', 'unknown', 'to', 'people', 'of', 'the', 'old', 'world', '(', 'america', 'is', 'named', 'after', 'him', ')', ';', 'and', 'giovanni', 'da', 'verrazzano', ',', 'at', 'the', 'service', 'of', 'france', ',', 'renowned', 'as', 'the', 'first', 'european', 'to', 'explore', 'the', 'atlantic', 'coast', 'of', 'north', 'america', 'between', 'florida', 'and', 'new', 'brunswick', 'in', '1524', ';', 'following', 'the', 'fall', 'of', 'constantinople', ',', 'the', 'wars', 'in', 'lombardy', 'came', 'to', 'an', 'end', 'and', 'a', 'defensive', 'alliance', 'known', 'as', 'italic', 'league', 'was', 'formed', 'between', 'venice', ',', 'naples', ',', 'florence', ',', 'milan', ',', 'and', 'the', 'papacy']
+
+Foll: 
+['lorenzo', 'the', 'magnificent', 'de', 'medici', 'was', 'the', 'greatest', 'florentine', 'patron', 'of', 'the', 'renaissance', 'and', 'supporter', 'of', 'the', 'italic', 'league', 'he', 'notably', 'avoided', 'the', 'collapse', 'of', 'the', 'league', 'in', 'the', 'aftermath', 'of', 'the', 'pazzi', 'conspiracy', 'and', 'during', 'the', 'aborted', 'invasion', 'of', 'italy', 'by', 'the', 'turks']
+
+++++ Similarity 1.0 , 0.88 | 	0.94
+
+Window n:	26
+---------------------------
+
+Prev: 
+['italian', 'explorers', 'and', 'navigators', 'from', 'the', 'dominant', 'maritime', 'republics', ',', 'eager', 'to', 'find', 'an', 'alternative', 'route', 'to', 'the', 'indies', 'in', 'order', 'to', 'bypass', 'the', 'ottoman', 'empire', ',', 'offered', 'their', 'services', 'to', 'monarchs', 'of', 'atlantic', 'countries', 'and', 'played', 'a', 'key', 'role', 'in', 'ushering', 'the', 'age', 'of', 'discovery', 'and', 'the', 'european', 'colonization', 'of', 'the', 'americas', 'the', 'most', 'notable', 'among', 'them', 'were', ':', 'christopher', 'columbus', ',', 'colonizer', 'in', 'the', 'name', 'of', 'spain', ',', 'who', 'is', 'credited', 'with', 'discovering', 'the', 'new', 'world', 'and', 'the', 'opening', 'of', 'the', 'americas', 'for', 'conquest', 'and', 'settlement', 'by', 'europeans', ';', 'john', 'cabot', ',', 'sailing', 'for', 'england', ',', 'who', 'was', 'the', 'first', 'european', 'to', 'set', 'foot', 'in', '``', 'new', 'found', 'land', "''", 'and', 'explore', 'parts', 'of', 'the', 'north', 'american', 'continent', 'in', '1497', ';', 'amerigo', 'vespucci', ',', 'sailing', 'for', 'portugal', ',', 'who', 'first', 'demonstrated', 'in', 'about', '1501', 'that', 'the', 'new', 'world', '(', 'in', 'particular', 'brazil', ')', 'was', 'not', 'asia', 'as', 'initially', 'conjectured', ',', 'but', 'a', 'fourth', 'continent', 'previously', 'unknown', 'to', 'people', 'of', 'the', 'old', 'world', '(', 'america', 'is', 'named', 'after', 'him', ')', ';', 'and', 'giovanni', 'da', 'verrazzano', ',', 'at', 'the', 'service', 'of', 'france', ',', 'renowned', 'as', 'the', 'first', 'european', 'to', 'explore', 'the', 'atlantic', 'coast', 'of', 'north', 'america', 'between', 'florida', 'and', 'new', 'brunswick', 'in', '1524', ';', 'following', 'the', 'fall', 'of', 'constantinople', ',', 'the', 'wars', 'in', 'lombardy', 'came', 'to', 'an', 'end', 'and', 'a', 'defensive', 'alliance', 'known', 'as', 'italic', 'league', 'was', 'formed', 'between', 'venice', ',', 'naples', ',', 'florence', ',', 'milan', ',', 'and', 'the', 'papacy']
+
+Curr: 
+['lorenzo', 'the', 'magnificent', 'de', 'medici', 'was', 'the', 'greatest', 'florentine', 'patron', 'of', 'the', 'renaissance', 'and', 'supporter', 'of', 'the', 'italic', 'league', 'he', 'notably', 'avoided', 'the', 'collapse', 'of', 'the', 'league', 'in', 'the', 'aftermath', 'of', 'the', 'pazzi', 'conspiracy', 'and', 'during', 'the', 'aborted', 'invasion', 'of', 'italy', 'by', 'the', 'turks']
+
+Foll: 
+['however', ',', 'the', 'military', 'campaign', 'of', 'charles', 'viii', 'of', 'france', 'in', 'italy', 'caused', 'the', 'end', 'of', 'the', 'italic', 'league', 'and', 'initiated', 'the', 'italian', 'wars', 'between', 'the', 'valois', 'and', 'the', 'habsburgs', 'during', 'the', 'high', 'renaissance', 'of', 'the', '1500s', ',', 'italy', 'was', 'therefore', 'both', 'the', 'main', 'european', 'battleground', 'and', 'the', 'cultural-economic', 'centre', 'of', 'the', 'continent']
+
+++++ Similarity 0.88 , 1.0 | 	0.94
+
+Window n:	27
+---------------------------
+
+Prev: 
+['lorenzo', 'the', 'magnificent', 'de', 'medici', 'was', 'the', 'greatest', 'florentine', 'patron', 'of', 'the', 'renaissance', 'and', 'supporter', 'of', 'the', 'italic', 'league', 'he', 'notably', 'avoided', 'the', 'collapse', 'of', 'the', 'league', 'in', 'the', 'aftermath', 'of', 'the', 'pazzi', 'conspiracy', 'and', 'during', 'the', 'aborted', 'invasion', 'of', 'italy', 'by', 'the', 'turks']
+
+Curr: 
+['however', ',', 'the', 'military', 'campaign', 'of', 'charles', 'viii', 'of', 'france', 'in', 'italy', 'caused', 'the', 'end', 'of', 'the', 'italic', 'league', 'and', 'initiated', 'the', 'italian', 'wars', 'between', 'the', 'valois', 'and', 'the', 'habsburgs', 'during', 'the', 'high', 'renaissance', 'of', 'the', '1500s', ',', 'italy', 'was', 'therefore', 'both', 'the', 'main', 'european', 'battleground', 'and', 'the', 'cultural-economic', 'centre', 'of', 'the', 'continent']
+
+Foll: 
+['popes', 'such', 'as', 'julius', 'ii', '(', '1503–1513', ')', 'fought', 'for', 'the', 'control', 'of', 'italy', 'against', 'foreign', 'monarchs', ',', 'others', 'such', 'as', 'paul', 'iii', '(', '1534–1549', ')', 'preferred', 'to', 'mediate', 'between', 'the', 'european', 'powers', 'in', 'order', 'to', 'secure', 'peace', 'in', 'italy', 'in', 'the', 'middle', 'of', 'this', 'conflict', ',', 'the', 'medici', 'popes', 'leo', 'x', '(', '1513–1521', ')', 'and', 'clement', 'vii', '(', '1523–1534', ')', 'opposed', 'the', 'protestant', 'reformation', 'and', 'advanced', 'the', 'interests', 'of', 'their', 'family']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	28
+---------------------------
+
+Prev: 
+['however', ',', 'the', 'military', 'campaign', 'of', 'charles', 'viii', 'of', 'france', 'in', 'italy', 'caused', 'the', 'end', 'of', 'the', 'italic', 'league', 'and', 'initiated', 'the', 'italian', 'wars', 'between', 'the', 'valois', 'and', 'the', 'habsburgs', 'during', 'the', 'high', 'renaissance', 'of', 'the', '1500s', ',', 'italy', 'was', 'therefore', 'both', 'the', 'main', 'european', 'battleground', 'and', 'the', 'cultural-economic', 'centre', 'of', 'the', 'continent']
+
+Curr: 
+['popes', 'such', 'as', 'julius', 'ii', '(', '1503–1513', ')', 'fought', 'for', 'the', 'control', 'of', 'italy', 'against', 'foreign', 'monarchs', ',', 'others', 'such', 'as', 'paul', 'iii', '(', '1534–1549', ')', 'preferred', 'to', 'mediate', 'between', 'the', 'european', 'powers', 'in', 'order', 'to', 'secure', 'peace', 'in', 'italy', 'in', 'the', 'middle', 'of', 'this', 'conflict', ',', 'the', 'medici', 'popes', 'leo', 'x', '(', '1513–1521', ')', 'and', 'clement', 'vii', '(', '1523–1534', ')', 'opposed', 'the', 'protestant', 'reformation', 'and', 'advanced', 'the', 'interests', 'of', 'their', 'family']
+
+Foll: 
+['the', 'end', 'of', 'the', 'wars', 'ultimately', 'left', 'northern', 'italy', 'indirectly', 'subject', 'to', 'the', 'austrian', 'habsburgs', 'and', 'southern', 'italy', 'under', 'direct', 'spanish', 'habsburg', 'rule', 'the', 'papacy', 'remained', 'independent', 'and', 'launched', 'the', 'counter-reformation']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	29
+---------------------------
+
+Prev: 
+['popes', 'such', 'as', 'julius', 'ii', '(', '1503–1513', ')', 'fought', 'for', 'the', 'control', 'of', 'italy', 'against', 'foreign', 'monarchs', ',', 'others', 'such', 'as', 'paul', 'iii', '(', '1534–1549', ')', 'preferred', 'to', 'mediate', 'between', 'the', 'european', 'powers', 'in', 'order', 'to', 'secure', 'peace', 'in', 'italy', 'in', 'the', 'middle', 'of', 'this', 'conflict', ',', 'the', 'medici', 'popes', 'leo', 'x', '(', '1513–1521', ')', 'and', 'clement', 'vii', '(', '1523–1534', ')', 'opposed', 'the', 'protestant', 'reformation', 'and', 'advanced', 'the', 'interests', 'of', 'their', 'family']
+
+Curr: 
+['the', 'end', 'of', 'the', 'wars', 'ultimately', 'left', 'northern', 'italy', 'indirectly', 'subject', 'to', 'the', 'austrian', 'habsburgs', 'and', 'southern', 'italy', 'under', 'direct', 'spanish', 'habsburg', 'rule', 'the', 'papacy', 'remained', 'independent', 'and', 'launched', 'the', 'counter-reformation']
+
+Foll: 
+['key', 'events', 'of', 'the', 'period', 'include', ':', 'the', 'council', 'of', 'trent', '(', '1545–1563', ')', ';', 'the', 'excommunication', 'of', 'elizabeth', 'i', '(', '1570', ')', 'and', 'the', 'battle', 'of', 'lepanto', '(', '1571', ')', ',', 'both', 'occurring', 'during', 'the', 'pontificate', 'of', 'pius', 'v', ';', 'the', 'construction', 'of', 'the', 'gregorian', 'observatory', ',', 'the', 'adoption', 'of', 'the', 'gregorian', 'calendar', ',', 'and', 'the', 'jesuit', 'china', 'mission', 'of', 'matteo', 'ricci', 'under', 'pope', 'gregory', 'xiii', ';', 'the', 'french', 'wars', 'of', 'religion', ';', 'the', 'long', 'turkish', 'war', 'and', 'the', 'execution', 'of', 'giordano', 'bruno', 'in', '1600', ',', 'under', 'pope', 'clement', 'viii', ';', 'the', 'birth', 'of', 'the', 'lyncean', 'academy', 'of', 'the', 'papal', 'states', ',', 'of', 'which', 'the', 'main', 'figure', 'was', 'galileo', 'galilei', '(', 'later', 'put', 'on', 'trial', ')', ';', 'the', 'final', 'phases', 'of', 'the', 'thirty', 'years', "'", 'war', '(', '1618–1648', ')', 'during', 'the', 'pontificates', 'of', 'urban', 'viii', 'and', 'innocent', 'x', ';', 'and', 'the', 'formation', 'of', 'the', 'last', 'holy', 'league', 'by', 'innocent', 'xi', 'during', 'the', 'great', 'turkish', 'war', 'the', 'italian', 'economy', 'declined', 'during', 'the', '1600s', 'and', '1700s', ',', 'as', 'the', 'peninsula', 'was', 'excluded', 'from', 'the', 'rising', 'atlantic', 'slave', 'trade', 'following', 'the', 'european', 'wars', 'of', 'succession', 'of', 'the', '18th', 'century', ',', 'the', 'south', 'passed', 'to', 'a', 'cadet', 'branch', 'of', 'the', 'spanish', 'bourbons', 'and', 'the', 'north', 'fell', 'under', 'the', 'influence', 'of', 'the', 'habsburg-lorraine', 'of', 'austria']
+
+++++ Similarity 1.0 , 0.87 | 	0.93
+
+Window n:	30
+---------------------------
+
+Prev: 
+['the', 'end', 'of', 'the', 'wars', 'ultimately', 'left', 'northern', 'italy', 'indirectly', 'subject', 'to', 'the', 'austrian', 'habsburgs', 'and', 'southern', 'italy', 'under', 'direct', 'spanish', 'habsburg', 'rule', 'the', 'papacy', 'remained', 'independent', 'and', 'launched', 'the', 'counter-reformation']
+
+Curr: 
+['key', 'events', 'of', 'the', 'period', 'include', ':', 'the', 'council', 'of', 'trent', '(', '1545–1563', ')', ';', 'the', 'excommunication', 'of', 'elizabeth', 'i', '(', '1570', ')', 'and', 'the', 'battle', 'of', 'lepanto', '(', '1571', ')', ',', 'both', 'occurring', 'during', 'the', 'pontificate', 'of', 'pius', 'v', ';', 'the', 'construction', 'of', 'the', 'gregorian', 'observatory', ',', 'the', 'adoption', 'of', 'the', 'gregorian', 'calendar', ',', 'and', 'the', 'jesuit', 'china', 'mission', 'of', 'matteo', 'ricci', 'under', 'pope', 'gregory', 'xiii', ';', 'the', 'french', 'wars', 'of', 'religion', ';', 'the', 'long', 'turkish', 'war', 'and', 'the', 'execution', 'of', 'giordano', 'bruno', 'in', '1600', ',', 'under', 'pope', 'clement', 'viii', ';', 'the', 'birth', 'of', 'the', 'lyncean', 'academy', 'of', 'the', 'papal', 'states', ',', 'of', 'which', 'the', 'main', 'figure', 'was', 'galileo', 'galilei', '(', 'later', 'put', 'on', 'trial', ')', ';', 'the', 'final', 'phases', 'of', 'the', 'thirty', 'years', "'", 'war', '(', '1618–1648', ')', 'during', 'the', 'pontificates', 'of', 'urban', 'viii', 'and', 'innocent', 'x', ';', 'and', 'the', 'formation', 'of', 'the', 'last', 'holy', 'league', 'by', 'innocent', 'xi', 'during', 'the', 'great', 'turkish', 'war', 'the', 'italian', 'economy', 'declined', 'during', 'the', '1600s', 'and', '1700s', ',', 'as', 'the', 'peninsula', 'was', 'excluded', 'from', 'the', 'rising', 'atlantic', 'slave', 'trade', 'following', 'the', 'european', 'wars', 'of', 'succession', 'of', 'the', '18th', 'century', ',', 'the', 'south', 'passed', 'to', 'a', 'cadet', 'branch', 'of', 'the', 'spanish', 'bourbons', 'and', 'the', 'north', 'fell', 'under', 'the', 'influence', 'of', 'the', 'habsburg-lorraine', 'of', 'austria']
+
+Foll: 
+['during', 'the', 'coalition', 'wars', ',', 'northern-central', 'italy', 'was', 'reorganised', 'by', 'napoleon', 'in', 'a', 'number', 'of', 'sister', 'republics', 'of', 'france', 'and', 'later', 'as', 'a', 'kingdom', 'of', 'italy', 'in', 'personal', 'union', 'with', 'the', 'french', 'empire', 'the', 'southern', 'half', 'of', 'the', 'peninsula', 'was', 'administered', 'by', 'joachim', 'murat', ',', 'napoleon', "'s", 'brother-in-law', ',', 'who', 'was', 'crowned', 'as', 'king', 'of', 'naples']
+
+++++ Similarity 0.87 , 1.0 | 	0.93
+
+Window n:	31
+---------------------------
+
+Prev: 
+['key', 'events', 'of', 'the', 'period', 'include', ':', 'the', 'council', 'of', 'trent', '(', '1545–1563', ')', ';', 'the', 'excommunication', 'of', 'elizabeth', 'i', '(', '1570', ')', 'and', 'the', 'battle', 'of', 'lepanto', '(', '1571', ')', ',', 'both', 'occurring', 'during', 'the', 'pontificate', 'of', 'pius', 'v', ';', 'the', 'construction', 'of', 'the', 'gregorian', 'observatory', ',', 'the', 'adoption', 'of', 'the', 'gregorian', 'calendar', ',', 'and', 'the', 'jesuit', 'china', 'mission', 'of', 'matteo', 'ricci', 'under', 'pope', 'gregory', 'xiii', ';', 'the', 'french', 'wars', 'of', 'religion', ';', 'the', 'long', 'turkish', 'war', 'and', 'the', 'execution', 'of', 'giordano', 'bruno', 'in', '1600', ',', 'under', 'pope', 'clement', 'viii', ';', 'the', 'birth', 'of', 'the', 'lyncean', 'academy', 'of', 'the', 'papal', 'states', ',', 'of', 'which', 'the', 'main', 'figure', 'was', 'galileo', 'galilei', '(', 'later', 'put', 'on', 'trial', ')', ';', 'the', 'final', 'phases', 'of', 'the', 'thirty', 'years', "'", 'war', '(', '1618–1648', ')', 'during', 'the', 'pontificates', 'of', 'urban', 'viii', 'and', 'innocent', 'x', ';', 'and', 'the', 'formation', 'of', 'the', 'last', 'holy', 'league', 'by', 'innocent', 'xi', 'during', 'the', 'great', 'turkish', 'war', 'the', 'italian', 'economy', 'declined', 'during', 'the', '1600s', 'and', '1700s', ',', 'as', 'the', 'peninsula', 'was', 'excluded', 'from', 'the', 'rising', 'atlantic', 'slave', 'trade', 'following', 'the', 'european', 'wars', 'of', 'succession', 'of', 'the', '18th', 'century', ',', 'the', 'south', 'passed', 'to', 'a', 'cadet', 'branch', 'of', 'the', 'spanish', 'bourbons', 'and', 'the', 'north', 'fell', 'under', 'the', 'influence', 'of', 'the', 'habsburg-lorraine', 'of', 'austria']
+
+Curr: 
+['during', 'the', 'coalition', 'wars', ',', 'northern-central', 'italy', 'was', 'reorganised', 'by', 'napoleon', 'in', 'a', 'number', 'of', 'sister', 'republics', 'of', 'france', 'and', 'later', 'as', 'a', 'kingdom', 'of', 'italy', 'in', 'personal', 'union', 'with', 'the', 'french', 'empire', 'the', 'southern', 'half', 'of', 'the', 'peninsula', 'was', 'administered', 'by', 'joachim', 'murat', ',', 'napoleon', "'s", 'brother-in-law', ',', 'who', 'was', 'crowned', 'as', 'king', 'of', 'naples']
+
+Foll: 
+['the', '1814', 'congress', 'of', 'vienna', 'restored', 'the', 'situation', 'of', 'the', 'late', '18th', 'century', ',', 'but', 'the', 'ideals', 'of', 'the', 'french', 'revolution', 'could', 'not', 'be', 'eradicated', ',', 'and', 'soon', 're-surfaced', 'during', 'the', 'political', 'upheavals', 'that', 'characterised', 'the', 'first', 'part', 'of', 'the', '19th', 'century', 'italy', 'has', 'a', 'major', 'advanced', 'capitalist', 'mixed', 'economy', ',', 'ranking', 'as', 'the', 'third-largest', 'in', 'the', 'eurozone', 'and', 'the', 'eighth-largest', 'in', 'the', 'world']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	32
+---------------------------
+
+Prev: 
+['during', 'the', 'coalition', 'wars', ',', 'northern-central', 'italy', 'was', 'reorganised', 'by', 'napoleon', 'in', 'a', 'number', 'of', 'sister', 'republics', 'of', 'france', 'and', 'later', 'as', 'a', 'kingdom', 'of', 'italy', 'in', 'personal', 'union', 'with', 'the', 'french', 'empire', 'the', 'southern', 'half', 'of', 'the', 'peninsula', 'was', 'administered', 'by', 'joachim', 'murat', ',', 'napoleon', "'s", 'brother-in-law', ',', 'who', 'was', 'crowned', 'as', 'king', 'of', 'naples']
+
+Curr: 
+['the', '1814', 'congress', 'of', 'vienna', 'restored', 'the', 'situation', 'of', 'the', 'late', '18th', 'century', ',', 'but', 'the', 'ideals', 'of', 'the', 'french', 'revolution', 'could', 'not', 'be', 'eradicated', ',', 'and', 'soon', 're-surfaced', 'during', 'the', 'political', 'upheavals', 'that', 'characterised', 'the', 'first', 'part', 'of', 'the', '19th', 'century', 'italy', 'has', 'a', 'major', 'advanced', 'capitalist', 'mixed', 'economy', ',', 'ranking', 'as', 'the', 'third-largest', 'in', 'the', 'eurozone', 'and', 'the', 'eighth-largest', 'in', 'the', 'world']
+
+Foll: 
+['a', 'founding', 'member', 'of', 'the', 'g7', ',', 'the', 'eurozone', 'and', 'the', 'oecd', ',', 'it', 'is', 'regarded', 'as', 'one', 'of', 'the', 'world', "'s", 'most', 'industrialised', 'nations', 'and', 'a', 'leading', 'country', 'in', 'world', 'trade', 'and', 'exports', 'it', 'is', 'a', 'highly', 'developed', 'country', ',', 'with', 'the', 'world', "'s", '8th', 'highest', 'quality', 'of', 'life', 'in', '2005', 'and', 'the', '26th', 'human', 'development', 'index']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	33
+---------------------------
+
+Prev: 
+['the', '1814', 'congress', 'of', 'vienna', 'restored', 'the', 'situation', 'of', 'the', 'late', '18th', 'century', ',', 'but', 'the', 'ideals', 'of', 'the', 'french', 'revolution', 'could', 'not', 'be', 'eradicated', ',', 'and', 'soon', 're-surfaced', 'during', 'the', 'political', 'upheavals', 'that', 'characterised', 'the', 'first', 'part', 'of', 'the', '19th', 'century', 'italy', 'has', 'a', 'major', 'advanced', 'capitalist', 'mixed', 'economy', ',', 'ranking', 'as', 'the', 'third-largest', 'in', 'the', 'eurozone', 'and', 'the', 'eighth-largest', 'in', 'the', 'world']
+
+Curr: 
+['a', 'founding', 'member', 'of', 'the', 'g7', ',', 'the', 'eurozone', 'and', 'the', 'oecd', ',', 'it', 'is', 'regarded', 'as', 'one', 'of', 'the', 'world', "'s", 'most', 'industrialised', 'nations', 'and', 'a', 'leading', 'country', 'in', 'world', 'trade', 'and', 'exports', 'it', 'is', 'a', 'highly', 'developed', 'country', ',', 'with', 'the', 'world', "'s", '8th', 'highest', 'quality', 'of', 'life', 'in', '2005', 'and', 'the', '26th', 'human', 'development', 'index']
+
+Foll: 
+['the', 'country', 'is', 'well', 'known', 'for', 'its', 'creative', 'and', 'innovative', 'business', ',', 'a', 'large', 'and', 'competitive', 'agricultural', 'sector', '(', 'with', 'the', 'world', "'s", 'largest', 'wine', 'production', ')', ',', 'and', 'for', 'its', 'influential', 'and', 'high-quality', 'automobile', ',', 'machinery', ',', 'food', ',', 'design', 'and', 'fashion', 'industry', 'italy', 'is', 'the', 'world', "'s", 'sixth', 'largest', 'manufacturing', 'country', ',', 'characterised', 'by', 'a', 'smaller', 'number', 'of', 'global', 'multinational', 'corporations', 'than', 'other', 'economies', 'of', 'comparable', 'size', 'and', 'many', 'dynamic', 'small', 'and', 'medium-sized', 'enterprises', ',', 'notoriously', 'clustered', 'in', 'several', 'industrial', 'districts', ',', 'which', 'are', 'the', 'backbone', 'of', 'the', 'italian', 'industry']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	34
+---------------------------
+
+Prev: 
+['a', 'founding', 'member', 'of', 'the', 'g7', ',', 'the', 'eurozone', 'and', 'the', 'oecd', ',', 'it', 'is', 'regarded', 'as', 'one', 'of', 'the', 'world', "'s", 'most', 'industrialised', 'nations', 'and', 'a', 'leading', 'country', 'in', 'world', 'trade', 'and', 'exports', 'it', 'is', 'a', 'highly', 'developed', 'country', ',', 'with', 'the', 'world', "'s", '8th', 'highest', 'quality', 'of', 'life', 'in', '2005', 'and', 'the', '26th', 'human', 'development', 'index']
+
+Curr: 
+['the', 'country', 'is', 'well', 'known', 'for', 'its', 'creative', 'and', 'innovative', 'business', ',', 'a', 'large', 'and', 'competitive', 'agricultural', 'sector', '(', 'with', 'the', 'world', "'s", 'largest', 'wine', 'production', ')', ',', 'and', 'for', 'its', 'influential', 'and', 'high-quality', 'automobile', ',', 'machinery', ',', 'food', ',', 'design', 'and', 'fashion', 'industry', 'italy', 'is', 'the', 'world', "'s", 'sixth', 'largest', 'manufacturing', 'country', ',', 'characterised', 'by', 'a', 'smaller', 'number', 'of', 'global', 'multinational', 'corporations', 'than', 'other', 'economies', 'of', 'comparable', 'size', 'and', 'many', 'dynamic', 'small', 'and', 'medium-sized', 'enterprises', ',', 'notoriously', 'clustered', 'in', 'several', 'industrial', 'districts', ',', 'which', 'are', 'the', 'backbone', 'of', 'the', 'italian', 'industry']
+
+Foll: 
+['this', 'has', 'produced', 'a', 'manufacturing', 'sector', 'often', 'focused', 'on', 'the', 'export', 'of', 'niche', 'market', 'and', 'luxury', 'products', ',', 'that', 'if', 'on', 'one', 'side', 'is', 'less', 'capable', 'to', 'compete', 'on', 'the', 'quantity', ',', 'on', 'the', 'other', 'side', 'is', 'more', 'capable', 'of', 'facing', 'the', 'competition', 'from', 'china', 'and', 'other', 'emerging', 'asian', 'economies', 'based', 'on', 'lower', 'labour', 'costs', ',', 'with', 'higher', 'quality', 'products', 'italy', 'was', 'the', 'world', "'s", '7th', 'largest', 'exporter', 'in', '2016']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	35
+---------------------------
+
+Prev: 
+['the', 'country', 'is', 'well', 'known', 'for', 'its', 'creative', 'and', 'innovative', 'business', ',', 'a', 'large', 'and', 'competitive', 'agricultural', 'sector', '(', 'with', 'the', 'world', "'s", 'largest', 'wine', 'production', ')', ',', 'and', 'for', 'its', 'influential', 'and', 'high-quality', 'automobile', ',', 'machinery', ',', 'food', ',', 'design', 'and', 'fashion', 'industry', 'italy', 'is', 'the', 'world', "'s", 'sixth', 'largest', 'manufacturing', 'country', ',', 'characterised', 'by', 'a', 'smaller', 'number', 'of', 'global', 'multinational', 'corporations', 'than', 'other', 'economies', 'of', 'comparable', 'size', 'and', 'many', 'dynamic', 'small', 'and', 'medium-sized', 'enterprises', ',', 'notoriously', 'clustered', 'in', 'several', 'industrial', 'districts', ',', 'which', 'are', 'the', 'backbone', 'of', 'the', 'italian', 'industry']
+
+Curr: 
+['this', 'has', 'produced', 'a', 'manufacturing', 'sector', 'often', 'focused', 'on', 'the', 'export', 'of', 'niche', 'market', 'and', 'luxury', 'products', ',', 'that', 'if', 'on', 'one', 'side', 'is', 'less', 'capable', 'to', 'compete', 'on', 'the', 'quantity', ',', 'on', 'the', 'other', 'side', 'is', 'more', 'capable', 'of', 'facing', 'the', 'competition', 'from', 'china', 'and', 'other', 'emerging', 'asian', 'economies', 'based', 'on', 'lower', 'labour', 'costs', ',', 'with', 'higher', 'quality', 'products', 'italy', 'was', 'the', 'world', "'s", '7th', 'largest', 'exporter', 'in', '2016']
+
+Foll: 
+['its', 'closest', 'trade', 'ties', 'are', 'with', 'the', 'other', 'countries', 'of', 'the', 'european', 'union', ',', 'with', 'whom', 'it', 'conducts', 'about', '59', '%', 'of', 'its', 'total', 'trade', 'its', 'largest', 'eu', 'trade', 'partners', ',', 'in', 'order', 'of', 'market', 'share', ',', 'are', 'germany', '(', '12,9', '%', ')', ',', 'france', '(', '11,4', '%', ')', ',', 'and', 'spain', '(', '7,4', '%', ')']
+
+++++ Similarity 1.0 , 0.54 | 	0.77
+
+Window n:	36
+---------------------------
+
+Prev: 
+['this', 'has', 'produced', 'a', 'manufacturing', 'sector', 'often', 'focused', 'on', 'the', 'export', 'of', 'niche', 'market', 'and', 'luxury', 'products', ',', 'that', 'if', 'on', 'one', 'side', 'is', 'less', 'capable', 'to', 'compete', 'on', 'the', 'quantity', ',', 'on', 'the', 'other', 'side', 'is', 'more', 'capable', 'of', 'facing', 'the', 'competition', 'from', 'china', 'and', 'other', 'emerging', 'asian', 'economies', 'based', 'on', 'lower', 'labour', 'costs', ',', 'with', 'higher', 'quality', 'products', 'italy', 'was', 'the', 'world', "'s", '7th', 'largest', 'exporter', 'in', '2016']
+
+Curr: 
+['its', 'closest', 'trade', 'ties', 'are', 'with', 'the', 'other', 'countries', 'of', 'the', 'european', 'union', ',', 'with', 'whom', 'it', 'conducts', 'about', '59', '%', 'of', 'its', 'total', 'trade', 'its', 'largest', 'eu', 'trade', 'partners', ',', 'in', 'order', 'of', 'market', 'share', ',', 'are', 'germany', '(', '12,9', '%', ')', ',', 'france', '(', '11,4', '%', ')', ',', 'and', 'spain', '(', '7,4', '%', ')']
+
+Foll: 
+['the', 'automotive', 'industry', 'is', 'a', 'significant', 'part', 'of', 'the', 'italian', 'manufacturing', 'sector', ',', 'with', 'over', '144,000', 'firms', 'and', 'almost', '485,000', 'employed', 'people', 'in', '2015', ',', 'and', 'a', 'contribution', 'of', '8,5', '%', 'to', 'italian', 'gdp', 'fiat', 'chrysler', 'automobiles', 'or', 'fca', 'is', 'currently', 'the', 'world', "'s", 'seventh-largest', 'auto', 'maker']
+
+++++ Similarity 0.54 , 0.45 | 	0.49
+
+Window n:	37
+---------------------------
+
+Prev: 
+['its', 'closest', 'trade', 'ties', 'are', 'with', 'the', 'other', 'countries', 'of', 'the', 'european', 'union', ',', 'with', 'whom', 'it', 'conducts', 'about', '59', '%', 'of', 'its', 'total', 'trade', 'its', 'largest', 'eu', 'trade', 'partners', ',', 'in', 'order', 'of', 'market', 'share', ',', 'are', 'germany', '(', '12,9', '%', ')', ',', 'france', '(', '11,4', '%', ')', ',', 'and', 'spain', '(', '7,4', '%', ')']
+
+Curr: 
+['the', 'automotive', 'industry', 'is', 'a', 'significant', 'part', 'of', 'the', 'italian', 'manufacturing', 'sector', ',', 'with', 'over', '144,000', 'firms', 'and', 'almost', '485,000', 'employed', 'people', 'in', '2015', ',', 'and', 'a', 'contribution', 'of', '8,5', '%', 'to', 'italian', 'gdp', 'fiat', 'chrysler', 'automobiles', 'or', 'fca', 'is', 'currently', 'the', 'world', "'s", 'seventh-largest', 'auto', 'maker']
+
+Foll: 
+['the', 'country', 'boasts', 'a', 'wide', 'range', 'of', 'acclaimed', 'products', ',', 'from', 'very', 'compact', 'city', 'cars', 'to', 'luxury', 'supercars', 'such', 'as', 'maserati', ',', 'lamborghini', ',', 'and', 'ferrari', ',', 'which', 'was', 'rated', 'the', 'world', "'s", 'most', 'powerful', 'brand', 'by', 'brand', 'finance', 'italy', 'is', 'part', 'of', 'the', 'european', 'single', 'market', 'which', 'represents', 'more', 'than', '500', 'million', 'consumers']
+
+++++ Similarity 0.45 , 1.0 | 	0.72
+
+Window n:	38
+---------------------------
+
+Prev: 
+['the', 'automotive', 'industry', 'is', 'a', 'significant', 'part', 'of', 'the', 'italian', 'manufacturing', 'sector', ',', 'with', 'over', '144,000', 'firms', 'and', 'almost', '485,000', 'employed', 'people', 'in', '2015', ',', 'and', 'a', 'contribution', 'of', '8,5', '%', 'to', 'italian', 'gdp', 'fiat', 'chrysler', 'automobiles', 'or', 'fca', 'is', 'currently', 'the', 'world', "'s", 'seventh-largest', 'auto', 'maker']
+
+Curr: 
+['the', 'country', 'boasts', 'a', 'wide', 'range', 'of', 'acclaimed', 'products', ',', 'from', 'very', 'compact', 'city', 'cars', 'to', 'luxury', 'supercars', 'such', 'as', 'maserati', ',', 'lamborghini', ',', 'and', 'ferrari', ',', 'which', 'was', 'rated', 'the', 'world', "'s", 'most', 'powerful', 'brand', 'by', 'brand', 'finance', 'italy', 'is', 'part', 'of', 'the', 'european', 'single', 'market', 'which', 'represents', 'more', 'than', '500', 'million', 'consumers']
+
+Foll: 
+['several', 'domestic', 'commercial', 'policies', 'are', 'determined', 'by', 'agreements', 'among', 'european', 'union', '(', 'eu', ')', 'members', 'and', 'by', 'eu', 'legislation', 'italy', 'introduced', 'the', 'common', 'european', 'currency', ',', 'the', 'euro', 'in', '2002']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	39
+---------------------------
+
+Prev: 
+['the', 'country', 'boasts', 'a', 'wide', 'range', 'of', 'acclaimed', 'products', ',', 'from', 'very', 'compact', 'city', 'cars', 'to', 'luxury', 'supercars', 'such', 'as', 'maserati', ',', 'lamborghini', ',', 'and', 'ferrari', ',', 'which', 'was', 'rated', 'the', 'world', "'s", 'most', 'powerful', 'brand', 'by', 'brand', 'finance', 'italy', 'is', 'part', 'of', 'the', 'european', 'single', 'market', 'which', 'represents', 'more', 'than', '500', 'million', 'consumers']
+
+Curr: 
+['several', 'domestic', 'commercial', 'policies', 'are', 'determined', 'by', 'agreements', 'among', 'european', 'union', '(', 'eu', ')', 'members', 'and', 'by', 'eu', 'legislation', 'italy', 'introduced', 'the', 'common', 'european', 'currency', ',', 'the', 'euro', 'in', '2002']
+
+Foll: 
+['it', 'is', 'a', 'member', 'of', 'the', 'eurozone', 'which', 'represents', 'around', '330', 'million', 'citizens', 'its', 'monetary', 'policy', 'is', 'set', 'by', 'the', 'european', 'central', 'bank']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	40
+---------------------------
+
+Prev: 
+['several', 'domestic', 'commercial', 'policies', 'are', 'determined', 'by', 'agreements', 'among', 'european', 'union', '(', 'eu', ')', 'members', 'and', 'by', 'eu', 'legislation', 'italy', 'introduced', 'the', 'common', 'european', 'currency', ',', 'the', 'euro', 'in', '2002']
+
+Curr: 
+['it', 'is', 'a', 'member', 'of', 'the', 'eurozone', 'which', 'represents', 'around', '330', 'million', 'citizens', 'its', 'monetary', 'policy', 'is', 'set', 'by', 'the', 'european', 'central', 'bank']
+
+Foll: 
+['italy', 'has', 'been', 'hit', 'hard', 'by', 'the', 'financial', 'crisis', 'of', '2007–08', ',', 'that', 'exacerbated', 'the', 'country', "'s", 'structural', 'problems', 'effectively', ',', 'after', 'a', 'strong', 'gdp', 'growth', 'of', '5–6', '%', 'per', 'year', 'from', 'the', '1950s', 'to', 'the', 'early', '1970s', ',', 'and', 'a', 'progressive', 'slowdown', 'in', 'the', '1980-90s', ',', 'the', 'country', 'virtually', 'stagnated', 'in', 'the', '2000s']
+
+++++ Similarity 1.0 , 0.61 | 	0.81
+
+Window n:	41
+---------------------------
+
+Prev: 
+['it', 'is', 'a', 'member', 'of', 'the', 'eurozone', 'which', 'represents', 'around', '330', 'million', 'citizens', 'its', 'monetary', 'policy', 'is', 'set', 'by', 'the', 'european', 'central', 'bank']
+
+Curr: 
+['italy', 'has', 'been', 'hit', 'hard', 'by', 'the', 'financial', 'crisis', 'of', '2007–08', ',', 'that', 'exacerbated', 'the', 'country', "'s", 'structural', 'problems', 'effectively', ',', 'after', 'a', 'strong', 'gdp', 'growth', 'of', '5–6', '%', 'per', 'year', 'from', 'the', '1950s', 'to', 'the', 'early', '1970s', ',', 'and', 'a', 'progressive', 'slowdown', 'in', 'the', '1980-90s', ',', 'the', 'country', 'virtually', 'stagnated', 'in', 'the', '2000s']
+
+Foll: 
+['the', 'political', 'efforts', 'to', 'revive', 'growth', 'with', 'massive', 'government', 'spending', 'eventually', 'produced', 'a', 'severe', 'rise', 'in', 'public', 'debt', ',', 'that', 'stood', 'at', 'over', '131.8', '%', 'of', 'gdp', 'in', '2017', ',', 'ranking', 'second', 'in', 'the', 'eu', 'only', 'after', 'the', 'greek', 'one', 'for', 'all', 'that', ',', 'the', 'largest', 'chunk', 'of', 'italian', 'public', 'debt', 'is', 'owned', 'by', 'national', 'subjects', ',', 'a', 'major', 'difference', 'between', 'italy', 'and', 'greece', ',', 'and', 'the', 'level', 'of', 'household', 'debt', 'is', 'much', 'lower', 'than', 'the', 'oecd', 'average']
+
+++++ Similarity 0.61 , 1.0 | 	0.81
+
+Window n:	42
+---------------------------
+
+Prev: 
+['italy', 'has', 'been', 'hit', 'hard', 'by', 'the', 'financial', 'crisis', 'of', '2007–08', ',', 'that', 'exacerbated', 'the', 'country', "'s", 'structural', 'problems', 'effectively', ',', 'after', 'a', 'strong', 'gdp', 'growth', 'of', '5–6', '%', 'per', 'year', 'from', 'the', '1950s', 'to', 'the', 'early', '1970s', ',', 'and', 'a', 'progressive', 'slowdown', 'in', 'the', '1980-90s', ',', 'the', 'country', 'virtually', 'stagnated', 'in', 'the', '2000s']
+
+Curr: 
+['the', 'political', 'efforts', 'to', 'revive', 'growth', 'with', 'massive', 'government', 'spending', 'eventually', 'produced', 'a', 'severe', 'rise', 'in', 'public', 'debt', ',', 'that', 'stood', 'at', 'over', '131.8', '%', 'of', 'gdp', 'in', '2017', ',', 'ranking', 'second', 'in', 'the', 'eu', 'only', 'after', 'the', 'greek', 'one', 'for', 'all', 'that', ',', 'the', 'largest', 'chunk', 'of', 'italian', 'public', 'debt', 'is', 'owned', 'by', 'national', 'subjects', ',', 'a', 'major', 'difference', 'between', 'italy', 'and', 'greece', ',', 'and', 'the', 'level', 'of', 'household', 'debt', 'is', 'much', 'lower', 'than', 'the', 'oecd', 'average']
+
+Foll: 
+['a', 'gaping', 'north–south', 'divide', 'is', 'a', 'major', 'factor', 'of', 'socio-economic', 'weakness', 'it', 'can', 'be', 'noted', 'by', 'the', 'huge', 'difference', 'in', 'statistical', 'income', 'between', 'the', 'northern', 'and', 'southern', 'regions', 'and', 'municipalities']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	43
+---------------------------
+
+Prev: 
+['the', 'political', 'efforts', 'to', 'revive', 'growth', 'with', 'massive', 'government', 'spending', 'eventually', 'produced', 'a', 'severe', 'rise', 'in', 'public', 'debt', ',', 'that', 'stood', 'at', 'over', '131.8', '%', 'of', 'gdp', 'in', '2017', ',', 'ranking', 'second', 'in', 'the', 'eu', 'only', 'after', 'the', 'greek', 'one', 'for', 'all', 'that', ',', 'the', 'largest', 'chunk', 'of', 'italian', 'public', 'debt', 'is', 'owned', 'by', 'national', 'subjects', ',', 'a', 'major', 'difference', 'between', 'italy', 'and', 'greece', ',', 'and', 'the', 'level', 'of', 'household', 'debt', 'is', 'much', 'lower', 'than', 'the', 'oecd', 'average']
+
+Curr: 
+['a', 'gaping', 'north–south', 'divide', 'is', 'a', 'major', 'factor', 'of', 'socio-economic', 'weakness', 'it', 'can', 'be', 'noted', 'by', 'the', 'huge', 'difference', 'in', 'statistical', 'income', 'between', 'the', 'northern', 'and', 'southern', 'regions', 'and', 'municipalities']
+
+Foll: 
+['the', 'richest', 'province', ',', 'alto', 'adige-south', 'tyrol', ',', 'earns', '152', '%', 'of', 'the', 'national', 'gdp', 'per', 'capita', ',', 'while', 'the', 'poorest', 'region', ',', 'calabria', ',', '61', '%', 'the', 'unemployment', 'rate', '(', '11,1', '%', ')', 'stands', 'slightly', 'above', 'the', 'eurozone', 'average', ',', 'but', 'the', 'disaggregated', 'figure', 'is', '6,6', '%', 'in', 'the', 'north', 'and', '19,2', '%', 'in', 'the', 'south']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	44
+---------------------------
+
+Prev: 
+['a', 'gaping', 'north–south', 'divide', 'is', 'a', 'major', 'factor', 'of', 'socio-economic', 'weakness', 'it', 'can', 'be', 'noted', 'by', 'the', 'huge', 'difference', 'in', 'statistical', 'income', 'between', 'the', 'northern', 'and', 'southern', 'regions', 'and', 'municipalities']
+
+Curr: 
+['the', 'richest', 'province', ',', 'alto', 'adige-south', 'tyrol', ',', 'earns', '152', '%', 'of', 'the', 'national', 'gdp', 'per', 'capita', ',', 'while', 'the', 'poorest', 'region', ',', 'calabria', ',', '61', '%', 'the', 'unemployment', 'rate', '(', '11,1', '%', ')', 'stands', 'slightly', 'above', 'the', 'eurozone', 'average', ',', 'but', 'the', 'disaggregated', 'figure', 'is', '6,6', '%', 'in', 'the', 'north', 'and', '19,2', '%', 'in', 'the', 'south']
+
+Foll: 
+['the', 'youth', 'unemployment', 'rate', '(', '31,7', '%', 'in', 'march', '2018', ')', 'is', 'extremely', 'high', 'compared', 'to', 'eu', 'standards', 'italy', 'has', 'a', 'strong', 'cooperative', 'sector', ',', 'with', 'the', 'largest', 'share', 'of', 'the', 'population', '(', '4,5', '%', ')', 'employed', 'by', 'a', 'cooperative', 'in', 'the', 'eu']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	45
+---------------------------
+
+Prev: 
+['the', 'richest', 'province', ',', 'alto', 'adige-south', 'tyrol', ',', 'earns', '152', '%', 'of', 'the', 'national', 'gdp', 'per', 'capita', ',', 'while', 'the', 'poorest', 'region', ',', 'calabria', ',', '61', '%', 'the', 'unemployment', 'rate', '(', '11,1', '%', ')', 'stands', 'slightly', 'above', 'the', 'eurozone', 'average', ',', 'but', 'the', 'disaggregated', 'figure', 'is', '6,6', '%', 'in', 'the', 'north', 'and', '19,2', '%', 'in', 'the', 'south']
+
+Curr: 
+['the', 'youth', 'unemployment', 'rate', '(', '31,7', '%', 'in', 'march', '2018', ')', 'is', 'extremely', 'high', 'compared', 'to', 'eu', 'standards', 'italy', 'has', 'a', 'strong', 'cooperative', 'sector', ',', 'with', 'the', 'largest', 'share', 'of', 'the', 'population', '(', '4,5', '%', ')', 'employed', 'by', 'a', 'cooperative', 'in', 'the', 'eu']
+
+Foll: 
+['the', 'history', 'of', 'italian', 'cinema', 'began', 'a', 'few', 'months', 'after', 'the', 'lumière', 'brothers', 'began', 'motion', 'picture', 'exhibitions', 'the', 'first', 'italian', 'film', 'was', 'a', 'few', 'seconds', ',', 'showing', 'pope', 'leo', 'xiii', 'giving', 'a', 'blessing', 'to', 'the', 'camera']
+
+++++ Similarity 1.0 , 0.89 | 	0.94
+
+Window n:	46
+---------------------------
+
+Prev: 
+['the', 'youth', 'unemployment', 'rate', '(', '31,7', '%', 'in', 'march', '2018', ')', 'is', 'extremely', 'high', 'compared', 'to', 'eu', 'standards', 'italy', 'has', 'a', 'strong', 'cooperative', 'sector', ',', 'with', 'the', 'largest', 'share', 'of', 'the', 'population', '(', '4,5', '%', ')', 'employed', 'by', 'a', 'cooperative', 'in', 'the', 'eu']
+
+Curr: 
+['the', 'history', 'of', 'italian', 'cinema', 'began', 'a', 'few', 'months', 'after', 'the', 'lumière', 'brothers', 'began', 'motion', 'picture', 'exhibitions', 'the', 'first', 'italian', 'film', 'was', 'a', 'few', 'seconds', ',', 'showing', 'pope', 'leo', 'xiii', 'giving', 'a', 'blessing', 'to', 'the', 'camera']
+
+Foll: 
+['the', 'italian', 'film', 'industry', 'was', 'born', 'between', '1903', 'and', '1908', 'with', 'three', 'companies', ':', 'the', 'società', 'italiana', 'cines', ',', 'the', 'ambrosio', 'film', 'and', 'the', 'itala', 'film', 'other', 'companies', 'soon', 'followed', 'in', 'milan', 'and', 'in', 'naples']
+
+++++ Similarity 0.89 , 1.0 | 	0.94
+
+Window n:	47
+---------------------------
+
+Prev: 
+['the', 'history', 'of', 'italian', 'cinema', 'began', 'a', 'few', 'months', 'after', 'the', 'lumière', 'brothers', 'began', 'motion', 'picture', 'exhibitions', 'the', 'first', 'italian', 'film', 'was', 'a', 'few', 'seconds', ',', 'showing', 'pope', 'leo', 'xiii', 'giving', 'a', 'blessing', 'to', 'the', 'camera']
+
+Curr: 
+['the', 'italian', 'film', 'industry', 'was', 'born', 'between', '1903', 'and', '1908', 'with', 'three', 'companies', ':', 'the', 'società', 'italiana', 'cines', ',', 'the', 'ambrosio', 'film', 'and', 'the', 'itala', 'film', 'other', 'companies', 'soon', 'followed', 'in', 'milan', 'and', 'in', 'naples']
+
+Foll: 
+['in', 'a', 'short', 'time', 'these', 'first', 'companies', 'reached', 'a', 'fair', 'producing', 'quality', ',', 'and', 'films', 'were', 'soon', 'sold', 'outside', 'italy', 'cinema', 'was', 'later', 'used', 'by', 'benito', 'mussolini', ',', 'who', 'founded', 'rome', "'s", 'renowned', 'cinecittà', 'studio', 'for', 'the', 'production', 'of', 'fascist', 'propaganda', 'until', 'world', 'war', 'ii']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	48
+---------------------------
+
+Prev: 
+['the', 'italian', 'film', 'industry', 'was', 'born', 'between', '1903', 'and', '1908', 'with', 'three', 'companies', ':', 'the', 'società', 'italiana', 'cines', ',', 'the', 'ambrosio', 'film', 'and', 'the', 'itala', 'film', 'other', 'companies', 'soon', 'followed', 'in', 'milan', 'and', 'in', 'naples']
+
+Curr: 
+['in', 'a', 'short', 'time', 'these', 'first', 'companies', 'reached', 'a', 'fair', 'producing', 'quality', ',', 'and', 'films', 'were', 'soon', 'sold', 'outside', 'italy', 'cinema', 'was', 'later', 'used', 'by', 'benito', 'mussolini', ',', 'who', 'founded', 'rome', "'s", 'renowned', 'cinecittà', 'studio', 'for', 'the', 'production', 'of', 'fascist', 'propaganda', 'until', 'world', 'war', 'ii']
+
+Foll: 
+['after', 'the', 'war', ',', 'italian', 'film', 'was', 'widely', 'recognised', 'and', 'exported', 'until', 'an', 'artistic', 'decline', 'around', 'the', '1980s', 'notable', 'italian', 'film', 'directors', 'from', 'this', 'period', 'include', 'vittorio', 'de', 'sica', ',', 'federico', 'fellini', ',', 'sergio', 'leone', ',', 'pier', 'paolo', 'pasolini', ',', 'luchino', 'visconti', ',', 'michelangelo', 'antonioni', 'and', 'roberto', 'rossellini', ';', 'some', 'of', 'these', 'are', 'recognised', 'among', 'the', 'greatest', 'and', 'most', 'influential', 'filmmakers', 'of', 'all', 'time']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	49
+---------------------------
+
+Prev: 
+['in', 'a', 'short', 'time', 'these', 'first', 'companies', 'reached', 'a', 'fair', 'producing', 'quality', ',', 'and', 'films', 'were', 'soon', 'sold', 'outside', 'italy', 'cinema', 'was', 'later', 'used', 'by', 'benito', 'mussolini', ',', 'who', 'founded', 'rome', "'s", 'renowned', 'cinecittà', 'studio', 'for', 'the', 'production', 'of', 'fascist', 'propaganda', 'until', 'world', 'war', 'ii']
+
+Curr: 
+['after', 'the', 'war', ',', 'italian', 'film', 'was', 'widely', 'recognised', 'and', 'exported', 'until', 'an', 'artistic', 'decline', 'around', 'the', '1980s', 'notable', 'italian', 'film', 'directors', 'from', 'this', 'period', 'include', 'vittorio', 'de', 'sica', ',', 'federico', 'fellini', ',', 'sergio', 'leone', ',', 'pier', 'paolo', 'pasolini', ',', 'luchino', 'visconti', ',', 'michelangelo', 'antonioni', 'and', 'roberto', 'rossellini', ';', 'some', 'of', 'these', 'are', 'recognised', 'among', 'the', 'greatest', 'and', 'most', 'influential', 'filmmakers', 'of', 'all', 'time']
+
+Foll: 
+['movies', 'include', 'world', 'cinema', 'treasures', 'such', 'as', 'bicycle', 'thieves', ',', 'la', 'dolce', 'vita', ',', '8½', ',', 'the', 'good', ',', 'the', 'bad', 'and', 'the', 'ugly', 'and', 'once', 'upon', 'a', 'time', 'in', 'the', 'west', 'the', 'mid-1940s', 'to', 'the', 'early', '1950s', 'was', 'the', 'heyday', 'of', 'neorealist', 'films', ',', 'reflecting', 'the', 'poor', 'condition', 'of', 'post-war', 'italy']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	50
+---------------------------
+
+Prev: 
+['after', 'the', 'war', ',', 'italian', 'film', 'was', 'widely', 'recognised', 'and', 'exported', 'until', 'an', 'artistic', 'decline', 'around', 'the', '1980s', 'notable', 'italian', 'film', 'directors', 'from', 'this', 'period', 'include', 'vittorio', 'de', 'sica', ',', 'federico', 'fellini', ',', 'sergio', 'leone', ',', 'pier', 'paolo', 'pasolini', ',', 'luchino', 'visconti', ',', 'michelangelo', 'antonioni', 'and', 'roberto', 'rossellini', ';', 'some', 'of', 'these', 'are', 'recognised', 'among', 'the', 'greatest', 'and', 'most', 'influential', 'filmmakers', 'of', 'all', 'time']
+
+Curr: 
+['movies', 'include', 'world', 'cinema', 'treasures', 'such', 'as', 'bicycle', 'thieves', ',', 'la', 'dolce', 'vita', ',', '8½', ',', 'the', 'good', ',', 'the', 'bad', 'and', 'the', 'ugly', 'and', 'once', 'upon', 'a', 'time', 'in', 'the', 'west', 'the', 'mid-1940s', 'to', 'the', 'early', '1950s', 'was', 'the', 'heyday', 'of', 'neorealist', 'films', ',', 'reflecting', 'the', 'poor', 'condition', 'of', 'post-war', 'italy']
+
+Foll: 
+['as', 'the', 'country', 'grew', 'wealthier', 'in', 'the', '1950s', ',', 'a', 'form', 'of', 'neorealism', 'known', 'as', 'pink', 'neorealism', 'succeeded', ',', 'and', 'other', 'film', 'genres', ',', 'such', 'as', 'sword-and-sandal', 'followed', 'as', 'spaghetti', 'westerns', ',', 'were', 'popular', 'in', 'the', '1960s', 'and', '1970s', 'actresses', 'such', 'as', 'sophia', 'loren', ',', 'giulietta', 'masina', 'and', 'gina', 'lollobrigida', 'achieved', 'international', 'stardom', 'during', 'this', 'period']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	51
+---------------------------
+
+Prev: 
+['movies', 'include', 'world', 'cinema', 'treasures', 'such', 'as', 'bicycle', 'thieves', ',', 'la', 'dolce', 'vita', ',', '8½', ',', 'the', 'good', ',', 'the', 'bad', 'and', 'the', 'ugly', 'and', 'once', 'upon', 'a', 'time', 'in', 'the', 'west', 'the', 'mid-1940s', 'to', 'the', 'early', '1950s', 'was', 'the', 'heyday', 'of', 'neorealist', 'films', ',', 'reflecting', 'the', 'poor', 'condition', 'of', 'post-war', 'italy']
+
+Curr: 
+['as', 'the', 'country', 'grew', 'wealthier', 'in', 'the', '1950s', ',', 'a', 'form', 'of', 'neorealism', 'known', 'as', 'pink', 'neorealism', 'succeeded', ',', 'and', 'other', 'film', 'genres', ',', 'such', 'as', 'sword-and-sandal', 'followed', 'as', 'spaghetti', 'westerns', ',', 'were', 'popular', 'in', 'the', '1960s', 'and', '1970s', 'actresses', 'such', 'as', 'sophia', 'loren', ',', 'giulietta', 'masina', 'and', 'gina', 'lollobrigida', 'achieved', 'international', 'stardom', 'during', 'this', 'period']
+
+Foll: 
+['erotic', 'italian', 'thrillers', ',', 'or', 'giallos', ',', 'produced', 'by', 'directors', 'such', 'as', 'mario', 'bava', 'and', 'dario', 'argento', 'in', 'the', '1970s', ',', 'also', 'influenced', 'the', 'horror', 'genre', 'worldwide', 'in', 'recent', 'years', ',', 'the', 'italian', 'scene', 'has', 'received', 'only', 'occasional', 'international', 'attention', ',', 'with', 'movies', 'like', 'life', 'is', 'beautiful', 'directed', 'by', 'roberto', 'benigni', ',', 'il', 'postino', ':', 'the', 'postman', 'with', 'massimo', 'troisi', 'and', 'the', 'great', 'beauty', 'directed', 'by', 'paolo', 'sorrentino']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	52
+---------------------------
+
+Prev: 
+['as', 'the', 'country', 'grew', 'wealthier', 'in', 'the', '1950s', ',', 'a', 'form', 'of', 'neorealism', 'known', 'as', 'pink', 'neorealism', 'succeeded', ',', 'and', 'other', 'film', 'genres', ',', 'such', 'as', 'sword-and-sandal', 'followed', 'as', 'spaghetti', 'westerns', ',', 'were', 'popular', 'in', 'the', '1960s', 'and', '1970s', 'actresses', 'such', 'as', 'sophia', 'loren', ',', 'giulietta', 'masina', 'and', 'gina', 'lollobrigida', 'achieved', 'international', 'stardom', 'during', 'this', 'period']
+
+Curr: 
+['erotic', 'italian', 'thrillers', ',', 'or', 'giallos', ',', 'produced', 'by', 'directors', 'such', 'as', 'mario', 'bava', 'and', 'dario', 'argento', 'in', 'the', '1970s', ',', 'also', 'influenced', 'the', 'horror', 'genre', 'worldwide', 'in', 'recent', 'years', ',', 'the', 'italian', 'scene', 'has', 'received', 'only', 'occasional', 'international', 'attention', ',', 'with', 'movies', 'like', 'life', 'is', 'beautiful', 'directed', 'by', 'roberto', 'benigni', ',', 'il', 'postino', ':', 'the', 'postman', 'with', 'massimo', 'troisi', 'and', 'the', 'great', 'beauty', 'directed', 'by', 'paolo', 'sorrentino']
+
+Foll: 
+['the', 'aforementioned', 'cinecittà', 'studio', 'is', 'today', 'the', 'largest', 'film', 'and', 'television', 'production', 'facility', 'in', 'continental', 'europe', 'and', 'the', 'centre', 'of', 'the', 'italian', 'cinema', ',', 'where', 'many', 'of', 'the', 'biggest', 'box', 'office', 'hits', 'are', 'filmed', ',', 'and', 'one', 'of', 'the', 'biggest', 'production', 'communities', 'in', 'the', 'world', 'in', 'the', '1950s', ',', 'the', 'number', 'of', 'international', 'productions', 'being', 'made', 'there', 'led', 'to', 'rome', "'s", 'being', 'dubbed', '``', 'hollywood', 'on', 'the', 'tiber', "''"]
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	53
+---------------------------
+
+Prev: 
+['erotic', 'italian', 'thrillers', ',', 'or', 'giallos', ',', 'produced', 'by', 'directors', 'such', 'as', 'mario', 'bava', 'and', 'dario', 'argento', 'in', 'the', '1970s', ',', 'also', 'influenced', 'the', 'horror', 'genre', 'worldwide', 'in', 'recent', 'years', ',', 'the', 'italian', 'scene', 'has', 'received', 'only', 'occasional', 'international', 'attention', ',', 'with', 'movies', 'like', 'life', 'is', 'beautiful', 'directed', 'by', 'roberto', 'benigni', ',', 'il', 'postino', ':', 'the', 'postman', 'with', 'massimo', 'troisi', 'and', 'the', 'great', 'beauty', 'directed', 'by', 'paolo', 'sorrentino']
+
+Curr: 
+['the', 'aforementioned', 'cinecittà', 'studio', 'is', 'today', 'the', 'largest', 'film', 'and', 'television', 'production', 'facility', 'in', 'continental', 'europe', 'and', 'the', 'centre', 'of', 'the', 'italian', 'cinema', ',', 'where', 'many', 'of', 'the', 'biggest', 'box', 'office', 'hits', 'are', 'filmed', ',', 'and', 'one', 'of', 'the', 'biggest', 'production', 'communities', 'in', 'the', 'world', 'in', 'the', '1950s', ',', 'the', 'number', 'of', 'international', 'productions', 'being', 'made', 'there', 'led', 'to', 'rome', "'s", 'being', 'dubbed', '``', 'hollywood', 'on', 'the', 'tiber', "''"]
+
+Foll: 
+['more', 'than', '3,000', 'productions', 'have', 'been', 'made', 'on', 'its', 'lot', ',', 'of', 'which', '90', 'received', 'an', 'academy', 'award', 'nomination', 'and', '47', 'of', 'these', 'won', 'it', ',', 'from', 'some', 'cinema', 'classics', 'to', 'recent', 'rewarded', 'features', '(', 'such', 'as', 'roman', 'holiday', ',', 'ben-hur', ',', 'cleopatra', ',', 'romeo', 'and', 'juliet', ',', 'the', 'english', 'patient', ',', 'the', 'passion', 'of', 'the', 'christ', ',', 'and', 'gangs', 'of', 'new', 'york', ')', 'italy', 'is', 'the', 'most', 'awarded', 'country', 'at', 'the', 'academy', 'awards', 'for', 'best', 'foreign', 'language', 'film', ',', 'with', '14', 'awards', 'won', ',', '3', 'special', 'awards', 'and', '31', 'nominations']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	54
+---------------------------
+
+Prev: 
+['the', 'aforementioned', 'cinecittà', 'studio', 'is', 'today', 'the', 'largest', 'film', 'and', 'television', 'production', 'facility', 'in', 'continental', 'europe', 'and', 'the', 'centre', 'of', 'the', 'italian', 'cinema', ',', 'where', 'many', 'of', 'the', 'biggest', 'box', 'office', 'hits', 'are', 'filmed', ',', 'and', 'one', 'of', 'the', 'biggest', 'production', 'communities', 'in', 'the', 'world', 'in', 'the', '1950s', ',', 'the', 'number', 'of', 'international', 'productions', 'being', 'made', 'there', 'led', 'to', 'rome', "'s", 'being', 'dubbed', '``', 'hollywood', 'on', 'the', 'tiber', "''"]
+
+Curr: 
+['more', 'than', '3,000', 'productions', 'have', 'been', 'made', 'on', 'its', 'lot', ',', 'of', 'which', '90', 'received', 'an', 'academy', 'award', 'nomination', 'and', '47', 'of', 'these', 'won', 'it', ',', 'from', 'some', 'cinema', 'classics', 'to', 'recent', 'rewarded', 'features', '(', 'such', 'as', 'roman', 'holiday', ',', 'ben-hur', ',', 'cleopatra', ',', 'romeo', 'and', 'juliet', ',', 'the', 'english', 'patient', ',', 'the', 'passion', 'of', 'the', 'christ', ',', 'and', 'gangs', 'of', 'new', 'york', ')', 'italy', 'is', 'the', 'most', 'awarded', 'country', 'at', 'the', 'academy', 'awards', 'for', 'best', 'foreign', 'language', 'film', ',', 'with', '14', 'awards', 'won', ',', '3', 'special', 'awards', 'and', '31', 'nominations']
+
+Foll: 
+['as', 'of', '2016', ',', 'italian', 'films', 'have', 'also', 'won', '12', 'palmes', "d'or", '(', 'the', 'second-most', 'of', 'any', 'country', ')', ',', '11', 'golden', 'lions', 'and', '7', 'golden', 'bears', 'italy', 'has', 'a', 'parliamentary', 'government', 'based', 'on', 'a', 'mixed', 'proportional', 'and', 'majoritarian', 'voting', 'system']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	55
+---------------------------
+
+Prev: 
+['more', 'than', '3,000', 'productions', 'have', 'been', 'made', 'on', 'its', 'lot', ',', 'of', 'which', '90', 'received', 'an', 'academy', 'award', 'nomination', 'and', '47', 'of', 'these', 'won', 'it', ',', 'from', 'some', 'cinema', 'classics', 'to', 'recent', 'rewarded', 'features', '(', 'such', 'as', 'roman', 'holiday', ',', 'ben-hur', ',', 'cleopatra', ',', 'romeo', 'and', 'juliet', ',', 'the', 'english', 'patient', ',', 'the', 'passion', 'of', 'the', 'christ', ',', 'and', 'gangs', 'of', 'new', 'york', ')', 'italy', 'is', 'the', 'most', 'awarded', 'country', 'at', 'the', 'academy', 'awards', 'for', 'best', 'foreign', 'language', 'film', ',', 'with', '14', 'awards', 'won', ',', '3', 'special', 'awards', 'and', '31', 'nominations']
+
+Curr: 
+['as', 'of', '2016', ',', 'italian', 'films', 'have', 'also', 'won', '12', 'palmes', "d'or", '(', 'the', 'second-most', 'of', 'any', 'country', ')', ',', '11', 'golden', 'lions', 'and', '7', 'golden', 'bears', 'italy', 'has', 'a', 'parliamentary', 'government', 'based', 'on', 'a', 'mixed', 'proportional', 'and', 'majoritarian', 'voting', 'system']
+
+Foll: 
+['the', 'parliament', 'is', 'perfectly', 'bicameral', ':', 'the', 'two', 'houses', ',', 'the', 'chamber', 'of', 'deputies', 'that', 'meets', 'in', 'palazzo', 'montecitorio', ',', 'and', 'the', 'senate', 'of', 'the', 'republic', 'that', 'meets', 'in', 'palazzo', 'madama', ',', 'have', 'the', 'same', 'powers', 'the', 'prime', 'minister', ',', 'officially', 'president', 'of', 'the', 'council', 'of', 'ministers', '(', 'presidente', 'del', 'consiglio', 'dei', 'ministri', ')', ',', 'is', 'italy', "'s", 'head', 'of', 'government']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	56
+---------------------------
+
+Prev: 
+['as', 'of', '2016', ',', 'italian', 'films', 'have', 'also', 'won', '12', 'palmes', "d'or", '(', 'the', 'second-most', 'of', 'any', 'country', ')', ',', '11', 'golden', 'lions', 'and', '7', 'golden', 'bears', 'italy', 'has', 'a', 'parliamentary', 'government', 'based', 'on', 'a', 'mixed', 'proportional', 'and', 'majoritarian', 'voting', 'system']
+
+Curr: 
+['the', 'parliament', 'is', 'perfectly', 'bicameral', ':', 'the', 'two', 'houses', ',', 'the', 'chamber', 'of', 'deputies', 'that', 'meets', 'in', 'palazzo', 'montecitorio', ',', 'and', 'the', 'senate', 'of', 'the', 'republic', 'that', 'meets', 'in', 'palazzo', 'madama', ',', 'have', 'the', 'same', 'powers', 'the', 'prime', 'minister', ',', 'officially', 'president', 'of', 'the', 'council', 'of', 'ministers', '(', 'presidente', 'del', 'consiglio', 'dei', 'ministri', ')', ',', 'is', 'italy', "'s", 'head', 'of', 'government']
+
+Foll: 
+['the', 'prime', 'minister', 'and', 'the', 'cabinet', 'are', 'appointed', 'by', 'the', 'president', 'of', 'the', 'republic', 'of', 'italy', 'and', 'must', 'pass', 'a', 'vote', 'of', 'confidence', 'in', 'parliament', 'to', 'come', 'into', 'office', 'to', 'remain', 'the', 'prime', 'minister', 'has', 'to', 'pass', 'also', 'eventual', 'further', 'votes', 'of', 'confidence', 'or', 'no', 'confidence', 'in', 'parliament']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	57
+---------------------------
+
+Prev: 
+['the', 'parliament', 'is', 'perfectly', 'bicameral', ':', 'the', 'two', 'houses', ',', 'the', 'chamber', 'of', 'deputies', 'that', 'meets', 'in', 'palazzo', 'montecitorio', ',', 'and', 'the', 'senate', 'of', 'the', 'republic', 'that', 'meets', 'in', 'palazzo', 'madama', ',', 'have', 'the', 'same', 'powers', 'the', 'prime', 'minister', ',', 'officially', 'president', 'of', 'the', 'council', 'of', 'ministers', '(', 'presidente', 'del', 'consiglio', 'dei', 'ministri', ')', ',', 'is', 'italy', "'s", 'head', 'of', 'government']
+
+Curr: 
+['the', 'prime', 'minister', 'and', 'the', 'cabinet', 'are', 'appointed', 'by', 'the', 'president', 'of', 'the', 'republic', 'of', 'italy', 'and', 'must', 'pass', 'a', 'vote', 'of', 'confidence', 'in', 'parliament', 'to', 'come', 'into', 'office', 'to', 'remain', 'the', 'prime', 'minister', 'has', 'to', 'pass', 'also', 'eventual', 'further', 'votes', 'of', 'confidence', 'or', 'no', 'confidence', 'in', 'parliament']
+
+Foll: 
+['the', 'prime', 'minister', 'is', 'the', 'president', 'of', 'the', 'council', 'of', 'ministers', '–', 'which', 'holds', 'effective', 'executive', 'power', '–', 'and', 'he', 'must', 'receive', 'a', 'vote', 'of', 'approval', 'from', 'it', 'to', 'execute', 'most', 'political', 'activities', 'the', 'office', 'is', 'similar', 'to', 'those', 'in', 'most', 'other', 'parliamentary', 'systems', ',', 'but', 'the', 'leader', 'of', 'the', 'italian', 'government', 'is', 'not', 'authorised', 'to', 'request', 'the', 'dissolution', 'of', 'the', 'parliament', 'of', 'italy']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	58
+---------------------------
+
+Prev: 
+['the', 'prime', 'minister', 'and', 'the', 'cabinet', 'are', 'appointed', 'by', 'the', 'president', 'of', 'the', 'republic', 'of', 'italy', 'and', 'must', 'pass', 'a', 'vote', 'of', 'confidence', 'in', 'parliament', 'to', 'come', 'into', 'office', 'to', 'remain', 'the', 'prime', 'minister', 'has', 'to', 'pass', 'also', 'eventual', 'further', 'votes', 'of', 'confidence', 'or', 'no', 'confidence', 'in', 'parliament']
+
+Curr: 
+['the', 'prime', 'minister', 'is', 'the', 'president', 'of', 'the', 'council', 'of', 'ministers', '–', 'which', 'holds', 'effective', 'executive', 'power', '–', 'and', 'he', 'must', 'receive', 'a', 'vote', 'of', 'approval', 'from', 'it', 'to', 'execute', 'most', 'political', 'activities', 'the', 'office', 'is', 'similar', 'to', 'those', 'in', 'most', 'other', 'parliamentary', 'systems', ',', 'but', 'the', 'leader', 'of', 'the', 'italian', 'government', 'is', 'not', 'authorised', 'to', 'request', 'the', 'dissolution', 'of', 'the', 'parliament', 'of', 'italy']
+
+Foll: 
+['another', 'difference', 'with', 'similar', 'offices', 'is', 'that', 'the', 'overall', 'political', 'responsibility', 'for', 'intelligence', 'is', 'vested', 'in', 'the', 'president', 'of', 'the', 'council', 'of', 'ministers', 'by', 'virtue', 'of', 'that', ',', 'the', 'prime', 'minister', 'has', 'exclusive', 'power', 'to', ':', 'co-ordinate', 'intelligence', 'policies', ',', 'determining', 'the', 'financial', 'resources', 'and', 'strengthening', 'national', 'cyber', 'security', ';', 'apply', 'and', 'protect', 'state', 'secrets', ';', 'authorise', 'agents', 'to', 'carry', 'out', 'operations', ',', 'in', 'italy', 'or', 'abroad', ',', 'in', 'violation', 'of', 'the', 'law']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	59
+---------------------------
+
+Prev: 
+['the', 'prime', 'minister', 'is', 'the', 'president', 'of', 'the', 'council', 'of', 'ministers', '–', 'which', 'holds', 'effective', 'executive', 'power', '–', 'and', 'he', 'must', 'receive', 'a', 'vote', 'of', 'approval', 'from', 'it', 'to', 'execute', 'most', 'political', 'activities', 'the', 'office', 'is', 'similar', 'to', 'those', 'in', 'most', 'other', 'parliamentary', 'systems', ',', 'but', 'the', 'leader', 'of', 'the', 'italian', 'government', 'is', 'not', 'authorised', 'to', 'request', 'the', 'dissolution', 'of', 'the', 'parliament', 'of', 'italy']
+
+Curr: 
+['another', 'difference', 'with', 'similar', 'offices', 'is', 'that', 'the', 'overall', 'political', 'responsibility', 'for', 'intelligence', 'is', 'vested', 'in', 'the', 'president', 'of', 'the', 'council', 'of', 'ministers', 'by', 'virtue', 'of', 'that', ',', 'the', 'prime', 'minister', 'has', 'exclusive', 'power', 'to', ':', 'co-ordinate', 'intelligence', 'policies', ',', 'determining', 'the', 'financial', 'resources', 'and', 'strengthening', 'national', 'cyber', 'security', ';', 'apply', 'and', 'protect', 'state', 'secrets', ';', 'authorise', 'agents', 'to', 'carry', 'out', 'operations', ',', 'in', 'italy', 'or', 'abroad', ',', 'in', 'violation', 'of', 'the', 'law']
+
+Foll: 
+['a', 'peculiarity', 'of', 'the', 'italian', 'parliament', 'is', 'the', 'representation', 'given', 'to', 'italian', 'citizens', 'permanently', 'living', 'abroad', ':', '12', 'deputies', 'and', '6', 'senators', 'elected', 'in', 'four', 'distinct', 'overseas', 'constituencies', 'in', 'addition', ',', 'the', 'italian', 'senate', 'is', 'characterised', 'also', 'by', 'a', 'small', 'number', 'of', 'senators', 'for', 'life', ',', 'appointed', 'by', 'the', 'president', '``', 'for', 'outstanding', 'patriotic', 'merits', 'in', 'the', 'social', ',', 'scientific', ',', 'artistic', 'or', 'literary', 'field', "''"]
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	60
+---------------------------
+
+Prev: 
+['another', 'difference', 'with', 'similar', 'offices', 'is', 'that', 'the', 'overall', 'political', 'responsibility', 'for', 'intelligence', 'is', 'vested', 'in', 'the', 'president', 'of', 'the', 'council', 'of', 'ministers', 'by', 'virtue', 'of', 'that', ',', 'the', 'prime', 'minister', 'has', 'exclusive', 'power', 'to', ':', 'co-ordinate', 'intelligence', 'policies', ',', 'determining', 'the', 'financial', 'resources', 'and', 'strengthening', 'national', 'cyber', 'security', ';', 'apply', 'and', 'protect', 'state', 'secrets', ';', 'authorise', 'agents', 'to', 'carry', 'out', 'operations', ',', 'in', 'italy', 'or', 'abroad', ',', 'in', 'violation', 'of', 'the', 'law']
+
+Curr: 
+['a', 'peculiarity', 'of', 'the', 'italian', 'parliament', 'is', 'the', 'representation', 'given', 'to', 'italian', 'citizens', 'permanently', 'living', 'abroad', ':', '12', 'deputies', 'and', '6', 'senators', 'elected', 'in', 'four', 'distinct', 'overseas', 'constituencies', 'in', 'addition', ',', 'the', 'italian', 'senate', 'is', 'characterised', 'also', 'by', 'a', 'small', 'number', 'of', 'senators', 'for', 'life', ',', 'appointed', 'by', 'the', 'president', '``', 'for', 'outstanding', 'patriotic', 'merits', 'in', 'the', 'social', ',', 'scientific', ',', 'artistic', 'or', 'literary', 'field', "''"]
+
+Foll: 
+['former', 'presidents', 'of', 'the', 'republic', 'are', 'ex', 'officio', 'life', 'senators', 'italy', "'s", 'three', 'major', 'political', 'parties', 'are', 'the', 'five', 'star', 'movement', ',', 'the', 'democratic', 'party', 'and', 'the', 'lega']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	61
+---------------------------
+
+Prev: 
+['a', 'peculiarity', 'of', 'the', 'italian', 'parliament', 'is', 'the', 'representation', 'given', 'to', 'italian', 'citizens', 'permanently', 'living', 'abroad', ':', '12', 'deputies', 'and', '6', 'senators', 'elected', 'in', 'four', 'distinct', 'overseas', 'constituencies', 'in', 'addition', ',', 'the', 'italian', 'senate', 'is', 'characterised', 'also', 'by', 'a', 'small', 'number', 'of', 'senators', 'for', 'life', ',', 'appointed', 'by', 'the', 'president', '``', 'for', 'outstanding', 'patriotic', 'merits', 'in', 'the', 'social', ',', 'scientific', ',', 'artistic', 'or', 'literary', 'field', "''"]
+
+Curr: 
+['former', 'presidents', 'of', 'the', 'republic', 'are', 'ex', 'officio', 'life', 'senators', 'italy', "'s", 'three', 'major', 'political', 'parties', 'are', 'the', 'five', 'star', 'movement', ',', 'the', 'democratic', 'party', 'and', 'the', 'lega']
+
+Foll: 
+['during', 'the', '2018', 'general', 'election', 'these', 'three', 'parties', 'won', '614', 'out', 'of', '630', 'seats', 'available', 'in', 'the', 'chamber', 'of', 'deputies', 'and', '309', 'out', 'of', '315', 'in', 'the', 'senate', 'berlusconi', "'s", 'forza', 'italia', 'which', 'formed', 'a', 'centre-right', 'coalition', 'with', 'matteo', 'salvini', "'s", 'northern', 'league', 'and', 'giorgia', 'meloni', "'s", 'brothers', 'of', 'italy', 'won', 'most', 'of', 'the', 'seats', 'without', 'getting', 'the', 'majority', 'in', 'parliament']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
+
+Window n:	62
+---------------------------
+
+Prev: 
+['former', 'presidents', 'of', 'the', 'republic', 'are', 'ex', 'officio', 'life', 'senators', 'italy', "'s", 'three', 'major', 'political', 'parties', 'are', 'the', 'five', 'star', 'movement', ',', 'the', 'democratic', 'party', 'and', 'the', 'lega']
+
+Curr: 
+['during', 'the', '2018', 'general', 'election', 'these', 'three', 'parties', 'won', '614', 'out', 'of', '630', 'seats', 'available', 'in', 'the', 'chamber', 'of', 'deputies', 'and', '309', 'out', 'of', '315', 'in', 'the', 'senate', 'berlusconi', "'s", 'forza', 'italia', 'which', 'formed', 'a', 'centre-right', 'coalition', 'with', 'matteo', 'salvini', "'s", 'northern', 'league', 'and', 'giorgia', 'meloni', "'s", 'brothers', 'of', 'italy', 'won', 'most', 'of', 'the', 'seats', 'without', 'getting', 'the', 'majority', 'in', 'parliament']
+
+Foll: 
+['the', 'rest', 'of', 'the', 'seats', 'were', 'taken', 'by', 'five', 'star', 'movement', ',', 'matteo', 'renzi', "'s", 'democratic', 'party', 'along', 'with', 'achammer', 'and', 'panizza', "'s", 'south', 'tyrolean', 'people', "'s", 'party', '&', 'trentino', 'tyrolean', 'autonomist', 'party', 'in', 'a', 'centre-left', 'coalition', 'and', 'the', 'independent', 'free', 'and', 'equal', 'party', '.']
+
+++++ Similarity 1.0 , 1.0 | 	1.0
