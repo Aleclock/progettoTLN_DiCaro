@@ -1,0 +1,513 @@
++-------+----------------+-------+-----+----------------+---------------+
+| Index |      Text      |  POS  | TAG |      Head      | Syntactic dep |
++-------+----------------+-------+-----+----------------+---------------+
+|   0   |      The       |  DET  |  DT |      Jury      |      det      |
+|   1   |     Fulton     | PROPN | NNP |     County     |    compound   |
+|   2   |     County     | PROPN | NNP |      Jury      |    compound   |
+|   3   |     Grand      | PROPN | NNP |      Jury      |    compound   |
+|   4   |      Jury      | PROPN | NNP |      said      |     nsubj     |
+|   5   |      said      |  VERB | VBD |      said      |      ROOT     |
+|   6   |     Friday     | PROPN | NNP |      said      |    npadvmod   |
+|   7   |       an       |  DET  |  DT | investigation  |      det      |
+|   8   | investigation  |  NOUN |  NN |      said      |     ccomp     |
+|   9   |       of       |  ADP  |  IN | investigation  |      prep     |
+|   10  |    Atlanta     | PROPN | NNP |    election    |      poss     |
+|   11  |       's       |  PART | POS |    Atlanta     |      case     |
+|   12  |     recent     |  ADJ  |  JJ |    election    |      amod     |
+|   13  |    primary     |  ADJ  |  JJ |    election    |      amod     |
+|   14  |    election    |  NOUN |  NN |       of       |      pobj     |
+|   15  |    produced    |  VERB | VBN |    election    |      acl      |
+|   16  |       `        | PUNCT |  '' |    evidence    |     punct     |
+|   17  |       `        | PUNCT |  '' |    evidence    |     punct     |
+|   18  |       no       |  DET  |  DT |    evidence    |      det      |
+|   19  |    evidence    |  NOUN |  NN |    produced    |      dobj     |
+|   20  |       ''       | PUNCT |  '' |    evidence    |     punct     |
+|   21  |      that      |  DET  | WDT |      took      |      mark     |
+|   22  |      any       |  DET  |  DT | irregularities |      det      |
+|   23  | irregularities |  NOUN | NNS |      took      |     nsubj     |
+|   24  |      took      |  VERB | VBD |    evidence    |      acl      |
+|   25  |     place      |  NOUN |  NN |      took      |      dobj     |
+|   26  |       .        | PUNCT |  .  |      said      |     punct     |
++-------+----------------+-------+-----+----------------+---------------+
++-------+--------------+-------+------+--------------+---------------+
+| Index |     Text     |  POS  | TAG  |     Head     | Syntactic dep |
++-------+--------------+-------+------+--------------+---------------+
+|   0   |     The      |  DET  |  DT  |     jury     |      det      |
+|   1   |     jury     |  NOUN |  NN  |     said     |     nsubj     |
+|   2   |   further    |  ADV  |  RB  |     said     |     advmod    |
+|   3   |     said     |  VERB | VBD  |     said     |      ROOT     |
+|   4   |      in      |  ADP  |  IN  |     said     |      prep     |
+|   5   |     term     |  NOUN |  NN  |     end      |    compound   |
+|   6   |      -       | PUNCT | HYPH |     end      |     punct     |
+|   7   |     end      |  NOUN |  NN  | presentments |    compound   |
+|   8   | presentments |  NOUN | NNS  |      in      |      pobj     |
+|   9   |     that     |  DET  | WDT  |   deserves   |      mark     |
+|   10  |     the      |  DET  |  DT  |  Committee   |      det      |
+|   11  |     City     | PROPN | NNP  |  Committee   |    compound   |
+|   12  |  Executive   | PROPN | NNP  |  Committee   |    compound   |
+|   13  |  Committee   | PROPN | NNP  |   deserves   |     nsubj     |
+|   14  |      ,       | PUNCT |  ,   |  Committee   |     punct     |
+|   15  |    which     |  DET  | WDT  |     had      |     nsubj     |
+|   16  |     had      |  AUX  | VBD  |  Committee   |     relcl     |
+|   17  |     over     |  ADV  |  RB  |    charge    |      nmod     |
+|   18  |      -       | PUNCT | HYPH |     over     |     punct     |
+|   19  |     all      |  DET  |  DT  |     over     |      pobj     |
+|   20  |    charge    |  NOUN |  NN  |     had      |      dobj     |
+|   21  |      of      |  ADP  |  IN  |    charge    |      prep     |
+|   22  |     the      |  DET  |  DT  |   election   |      det      |
+|   23  |   election   |  NOUN |  NN  |      of      |      pobj     |
+|   24  |      ,       | PUNCT |  ,   |  Committee   |     punct     |
+|   25  |      `       | PUNCT |  ''  |  Committee   |     punct     |
+|   26  |      `       | PUNCT |  ''  |   deserves   |     punct     |
+|   27  |   deserves   |  VERB | VBZ  |     said     |     ccomp     |
+|   28  |     the      |  DET  |  DT  |    praise    |      det      |
+|   29  |    praise    |  NOUN |  NN  |   deserves   |      dobj     |
+|   30  |     and      | CCONJ |  CC  |    praise    |       cc      |
+|   31  |    thanks    |  NOUN | NNS  |    praise    |      conj     |
+|   32  |      of      |  ADP  |  IN  |    praise    |      prep     |
+|   33  |     the      |  DET  |  DT  |     City     |      det      |
+|   34  |     City     | PROPN | NNP  |      of      |      pobj     |
+|   35  |      of      |  ADP  |  IN  |     City     |      prep     |
+|   36  |   Atlanta    | PROPN | NNP  |      of      |      pobj     |
+|   37  |      ''      | PUNCT |  ''  |   deserves   |     punct     |
+|   38  |     for      |  ADP  |  IN  |   deserves   |      prep     |
+|   39  |     the      |  DET  |  DT  |    manner    |      det      |
+|   40  |    manner    |  NOUN |  NN  |     for      |      pobj     |
+|   41  |      in      |  ADP  |  IN  |  conducted   |      prep     |
+|   42  |    which     |  DET  | WDT  |      in      |      pobj     |
+|   43  |     the      |  DET  |  DT  |   election   |      det      |
+|   44  |   election   |  NOUN |  NN  |  conducted   |   nsubjpass   |
+|   45  |     was      |  AUX  | VBD  |  conducted   |    auxpass    |
+|   46  |  conducted   |  VERB | VBN  |    manner    |     relcl     |
+|   47  |      .       | PUNCT |  .   |     said     |     punct     |
++-------+--------------+-------+------+--------------+---------------+
++-------+----------------+-------+------+----------------+---------------+
+| Index |      Text      |  POS  | TAG  |      Head      | Syntactic dep |
++-------+----------------+-------+------+----------------+---------------+
+|   0   |      The       |  DET  |  DT  |      jury      |      det      |
+|   1   |   September    | PROPN | NNP  |    October     |    compound   |
+|   2   |       -        | PUNCT | HYPH |    October     |     punct     |
+|   3   |    October     | PROPN | NNP  |      term      |    compound   |
+|   4   |      term      |  NOUN |  NN  |      jury      |    compound   |
+|   5   |      jury      |  NOUN |  NN  |    charged     |   nsubjpass   |
+|   6   |      had       |  AUX  | VBD  |    charged     |      aux      |
+|   7   |      been      |  AUX  | VBN  |    charged     |    auxpass    |
+|   8   |    charged     |  VERB | VBN  |    charged     |      ROOT     |
+|   9   |       by       |  ADP  |  IN  |    charged     |     agent     |
+|   10  |     Fulton     | PROPN | NNP  |     Court      |    compound   |
+|   11  |    Superior    | PROPN | NNP  |     Court      |    compound   |
+|   12  |     Court      | PROPN | NNP  |     Judge      |    compound   |
+|   13  |     Judge      | PROPN | NNP  |      Pye       |    compound   |
+|   14  |    Durwood     | PROPN | NNP  |      Pye       |    compound   |
+|   15  |      Pye       | PROPN | NNP  |       by       |      pobj     |
+|   16  |       to       |  PART |  TO  |  investigate   |      aux      |
+|   17  |  investigate   |  VERB |  VB  |    charged     |     advcl     |
+|   18  |    reports     |  NOUN | NNS  |  investigate   |      dobj     |
+|   19  |       of       |  ADP  |  IN  |    reports     |      prep     |
+|   20  |    possible    |  ADJ  |  JJ  | irregularities |      amod     |
+|   21  |       `        | PUNCT |  ''  | irregularities |     punct     |
+|   22  |       `        | PUNCT |  ''  | irregularities |     punct     |
+|   23  | irregularities |  NOUN | NNS  |       of       |      pobj     |
+|   24  |       ''       | PUNCT |  ''  | irregularities |     punct     |
+|   25  |       in       |  ADP  |  IN  | irregularities |      prep     |
+|   26  |      the       |  DET  |  DT  |    primary     |      det      |
+|   27  |      hard      |  ADV  |  RB  |     fought     |     advmod    |
+|   28  |       -        | PUNCT | HYPH |     fought     |     punct     |
+|   29  |     fought     |  VERB | VBN  |    primary     |      amod     |
+|   30  |    primary     |  NOUN |  NN  |       in       |      pobj     |
+|   31  |     which      |  DET  | WDT  |      won       |   nsubjpass   |
+|   32  |      was       |  AUX  | VBD  |      won       |    auxpass    |
+|   33  |      won       |  VERB | VBN  | irregularities |     relcl     |
+|   34  |       by       |  ADP  |  IN  |      won       |     agent     |
+|   35  |     Mayor      | PROPN | NNP  |    nominate    |    npadvmod   |
+|   36  |       -        | PUNCT | HYPH |    nominate    |     punct     |
+|   37  |    nominate    |  NOUN |  NN  |      Jr.       |      amod     |
+|   38  |      Ivan      | PROPN | NNP  |      Jr.       |    compound   |
+|   39  |     Allen      | PROPN | NNP  |      Jr.       |    compound   |
+|   40  |      Jr.       | PROPN | NNP  |       by       |      pobj     |
+|   41  |       .        | PUNCT |  .   |    charged     |     punct     |
++-------+----------------+-------+------+----------------+---------------+
++-------+-------------+-------+-----+-------------+---------------+
+| Index |     Text    |  POS  | TAG |     Head    | Syntactic dep |
++-------+-------------+-------+-----+-------------+---------------+
+|   0   |      `      | PUNCT |  '' |   received  |     punct     |
+|   1   |      `      | PUNCT |  '' |   received  |     punct     |
+|   2   |     Only    |  ADV  |  RB |   handful   |     advmod    |
+|   3   |      a      |  DET  |  DT |   handful   |      det      |
+|   4   |   relative  |  ADJ  |  JJ |   handful   |      amod     |
+|   5   |   handful   |  NOUN |  NN |   received  |   nsubjpass   |
+|   6   |      of     |  ADP  |  IN |   handful   |      prep     |
+|   7   |     such    |  ADJ  |  JJ |   reports   |      amod     |
+|   8   |   reports   |  NOUN | NNS |      of     |      pobj     |
+|   9   |     was     |  AUX  | VBD |   received  |    auxpass    |
+|   10  |   received  |  VERB | VBN |     said    |     ccomp     |
+|   11  |      ''     | PUNCT |  '' |   received  |     punct     |
+|   12  |      ,      | PUNCT |  ,  |     said    |     punct     |
+|   13  |     the     |  DET  |  DT |     jury    |      det      |
+|   14  |     jury    |  NOUN |  NN |     said    |     nsubj     |
+|   15  |     said    |  VERB | VBD |     said    |      ROOT     |
+|   16  |      ,      | PUNCT |  ,  |     said    |     punct     |
+|   17  |      `      | PUNCT |  '' |     said    |     punct     |
+|   18  |      `      | PUNCT |  '' | considering |     punct     |
+|   19  | considering |  VERB | VBG |     said    |     xcomp     |
+|   20  |     the     |  DET  |  DT |   interest  |      det      |
+|   21  |  widespread |  ADJ  |  JJ |   interest  |      amod     |
+|   22  |   interest  |  NOUN |  NN | considering |      dobj     |
+|   23  |      in     |  ADP  |  IN |   interest  |      prep     |
+|   24  |     the     |  DET  |  DT |   election  |      det      |
+|   25  |   election  |  NOUN |  NN |      in     |      pobj     |
+|   26  |      ,      | PUNCT |  ,  | considering |     punct     |
+|   27  |     the     |  DET  |  DT |    number   |      det      |
+|   28  |    number   |  NOUN |  NN | considering |      conj     |
+|   29  |      of     |  ADP  |  IN |    number   |      prep     |
+|   30  |    voters   |  NOUN | NNS |      of     |      pobj     |
+|   31  |     and     | CCONJ |  CC |    number   |       cc      |
+|   32  |     the     |  DET  |  DT |     size    |      det      |
+|   33  |     size    |  NOUN |  NN |    number   |      conj     |
+|   34  |      of     |  ADP  |  IN |     size    |      prep     |
+|   35  |     this    |  DET  |  DT |     city    |      det      |
+|   36  |     city    |  NOUN |  NN |      of     |      pobj     |
+|   37  |      ''     | PUNCT |  '' |    number   |     punct     |
+|   38  |      .      | PUNCT |  .  |     said    |     punct     |
++-------+-------------+-------+-----+-------------+---------------+
++-------+--------------+-------+-----+--------------+---------------+
+| Index |     Text     |  POS  | TAG |     Head     | Syntactic dep |
++-------+--------------+-------+-----+--------------+---------------+
+|   0   |     The      |  DET  |  DT |     jury     |      det      |
+|   1   |     jury     |  NOUN |  NN |     said     |     nsubj     |
+|   2   |     said     |  VERB | VBD |     said     |      ROOT     |
+|   3   |      it      |  PRON | PRP |     find     |     nsubj     |
+|   4   |     did      |  AUX  | VBD |     find     |      aux      |
+|   5   |     find     |  VERB |  VB |     said     |     ccomp     |
+|   6   |     that     | SCONJ |  IN |   outmoded   |      mark     |
+|   7   |     many     |  ADJ  |  JJ |   outmoded   |   nsubjpass   |
+|   8   |      of      |  ADP  |  IN |     many     |      prep     |
+|   9   |   Georgia    | PROPN | NNP | registration |      poss     |
+|   10  |      's      |  PART | POS |   Georgia    |      case     |
+|   11  | registration |  NOUN |  NN |      of      |      pobj     |
+|   12  |     and      | CCONJ |  CC | registration |       cc      |
+|   13  |   election   |  NOUN |  NN |     laws     |    compound   |
+|   14  |     laws     |  NOUN | NNS | registration |      conj     |
+|   15  |      `       | PUNCT |  '' |   outmoded   |     punct     |
+|   16  |      `       | PUNCT |  '' |   outmoded   |     punct     |
+|   17  |     are      |  AUX  | VBP |   outmoded   |    auxpass    |
+|   18  |   outmoded   |  ADJ  |  JJ |     find     |     ccomp     |
+|   19  |      or      | CCONJ |  CC |   outmoded   |       cc      |
+|   20  |  inadequate  |  ADJ  |  JJ |   outmoded   |      conj     |
+|   21  |     and      | CCONJ |  CC |  inadequate  |       cc      |
+|   22  |    often     |  ADV  |  RB |  ambiguous   |     advmod    |
+|   23  |  ambiguous   |  ADJ  |  JJ |  inadequate  |      conj     |
+|   24  |      ''      | PUNCT |  '' |     said     |     punct     |
+|   25  |      .       | PUNCT |  .  |     said     |     punct     |
++-------+--------------+-------+-----+--------------+---------------+
++-------+-------------+-------+-----+-------------+---------------+
+| Index |     Text    |  POS  | TAG |     Head    | Syntactic dep |
++-------+-------------+-------+-----+-------------+---------------+
+|   0   |      It     |  PRON | PRP | recommended |     nsubj     |
+|   1   | recommended |  VERB | VBD | recommended |      ROOT     |
+|   2   |     that    | SCONJ |  IN |     act     |      mark     |
+|   3   |    Fulton   | PROPN | NNP | legislators |    compound   |
+|   4   | legislators |  NOUN | NNS |     act     |     nsubj     |
+|   5   |     act     |  VERB | VBP | recommended |     ccomp     |
+|   6   |      `      | PUNCT |  '' |     act     |     punct     |
+|   7   |      `      | PUNCT |  '' |     have    |     punct     |
+|   8   |      to     |  PART |  TO |     have    |      aux      |
+|   9   |     have    |  AUX  |  VB |     act     |     xcomp     |
+|   10  |    these    |  DET  |  DT |     laws    |      det      |
+|   11  |     laws    |  NOUN | NNS |   studied   |     nsubj     |
+|   12  |   studied   |  VERB | VBN |     have    |     ccomp     |
+|   13  |     and     | CCONJ |  CC |   studied   |       cc      |
+|   14  |   revised   |  VERB | VBN |   studied   |      conj     |
+|   15  |      to     |  ADP  |  IN |   revised   |      prep     |
+|   16  |     the     |  DET  |  DT |     end     |      det      |
+|   17  |     end     |  NOUN |  NN |      to     |      pobj     |
+|   18  |      of     |  ADP  |  IN |     end     |      prep     |
+|   19  | modernizing |  VERB | VBG |      of     |     pcomp     |
+|   20  |     and     | CCONJ |  CC | modernizing |       cc      |
+|   21  |  improving  |  VERB | VBG | modernizing |      conj     |
+|   22  |     them    |  PRON | PRP |  improving  |      dobj     |
+|   23  |      ''     | PUNCT |  '' |     act     |     punct     |
+|   24  |      .      | PUNCT |  .  | recommended |     punct     |
++-------+-------------+-------+-----+-------------+---------------+
++-------+-------------+-------+-----+-------------+---------------+
+| Index |     Text    |  POS  | TAG |     Head    | Syntactic dep |
++-------+-------------+-------+-----+-------------+---------------+
+|   0   |     The     |  DET  |  DT |     jury    |      det      |
+|   1   |    grand    |  ADJ  |  JJ |     jury    |      amod     |
+|   2   |     jury    |  NOUN |  NN |  commented  |     nsubj     |
+|   3   |  commented  |  VERB | VBD |  commented  |      ROOT     |
+|   4   |      on     |  ADP  |  IN |  commented  |      prep     |
+|   5   |      a      |  DET  |  DT |    number   |      det      |
+|   6   |    number   |  NOUN |  NN |      on     |      pobj     |
+|   7   |      of     |  ADP  |  IN |    number   |      prep     |
+|   8   |    other    |  ADJ  |  JJ |    topics   |      amod     |
+|   9   |    topics   |  NOUN | NNS |      of     |      pobj     |
+|   10  |      ,      | PUNCT |  ,  |  commented  |     punct     |
+|   11  |    among    |  ADP  |  IN | departments |      prep     |
+|   12  |     them    |  PRON | PRP |    among    |      pobj     |
+|   13  |     the     |  DET  |  DT | departments |      det      |
+|   14  |   Atlanta   | PROPN | NNP | departments |      nmod     |
+|   15  |     and     | CCONJ |  CC |   Atlanta   |       cc      |
+|   16  |    Fulton   | PROPN | NNP |    County   |    compound   |
+|   17  |    County   | PROPN | NNP |   Atlanta   |      conj     |
+|   18  |  purchasing |  NOUN |  NN | departments |    compound   |
+|   19  | departments |  NOUN | NNS |  commented  |      dobj     |
+|   20  |    which    |  DET  | WDT |     said    |      dobj     |
+|   21  |      it     |  PRON | PRP |     said    |     nsubj     |
+|   22  |     said    |  VERB | VBD | departments |     relcl     |
+|   23  |      `      | PUNCT |  '' |     are     |     punct     |
+|   24  |      `      | PUNCT |  '' |     are     |     punct     |
+|   25  |     are     |  AUX  | VBP |     said    |     ccomp     |
+|   26  |     well    |  ADV  |  RB |   operated  |     advmod    |
+|   27  |   operated  |  VERB | VBN |     are     |     acomp     |
+|   28  |     and     | CCONJ |  CC |   operated  |       cc      |
+|   29  |    follow   |  VERB |  VB |   operated  |      conj     |
+|   30  |  generally  |  ADV  |  RB |   accepted  |     advmod    |
+|   31  |   accepted  |  VERB | VBN |  practices  |      amod     |
+|   32  |  practices  |  NOUN | NNS |    follow   |      dobj     |
+|   33  |    which    |  DET  | WDT |    inure    |     nsubj     |
+|   34  |    inure    |  VERB | VBP |  practices  |     relcl     |
+|   35  |      to     |  ADP  |  IN |    inure    |      prep     |
+|   36  |     the     |  DET  |  DT |   interest  |      det      |
+|   37  |     best    |  ADJ  | JJS |   interest  |      amod     |
+|   38  |   interest  |  NOUN |  NN |      to     |      pobj     |
+|   39  |      of     |  ADP  |  IN |   interest  |      prep     |
+|   40  |     both    |  DET  |  DT | governments |      det      |
+|   41  | governments |  NOUN | NNS |      of     |      pobj     |
+|   42  |      ''     | PUNCT |  '' |     are     |     punct     |
+|   43  |      .      | PUNCT |  .  |  commented  |     punct     |
++-------+-------------+-------+-----+-------------+---------------+
++-------+----------+-------+-----+----------+---------------+
+| Index |   Text   |  POS  | TAG |   Head   | Syntactic dep |
++-------+----------+-------+-----+----------+---------------+
+|   0   |  Merger  | PROPN | NNP | proposed |     nsubj     |
+|   1   | proposed |  VERB | VBD | proposed |      ROOT     |
++-------+----------+-------+-----+----------+---------------+
++-------+----------------+-------+-----+------------+---------------+
+| Index |      Text      |  POS  | TAG |    Head    | Syntactic dep |
++-------+----------------+-------+-----+------------+---------------+
+|   0   |    However     |  ADV  |  RB |    said    |     advmod    |
+|   1   |       ,        | PUNCT |  ,  |    said    |     punct     |
+|   2   |      the       |  DET  |  DT |    jury    |      det      |
+|   3   |      jury      |  NOUN |  NN |    said    |     nsubj     |
+|   4   |      said      |  VERB | VBD |    said    |      ROOT     |
+|   5   |       it       |  PRON | PRP |  believes  |     nsubj     |
+|   6   |    believes    |  VERB | VBZ |    said    |     ccomp     |
+|   7   |       `        | PUNCT |  '' |  combined  |     punct     |
+|   8   |       `        | PUNCT |  '' |  combined  |     punct     |
+|   9   |     these      |  DET  |  DT |  offices   |      det      |
+|   10  |      two       |  NUM  |  CD |  offices   |     nummod    |
+|   11  |    offices     |  NOUN | NNS |  combined  |   nsubjpass   |
+|   12  |     should     |  VERB |  MD |  combined  |      aux      |
+|   13  |       be       |  AUX  |  VB |  combined  |    auxpass    |
+|   14  |    combined    |  VERB | VBN |  believes  |     ccomp     |
+|   15  |       to       |  PART |  TO |  achieve   |      aux      |
+|   16  |    achieve     |  VERB |  VB |  combined  |     advcl     |
+|   17  |    greater     |  ADJ  | JJR | efficiency |      amod     |
+|   18  |   efficiency   |  NOUN |  NN |  achieve   |      dobj     |
+|   19  |      and       | CCONJ |  CC |  achieve   |       cc      |
+|   20  |     reduce     |  VERB |  VB |  achieve   |      conj     |
+|   21  |      the       |  DET  |  DT |    cost    |      det      |
+|   22  |      cost      |  NOUN |  NN |   reduce   |      dobj     |
+|   23  |       of       |  ADP  |  IN |    cost    |      prep     |
+|   24  | administration |  NOUN |  NN |     of     |      pobj     |
+|   25  |       ''       | PUNCT |  '' |   reduce   |     punct     |
+|   26  |       .        | PUNCT |  .  |    said    |     punct     |
++-------+----------------+-------+-----+------------+---------------+
++-------+-------------+-------+-----+------------+---------------+
+| Index |     Text    |  POS  | TAG |    Head    | Syntactic dep |
++-------+-------------+-------+-----+------------+---------------+
+|   0   |     The     |  DET  |  DT | Department |      det      |
+|   1   |     City    | PROPN | NNP | Department |    compound   |
+|   2   |  Purchasing | PROPN | NNP | Department |    compound   |
+|   3   |  Department | PROPN | NNP |  lacking   |     nsubj     |
+|   4   |      ,      | PUNCT |  ,  |    said    |     punct     |
+|   5   |     the     |  DET  |  DT |    jury    |      det      |
+|   6   |     jury    |  NOUN |  NN |    said    |     nsubj     |
+|   7   |     said    |  VERB | VBD |  lacking   |   parataxis   |
+|   8   |      ,      | PUNCT |  ,  |    said    |     punct     |
+|   9   |      `      | PUNCT |  '' |    said    |     punct     |
+|   10  |      `      | PUNCT |  '' |  lacking   |     punct     |
+|   11  |      is     |  AUX  | VBZ |  lacking   |      aux      |
+|   12  |   lacking   |  VERB | VBG |  lacking   |      ROOT     |
+|   13  |      in     |  ADP  |  IN |  lacking   |      prep     |
+|   14  | experienced |  ADJ  |  JJ | personnel  |      amod     |
+|   15  |   clerical  |  ADJ  |  JJ | personnel  |      amod     |
+|   16  |  personnel  |  NOUN | NNS |     in     |      pobj     |
+|   17  |      as     | SCONJ |  IN |  lacking   |      prep     |
+|   18  |      a      |  DET  |  DT |   result   |      det      |
+|   19  |    result   |  NOUN |  NN |     as     |      pobj     |
+|   20  |      of     |  ADP  |  IN |   result   |      prep     |
+|   21  |     city    |  NOUN |  NN | personnel  |    compound   |
+|   22  |  personnel  |  NOUN | NNS |  policies  |    compound   |
+|   23  |   policies  |  NOUN | NNS |     of     |      pobj     |
+|   24  |      ''     | PUNCT |  '' |  lacking   |     punct     |
+|   25  |      .      | PUNCT |  .  |  lacking   |     punct     |
++-------+-------------+-------+-----+------------+---------------+
++-------+---------+-------+-----+---------+---------------+
+| Index |   Text  |  POS  | TAG |   Head  | Syntactic dep |
++-------+---------+-------+-----+---------+---------------+
+|   0   |    It   |  PRON | PRP |  urged  |     nsubj     |
+|   1   |  urged  |  VERB | VBD |  urged  |      ROOT     |
+|   2   |   that  | SCONJ |  IN |   take  |      mark     |
+|   3   |   the   |  DET  |  DT |   city  |      det      |
+|   4   |   city  |  NOUN |  NN |   take  |     nsubj     |
+|   5   |    `    | PUNCT |  '' |   take  |     punct     |
+|   6   |    `    | PUNCT |  '' |   take  |     punct     |
+|   7   |   take  |  VERB |  VB |  urged  |     ccomp     |
+|   8   |  steps  |  NOUN | NNS |   take  |      dobj     |
+|   9   |    to   |  PART |  TO |  remedy |      aux      |
+|   10  |  remedy |  VERB |  VB |   take  |     advcl     |
+|   11  |    ''   | PUNCT |  '' |  remedy |     punct     |
+|   12  |   this  |  DET  |  DT | problem |      det      |
+|   13  | problem |  NOUN |  NN |  remedy |      dobj     |
+|   14  |    .    | PUNCT |  .  |  urged  |     punct     |
++-------+---------+-------+-----+---------+---------------+
++-------+----------------+-------+-----+----------------+---------------+
+| Index |      Text      |  POS  | TAG |      Head      | Syntactic dep |
++-------+----------------+-------+-----+----------------+---------------+
+|   0   | Implementation |  NOUN |  NN |  recommended   |   nsubjpass   |
+|   1   |       of       |  ADP  |  IN | Implementation |      prep     |
+|   2   |    Georgia     | PROPN | NNP |      law       |      poss     |
+|   3   |       's       |  PART | POS |    Georgia     |      case     |
+|   4   |   automobile   |  NOUN |  NN |      law       |    compound   |
+|   5   |     title      |  NOUN |  NN |      law       |    compound   |
+|   6   |      law       |  NOUN |  NN |       of       |      pobj     |
+|   7   |      was       |  AUX  | VBD |  recommended   |    auxpass    |
+|   8   |      also      |  ADV  |  RB |  recommended   |     advmod    |
+|   9   |  recommended   |  VERB | VBN |  recommended   |      ROOT     |
+|   10  |       by       |  ADP  |  IN |  recommended   |     agent     |
+|   11  |      the       |  DET  |  DT |      jury      |      det      |
+|   12  |    outgoing    |  ADJ  |  JJ |      jury      |      amod     |
+|   13  |      jury      |  NOUN |  NN |       by       |      pobj     |
+|   14  |       .        | PUNCT |  .  |  recommended   |     punct     |
++-------+----------------+-------+-----+----------------+---------------+
++-------+----------------+-------+-----+----------------+---------------+
+| Index |      Text      |  POS  | TAG |      Head      | Syntactic dep |
++-------+----------------+-------+-----+----------------+---------------+
+|   0   |       It       |  PRON | PRP |     urged      |     nsubj     |
+|   1   |     urged      |  VERB | VBD |     urged      |      ROOT     |
+|   2   |      that      | SCONJ |  IN |    provide     |      mark     |
+|   3   |      the       |  DET  |  DT |  Legislature   |      det      |
+|   4   |      next      |  ADJ  |  JJ |  Legislature   |      amod     |
+|   5   |  Legislature   | PROPN | NNP |    provide     |     nsubj     |
+|   6   |       `        | PUNCT |  '' |    provide     |     punct     |
+|   7   |       `        | PUNCT |  '' |    provide     |     punct     |
+|   8   |    provide     |  VERB | VBP |     urged      |     ccomp     |
+|   9   |    enabling    |  VERB | VBG |     funds      |      amod     |
+|   10  |     funds      |  NOUN | NNS |    provide     |      dobj     |
+|   11  |      and       | CCONJ |  CC |     funds      |       cc      |
+|   12  |       re       |  NOUN | NNS |       -        |      dep      |
+|   13  |       -        |  VERB |  VB |      set       |      dep      |
+|   14  |      set       |  VERB |  VB |    provide     |      conj     |
+|   15  |      the       |  DET  |  DT |      date      |      det      |
+|   16  |   effective    |  ADJ  |  JJ |      date      |      amod     |
+|   17  |      date      |  NOUN |  NN |    provide     |      dobj     |
+|   18  |       so       | SCONJ |  IN |    effected    |      mark     |
+|   19  |      that      | SCONJ |  IN |    effected    |      mark     |
+|   20  |       an       |  DET  |  DT | implementation |      det      |
+|   21  |    orderly     |  ADJ  |  JJ | implementation |      amod     |
+|   22  | implementation |  NOUN |  NN |    effected    |   nsubjpass   |
+|   23  |       of       |  ADP  |  IN | implementation |      prep     |
+|   24  |      the       |  DET  |  DT |      law       |      det      |
+|   25  |      law       |  NOUN |  NN |       of       |      pobj     |
+|   26  |      may       |  VERB |  MD |    effected    |      aux      |
+|   27  |       be       |  AUX  |  VB |    effected    |    auxpass    |
+|   28  |    effected    |  VERB | VBN |    provide     |     advcl     |
+|   29  |       ''       | PUNCT |  '' |     urged      |     punct     |
+|   30  |       .        | PUNCT |  .  |     urged      |     punct     |
++-------+----------------+-------+-----+----------------+---------------+
++-------+------------+-------+-----+------------+---------------+
+| Index |    Text    |  POS  | TAG |    Head    | Syntactic dep |
++-------+------------+-------+-----+------------+---------------+
+|   0   |    The     |  DET  |  DT |    jury    |      det      |
+|   1   |   grand    |  ADJ  |  JJ |    jury    |      amod     |
+|   2   |    jury    |  NOUN |  NN |    took    |     nsubj     |
+|   3   |    took    |  VERB | VBD |    took    |      ROOT     |
+|   4   |     a      |  DET  |  DT |   swipe    |      det      |
+|   5   |   swipe    |  NOUN |  NN |    took    |      dobj     |
+|   6   |     at     |  ADP  |  IN |    took    |      prep     |
+|   7   |    the     |  DET  |  DT | Department |      det      |
+|   8   |   State    | PROPN | NNP | Department |    compound   |
+|   9   |  Welfare   | PROPN | NNP | Department |    compound   |
+|   10  | Department | PROPN | NNP |  handling  |      poss     |
+|   11  |     's     |  PART | POS | Department |      case     |
+|   12  |  handling  |  NOUN |  NN |     at     |      pobj     |
+|   13  |     of     |  ADP  |  IN |  handling  |      prep     |
+|   14  |  federal   |  ADJ  |  JJ |   funds    |      amod     |
+|   15  |   funds    |  NOUN | NNS |     of     |      pobj     |
+|   16  |  granted   |  VERB | VBN |  handling  |      acl      |
+|   17  |    for     |  ADP  |  IN |  granted   |      prep     |
+|   18  |   child    |  NOUN |  NN |  welfare   |    compound   |
+|   19  |  welfare   |  NOUN |  NN |  services  |    compound   |
+|   20  |  services  |  NOUN | NNS |    for     |      pobj     |
+|   21  |     in     |  ADP  |  IN |  services  |      prep     |
+|   22  |   foster   |  ADJ  |  JJ |   homes    |      amod     |
+|   23  |   homes    |  NOUN | NNS |     in     |      pobj     |
+|   24  |     .      | PUNCT |  .  |    took    |     punct     |
++-------+------------+-------+-----+------------+---------------+
++-------+-------------+-------+-----+-------------+---------------+
+| Index |     Text    |  POS  | TAG |     Head    | Syntactic dep |
++-------+-------------+-------+-----+-------------+---------------+
+|   0   |      `      | PUNCT |  '' |      is     |     punct     |
+|   1   |      `      | PUNCT |  '' |      is     |     punct     |
+|   2   |     This    |  DET  |  DT |      is     |     nsubj     |
+|   3   |      is     |  AUX  | VBZ |      is     |      ROOT     |
+|   4   |     one     |  NUM  |  CD |      is     |      attr     |
+|   5   |      of     |  ADP  |  IN |     one     |      prep     |
+|   6   |     the     |  DET  |  DT |    items    |      det      |
+|   7   |    major    |  ADJ  |  JJ |    items    |      amod     |
+|   8   |    items    |  NOUN | NNS |      of     |      pobj     |
+|   9   |      in     |  ADP  |  IN |    items    |      prep     |
+|   10  |     the     |  DET  |  DT |   program   |      det      |
+|   11  |    Fulton   | PROPN | NNP |    County   |      nmod     |
+|   12  |    County   | PROPN | NNP |   program   |      nmod     |
+|   13  |   general   |  ADJ  |  JJ |  assistance |      amod     |
+|   14  |  assistance |  NOUN |  NN |   program   |    compound   |
+|   15  |   program   |  NOUN |  NN |      in     |      pobj     |
+|   16  |      ''     | PUNCT |  '' |   program   |     punct     |
+|   17  |      ,      | PUNCT |  ,  |     said    |     punct     |
+|   18  |     the     |  DET  |  DT |     jury    |      det      |
+|   19  |     jury    |  NOUN |  NN |     said    |     nsubj     |
+|   20  |     said    |  VERB | VBD |      is     |   parataxis   |
+|   21  |      ,      | PUNCT |  ,  |     said    |     punct     |
+|   22  |     but     | CCONJ |  CC |      is     |       cc      |
+|   23  |     the     |  DET  |  DT |  Department |      det      |
+|   24  |    State    | PROPN | NNP |  Department |    compound   |
+|   25  |   Welfare   | PROPN | NNP |  Department |    compound   |
+|   26  |  Department | PROPN | NNP |     seen    |     nsubj     |
+|   27  |      `      | PUNCT |  '' |     seen    |     punct     |
+|   28  |      `      | PUNCT |  '' |     seen    |     punct     |
+|   29  |     has     |  AUX  | VBZ |     seen    |      aux      |
+|   30  |     seen    |  VERB | VBN |      is     |      conj     |
+|   31  |     fit     |  ADJ  |  JJ |     seen    |      dobj     |
+|   32  |      to     |  PART |  TO |  distribute |      aux      |
+|   33  |  distribute |  VERB |  VB |     seen    |     xcomp     |
+|   34  |    these    |  DET  |  DT |    funds    |      det      |
+|   35  |    funds    |  NOUN | NNS |  distribute |      dobj     |
+|   36  |   through   |  ADP  |  IN |  distribute |      prep     |
+|   37  |     the     |  DET  |  DT | departments |      det      |
+|   38  |   welfare   |  NOUN |  NN | departments |    compound   |
+|   39  | departments |  NOUN | NNS |   through   |      pobj     |
+|   40  |      of     |  ADP  |  IN | departments |      prep     |
+|   41  |     all     |  DET  | PDT |   counties  |     predet    |
+|   42  |     the     |  DET  |  DT |   counties  |      det      |
+|   43  |   counties  |  NOUN | NNS |      of     |      pobj     |
+|   44  |      in     |  ADP  |  IN |   counties  |      prep     |
+|   45  |     the     |  DET  |  DT |    state    |      det      |
+|   46  |    state    |  NOUN |  NN |      in     |      pobj     |
+|   47  |     with    |  ADP  |  IN |  distribute |      prep     |
+|   48  |     the     |  DET  |  DT |  exception  |      det      |
+|   49  |  exception  |  NOUN |  NN |     with    |      pobj     |
+|   50  |      of     |  ADP  |  IN |  exception  |      prep     |
+|   51  |    Fulton   | PROPN | NNP |    County   |    compound   |
+|   52  |    County   | PROPN | NNP |      of     |      pobj     |
+|   53  |      ,      | PUNCT |  ,  |    County   |     punct     |
+|   54  |    which    |  DET  | WDT |   receives  |     nsubj     |
+|   55  |   receives  |  VERB | VBZ |    County   |     relcl     |
+|   56  |     none    |  NOUN |  NN |   receives  |      dobj     |
+|   57  |      of     |  ADP  |  IN |     none    |      prep     |
+|   58  |     this    |  DET  |  DT |    money    |      det      |
+|   59  |    money    |  NOUN |  NN |      of     |      pobj     |
+|   60  |      .      | PUNCT |  .  |      is     |     punct     |
++-------+-------------+-------+-----+-------------+---------------+
