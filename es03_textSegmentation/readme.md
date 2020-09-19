@@ -88,6 +88,23 @@ La coesione tra due finestre è data dal massimo valore della radice quadrata de
 
 Dopo aver determinato la coesine di una finestra rispetto a quelle adiacenti, la coesione della finestra è data dalla media dei due valori di coesine appena calcolati.
 
+<br/>
+
+Oltre a questo metodo, è stato introdotto anche un altro metodo basato sulle occorrenze statistiche dei termini. Date le liste di termini associato alle tre finestre (`prev`, `current` e `foll`), la funzione `getOverlap()` permette di calcolare l'overlap tra coppie di finestre. La funzione pre-processa le liste di frasi applicando le seguenti operazioni:
+
+* rimozione stopwords e punteggiatura;
+* lemmatizzazione.
+
+Il valore di overlap viene calcolato come
+
+~~~~plain
+s1.intersection(s2))) / min(len(s1), len(s2))
+~~~~
+
+ovvero la cardinalità dell'insieme intersezione diviso la cardinalità minore tra le due liste.
+
+Dopo aver determinato la coesine di una finestra rispetto a quelle adiacenti, la coesione della finestra è data dalla media dei due valori di coesine appena calcolati.
+
 <br/><br/>
 
 # 2. Calcolo split points
@@ -103,7 +120,7 @@ I possibili punti di split (`splits`) vengono poi ordinati in base al valore di 
 Il testo su cui sono stati fatti i test è un estratto della pagina inglese Wikipedia relativa all'Italia [1], il quale aveva la seguente struttura:
 
 Sentences | Title
- ------------ | ------------ 
+:------------ | :------------ 
 15 | Etimology
 18 | Geography 
 32 | History (Early modern)
@@ -120,10 +137,10 @@ Nelle seguenti immagini si può notare il plot relativo all'analisi fatta sul te
 * Le linee verticali rosse indicano i corretti punti di split (determinati manualmente dal testo);
 * Le linee verticali verdi indicano i punti di split individuati dall'algoritmo.
 
-<img src="./output/plot_text_italy01_w1.png" alt="alt text" width="70%" height="whatever">
-<img src="./output/plot_text_italy01_w2.png" alt="alt text" width="70%" height="whatever">
-<img src="./output/plot_text_italy01_w3.png" alt="alt text" width="70%" height="whatever">
-<img src="./output/plot_text_italy01_w4.png" alt="alt text" width="70%" height="whatever">
+<img src="./output/plot_text_italy01_w1.png" alt="alt text" width="40%" height="whatever">
+<img src="./output/plot_text_italy01_w2.png" alt="alt text" width="40%" height="whatever">
+<img src="./output/plot_text_italy01_w3.png" alt="alt text" width="40%" height="whatever">
+<img src="./output/plot_text_italy01_w4.png" alt="alt text" width="40%" height="whatever">
 
 <br/><br/>
 
@@ -136,7 +153,23 @@ Aumentando la dimensione della finestra, diminuiscono i falsi positivi, ma aumen
 
 Nel grafico 3, il secondo e il quarto split point vengono individuati, mentre il terzo risulta essere sbagliato. La finestra corrispondente allo split (numero 20) contiene frasi riferite ad entrambi i paragrafi, non permettendo di individuare il cambio di paragrafo. Invece viene inviduato un breakpoint nella finestra numero 25 anche se l'ambito è sempre economico.
 
-Nel grafico 4 la dimensione delle finestre aumenta ancora, rendendo difficile l'individuazione dei breakpoints. L'algoritmo infatti ne determina solo 2, entrambi correttamente (finestre numero 9 e 23). 
+Nel grafico 4 la dimensione delle finestre aumenta ancora, rendendo difficile l'individuazione dei breakpoints. L'algoritmo infatti ne determina solo 2, entrambi correttamente (finestre numero 9 e 23).
+
+<br/>
+
+<img src="./output/plot_compare_text_italy01_w1.png" alt="alt text" width="40%" height="whatever">
+<img src="./output/plot_compare_text_italy01_w2.png" alt="alt text" width="40%" height="whatever">
+<img src="./output/plot_compare_text_italy01_w3.png" alt="alt text" width="40%" height="whatever">
+<img src="./output/plot_compare_text_italy01_w4.png" alt="alt text" width="40%" height="whatever">
+<img src="./output/plot_compare_text_italy01_w5.png" alt="alt text" width="40%" height="whatever">
+
+<br/>
+
+Questi grafici permettono di confrontare i due metodi utilizzati per calcolare la coesione delle finestre:
+
+* Nel grafico relativo alle finestra con dimensione 1, sono presenti molti falsi positivi e in generale il sistema non risulta migliore rispetto a quello basato su vettori Nasari;
+* Nel grafico relativo alle finestre con dimensione 2 e 3 con il modello statistico vengono individuati dei bassi valori di coesione nei punti in cui sono presenti il primo e l'ultimo split points;
+* Aumentando la dimensione delle finestre (4 e 5), il modello statistico permette di individuare meglio dei punti di bassa coesione. 
 
 <br/><br/>
 

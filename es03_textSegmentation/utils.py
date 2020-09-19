@@ -16,6 +16,23 @@ def getSimilarity(vector1, vector2):
     maxSimilarity = max(similarity) if len(similarity) > 0 else 0
     return maxSimilarity, mean
 
+"""
+Compute statistica overlap between two sentences, based on occurrance of common terms
+Input:
+    s1: sentence 1 (as list)
+    s2: sentence 2 (as list)
+Output:
+    similarity
+"""
+def getOverlap(s1,s2):
+    s1 = bagOfWord(s1)
+    s2 = bagOfWord(s2)
+    return computeSimilarity(s1,s2)
+
+
+def computeSimilarity(l1s, l2s):
+    return float(len(set(l1s).intersection(l2s))) / min(len(l1s), len(l2s))
+
 
 """
 Allow to calculate the Semantic similarity. Implementation of Weight Overlap (Pilehvar et al.)
@@ -45,6 +62,16 @@ def rank(q, v):
         if v[i] == q:
             return i + 1
 
+def getSplitPoints(similarities):
+    split_points = []
+    mean = sum(similarities) / len(similarities)
+    for i in range(1, len(similarities) - 1):
+        if (similarities[i] < mean) and (similarities[i] < similarities[i-1]) and (len(split_points)>0):
+            #splits[-1] = (i,similarities[i])
+            split_points.append((i,similarities[i]))
+        elif (similarities[i] < mean) and ((i-1, similarities[i-1]) not in split_points):
+            split_points.append((i,similarities[i]))
+    return sorted(split_points, key=lambda x: x[1])
 
 """
 Create a list of Lexical Nasari vector associated to all words of sentence

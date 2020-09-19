@@ -20,7 +20,9 @@ Curr:
 Foll: 
 ['lat', 'vitulus', '``', 'calf', "''", ',', 'umb', 'vitlo', '``', 'calf', "''", ')']
 
-++++ Similarity 0 , 1.0 | 	0.5
+++++ Similarity 
+	Max similarity: 	0 , 1.0 | 	0.5
+	Statistic similarity: 	0.0 , 0.1 | 	0.05
 
 Window n:	2
 ---------------------------
@@ -34,7 +36,9 @@ Curr:
 Foll: 
 ['greek', 'historian', 'dionysius', 'of', 'halicarnassus', 'states', 'this', 'account', 'together', 'with', 'the', 'legend', 'that', 'italy', 'was', 'named', 'after', 'italus', ',', 'mentioned', 'also', 'by', 'aristotle', 'and', 'thucydides']
 
-++++ Similarity 1.0 , 0 | 	0.5
+++++ Similarity 
+	Max similarity: 	1.0 , 0 | 	0.5
+	Statistic similarity: 	0.1 , 0.0 | 	0.05
 
 Window n:	3
 ---------------------------
@@ -48,7 +52,9 @@ Curr:
 Foll: 
 ['according', 'to', 'antiochus', 'of', 'syracuse', ',', 'the', 'term', 'italy', 'was', 'used', 'by', 'the', 'greeks', 'to', 'initially', 'refer', 'only', 'to', 'the', 'southern', 'portion', 'of', 'the', 'bruttium', 'peninsula', 'corresponding', 'to', 'the', 'modern', 'province', 'of', 'reggio', 'and', 'part', 'of', 'the', 'provinces', 'of', 'catanzaro', 'and', 'vibo', 'valentia', 'in', 'southern', 'italy']
 
-++++ Similarity 0 , 1.0 | 	0.5
+++++ Similarity 
+	Max similarity: 	0 , 1.0 | 	0.5
+	Statistic similarity: 	0.0 , 0.13 | 	0.07
 
 Window n:	4
 ---------------------------
@@ -62,7 +68,9 @@ Curr:
 Foll: 
 ['nevertheless', ',', 'by', 'his', 'time', 'the', 'larger', 'concept', 'of', 'oenotria', 'and', '``', 'italy', "''", 'had', 'become', 'synonymous', 'and', 'the', 'name', 'also', 'applied', 'to', 'most', 'of', 'lucania', 'as', 'well']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.13 , 0.07 | 	0.1
 
 Window n:	5
 ---------------------------
@@ -76,7 +84,9 @@ Curr:
 Foll: 
 ['according', 'to', 'strabo', "'s", 'geographica', ',', 'before', 'the', 'expansion', 'of', 'the', 'roman', 'republic', ',', 'the', 'name', 'was', 'used', 'by', 'greeks', 'to', 'indicate', 'the', 'land', 'between', 'the', 'strait', 'of', 'messina', 'and', 'the', 'line', 'connecting', 'the', 'gulf', 'of', 'salerno', 'and', 'gulf', 'of', 'taranto', ',', 'corresponding', 'roughly', 'to', 'the', 'current', 'region', 'of', 'calabria']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.07 , 0.07 | 	0.07
 
 Window n:	6
 ---------------------------
@@ -90,7 +100,9 @@ Curr:
 Foll: 
 ['the', 'greeks', 'gradually', 'came', 'to', 'apply', 'the', 'name', '``', 'italia', "''", 'to', 'a', 'larger', 'region', 'in', 'addition', 'to', 'the', '``', 'greek', 'italy', "''", 'in', 'the', 'south', ',', 'historians', 'have', 'suggested', 'the', 'existence', 'of', 'an', '``', 'etruscan', 'italy', "''", 'covering', 'variable', 'areas', 'of', 'central', 'italy']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.07 , 0.12 | 	0.1
 
 Window n:	7
 ---------------------------
@@ -104,7 +116,9 @@ Curr:
 Foll: 
 ['the', 'borders', 'of', 'roman', 'italy', ',', 'italia', ',', 'are', 'better', 'established']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.12 , 0.33 | 	0.23
 
 Window n:	8
 ---------------------------
@@ -118,7 +132,9 @@ Curr:
 Foll: 
 ['cato', "'s", 'origines', ',', 'the', 'first', 'work', 'of', 'history', 'composed', 'in', 'latin', ',', 'described', 'italy', 'as', 'the', 'entire', 'peninsula', 'south', 'of', 'the', 'alps']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.33 , 0.17 | 	0.25
 
 Window n:	9
 ---------------------------
@@ -132,7 +148,9 @@ Curr:
 Foll: 
 ['according', 'to', 'cato', 'and', 'several', 'roman', 'authors', ',', 'the', 'alps', 'formed', 'the', '``', 'walls', 'of', 'italy', "''"]
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.17 , 0.27 | 	0.22
 
 Window n:	10
 ---------------------------
@@ -146,7 +164,9 @@ Curr:
 Foll: 
 ['in', '264', 'bc', ',', 'roman', 'italy', 'extended', 'from', 'the', 'arno', 'and', 'rubicon', 'rivers', 'of', 'the', 'centre-north', 'to', 'the', 'entire', 'south']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.27 , 0.18 | 	0.23
 
 Window n:	11
 ---------------------------
@@ -160,7 +180,9 @@ Curr:
 Foll: 
 ['the', 'northern', 'area', 'of', 'cisalpine', 'gaul', 'was', 'occupied', 'by', 'rome', 'in', 'the', '220s', 'bc', 'and', 'became', 'considered', 'geographically', 'and', 'de', 'facto', 'part', 'of', 'italy', ',', 'but', 'remained', 'politically', 'and', 'de', 'jure', 'separated']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.18 , 0.18 | 	0.18
 
 Window n:	12
 ---------------------------
@@ -174,7 +196,9 @@ Curr:
 Foll: 
 ['it', 'was', 'legally', 'merged', 'into', 'the', 'administrative', 'unit', 'of', 'italy', 'in', '42', 'bc', 'by', 'the', 'triumvir', 'octavian', 'as', 'a', 'ratification', 'of', 'caesar', "'s", 'unpublished', 'acts', '(', 'acta', 'caesaris', ')']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.18 , 0.13 | 	0.16
 
 Window n:	13
 ---------------------------
@@ -188,7 +212,9 @@ Curr:
 Foll: 
 ['the', 'islands', 'of', 'sardinia', ',', 'corsica', ',', 'sicily', 'and', 'malta', 'were', 'added', 'to', 'italy', 'by', 'diocletian', 'in', '292', 'ad']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.13 , 0.1 | 	0.12
 
 Window n:	14
 ---------------------------
@@ -202,7 +228,9 @@ Curr:
 Foll: 
 ['italy', 'is', 'located', 'in', 'southern', 'europe', '(', 'it', 'is', 'also', 'considered', 'a', 'part', 'of', 'western', 'europe', ')', 'between', 'latitudes', '35°', 'and', '47°', 'n', ',', 'and', 'longitudes', '6°', 'and', '19°', 'e']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.1 , 0.1 | 	0.1
 
 Window n:	15
 ---------------------------
@@ -216,7 +244,9 @@ Curr:
 Foll: 
 ['to', 'the', 'north', ',', 'italy', 'borders', 'france', ',', 'switzerland', ',', 'austria', ',', 'and', 'slovenia', 'and', 'is', 'roughly', 'delimited', 'by', 'the', 'alpine', 'watershed', ',', 'enclosing', 'the', 'po', 'valley', 'and', 'the', 'venetian', 'plain']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.1 , 0.06 | 	0.08
 
 Window n:	16
 ---------------------------
@@ -230,7 +260,9 @@ Curr:
 Foll: 
 ['to', 'the', 'south', ',', 'it', 'consists', 'of', 'the', 'entirety', 'of', 'the', 'italian', 'peninsula', 'and', 'the', 'two', 'mediterranean', 'islands', 'of', 'sicily', 'and', 'sardinia', '(', 'the', 'two', 'biggest', 'islands', 'of', 'the', 'mediterranean', ')', ',', 'in', 'addition', 'to', 'many', 'smaller', 'islands']
 
-++++ Similarity 1.0 , 0.63 | 	0.82
+++++ Similarity 
+	Max similarity: 	1.0 , 0.63 | 	0.82
+	Statistic similarity: 	0.06 , 0.0 | 	0.03
 
 Window n:	17
 ---------------------------
@@ -244,7 +276,9 @@ Curr:
 Foll: 
 ['the', 'sovereign', 'states', 'of', 'san', 'marino', 'and', 'the', 'vatican', 'city', 'are', 'enclaves', 'within', 'italy', ',', 'while', 'campione', "d'italia", 'is', 'an', 'italian', 'exclave', 'in', 'switzerland']
 
-++++ Similarity 0.63 , 0.63 | 	0.63
+++++ Similarity 
+	Max similarity: 	0.63 , 0.63 | 	0.63
+	Statistic similarity: 	0.0 , 0.07 | 	0.04
 
 Window n:	18
 ---------------------------
@@ -258,7 +292,9 @@ Curr:
 Foll: 
 ['the', 'country', "'s", 'total', 'area', 'is', '301,230', 'square', 'kilometres', '(', '116,306', 'sq', 'mi', ')', ',', 'of', 'which', '294,020', 'km2', '(', '113,522', 'sq', 'mi', ')', 'is', 'land', 'and', '7,210', 'km2', '(', '2,784', 'sq', 'mi', ')', 'is', 'water']
 
-++++ Similarity 0.63 , 0 | 	0.32
+++++ Similarity 
+	Max similarity: 	0.63 , 0 | 	0.32
+	Statistic similarity: 	0.07 , 0.0 | 	0.04
 
 Window n:	19
 ---------------------------
@@ -272,7 +308,9 @@ Curr:
 Foll: 
 ['including', 'the', 'islands', ',', 'italy', 'has', 'a', 'coastline', 'and', 'border', 'of', '7,600', 'kilometres', '(', '4,722', 'miles', ')', 'on', 'the', 'adriatic', ',', 'ionian', ',', 'tyrrhenian', 'seas', '(', '740', 'km', '(', '460', 'mi', ')', ')', ',', 'and', 'borders', 'shared', 'with', 'france', '(', '488', 'km', '(', '303', 'mi', ')', ')', ',', 'austria', '(', '430', 'km', '(', '267', 'mi', ')', ')', ',', 'slovenia', '(', '232', 'km', '(', '144', 'mi', ')', ')', 'and', 'switzerland', '(', '740', 'km', '(', '460', 'mi', ')', ')']
 
-++++ Similarity 0 , 1.0 | 	0.5
+++++ Similarity 
+	Max similarity: 	0 , 1.0 | 	0.5
+	Statistic similarity: 	0.0 , 0.1 | 	0.05
 
 Window n:	20
 ---------------------------
@@ -286,7 +324,9 @@ Curr:
 Foll: 
 ['san', 'marino', '(', '39', 'km', '(', '24', 'mi', ')', ')', 'and', 'vatican', 'city', '(', '3,2', 'km', '(', '2,0', 'mi', ')', ')', ',', 'both', 'enclaves', ',', 'account', 'for', 'the', 'remainder']
 
-++++ Similarity 1.0 , 0.63 | 	0.82
+++++ Similarity 
+	Max similarity: 	1.0 , 0.63 | 	0.82
+	Statistic similarity: 	0.1 , 0.13 | 	0.11
 
 Window n:	21
 ---------------------------
@@ -300,7 +340,9 @@ Curr:
 Foll: 
 ['over', '35', '%', 'of', 'the', 'italian', 'territory', 'is', 'mountainous']
 
-++++ Similarity 0.63 , 0.77 | 	0.7
+++++ Similarity 
+	Max similarity: 	0.63 , 0.77 | 	0.7
+	Statistic similarity: 	0.13 , 0.0 | 	0.07
 
 Window n:	22
 ---------------------------
@@ -314,7 +356,9 @@ Curr:
 Foll: 
 ['the', 'apennine', 'mountains', 'form', 'the', 'peninsula', "'s", 'backbone', ',', 'and', 'the', 'alps', 'form', 'most', 'of', 'its', 'northern', 'boundary', ',', 'where', 'italy', "'s", 'highest', 'point', 'is', 'located', 'on', 'mont', 'blanc', '(', 'monte', 'bianco', ')', '(', '4,810', 'm', 'or', '15,780', 'ft', ')']
 
-++++ Similarity 0.77 , 0 | 	0.38
+++++ Similarity 
+	Max similarity: 	0.77 , 0 | 	0.38
+	Statistic similarity: 	0.0 , 0.0 | 	0.0
 
 Window n:	23
 ---------------------------
@@ -328,7 +372,9 @@ Curr:
 Foll: 
 ['other', 'worldwide-known', 'mountains', 'in', 'italy', 'include', 'the', 'matterhorn', '(', 'monte', 'cervino', ')', ',', 'monte', 'rosa', ',', 'gran', 'paradiso', 'in', 'the', 'west', 'alps', ',', 'and', 'bernina', ',', 'stelvio', 'and', 'dolomites', 'along', 'the', 'eastern', 'side']
 
-++++ Similarity 0 , 1.0 | 	0.5
+++++ Similarity 
+	Max similarity: 	0 , 1.0 | 	0.5
+	Statistic similarity: 	0.0 , 0.21 | 	0.11
 
 Window n:	24
 ---------------------------
@@ -342,7 +388,9 @@ Curr:
 Foll: 
 ['the', 'po', ',', 'italy', "'s", 'longest', 'river', '(', '652', 'kilometres', 'or', '405', 'miles', ')', ',', 'flows', 'from', 'the', 'alps', 'on', 'the', 'western', 'border', 'with', 'france', 'and', 'crosses', 'the', 'padan', 'plain', 'on', 'its', 'way', 'to', 'the', 'adriatic', 'sea']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.21 , 0.11 | 	0.16
 
 Window n:	25
 ---------------------------
@@ -356,7 +404,9 @@ Curr:
 Foll: 
 ['the', 'po', 'valley', 'is', 'the', 'largest', 'plain', 'in', 'italy', ',', 'with', '46,000', 'km2', '(', '18,000', 'sq', 'mi', ')', ',', 'and', 'it', 'represents', 'over', '70', '%', 'of', 'the', 'total', 'plain', 'area', 'in', 'the', 'country']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.11 , 0.18 | 	0.14
 
 Window n:	26
 ---------------------------
@@ -370,7 +420,9 @@ Curr:
 Foll: 
 ['many', 'elements', 'of', 'the', 'italian', 'territory', 'are', 'of', 'volcanic', 'origin']
 
-++++ Similarity 1.0 , 0 | 	0.5
+++++ Similarity 
+	Max similarity: 	1.0 , 0 | 	0.5
+	Statistic similarity: 	0.18 , 0.0 | 	0.09
 
 Window n:	27
 ---------------------------
@@ -384,7 +436,9 @@ Curr:
 Foll: 
 ['most', 'of', 'the', 'small', 'islands', 'and', 'archipelagos', 'in', 'the', 'south', ',', 'like', 'capraia', ',', 'ponza', ',', 'ischia', ',', 'eolie', ',', 'ustica', 'and', 'pantelleria', 'are', 'volcanic', 'islands']
 
-++++ Similarity 0 , 0 | 	0.0
+++++ Similarity 
+	Max similarity: 	0 , 0 | 	0.0
+	Statistic similarity: 	0.0 , 0.17 | 	0.08
 
 Window n:	28
 ---------------------------
@@ -398,7 +452,9 @@ Curr:
 Foll: 
 ['there', 'are', 'also', 'active', 'volcanoes', ':', 'mount', 'etna', 'in', 'sicily', '(', 'the', 'largest', 'active', 'volcano', 'in', 'europe', ')', ',', 'vulcano', ',', 'stromboli', ',', 'and', 'vesuvius', '(', 'the', 'only', 'active', 'volcano', 'on', 'mainland', 'europe', ')']
 
-++++ Similarity 0 , 0.96 | 	0.48
+++++ Similarity 
+	Max similarity: 	0 , 0.96 | 	0.48
+	Statistic similarity: 	0.17 , 0.0 | 	0.08
 
 Window n:	29
 ---------------------------
@@ -412,7 +468,9 @@ Curr:
 Foll: 
 ['the', 'five', 'largest', 'lakes', 'are', ',', 'in', 'order', 'of', 'diminishing', 'size', ':', 'garda', '(', '367,94', 'km2', 'or', '142', 'sq', 'mi', ')', ',', 'maggiore', '(', '212,51', 'km2', 'or', '82', 'sq', 'mi', ',', 'whose', 'minor', 'northern', 'part', 'is', 'switzerland', ')', ',', 'como', '(', '145,9', 'km2', 'or', '56', 'sq', 'mi', ')', ',', 'trasimeno', '(', '124,29', 'km2', 'or', '48', 'sq', 'mi', ')', 'and', 'bolsena', '(', '113,55', 'km2', 'or', '44', 'sq', 'mi', ')']
 
-++++ Similarity 0.96 , 0.47 | 	0.72
+++++ Similarity 
+	Max similarity: 	0.96 , 0.47 | 	0.72
+	Statistic similarity: 	0.0 , 0.06 | 	0.03
 
 Window n:	30
 ---------------------------
@@ -426,7 +484,9 @@ Curr:
 Foll: 
 ['although', 'the', 'country', 'includes', 'the', 'italian', 'peninsula', ',', 'adjacent', 'islands', ',', 'and', 'most', 'of', 'the', 'southern', 'alpine', 'basin', ',', 'some', 'of', 'italy', "'s", 'territory', 'extends', 'beyond', 'the', 'alpine', 'basin', 'and', 'some', 'islands', 'are', 'located', 'outside', 'the', 'eurasian', 'continental', 'shelf']
 
-++++ Similarity 0.47 , 0.71 | 	0.59
+++++ Similarity 
+	Max similarity: 	0.47 , 0.71 | 	0.59
+	Statistic similarity: 	0.06 , 0.0 | 	0.03
 
 Window n:	31
 ---------------------------
@@ -440,7 +500,9 @@ Curr:
 Foll: 
 ['these', 'territories', 'are', 'the', 'comuni', 'of', ':', 'livigno', ',', 'sexten', ',', 'innichen', ',', 'toblach', '(', 'in', 'part', ')', ',', 'chiusaforte', ',', 'tarvisio', ',', 'graun', 'im', 'vinschgau', '(', 'in', 'part', ')', ',', 'which', 'are', 'all', 'part', 'of', 'the', 'danube', "'s", 'drainage', 'basin', ',', 'while', 'the', 'val', 'di', 'lei', 'constitutes', 'part', 'of', 'the', 'rhine', "'s", 'basin', 'and', 'the', 'islands', 'of', 'lampedusa', 'and', 'lampione', 'are', 'on', 'the', 'african', 'continental', 'shelf']
 
-++++ Similarity 0.71 , 1.0 | 	0.85
+++++ Similarity 
+	Max similarity: 	0.71 , 1.0 | 	0.85
+	Statistic similarity: 	0.0 , 0.23 | 	0.11
 
 Window n:	32
 ---------------------------
@@ -454,7 +516,9 @@ Curr:
 Foll: 
 ['italy', 'was', 'the', 'birthplace', 'and', 'heart', 'of', 'the', 'renaissance', 'during', 'the', '1400s', 'and', '1500s']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.23 , 0.0 | 	0.11
 
 Window n:	33
 ---------------------------
@@ -468,7 +532,9 @@ Curr:
 Foll: 
 ['the', 'italian', 'renaissance', 'marked', 'the', 'transition', 'from', 'the', 'medieval', 'period', 'to', 'the', 'modern', 'age', 'as', 'europe', 'recovered', ',', 'economically', 'and', 'culturally', ',', 'from', 'the', 'crises', 'of', 'the', 'late', 'middle', 'ages', 'and', 'entered', 'the', 'early', 'modern', 'period']
 
-++++ Similarity 1.0 , 0.47 | 	0.74
+++++ Similarity 
+	Max similarity: 	1.0 , 0.47 | 	0.74
+	Statistic similarity: 	0.0 , 0.17 | 	0.08
 
 Window n:	34
 ---------------------------
@@ -482,7 +548,9 @@ Curr:
 Foll: 
 ['the', 'italian', 'polities', 'were', 'now', 'regional', 'states', 'effectively', 'ruled', 'by', 'princes', ',', 'de', 'facto', 'monarchs', 'in', 'control', 'of', 'trade', 'and', 'administration', ',', 'and', 'their', 'courts', 'became', 'major', 'centres', 'of', 'arts', 'and', 'sciences']
 
-++++ Similarity 0.47 , 0 | 	0.24
+++++ Similarity 
+	Max similarity: 	0.47 , 0 | 	0.24
+	Statistic similarity: 	0.17 , 0.05 | 	0.11
 
 Window n:	35
 ---------------------------
@@ -496,7 +564,9 @@ Curr:
 Foll: 
 ['the', 'italian', 'princedoms', 'represented', 'a', 'first', 'form', 'of', 'modern', 'states', 'as', 'opposed', 'to', 'feudal', 'monarchies', 'and', 'multinational', 'empires']
 
-++++ Similarity 0 , 0.93 | 	0.47
+++++ Similarity 
+	Max similarity: 	0 , 0.93 | 	0.47
+	Statistic similarity: 	0.05 , 0.17 | 	0.11
 
 Window n:	36
 ---------------------------
@@ -510,7 +580,9 @@ Curr:
 Foll: 
 ['the', 'princedoms', 'were', 'led', 'by', 'political', 'dynasties', 'and', 'merchant', 'families', 'such', 'as', 'the', 'medici', 'in', 'florence', ',', 'the', 'visconti', 'and', 'sforza', 'in', 'the', 'duchy', 'of', 'milan', ',', 'the', 'doria', 'in', 'the', 'republic', 'of', 'genoa', ',', 'the', 'mocenigo', 'and', 'barbarigo', 'in', 'the', 'republic', 'of', 'venice', ',', 'the', 'este', 'in', 'ferrara', ',', 'and', 'the', 'gonzaga', 'in', 'mantua']
 
-++++ Similarity 0.93 , 0.87 | 	0.9
+++++ Similarity 
+	Max similarity: 	0.93 , 0.87 | 	0.9
+	Statistic similarity: 	0.17 , 0.08 | 	0.12
 
 Window n:	37
 ---------------------------
@@ -524,7 +596,9 @@ Curr:
 Foll: 
 ['the', 'renaissance', 'was', 'therefore', 'a', 'result', 'of', 'the', 'great', 'wealth', 'accumulated', 'by', 'italian', 'merchant', 'cities', 'combined', 'with', 'the', 'patronage', 'of', 'its', 'dominant', 'families']
 
-++++ Similarity 0.87 , 1.0 | 	0.94
+++++ Similarity 
+	Max similarity: 	0.87 , 1.0 | 	0.94
+	Statistic similarity: 	0.08 , 0.15 | 	0.12
 
 Window n:	38
 ---------------------------
@@ -538,7 +612,9 @@ Curr:
 Foll: 
 ['italian', 'renaissance', 'exercised', 'a', 'dominant', 'influence', 'on', 'subsequent', 'european', 'painting', 'and', 'sculpture', 'for', 'centuries', 'afterwards', ',', 'with', 'artists', 'such', 'as', 'leonardo', 'da', 'vinci', ',', 'brunelleschi', ',', 'botticelli', ',', 'michelangelo', ',', 'raphael', ',', 'giotto', ',', 'donatello', ',', 'and', 'titian', ',', 'and', 'architects', 'such', 'as', 'filippo', 'brunelleschi', ',', 'leon', 'battista', 'alberti', ',', 'andrea', 'palladio', ',', 'and', 'donato', 'bramante']
 
-++++ Similarity 1.0 , 0 | 	0.5
+++++ Similarity 
+	Max similarity: 	1.0 , 0 | 	0.5
+	Statistic similarity: 	0.15 , 0.23 | 	0.19
 
 Window n:	39
 ---------------------------
@@ -552,7 +628,9 @@ Curr:
 Foll: 
 ['following', 'the', 'conclusion', 'of', 'the', 'western', 'schism', 'in', 'favor', 'of', 'rome', 'at', 'the', 'council', 'of', 'constance', '(', '1415–1417', ')', ',', 'the', 'new', 'pope', 'martin', 'v', 'returned', 'to', 'the', 'papal', 'states', 'after', 'a', 'three', 'years-long', 'journey', 'that', 'touched', 'many', 'italian', 'cities', 'and', 'restored', 'italy', 'as', 'the', 'sole', 'centre', 'of', 'western', 'christianity']
 
-++++ Similarity 0 , 0.82 | 	0.41
+++++ Similarity 
+	Max similarity: 	0 , 0.82 | 	0.41
+	Statistic similarity: 	0.23 , 0.03 | 	0.13
 
 Window n:	40
 ---------------------------
@@ -566,7 +644,9 @@ Curr:
 Foll: 
 ['during', 'the', 'course', 'of', 'this', 'voyage', ',', 'the', 'medici', 'bank', 'was', 'made', 'the', 'official', 'credit', 'institution', 'of', 'the', 'papacy', 'and', 'several', 'significant', 'ties', 'were', 'established', 'between', 'the', 'church', 'and', 'the', 'new', 'political', 'dynasties', 'of', 'the', 'peninsula']
 
-++++ Similarity 0.82 , 0 | 	0.41
+++++ Similarity 
+	Max similarity: 	0.82 , 0 | 	0.41
+	Statistic similarity: 	0.03 , 0.06 | 	0.05
 
 Window n:	41
 ---------------------------
@@ -580,7 +660,9 @@ Curr:
 Foll: 
 ['the', 'popes', "'", 'status', 'as', 'elective', 'monarchs', 'turned', 'the', 'conclaves', 'and', 'consistories', 'of', 'the', 'renaissance', 'into', 'political', 'battles', 'between', 'the', 'courts', 'of', 'italy', 'for', 'primacy', 'in', 'the', 'peninsula', 'and', 'access', 'to', 'the', 'immense', 'resources', 'of', 'the', 'catholic', 'church']
 
-++++ Similarity 0 , 1.0 | 	0.5
+++++ Similarity 
+	Max similarity: 	0 , 1.0 | 	0.5
+	Statistic similarity: 	0.06 , 0.17 | 	0.11
 
 Window n:	42
 ---------------------------
@@ -594,7 +676,9 @@ Curr:
 Foll: 
 ['in', '1439', ',', 'pope', 'eugenius', 'iv', 'and', 'the', 'byzantine', 'emperor', 'john', 'viii', 'palaiologos', 'signed', 'a', 'reconciliation', 'agreement', 'between', 'the', 'catholic', 'church', 'and', 'the', 'orthodox', 'church', 'at', 'the', 'council', 'of', 'florence', 'hosted', 'by', 'cosimo', 'the', 'old', 'de', 'medici']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.17 , 0.15 | 	0.16
 
 Window n:	43
 ---------------------------
@@ -608,7 +692,9 @@ Curr:
 Foll: 
 ['in', '1453', ',', 'italian', 'forces', 'under', 'giovanni', 'giustiniani', 'were', 'sent', 'by', 'pope', 'nicholas', 'v', 'to', 'defend', 'the', 'walls', 'of', 'constantinople', 'but', 'the', 'decisive', 'battle', 'was', 'lost', 'to', 'the', 'more', 'advanced', 'turkish', 'army', 'equipped', 'with', 'cannons', ',', 'and', 'byzantium', 'fell', 'to', 'sultan', 'mehmed', 'ii']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.15 , 0.04 | 	0.1
 
 Window n:	44
 ---------------------------
@@ -622,7 +708,9 @@ Curr:
 Foll: 
 ['the', 'fall', 'of', 'constantinople', 'led', 'to', 'the', 'migration', 'of', 'greek', 'scholars', 'and', 'texts', 'to', 'italy', ',', 'fueling', 'the', 'rediscovery', 'of', 'greco-roman', 'humanism']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.04 , 0.08 | 	0.06
 
 Window n:	45
 ---------------------------
@@ -636,7 +724,9 @@ Curr:
 Foll: 
 ['humanist', 'rulers', 'such', 'as', 'federico', 'da', 'montefeltro', 'and', 'pope', 'pius', 'ii', 'worked', 'to', 'establish', 'ideal', 'cities', 'where', 'man', 'is', 'the', 'measure', 'of', 'all', 'things', ',', 'and', 'therefore', 'founded', 'urbino', 'and', 'pienza', 'respectively']
 
-++++ Similarity 1.0 , 0.45 | 	0.72
+++++ Similarity 
+	Max similarity: 	1.0 , 0.45 | 	0.72
+	Statistic similarity: 	0.08 , 0.0 | 	0.04
 
 Window n:	46
 ---------------------------
@@ -650,7 +740,9 @@ Curr:
 Foll: 
 ['pico', 'della', 'mirandola', 'wrote', 'the', 'oration', 'on', 'the', 'dignity', 'of', 'man', ',', 'considered', 'the', 'manifesto', 'of', 'renaissance', 'humanism', ',', 'in', 'which', 'he', 'stressed', 'the', 'importance', 'of', 'free', 'will', 'in', 'human', 'beings']
 
-++++ Similarity 0.45 , 1.0 | 	0.72
+++++ Similarity 
+	Max similarity: 	0.45 , 1.0 | 	0.72
+	Statistic similarity: 	0.0 , 0.06 | 	0.03
 
 Window n:	47
 ---------------------------
@@ -664,7 +756,9 @@ Curr:
 Foll: 
 ['the', 'humanist', 'historian', 'leonardo', 'bruni', 'was', 'the', 'first', 'to', 'divide', 'human', 'history', 'in', 'three', 'periods', ':', 'antiquity', ',', 'middle', 'ages', 'and', 'modernity']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.06 , 0.07 | 	0.07
 
 Window n:	48
 ---------------------------
@@ -678,7 +772,9 @@ Curr:
 Foll: 
 ['the', 'second', 'consequence', 'of', 'the', 'fall', 'of', 'constantinople', 'was', 'the', 'beginning', 'of', 'the', 'age', 'of', 'discovery']
 
-++++ Similarity 1.0 , 0 | 	0.5
+++++ Similarity 
+	Max similarity: 	1.0 , 0 | 	0.5
+	Statistic similarity: 	0.07 , 0.14 | 	0.11
 
 Window n:	49
 ---------------------------
@@ -692,7 +788,9 @@ Curr:
 Foll: 
 ['italian', 'explorers', 'and', 'navigators', 'from', 'the', 'dominant', 'maritime', 'republics', ',', 'eager', 'to', 'find', 'an', 'alternative', 'route', 'to', 'the', 'indies', 'in', 'order', 'to', 'bypass', 'the', 'ottoman', 'empire', ',', 'offered', 'their', 'services', 'to', 'monarchs', 'of', 'atlantic', 'countries', 'and', 'played', 'a', 'key', 'role', 'in', 'ushering', 'the', 'age', 'of', 'discovery', 'and', 'the', 'european', 'colonization', 'of', 'the', 'americas']
 
-++++ Similarity 0 , 0.7 | 	0.35
+++++ Similarity 
+	Max similarity: 	0 , 0.7 | 	0.35
+	Statistic similarity: 	0.14 , 0.29 | 	0.21
 
 Window n:	50
 ---------------------------
@@ -706,7 +804,9 @@ Curr:
 Foll: 
 ['the', 'most', 'notable', 'among', 'them', 'were', ':', 'christopher', 'columbus', ',', 'colonizer', 'in', 'the', 'name', 'of', 'spain', ',', 'who', 'is', 'credited', 'with', 'discovering', 'the', 'new', 'world', 'and', 'the', 'opening', 'of', 'the', 'americas', 'for', 'conquest', 'and', 'settlement', 'by', 'europeans', ';', 'john', 'cabot', ',', 'sailing', 'for', 'england', ',', 'who', 'was', 'the', 'first', 'european', 'to', 'set', 'foot', 'in', '``', 'new', 'found', 'land', "''", 'and', 'explore', 'parts', 'of', 'the', 'north', 'american', 'continent', 'in', '1497', ';', 'amerigo', 'vespucci', ',', 'sailing', 'for', 'portugal', ',', 'who', 'first', 'demonstrated', 'in', 'about', '1501', 'that', 'the', 'new', 'world', '(', 'in', 'particular', 'brazil', ')', 'was', 'not', 'asia', 'as', 'initially', 'conjectured', ',', 'but', 'a', 'fourth', 'continent', 'previously', 'unknown', 'to', 'people', 'of', 'the', 'old', 'world', '(', 'america', 'is', 'named', 'after', 'him', ')', ';', 'and', 'giovanni', 'da', 'verrazzano', ',', 'at', 'the', 'service', 'of', 'france', ',', 'renowned', 'as', 'the', 'first', 'european', 'to', 'explore', 'the', 'atlantic', 'coast', 'of', 'north', 'america', 'between', 'florida', 'and', 'new', 'brunswick', 'in', '1524', ';', 'following', 'the', 'fall', 'of', 'constantinople', ',', 'the', 'wars', 'in', 'lombardy', 'came', 'to', 'an', 'end', 'and', 'a', 'defensive', 'alliance', 'known', 'as', 'italic', 'league', 'was', 'formed', 'between', 'venice', ',', 'naples', ',', 'florence', ',', 'milan', ',', 'and', 'the', 'papacy']
 
-++++ Similarity 0.7 , 0.71 | 	0.7
+++++ Similarity 
+	Max similarity: 	0.7 , 0.71 | 	0.7
+	Statistic similarity: 	0.29 , 0.14 | 	0.21
 
 Window n:	51
 ---------------------------
@@ -720,7 +820,9 @@ Curr:
 Foll: 
 ['lorenzo', 'the', 'magnificent', 'de', 'medici', 'was', 'the', 'greatest', 'florentine', 'patron', 'of', 'the', 'renaissance', 'and', 'supporter', 'of', 'the', 'italic', 'league']
 
-++++ Similarity 0.71 , 0 | 	0.35
+++++ Similarity 
+	Max similarity: 	0.71 , 0 | 	0.35
+	Statistic similarity: 	0.14 , 0.18 | 	0.16
 
 Window n:	52
 ---------------------------
@@ -734,7 +836,9 @@ Curr:
 Foll: 
 ['he', 'notably', 'avoided', 'the', 'collapse', 'of', 'the', 'league', 'in', 'the', 'aftermath', 'of', 'the', 'pazzi', 'conspiracy', 'and', 'during', 'the', 'aborted', 'invasion', 'of', 'italy', 'by', 'the', 'turks']
 
-++++ Similarity 0 , 0 | 	0.0
+++++ Similarity 
+	Max similarity: 	0 , 0 | 	0.0
+	Statistic similarity: 	0.18 , 0.09 | 	0.14
 
 Window n:	53
 ---------------------------
@@ -748,7 +852,9 @@ Curr:
 Foll: 
 ['however', ',', 'the', 'military', 'campaign', 'of', 'charles', 'viii', 'of', 'france', 'in', 'italy', 'caused', 'the', 'end', 'of', 'the', 'italic', 'league', 'and', 'initiated', 'the', 'italian', 'wars', 'between', 'the', 'valois', 'and', 'the', 'habsburgs']
 
-++++ Similarity 0 , 1.0 | 	0.5
+++++ Similarity 
+	Max similarity: 	0 , 1.0 | 	0.5
+	Statistic similarity: 	0.09 , 0.18 | 	0.14
 
 Window n:	54
 ---------------------------
@@ -762,7 +868,9 @@ Curr:
 Foll: 
 ['during', 'the', 'high', 'renaissance', 'of', 'the', '1500s', ',', 'italy', 'was', 'therefore', 'both', 'the', 'main', 'european', 'battleground', 'and', 'the', 'cultural-economic', 'centre', 'of', 'the', 'continent']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.18 , 0.09 | 	0.14
 
 Window n:	55
 ---------------------------
@@ -776,7 +884,9 @@ Curr:
 Foll: 
 ['popes', 'such', 'as', 'julius', 'ii', '(', '1503–1513', ')', 'fought', 'for', 'the', 'control', 'of', 'italy', 'against', 'foreign', 'monarchs', ',', 'others', 'such', 'as', 'paul', 'iii', '(', '1534–1549', ')', 'preferred', 'to', 'mediate', 'between', 'the', 'european', 'powers', 'in', 'order', 'to', 'secure', 'peace', 'in', 'italy']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.09 , 0.18 | 	0.14
 
 Window n:	56
 ---------------------------
@@ -790,7 +900,9 @@ Curr:
 Foll: 
 ['in', 'the', 'middle', 'of', 'this', 'conflict', ',', 'the', 'medici', 'popes', 'leo', 'x', '(', '1513–1521', ')', 'and', 'clement', 'vii', '(', '1523–1534', ')', 'opposed', 'the', 'protestant', 'reformation', 'and', 'advanced', 'the', 'interests', 'of', 'their', 'family']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.18 , 0.06 | 	0.12
 
 Window n:	57
 ---------------------------
@@ -804,7 +916,9 @@ Curr:
 Foll: 
 ['the', 'end', 'of', 'the', 'wars', 'ultimately', 'left', 'northern', 'italy', 'indirectly', 'subject', 'to', 'the', 'austrian', 'habsburgs', 'and', 'southern', 'italy', 'under', 'direct', 'spanish', 'habsburg', 'rule']
 
-++++ Similarity 1.0 , 0 | 	0.5
+++++ Similarity 
+	Max similarity: 	1.0 , 0 | 	0.5
+	Statistic similarity: 	0.06 , 0.0 | 	0.03
 
 Window n:	58
 ---------------------------
@@ -818,7 +932,9 @@ Curr:
 Foll: 
 ['the', 'papacy', 'remained', 'independent', 'and', 'launched', 'the', 'counter-reformation']
 
-++++ Similarity 0 , 0 | 	0.0
+++++ Similarity 
+	Max similarity: 	0 , 0 | 	0.0
+	Statistic similarity: 	0.0 , 0.0 | 	0.0
 
 Window n:	59
 ---------------------------
@@ -832,7 +948,9 @@ Curr:
 Foll: 
 ['key', 'events', 'of', 'the', 'period', 'include', ':', 'the', 'council', 'of', 'trent', '(', '1545–1563', ')', ';', 'the', 'excommunication', 'of', 'elizabeth', 'i', '(', '1570', ')', 'and', 'the', 'battle', 'of', 'lepanto', '(', '1571', ')', ',', 'both', 'occurring', 'during', 'the', 'pontificate', 'of', 'pius', 'v', ';', 'the', 'construction', 'of', 'the', 'gregorian', 'observatory', ',', 'the', 'adoption', 'of', 'the', 'gregorian', 'calendar', ',', 'and', 'the', 'jesuit', 'china', 'mission', 'of', 'matteo', 'ricci', 'under', 'pope', 'gregory', 'xiii', ';', 'the', 'french', 'wars', 'of', 'religion', ';', 'the', 'long', 'turkish', 'war', 'and', 'the', 'execution', 'of', 'giordano', 'bruno', 'in', '1600', ',', 'under', 'pope', 'clement', 'viii', ';', 'the', 'birth', 'of', 'the', 'lyncean', 'academy', 'of', 'the', 'papal', 'states', ',', 'of', 'which', 'the', 'main', 'figure', 'was', 'galileo', 'galilei', '(', 'later', 'put', 'on', 'trial', ')', ';', 'the', 'final', 'phases', 'of', 'the', 'thirty', 'years', "'", 'war', '(', '1618–1648', ')', 'during', 'the', 'pontificates', 'of', 'urban', 'viii', 'and', 'innocent', 'x', ';', 'and', 'the', 'formation', 'of', 'the', 'last', 'holy', 'league', 'by', 'innocent', 'xi', 'during', 'the', 'great', 'turkish', 'war', 'the', 'italian', 'economy', 'declined', 'during', 'the', '1600s', 'and', '1700s', ',', 'as', 'the', 'peninsula', 'was', 'excluded', 'from', 'the', 'rising', 'atlantic', 'slave', 'trade']
 
-++++ Similarity 0 , 0.87 | 	0.43
+++++ Similarity 
+	Max similarity: 	0 , 0.87 | 	0.43
+	Statistic similarity: 	0.0 , 0.0 | 	0.0
 
 Window n:	60
 ---------------------------
@@ -846,7 +964,9 @@ Curr:
 Foll: 
 ['following', 'the', 'european', 'wars', 'of', 'succession', 'of', 'the', '18th', 'century', ',', 'the', 'south', 'passed', 'to', 'a', 'cadet', 'branch', 'of', 'the', 'spanish', 'bourbons', 'and', 'the', 'north', 'fell', 'under', 'the', 'influence', 'of', 'the', 'habsburg-lorraine', 'of', 'austria']
 
-++++ Similarity 0.87 , 0.58 | 	0.72
+++++ Similarity 
+	Max similarity: 	0.87 , 0.58 | 	0.72
+	Statistic similarity: 	0.0 , 0.06 | 	0.03
 
 Window n:	61
 ---------------------------
@@ -860,7 +980,9 @@ Curr:
 Foll: 
 ['during', 'the', 'coalition', 'wars', ',', 'northern-central', 'italy', 'was', 'reorganised', 'by', 'napoleon', 'in', 'a', 'number', 'of', 'sister', 'republics', 'of', 'france', 'and', 'later', 'as', 'a', 'kingdom', 'of', 'italy', 'in', 'personal', 'union', 'with', 'the', 'french', 'empire']
 
-++++ Similarity 0.58 , 0.7 | 	0.64
+++++ Similarity 
+	Max similarity: 	0.58 , 0.7 | 	0.64
+	Statistic similarity: 	0.06 , 0.06 | 	0.06
 
 Window n:	62
 ---------------------------
@@ -874,7 +996,9 @@ Curr:
 Foll: 
 ['the', 'southern', 'half', 'of', 'the', 'peninsula', 'was', 'administered', 'by', 'joachim', 'murat', ',', 'napoleon', "'s", 'brother-in-law', ',', 'who', 'was', 'crowned', 'as', 'king', 'of', 'naples']
 
-++++ Similarity 0.7 , 0.62 | 	0.66
+++++ Similarity 
+	Max similarity: 	0.7 , 0.62 | 	0.66
+	Statistic similarity: 	0.06 , 0.09 | 	0.07
 
 Window n:	63
 ---------------------------
@@ -888,7 +1012,9 @@ Curr:
 Foll: 
 ['the', '1814', 'congress', 'of', 'vienna', 'restored', 'the', 'situation', 'of', 'the', 'late', '18th', 'century', ',', 'but', 'the', 'ideals', 'of', 'the', 'french', 'revolution', 'could', 'not', 'be', 'eradicated', ',', 'and', 'soon', 're-surfaced', 'during', 'the', 'political', 'upheavals', 'that', 'characterised', 'the', 'first', 'part', 'of', 'the', '19th', 'century']
 
-++++ Similarity 0.62 , 0.53 | 	0.58
+++++ Similarity 
+	Max similarity: 	0.62 , 0.53 | 	0.58
+	Statistic similarity: 	0.09 , 0.0 | 	0.05
 
 Window n:	64
 ---------------------------
@@ -902,7 +1028,9 @@ Curr:
 Foll: 
 ['italy', 'has', 'a', 'major', 'advanced', 'capitalist', 'mixed', 'economy', ',', 'ranking', 'as', 'the', 'third-largest', 'in', 'the', 'eurozone', 'and', 'the', 'eighth-largest', 'in', 'the', 'world']
 
-++++ Similarity 0.53 , 0.63 | 	0.58
+++++ Similarity 
+	Max similarity: 	0.53 , 0.63 | 	0.58
+	Statistic similarity: 	0.0 , 0.0 | 	0.0
 
 Window n:	65
 ---------------------------
@@ -916,7 +1044,9 @@ Curr:
 Foll: 
 ['a', 'founding', 'member', 'of', 'the', 'g7', ',', 'the', 'eurozone', 'and', 'the', 'oecd', ',', 'it', 'is', 'regarded', 'as', 'one', 'of', 'the', 'world', "'s", 'most', 'industrialised', 'nations', 'and', 'a', 'leading', 'country', 'in', 'world', 'trade', 'and', 'exports']
 
-++++ Similarity 0.63 , 1.0 | 	0.82
+++++ Similarity 
+	Max similarity: 	0.63 , 1.0 | 	0.82
+	Statistic similarity: 	0.0 , 0.18 | 	0.09
 
 Window n:	66
 ---------------------------
@@ -930,7 +1060,9 @@ Curr:
 Foll: 
 ['it', 'is', 'a', 'highly', 'developed', 'country', ',', 'with', 'the', 'world', "'s", '8th', 'highest', 'quality', 'of', 'life', 'in', '2005', 'and', 'the', '26th', 'human', 'development', 'index']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.18 , 0.15 | 	0.17
 
 Window n:	67
 ---------------------------
@@ -944,7 +1076,9 @@ Curr:
 Foll: 
 ['the', 'country', 'is', 'well', 'known', 'for', 'its', 'creative', 'and', 'innovative', 'business', ',', 'a', 'large', 'and', 'competitive', 'agricultural', 'sector', '(', 'with', 'the', 'world', "'s", 'largest', 'wine', 'production', ')', ',', 'and', 'for', 'its', 'influential', 'and', 'high-quality', 'automobile', ',', 'machinery', ',', 'food', ',', 'design', 'and', 'fashion', 'industry']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.15 , 0.15 | 	0.15
 
 Window n:	68
 ---------------------------
@@ -958,7 +1092,9 @@ Curr:
 Foll: 
 ['italy', 'is', 'the', 'world', "'s", 'sixth', 'largest', 'manufacturing', 'country', ',', 'characterised', 'by', 'a', 'smaller', 'number', 'of', 'global', 'multinational', 'corporations', 'than', 'other', 'economies', 'of', 'comparable', 'size', 'and', 'many', 'dynamic', 'small', 'and', 'medium-sized', 'enterprises', ',', 'notoriously', 'clustered', 'in', 'several', 'industrial', 'districts', ',', 'which', 'are', 'the', 'backbone', 'of', 'the', 'italian', 'industry']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.15 , 0.18 | 	0.17
 
 Window n:	69
 ---------------------------
@@ -972,7 +1108,9 @@ Curr:
 Foll: 
 ['this', 'has', 'produced', 'a', 'manufacturing', 'sector', 'often', 'focused', 'on', 'the', 'export', 'of', 'niche', 'market', 'and', 'luxury', 'products', ',', 'that', 'if', 'on', 'one', 'side', 'is', 'less', 'capable', 'to', 'compete', 'on', 'the', 'quantity', ',', 'on', 'the', 'other', 'side', 'is', 'more', 'capable', 'of', 'facing', 'the', 'competition', 'from', 'china', 'and', 'other', 'emerging', 'asian', 'economies', 'based', 'on', 'lower', 'labour', 'costs', ',', 'with', 'higher', 'quality', 'products']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.18 , 0.07 | 	0.13
 
 Window n:	70
 ---------------------------
@@ -986,7 +1124,9 @@ Curr:
 Foll: 
 ['italy', 'was', 'the', 'world', "'s", '7th', 'largest', 'exporter', 'in', '2016']
 
-++++ Similarity 1.0 , 0.37 | 	0.68
+++++ Similarity 
+	Max similarity: 	1.0 , 0.37 | 	0.68
+	Statistic similarity: 	0.07 , 0.0 | 	0.04
 
 Window n:	71
 ---------------------------
@@ -1000,7 +1140,9 @@ Curr:
 Foll: 
 ['its', 'closest', 'trade', 'ties', 'are', 'with', 'the', 'other', 'countries', 'of', 'the', 'european', 'union', ',', 'with', 'whom', 'it', 'conducts', 'about', '59', '%', 'of', 'its', 'total', 'trade']
 
-++++ Similarity 0.37 , 0.53 | 	0.45
+++++ Similarity 
+	Max similarity: 	0.37 , 0.53 | 	0.45
+	Statistic similarity: 	0.0 , 0.0 | 	0.0
 
 Window n:	72
 ---------------------------
@@ -1014,7 +1156,9 @@ Curr:
 Foll: 
 ['its', 'largest', 'eu', 'trade', 'partners', ',', 'in', 'order', 'of', 'market', 'share', ',', 'are', 'germany', '(', '12,9', '%', ')', ',', 'france', '(', '11,4', '%', ')', ',', 'and', 'spain', '(', '7,4', '%', ')']
 
-++++ Similarity 0.53 , 1.0 | 	0.77
+++++ Similarity 
+	Max similarity: 	0.53 , 1.0 | 	0.77
+	Statistic similarity: 	0.0 , 0.18 | 	0.09
 
 Window n:	73
 ---------------------------
@@ -1028,7 +1172,9 @@ Curr:
 Foll: 
 ['the', 'automotive', 'industry', 'is', 'a', 'significant', 'part', 'of', 'the', 'italian', 'manufacturing', 'sector', ',', 'with', 'over', '144,000', 'firms', 'and', 'almost', '485,000', 'employed', 'people', 'in', '2015', ',', 'and', 'a', 'contribution', 'of', '8,5', '%', 'to', 'italian', 'gdp']
 
-++++ Similarity 1.0 , 0.39 | 	0.7
+++++ Similarity 
+	Max similarity: 	1.0 , 0.39 | 	0.7
+	Statistic similarity: 	0.18 , 0.06 | 	0.12
 
 Window n:	74
 ---------------------------
@@ -1042,7 +1188,9 @@ Curr:
 Foll: 
 ['fiat', 'chrysler', 'automobiles', 'or', 'fca', 'is', 'currently', 'the', 'world', "'s", 'seventh-largest', 'auto', 'maker']
 
-++++ Similarity 0.39 , 0 | 	0.2
+++++ Similarity 
+	Max similarity: 	0.39 , 0 | 	0.2
+	Statistic similarity: 	0.06 , 0.0 | 	0.03
 
 Window n:	75
 ---------------------------
@@ -1056,7 +1204,9 @@ Curr:
 Foll: 
 ['the', 'country', 'boasts', 'a', 'wide', 'range', 'of', 'acclaimed', 'products', ',', 'from', 'very', 'compact', 'city', 'cars', 'to', 'luxury', 'supercars', 'such', 'as', 'maserati', ',', 'lamborghini', ',', 'and', 'ferrari', ',', 'which', 'was', 'rated', 'the', 'world', "'s", 'most', 'powerful', 'brand', 'by', 'brand', 'finance']
 
-++++ Similarity 0 , 1.0 | 	0.5
+++++ Similarity 
+	Max similarity: 	0 , 1.0 | 	0.5
+	Statistic similarity: 	0.0 , 0.11 | 	0.06
 
 Window n:	76
 ---------------------------
@@ -1070,7 +1220,9 @@ Curr:
 Foll: 
 ['italy', 'is', 'part', 'of', 'the', 'european', 'single', 'market', 'which', 'represents', 'more', 'than', '500', 'million', 'consumers']
 
-++++ Similarity 1.0 , 0.9 | 	0.95
+++++ Similarity 
+	Max similarity: 	1.0 , 0.9 | 	0.95
+	Statistic similarity: 	0.11 , 0.0 | 	0.06
 
 Window n:	77
 ---------------------------
@@ -1084,7 +1236,9 @@ Curr:
 Foll: 
 ['several', 'domestic', 'commercial', 'policies', 'are', 'determined', 'by', 'agreements', 'among', 'european', 'union', '(', 'eu', ')', 'members', 'and', 'by', 'eu', 'legislation']
 
-++++ Similarity 0.9 , 0 | 	0.45
+++++ Similarity 
+	Max similarity: 	0.9 , 0 | 	0.45
+	Statistic similarity: 	0.0 , 0.11 | 	0.06
 
 Window n:	78
 ---------------------------
@@ -1098,7 +1252,9 @@ Curr:
 Foll: 
 ['italy', 'introduced', 'the', 'common', 'european', 'currency', ',', 'the', 'euro', 'in', '2002']
 
-++++ Similarity 0 , 0 | 	0.0
+++++ Similarity 
+	Max similarity: 	0 , 0 | 	0.0
+	Statistic similarity: 	0.11 , 0.14 | 	0.13
 
 Window n:	79
 ---------------------------
@@ -1112,7 +1268,9 @@ Curr:
 Foll: 
 ['it', 'is', 'a', 'member', 'of', 'the', 'eurozone', 'which', 'represents', 'around', '330', 'million', 'citizens']
 
-++++ Similarity 0 , 0.98 | 	0.49
+++++ Similarity 
+	Max similarity: 	0 , 0.98 | 	0.49
+	Statistic similarity: 	0.14 , 0.0 | 	0.07
 
 Window n:	80
 ---------------------------
@@ -1126,7 +1284,9 @@ Curr:
 Foll: 
 ['its', 'monetary', 'policy', 'is', 'set', 'by', 'the', 'european', 'central', 'bank']
 
-++++ Similarity 0.98 , 0 | 	0.49
+++++ Similarity 
+	Max similarity: 	0.98 , 0 | 	0.49
+	Statistic similarity: 	0.0 , 0.0 | 	0.0
 
 Window n:	81
 ---------------------------
@@ -1140,7 +1300,9 @@ Curr:
 Foll: 
 ['italy', 'has', 'been', 'hit', 'hard', 'by', 'the', 'financial', 'crisis', 'of', '2007–08', ',', 'that', 'exacerbated', 'the', 'country', "'s", 'structural', 'problems']
 
-++++ Similarity 0 , 0 | 	0.0
+++++ Similarity 
+	Max similarity: 	0 , 0 | 	0.0
+	Statistic similarity: 	0.0 , 0.0 | 	0.0
 
 Window n:	82
 ---------------------------
@@ -1154,7 +1316,9 @@ Curr:
 Foll: 
 ['effectively', ',', 'after', 'a', 'strong', 'gdp', 'growth', 'of', '5–6', '%', 'per', 'year', 'from', 'the', '1950s', 'to', 'the', 'early', '1970s', ',', 'and', 'a', 'progressive', 'slowdown', 'in', 'the', '1980-90s', ',', 'the', 'country', 'virtually', 'stagnated', 'in', 'the', '2000s']
 
-++++ Similarity 0 , 0 | 	0.0
+++++ Similarity 
+	Max similarity: 	0 , 0 | 	0.0
+	Statistic similarity: 	0.0 , 0.1 | 	0.05
 
 Window n:	83
 ---------------------------
@@ -1168,7 +1332,9 @@ Curr:
 Foll: 
 ['the', 'political', 'efforts', 'to', 'revive', 'growth', 'with', 'massive', 'government', 'spending', 'eventually', 'produced', 'a', 'severe', 'rise', 'in', 'public', 'debt', ',', 'that', 'stood', 'at', 'over', '131.8', '%', 'of', 'gdp', 'in', '2017', ',', 'ranking', 'second', 'in', 'the', 'eu', 'only', 'after', 'the', 'greek', 'one']
 
-++++ Similarity 0 , 0 | 	0.0
+++++ Similarity 
+	Max similarity: 	0 , 0 | 	0.0
+	Statistic similarity: 	0.1 , 0.17 | 	0.13
 
 Window n:	84
 ---------------------------
@@ -1182,7 +1348,9 @@ Curr:
 Foll: 
 ['for', 'all', 'that', ',', 'the', 'largest', 'chunk', 'of', 'italian', 'public', 'debt', 'is', 'owned', 'by', 'national', 'subjects', ',', 'a', 'major', 'difference', 'between', 'italy', 'and', 'greece', ',', 'and', 'the', 'level', 'of', 'household', 'debt', 'is', 'much', 'lower', 'than', 'the', 'oecd', 'average']
 
-++++ Similarity 0 , 1.0 | 	0.5
+++++ Similarity 
+	Max similarity: 	0 , 1.0 | 	0.5
+	Statistic similarity: 	0.17 , 0.11 | 	0.14
 
 Window n:	85
 ---------------------------
@@ -1196,7 +1364,9 @@ Curr:
 Foll: 
 ['a', 'gaping', 'north–south', 'divide', 'is', 'a', 'major', 'factor', 'of', 'socio-economic', 'weakness']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.11 , 0.14 | 	0.12
 
 Window n:	86
 ---------------------------
@@ -1210,7 +1380,9 @@ Curr:
 Foll: 
 ['it', 'can', 'be', 'noted', 'by', 'the', 'huge', 'difference', 'in', 'statistical', 'income', 'between', 'the', 'northern', 'and', 'southern', 'regions', 'and', 'municipalities']
 
-++++ Similarity 1.0 , 0 | 	0.5
+++++ Similarity 
+	Max similarity: 	1.0 , 0 | 	0.5
+	Statistic similarity: 	0.14 , 0.0 | 	0.07
 
 Window n:	87
 ---------------------------
@@ -1224,7 +1396,9 @@ Curr:
 Foll: 
 ['the', 'richest', 'province', ',', 'alto', 'adige-south', 'tyrol', ',', 'earns', '152', '%', 'of', 'the', 'national', 'gdp', 'per', 'capita', ',', 'while', 'the', 'poorest', 'region', ',', 'calabria', ',', '61', '%']
 
-++++ Similarity 0 , 1.0 | 	0.5
+++++ Similarity 
+	Max similarity: 	0 , 1.0 | 	0.5
+	Statistic similarity: 	0.0 , 0.11 | 	0.06
 
 Window n:	88
 ---------------------------
@@ -1238,7 +1412,9 @@ Curr:
 Foll: 
 ['the', 'unemployment', 'rate', '(', '11,1', '%', ')', 'stands', 'slightly', 'above', 'the', 'eurozone', 'average', ',', 'but', 'the', 'disaggregated', 'figure', 'is', '6,6', '%', 'in', 'the', 'north', 'and', '19,2', '%', 'in', 'the', 'south']
 
-++++ Similarity 1.0 , 0 | 	0.5
+++++ Similarity 
+	Max similarity: 	1.0 , 0 | 	0.5
+	Statistic similarity: 	0.11 , 0.06 | 	0.09
 
 Window n:	89
 ---------------------------
@@ -1252,7 +1428,9 @@ Curr:
 Foll: 
 ['the', 'youth', 'unemployment', 'rate', '(', '31,7', '%', 'in', 'march', '2018', ')', 'is', 'extremely', 'high', 'compared', 'to', 'eu', 'standards']
 
-++++ Similarity 0 , 1.0 | 	0.5
+++++ Similarity 
+	Max similarity: 	0 , 1.0 | 	0.5
+	Statistic similarity: 	0.06 , 0.25 | 	0.16
 
 Window n:	90
 ---------------------------
@@ -1266,7 +1444,9 @@ Curr:
 Foll: 
 ['italy', 'has', 'a', 'strong', 'cooperative', 'sector', ',', 'with', 'the', 'largest', 'share', 'of', 'the', 'population', '(', '4,5', '%', ')', 'employed', 'by', 'a', 'cooperative', 'in', 'the', 'eu']
 
-++++ Similarity 1.0 , 0.45 | 	0.72
+++++ Similarity 
+	Max similarity: 	1.0 , 0.45 | 	0.72
+	Statistic similarity: 	0.25 , 0.17 | 	0.21
 
 Window n:	91
 ---------------------------
@@ -1280,7 +1460,9 @@ Curr:
 Foll: 
 ['the', 'history', 'of', 'italian', 'cinema', 'began', 'a', 'few', 'months', 'after', 'the', 'lumière', 'brothers', 'began', 'motion', 'picture', 'exhibitions']
 
-++++ Similarity 0.45 , 0 | 	0.22
+++++ Similarity 
+	Max similarity: 	0.45 , 0 | 	0.22
+	Statistic similarity: 	0.17 , 0.0 | 	0.08
 
 Window n:	92
 ---------------------------
@@ -1294,7 +1476,9 @@ Curr:
 Foll: 
 ['the', 'first', 'italian', 'film', 'was', 'a', 'few', 'seconds', ',', 'showing', 'pope', 'leo', 'xiii', 'giving', 'a', 'blessing', 'to', 'the', 'camera']
 
-++++ Similarity 0 , 0 | 	0.0
+++++ Similarity 
+	Max similarity: 	0 , 0 | 	0.0
+	Statistic similarity: 	0.0 , 0.09 | 	0.05
 
 Window n:	93
 ---------------------------
@@ -1308,7 +1492,9 @@ Curr:
 Foll: 
 ['the', 'italian', 'film', 'industry', 'was', 'born', 'between', '1903', 'and', '1908', 'with', 'three', 'companies', ':', 'the', 'società', 'italiana', 'cines', ',', 'the', 'ambrosio', 'film', 'and', 'the', 'itala', 'film']
 
-++++ Similarity 0 , 1.0 | 	0.5
+++++ Similarity 
+	Max similarity: 	0 , 1.0 | 	0.5
+	Statistic similarity: 	0.09 , 0.18 | 	0.14
 
 Window n:	94
 ---------------------------
@@ -1322,7 +1508,9 @@ Curr:
 Foll: 
 ['other', 'companies', 'soon', 'followed', 'in', 'milan', 'and', 'in', 'naples']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.18 , 0.2 | 	0.19
 
 Window n:	95
 ---------------------------
@@ -1336,7 +1524,9 @@ Curr:
 Foll: 
 ['in', 'a', 'short', 'time', 'these', 'first', 'companies', 'reached', 'a', 'fair', 'producing', 'quality', ',', 'and', 'films', 'were', 'soon', 'sold', 'outside', 'italy']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.2 , 0.4 | 	0.3
 
 Window n:	96
 ---------------------------
@@ -1350,7 +1540,9 @@ Curr:
 Foll: 
 ['cinema', 'was', 'later', 'used', 'by', 'benito', 'mussolini', ',', 'who', 'founded', 'rome', "'s", 'renowned', 'cinecittà', 'studio', 'for', 'the', 'production', 'of', 'fascist', 'propaganda', 'until', 'world', 'war', 'ii']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.4 , 0.0 | 	0.2
 
 Window n:	97
 ---------------------------
@@ -1364,7 +1556,9 @@ Curr:
 Foll: 
 ['after', 'the', 'war', ',', 'italian', 'film', 'was', 'widely', 'recognised', 'and', 'exported', 'until', 'an', 'artistic', 'decline', 'around', 'the', '1980s']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.0 , 0.1 | 	0.05
 
 Window n:	98
 ---------------------------
@@ -1378,7 +1572,9 @@ Curr:
 Foll: 
 ['notable', 'italian', 'film', 'directors', 'from', 'this', 'period', 'include', 'vittorio', 'de', 'sica', ',', 'federico', 'fellini', ',', 'sergio', 'leone', ',', 'pier', 'paolo', 'pasolini', ',', 'luchino', 'visconti', ',', 'michelangelo', 'antonioni', 'and', 'roberto', 'rossellini', ';', 'some', 'of', 'these', 'are', 'recognised', 'among', 'the', 'greatest', 'and', 'most', 'influential', 'filmmakers', 'of', 'all', 'time']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.1 , 0.3 | 	0.2
 
 Window n:	99
 ---------------------------
@@ -1392,7 +1588,9 @@ Curr:
 Foll: 
 ['movies', 'include', 'world', 'cinema', 'treasures', 'such', 'as', 'bicycle', 'thieves', ',', 'la', 'dolce', 'vita', ',', '8½', ',', 'the', 'good', ',', 'the', 'bad', 'and', 'the', 'ugly', 'and', 'once', 'upon', 'a', 'time', 'in', 'the', 'west']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.3 , 0.12 | 	0.21
 
 Window n:	100
 ---------------------------
@@ -1406,7 +1604,9 @@ Curr:
 Foll: 
 ['the', 'mid-1940s', 'to', 'the', 'early', '1950s', 'was', 'the', 'heyday', 'of', 'neorealist', 'films', ',', 'reflecting', 'the', 'poor', 'condition', 'of', 'post-war', 'italy']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.12 , 0.0 | 	0.06
 
 Window n:	101
 ---------------------------
@@ -1420,7 +1620,9 @@ Curr:
 Foll: 
 ['as', 'the', 'country', 'grew', 'wealthier', 'in', 'the', '1950s', ',', 'a', 'form', 'of', 'neorealism', 'known', 'as', 'pink', 'neorealism', 'succeeded', ',', 'and', 'other', 'film', 'genres', ',', 'such', 'as', 'sword-and-sandal', 'followed', 'as', 'spaghetti', 'westerns', ',', 'were', 'popular', 'in', 'the', '1960s', 'and', '1970s']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.0 , 0.18 | 	0.09
 
 Window n:	102
 ---------------------------
@@ -1434,7 +1636,9 @@ Curr:
 Foll: 
 ['actresses', 'such', 'as', 'sophia', 'loren', ',', 'giulietta', 'masina', 'and', 'gina', 'lollobrigida', 'achieved', 'international', 'stardom', 'during', 'this', 'period']
 
-++++ Similarity 1.0 , 0.47 | 	0.74
+++++ Similarity 
+	Max similarity: 	1.0 , 0.47 | 	0.74
+	Statistic similarity: 	0.18 , 0.0 | 	0.09
 
 Window n:	103
 ---------------------------
@@ -1448,7 +1652,9 @@ Curr:
 Foll: 
 ['erotic', 'italian', 'thrillers', ',', 'or', 'giallos', ',', 'produced', 'by', 'directors', 'such', 'as', 'mario', 'bava', 'and', 'dario', 'argento', 'in', 'the', '1970s', ',', 'also', 'influenced', 'the', 'horror', 'genre', 'worldwide']
 
-++++ Similarity 0.47 , 0.37 | 	0.42
+++++ Similarity 
+	Max similarity: 	0.47 , 0.37 | 	0.42
+	Statistic similarity: 	0.0 , 0.0 | 	0.0
 
 Window n:	104
 ---------------------------
@@ -1462,7 +1668,9 @@ Curr:
 Foll: 
 ['in', 'recent', 'years', ',', 'the', 'italian', 'scene', 'has', 'received', 'only', 'occasional', 'international', 'attention', ',', 'with', 'movies', 'like', 'life', 'is', 'beautiful', 'directed', 'by', 'roberto', 'benigni', ',', 'il', 'postino', ':', 'the', 'postman', 'with', 'massimo', 'troisi', 'and', 'the', 'great', 'beauty', 'directed', 'by', 'paolo', 'sorrentino']
 
-++++ Similarity 0.37 , 1.0 | 	0.68
+++++ Similarity 
+	Max similarity: 	0.37 , 1.0 | 	0.68
+	Statistic similarity: 	0.0 , 0.06 | 	0.03
 
 Window n:	105
 ---------------------------
@@ -1476,7 +1684,9 @@ Curr:
 Foll: 
 ['the', 'aforementioned', 'cinecittà', 'studio', 'is', 'today', 'the', 'largest', 'film', 'and', 'television', 'production', 'facility', 'in', 'continental', 'europe', 'and', 'the', 'centre', 'of', 'the', 'italian', 'cinema', ',', 'where', 'many', 'of', 'the', 'biggest', 'box', 'office', 'hits', 'are', 'filmed', ',', 'and', 'one', 'of', 'the', 'biggest', 'production', 'communities', 'in', 'the', 'world']
 
-++++ Similarity 1.0 , 0.82 | 	0.91
+++++ Similarity 
+	Max similarity: 	1.0 , 0.82 | 	0.91
+	Statistic similarity: 	0.06 , 0.04 | 	0.05
 
 Window n:	106
 ---------------------------
@@ -1490,7 +1700,9 @@ Curr:
 Foll: 
 ['in', 'the', '1950s', ',', 'the', 'number', 'of', 'international', 'productions', 'being', 'made', 'there', 'led', 'to', 'rome', "'s", 'being', 'dubbed', '``', 'hollywood', 'on', 'the', 'tiber', "''"]
 
-++++ Similarity 0.82 , 0.82 | 	0.82
+++++ Similarity 
+	Max similarity: 	0.82 , 0.82 | 	0.82
+	Statistic similarity: 	0.04 , 0.08 | 	0.06
 
 Window n:	107
 ---------------------------
@@ -1504,7 +1716,9 @@ Curr:
 Foll: 
 ['more', 'than', '3,000', 'productions', 'have', 'been', 'made', 'on', 'its', 'lot', ',', 'of', 'which', '90', 'received', 'an', 'academy', 'award', 'nomination', 'and', '47', 'of', 'these', 'won', 'it', ',', 'from', 'some', 'cinema', 'classics', 'to', 'recent', 'rewarded', 'features', '(', 'such', 'as', 'roman', 'holiday', ',', 'ben-hur', ',', 'cleopatra', ',', 'romeo', 'and', 'juliet', ',', 'the', 'english', 'patient', ',', 'the', 'passion', 'of', 'the', 'christ', ',', 'and', 'gangs', 'of', 'new', 'york', ')']
 
-++++ Similarity 0.82 , 0.58 | 	0.7
+++++ Similarity 
+	Max similarity: 	0.82 , 0.58 | 	0.7
+	Statistic similarity: 	0.08 , 0.17 | 	0.12
 
 Window n:	108
 ---------------------------
@@ -1518,7 +1732,9 @@ Curr:
 Foll: 
 ['italy', 'is', 'the', 'most', 'awarded', 'country', 'at', 'the', 'academy', 'awards', 'for', 'best', 'foreign', 'language', 'film', ',', 'with', '14', 'awards', 'won', ',', '3', 'special', 'awards', 'and', '31', 'nominations']
 
-++++ Similarity 0.58 , 1.0 | 	0.79
+++++ Similarity 
+	Max similarity: 	0.58 , 1.0 | 	0.79
+	Statistic similarity: 	0.17 , 0.19 | 	0.18
 
 Window n:	109
 ---------------------------
@@ -1532,7 +1748,9 @@ Curr:
 Foll: 
 ['as', 'of', '2016', ',', 'italian', 'films', 'have', 'also', 'won', '12', 'palmes', "d'or", '(', 'the', 'second-most', 'of', 'any', 'country', ')', ',', '11', 'golden', 'lions', 'and', '7', 'golden', 'bears']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.19 , 0.13 | 	0.16
 
 Window n:	110
 ---------------------------
@@ -1546,7 +1764,9 @@ Curr:
 Foll: 
 ['italy', 'has', 'a', 'parliamentary', 'government', 'based', 'on', 'a', 'mixed', 'proportional', 'and', 'majoritarian', 'voting', 'system']
 
-++++ Similarity 1.0 , 0 | 	0.5
+++++ Similarity 
+	Max similarity: 	1.0 , 0 | 	0.5
+	Statistic similarity: 	0.13 , 0.0 | 	0.07
 
 Window n:	111
 ---------------------------
@@ -1560,7 +1780,9 @@ Curr:
 Foll: 
 ['the', 'parliament', 'is', 'perfectly', 'bicameral', ':', 'the', 'two', 'houses', ',', 'the', 'chamber', 'of', 'deputies', 'that', 'meets', 'in', 'palazzo', 'montecitorio', ',', 'and', 'the', 'senate', 'of', 'the', 'republic', 'that', 'meets', 'in', 'palazzo', 'madama', ',', 'have', 'the', 'same', 'powers']
 
-++++ Similarity 0 , 0 | 	0.0
+++++ Similarity 
+	Max similarity: 	0 , 0 | 	0.0
+	Statistic similarity: 	0.0 , 0.0 | 	0.0
 
 Window n:	112
 ---------------------------
@@ -1574,7 +1796,9 @@ Curr:
 Foll: 
 ['the', 'prime', 'minister', ',', 'officially', 'president', 'of', 'the', 'council', 'of', 'ministers', '(', 'presidente', 'del', 'consiglio', 'dei', 'ministri', ')', ',', 'is', 'italy', "'s", 'head', 'of', 'government']
 
-++++ Similarity 0 , 0.52 | 	0.26
+++++ Similarity 
+	Max similarity: 	0 , 0.52 | 	0.26
+	Statistic similarity: 	0.0 , 0.0 | 	0.0
 
 Window n:	113
 ---------------------------
@@ -1588,7 +1812,9 @@ Curr:
 Foll: 
 ['the', 'prime', 'minister', 'and', 'the', 'cabinet', 'are', 'appointed', 'by', 'the', 'president', 'of', 'the', 'republic', 'of', 'italy', 'and', 'must', 'pass', 'a', 'vote', 'of', 'confidence', 'in', 'parliament', 'to', 'come', 'into', 'office']
 
-++++ Similarity 0.52 , 1.0 | 	0.76
+++++ Similarity 
+	Max similarity: 	0.52 , 1.0 | 	0.76
+	Statistic similarity: 	0.0 , 0.29 | 	0.14
 
 Window n:	114
 ---------------------------
@@ -1602,7 +1828,9 @@ Curr:
 Foll: 
 ['to', 'remain', 'the', 'prime', 'minister', 'has', 'to', 'pass', 'also', 'eventual', 'further', 'votes', 'of', 'confidence', 'or', 'no', 'confidence', 'in', 'parliament']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.29 , 0.6 | 	0.44
 
 Window n:	115
 ---------------------------
@@ -1616,7 +1844,9 @@ Curr:
 Foll: 
 ['the', 'prime', 'minister', 'is', 'the', 'president', 'of', 'the', 'council', 'of', 'ministers', '–', 'which', 'holds', 'effective', 'executive', 'power', '–', 'and', 'he', 'must', 'receive', 'a', 'vote', 'of', 'approval', 'from', 'it', 'to', 'execute', 'most', 'political', 'activities']
 
-++++ Similarity 1.0 , 0 | 	0.5
+++++ Similarity 
+	Max similarity: 	1.0 , 0 | 	0.5
+	Statistic similarity: 	0.6 , 0.3 | 	0.45
 
 Window n:	116
 ---------------------------
@@ -1630,7 +1860,9 @@ Curr:
 Foll: 
 ['the', 'office', 'is', 'similar', 'to', 'those', 'in', 'most', 'other', 'parliamentary', 'systems', ',', 'but', 'the', 'leader', 'of', 'the', 'italian', 'government', 'is', 'not', 'authorised', 'to', 'request', 'the', 'dissolution', 'of', 'the', 'parliament', 'of', 'italy']
 
-++++ Similarity 0 , 0 | 	0.0
+++++ Similarity 
+	Max similarity: 	0 , 0 | 	0.0
+	Statistic similarity: 	0.3 , 0.0 | 	0.15
 
 Window n:	117
 ---------------------------
@@ -1644,7 +1876,9 @@ Curr:
 Foll: 
 ['another', 'difference', 'with', 'similar', 'offices', 'is', 'that', 'the', 'overall', 'political', 'responsibility', 'for', 'intelligence', 'is', 'vested', 'in', 'the', 'president', 'of', 'the', 'council', 'of', 'ministers']
 
-++++ Similarity 0 , 0 | 	0.0
+++++ Similarity 
+	Max similarity: 	0 , 0 | 	0.0
+	Statistic similarity: 	0.0 , 0.17 | 	0.08
 
 Window n:	118
 ---------------------------
@@ -1658,7 +1892,9 @@ Curr:
 Foll: 
 ['by', 'virtue', 'of', 'that', ',', 'the', 'prime', 'minister', 'has', 'exclusive', 'power', 'to', ':', 'co-ordinate', 'intelligence', 'policies', ',', 'determining', 'the', 'financial', 'resources', 'and', 'strengthening', 'national', 'cyber', 'security', ';', 'apply', 'and', 'protect', 'state', 'secrets', ';', 'authorise', 'agents', 'to', 'carry', 'out', 'operations', ',', 'in', 'italy', 'or', 'abroad', ',', 'in', 'violation', 'of', 'the', 'law']
 
-++++ Similarity 0 , 1.0 | 	0.5
+++++ Similarity 
+	Max similarity: 	0 , 1.0 | 	0.5
+	Statistic similarity: 	0.17 , 0.17 | 	0.17
 
 Window n:	119
 ---------------------------
@@ -1672,7 +1908,9 @@ Curr:
 Foll: 
 ['a', 'peculiarity', 'of', 'the', 'italian', 'parliament', 'is', 'the', 'representation', 'given', 'to', 'italian', 'citizens', 'permanently', 'living', 'abroad', ':', '12', 'deputies', 'and', '6', 'senators', 'elected', 'in', 'four', 'distinct', 'overseas', 'constituencies']
 
-++++ Similarity 1.0 , 0 | 	0.5
+++++ Similarity 
+	Max similarity: 	1.0 , 0 | 	0.5
+	Statistic similarity: 	0.17 , 0.05 | 	0.11
 
 Window n:	120
 ---------------------------
@@ -1686,7 +1924,9 @@ Curr:
 Foll: 
 ['in', 'addition', ',', 'the', 'italian', 'senate', 'is', 'characterised', 'also', 'by', 'a', 'small', 'number', 'of', 'senators', 'for', 'life', ',', 'appointed', 'by', 'the', 'president', '``', 'for', 'outstanding', 'patriotic', 'merits', 'in', 'the', 'social', ',', 'scientific', ',', 'artistic', 'or', 'literary', 'field', "''"]
 
-++++ Similarity 0 , 0.55 | 	0.27
+++++ Similarity 
+	Max similarity: 	0 , 0.55 | 	0.27
+	Statistic similarity: 	0.05 , 0.11 | 	0.08
 
 Window n:	121
 ---------------------------
@@ -1700,7 +1940,9 @@ Curr:
 Foll: 
 ['former', 'presidents', 'of', 'the', 'republic', 'are', 'ex', 'officio', 'life', 'senators']
 
-++++ Similarity 0.55 , 1.0 | 	0.77
+++++ Similarity 
+	Max similarity: 	0.55 , 1.0 | 	0.77
+	Statistic similarity: 	0.11 , 0.43 | 	0.27
 
 Window n:	122
 ---------------------------
@@ -1714,7 +1956,9 @@ Curr:
 Foll: 
 ['italy', "'s", 'three', 'major', 'political', 'parties', 'are', 'the', 'five', 'star', 'movement', ',', 'the', 'democratic', 'party', 'and', 'the', 'lega']
 
-++++ Similarity 1.0 , 0 | 	0.5
+++++ Similarity 
+	Max similarity: 	1.0 , 0 | 	0.5
+	Statistic similarity: 	0.43 , 0.0 | 	0.21
 
 Window n:	123
 ---------------------------
@@ -1728,7 +1972,9 @@ Curr:
 Foll: 
 ['during', 'the', '2018', 'general', 'election', 'these', 'three', 'parties', 'won', '614', 'out', 'of', '630', 'seats', 'available', 'in', 'the', 'chamber', 'of', 'deputies', 'and', '309', 'out', 'of', '315', 'in', 'the', 'senate']
 
-++++ Similarity 0 , 1.0 | 	0.5
+++++ Similarity 
+	Max similarity: 	0 , 1.0 | 	0.5
+	Statistic similarity: 	0.0 , 0.18 | 	0.09
 
 Window n:	124
 ---------------------------
@@ -1742,7 +1988,9 @@ Curr:
 Foll: 
 ['berlusconi', "'s", 'forza', 'italia', 'which', 'formed', 'a', 'centre-right', 'coalition', 'with', 'matteo', 'salvini', "'s", 'northern', 'league', 'and', 'giorgia', 'meloni', "'s", 'brothers', 'of', 'italy', 'won', 'most', 'of', 'the', 'seats', 'without', 'getting', 'the', 'majority', 'in', 'parliament']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.18 , 0.07 | 	0.13
 
 Window n:	125
 ---------------------------
@@ -1756,4 +2004,6 @@ Curr:
 Foll: 
 ['the', 'rest', 'of', 'the', 'seats', 'were', 'taken', 'by', 'five', 'star', 'movement', ',', 'matteo', 'renzi', "'s", 'democratic', 'party', 'along', 'with', 'achammer', 'and', 'panizza', "'s", 'south', 'tyrolean', 'people', "'s", 'party', '&', 'trentino', 'tyrolean', 'autonomist', 'party', 'in', 'a', 'centre-left', 'coalition', 'and', 'the', 'independent', 'free', 'and', 'equal', 'party', '.']
 
-++++ Similarity 1.0 , 1.0 | 	1.0
+++++ Similarity 
+	Max similarity: 	1.0 , 1.0 | 	1.0
+	Statistic similarity: 	0.07 , 0.16 | 	0.11

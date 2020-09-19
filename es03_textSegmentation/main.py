@@ -58,11 +58,10 @@ def textWindowing(document, length):
     return sequences
 
 def main():
-    #doc = loadDocument("./text_italy01.txt")
-    doc = loadDocument("./prova.txt")
+    doc = loadDocument("./text_italy01.txt")
 
     splitPoints = 5
-    windows_size = 3
+    windows_size = 5
     sequences = textWindowing(doc, windows_size) # get text windows (5: sentences in each windows)
 
     print ("Number of windows: " + str(len(sequences)))
@@ -70,10 +69,7 @@ def main():
     #nasari = loadNasari("./asset/dd-small-nasari-15.txt")
     nasari = loadNasari("./asset/dd-nasari.txt")
 
-    similarities = []
-    similarities_mean = []
-
-    result_path = "./output/results_text_italy00.txt"
+    result_path = "./output/results_text_italy01_w5.txt"
 
     clear_file(result_path)
 
@@ -85,6 +81,10 @@ def main():
     saveString(result_path, "Number of windows: " + str(len(sequences)))
     saveString(result_path, "**************************************\n\n")
 
+    similarities = []
+    similarities_mean = []
+    similarities_correlation = [] # based on statistica occurrence
+
     for i in range(1, len(sequences) - 1):
         prev = getNasariVectors(sequences[i - 1], nasari) # previus sentence
         current = getNasariVectors(sequences[i], nasari)
@@ -93,31 +93,31 @@ def main():
         max_sim_prev, mean_sim_prev = getSimilarity(current, prev)
         max_sim_foll, mean_sim_prev = getSimilarity(current, foll)
 
+        corr_prev = getOverlap(sequences[i], sequences[i-1])
+        corr_foll = getOverlap(sequences[i], sequences[i+1])
+
         saveString(result_path, "\nWindow n:\t" + str(i))
         saveString(result_path, "---------------------------\n")
         saveString(result_path, "Prev: \n" + str(sequences[i - 1]) + "\n")
         saveString(result_path, "Curr: \n" + str(sequences[i]) + "\n")
         saveString(result_path, "Foll: \n" + str(sequences[i + 1]) + "\n")
 
-        saveString(result_path, "++++ Similarity \b" + str(round(max_sim_prev,2)) + " , " + str(round(max_sim_foll,2)) + " | \t" + str(round((max_sim_prev + max_sim_foll) / 2,2)))
+        saveString(result_path, "++++ Similarity \b")
+        saveString(result_path, "\tMax similarity: \t" + str(round(max_sim_prev,2)) + " , " + str(round(max_sim_foll,2)) + " | \t" + str(round((max_sim_prev + max_sim_foll) / 2,2)))
+        saveString(result_path, "\tStatistic similarity: \t" + str(round(corr_prev,2)) + " , " + str(round(corr_foll,2)) + " | \t" + str(round((corr_prev + corr_foll) / 2,2)))
 
         similarities.append((max_sim_prev + max_sim_foll) / 2)
         similarities_mean.append((mean_sim_prev + mean_sim_prev) / 2)
+        similarities_correlation.append((corr_prev + corr_foll) / 2)
 
     #minimum = (np.diff(np.sign(np.diff(similarities))) > 0).nonzero() [0] + 1 # local min
-    splits = []
-    mean = sum(similarities) / len(similarities)
-    for i in range(1, len(similarities) - 1):
-        if (similarities[i] < mean) and (similarities[i] < similarities[i-1]) and (len(splits)>0):
-            #splits[-1] = (i,similarities[i])
-            splits.append((i,similarities[i]))
-        elif (similarities[i] < mean) and ((i-1, similarities[i-1]) not in splits):
-            splits.append((i,similarities[i]))
+
+    split_maxSimilarity = getSplitPoints(similarities)
+    split_corrSimilarity = getSplitPoints(similarities_correlation)
 
     #splits = numpy.argsort(splits) # Returns the indices that would sort an array
-    splits = sorted(splits, key=lambda x: x[1])
-    splits = splits[:splitPoints]
-    print (splits)
+    split_maxSimilarity = split_maxSimilarity[:splitPoints]
+    split_corrSimilarity = split_corrSimilarity[:splitPoints]
 
     # text_italy01.txt
     breackSentences = [
@@ -139,22 +139,50 @@ def main():
     print (len(result), len(tokenized))
     print ("--")"""
 
+    # Plot similarities
+
     plt.xlabel("Sequence number ( windows size = " + str(windows_size) + ")")
     plt.ylabel("Coesion")
 
     plt.plot(similarities, color = "k", linewidth=1)
-    plt.axhline(y = mean, color = "k" , ls = ":", linewidth = 0.5)
+    #plt.axhline(y = mean, color = "k" , ls = ":", linewidth = 0.5)
     
     for val in values:
-        plt.axvline(x= val, ls = "--", color='r', linewidth=2)
-    for split in splits:
+        plt.axvline(x= val, ls = "-", color='r', linewidth=2)
+    for split in split_maxSimilarity:
         plt.axvline(x= split[0], ls = "-", color='g', linewidth=1.5)
     """for mini in minimum:
         plt.axvline(x= mini, ls = ":", color='brown', linewidth=1)"""
 
-    plt.axvline(x= values[0], ls = "--", color='r', linewidth=1, label = "Correct breakpoints")
-    plt.axvline(x= splits[0][0], ls = "-", color='g', linewidth=1, label = "Calculated breakpoints")
+    plt.axvline(x= values[0], ls = "-", color='r', linewidth=1, label = "Correct breakpoints")
+    plt.axvline(x= split_maxSimilarity[0][0], ls = "-", color='g', linewidth=1, label = "Calculated breakpoints")
     plt.legend()
+
+    # Plot similarities and similarities_correlation values
+
+    fig, axs = plt.subplots(2)
+    axs[0].plot(similarities, color = "k", linewidth=1)
+    axs[1].plot(similarities_correlation, color = "k", linewidth=1)
+
+    for val in values:
+        axs[0].axvline(x= val, ls = "-", color='r', linewidth=2)
+        axs[1].axvline(x= val, ls = "-", color='r', linewidth=2)
+    for split in split_maxSimilarity:
+        axs[0].axvline(x= split[0], ls = "-", color='g', linewidth=1.5)
+    for split in split_corrSimilarity:
+        axs[1].axvline(x= split[0], ls = "-", color='g', linewidth=1.5)
+    
+    axs[0].axvline(x= values[0], ls = "-", color='r', linewidth=1, label = "Correct breakpoints")
+    axs[0].axvline(x= split_maxSimilarity[0][0], ls = "-", color='g', linewidth=1, label = "Calculated breakpoints")
+    axs[1].axvline(x= values[0], ls = "-", color='r', linewidth=1, label = "Correct breakpoints")
+    axs[1].axvline(x= split_corrSimilarity[0][0], ls = "-", color='g', linewidth=1, label = "Calculated breakpoints")
+
+    axs[0].set(xlabel = "", ylabel = "Coesion value")
+    axs[1].set(xlabel = "Sequence number ( windows size = " + str(windows_size) + ")", ylabel = "Coesion value")
+
+    handles, labels = axs[1].get_legend_handles_labels()
+    fig.legend(handles, labels, loc='upper center', prop={'size': 9}, ncol=2)
+
     plt.show()
     
 
