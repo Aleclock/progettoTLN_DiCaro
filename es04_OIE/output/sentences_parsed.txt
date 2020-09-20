@@ -1,3 +1,4 @@
+The Fulton County Grand Jury said Friday an investigation of Atlanta's recent primary election produced `` no evidence '' that any irregularities took place .
 +-------+----------------+-------+-----+----------------+---------------+
 | Index |      Text      |  POS  | TAG |      Head      | Syntactic dep |
 +-------+----------------+-------+-----+----------------+---------------+
@@ -29,6 +30,8 @@
 |   25  |     place      |  NOUN |  NN |      took      |      dobj     |
 |   26  |       .        | PUNCT |  .  |      said      |     punct     |
 +-------+----------------+-------+-----+----------------+---------------+
+
+The jury further said in term-end presentments that the City Executive Committee , which had over-all charge of the election , `` deserves the praise and thanks of the City of Atlanta '' for the manner in which the election was conducted .
 +-------+--------------+-------+------+--------------+---------------+
 | Index |     Text     |  POS  | TAG  |     Head     | Syntactic dep |
 +-------+--------------+-------+------+--------------+---------------+
@@ -81,6 +84,7 @@
 |   46  |  conducted   |  VERB | VBN  |    manner    |     relcl     |
 |   47  |      .       | PUNCT |  .   |     said     |     punct     |
 +-------+--------------+-------+------+--------------+---------------+
+The September-October term jury had been charged by Fulton Superior Court Judge Durwood Pye to investigate reports of possible `` irregularities '' in the hard-fought primary which was won by Mayor-nominate Ivan Allen Jr. .
 +-------+----------------+-------+------+----------------+---------------+
 | Index |      Text      |  POS  | TAG  |      Head      | Syntactic dep |
 +-------+----------------+-------+------+----------------+---------------+
@@ -127,6 +131,7 @@
 |   40  |      Jr.       | PROPN | NNP  |       by       |      pobj     |
 |   41  |       .        | PUNCT |  .   |    charged     |     punct     |
 +-------+----------------+-------+------+----------------+---------------+
+`` Only a relative handful of such reports was received '' , the jury said , `` considering the widespread interest in the election , the number of voters and the size of this city '' .
 +-------+-------------+-------+-----+-------------+---------------+
 | Index |     Text    |  POS  | TAG |     Head    | Syntactic dep |
 +-------+-------------+-------+-----+-------------+---------------+
@@ -170,6 +175,7 @@
 |   37  |      ''     | PUNCT |  '' |    number   |     punct     |
 |   38  |      .      | PUNCT |  .  |     said    |     punct     |
 +-------+-------------+-------+-----+-------------+---------------+
+The jury said it did find that many of Georgia's registration and election laws `` are outmoded or inadequate and often ambiguous '' .
 +-------+--------------+-------+-----+--------------+---------------+
 | Index |     Text     |  POS  | TAG |     Head     | Syntactic dep |
 +-------+--------------+-------+-----+--------------+---------------+
@@ -200,6 +206,7 @@
 |   24  |      ''      | PUNCT |  '' |     said     |     punct     |
 |   25  |      .       | PUNCT |  .  |     said     |     punct     |
 +-------+--------------+-------+-----+--------------+---------------+
+It recommended that Fulton legislators act `` to have these laws studied and revised to the end of modernizing and improving them '' .
 +-------+-------------+-------+-----+-------------+---------------+
 | Index |     Text    |  POS  | TAG |     Head    | Syntactic dep |
 +-------+-------------+-------+-----+-------------+---------------+
@@ -229,6 +236,7 @@
 |   23  |      ''     | PUNCT |  '' |     act     |     punct     |
 |   24  |      .      | PUNCT |  .  | recommended |     punct     |
 +-------+-------------+-------+-----+-------------+---------------+
+The grand jury commented on a number of other topics , among them the Atlanta and Fulton County purchasing departments which it said `` are well operated and follow generally accepted practices which inure to the best interest of both governments '' .
 +-------+-------------+-------+-----+-------------+---------------+
 | Index |     Text    |  POS  | TAG |     Head    | Syntactic dep |
 +-------+-------------+-------+-----+-------------+---------------+
@@ -277,12 +285,14 @@
 |   42  |      ''     | PUNCT |  '' |     are     |     punct     |
 |   43  |      .      | PUNCT |  .  |  commented  |     punct     |
 +-------+-------------+-------+-----+-------------+---------------+
+Merger proposed
 +-------+----------+-------+-----+----------+---------------+
 | Index |   Text   |  POS  | TAG |   Head   | Syntactic dep |
 +-------+----------+-------+-----+----------+---------------+
 |   0   |  Merger  | PROPN | NNP | proposed |     nsubj     |
 |   1   | proposed |  VERB | VBD | proposed |      ROOT     |
 +-------+----------+-------+-----+----------+---------------+
+However , the jury said it believes `` these two offices should be combined to achieve greater efficiency and reduce the cost of administration '' .
 +-------+----------------+-------+-----+------------+---------------+
 | Index |      Text      |  POS  | TAG |    Head    | Syntactic dep |
 +-------+----------------+-------+-----+------------+---------------+
@@ -314,6 +324,7 @@
 |   25  |       ''       | PUNCT |  '' |   reduce   |     punct     |
 |   26  |       .        | PUNCT |  .  |    said    |     punct     |
 +-------+----------------+-------+-----+------------+---------------+
+The City Purchasing Department , the jury said , `` is lacking in experienced clerical personnel as a result of city personnel policies '' .
 +-------+-------------+-------+-----+------------+---------------+
 | Index |     Text    |  POS  | TAG |    Head    | Syntactic dep |
 +-------+-------------+-------+-----+------------+---------------+
@@ -344,6 +355,7 @@
 |   24  |      ''     | PUNCT |  '' |  lacking   |     punct     |
 |   25  |      .      | PUNCT |  .  |  lacking   |     punct     |
 +-------+-------------+-------+-----+------------+---------------+
+It urged that the city `` take steps to remedy '' this problem .
 +-------+---------+-------+-----+---------+---------------+
 | Index |   Text  |  POS  | TAG |   Head  | Syntactic dep |
 +-------+---------+-------+-----+---------+---------------+
@@ -363,6 +375,7 @@
 |   13  | problem |  NOUN |  NN |  remedy |      dobj     |
 |   14  |    .    | PUNCT |  .  |  urged  |     punct     |
 +-------+---------+-------+-----+---------+---------------+
+Implementation of Georgia's automobile title law was also recommended by the outgoing jury .
 +-------+----------------+-------+-----+----------------+---------------+
 | Index |      Text      |  POS  | TAG |      Head      | Syntactic dep |
 +-------+----------------+-------+-----+----------------+---------------+
@@ -382,6 +395,7 @@
 |   13  |      jury      |  NOUN |  NN |       by       |      pobj     |
 |   14  |       .        | PUNCT |  .  |  recommended   |     punct     |
 +-------+----------------+-------+-----+----------------+---------------+
+It urged that the next Legislature `` provide enabling funds and re-set the effective date so that an orderly implementation of the law may be effected '' .
 +-------+----------------+-------+-----+----------------+---------------+
 | Index |      Text      |  POS  | TAG |      Head      | Syntactic dep |
 +-------+----------------+-------+-----+----------------+---------------+
@@ -417,6 +431,7 @@
 |   29  |       ''       | PUNCT |  '' |     urged      |     punct     |
 |   30  |       .        | PUNCT |  .  |     urged      |     punct     |
 +-------+----------------+-------+-----+----------------+---------------+
+The grand jury took a swipe at the State Welfare Department's handling of federal funds granted for child welfare services in foster homes .
 +-------+------------+-------+-----+------------+---------------+
 | Index |    Text    |  POS  | TAG |    Head    | Syntactic dep |
 +-------+------------+-------+-----+------------+---------------+
@@ -446,6 +461,7 @@
 |   23  |   homes    |  NOUN | NNS |     in     |      pobj     |
 |   24  |     .      | PUNCT |  .  |    took    |     punct     |
 +-------+------------+-------+-----+------------+---------------+
+`` This is one of the major items in the Fulton County general assistance program '' , the jury said , but the State Welfare Department `` has seen fit to distribute these funds through the welfare departments of all the counties in the state with the exception of Fulton County , which receives none of this money .
 +-------+-------------+-------+-----+-------------+---------------+
 | Index |     Text    |  POS  | TAG |     Head    | Syntactic dep |
 +-------+-------------+-------+-----+-------------+---------------+
@@ -511,3 +527,432 @@
 |   59  |    money    |  NOUN |  NN |      of     |      pobj     |
 |   60  |      .      | PUNCT |  .  |      is     |     punct     |
 +-------+-------------+-------+-----+-------------+---------------+
+The jurors said they realize `` a proportionate distribution of these funds might disable this program in our less populous counties '' .
++-------+---------------+-------+------+--------------+---------------+
+| Index |      Text     |  POS  | TAG  |     Head     | Syntactic dep |
++-------+---------------+-------+------+--------------+---------------+
+|   0   |      The      |  DET  |  DT  |    jurors    |      det      |
+|   1   |     jurors    |  NOUN | NNS  |     said     |     nsubj     |
+|   2   |      said     |  VERB | VBD  |     said     |      ROOT     |
+|   3   |      they     |  PRON | PRP  |   realize    |     nsubj     |
+|   4   |    realize    |  VERB | VBP  |     said     |     ccomp     |
+|   5   |       `       | PUNCT |  ''  |   disable    |     punct     |
+|   6   |       `       | PUNCT |  ''  | distribution |     punct     |
+|   7   |       a       |  DET  |  DT  | distribution |      det      |
+|   8   | proportionate |  NOUN |  NN  | distribution |      amod     |
+|   9   |  distribution |  NOUN |  NN  |   disable    |     nsubj     |
+|   10  |       of      |  ADP  |  IN  | distribution |      prep     |
+|   11  |     these     |  DET  |  DT  |    funds     |      det      |
+|   12  |     funds     |  NOUN | NNS  |      of      |      pobj     |
+|   13  |     might     |  VERB |  MD  |   disable    |      aux      |
+|   14  |    disable    |  VERB |  VB  |   realize    |     ccomp     |
+|   15  |      this     |  DET  |  DT  |   program    |      det      |
+|   16  |    program    |  NOUN |  NN  |   disable    |      dobj     |
+|   17  |       in      |  ADP  |  IN  |   disable    |      prep     |
+|   18  |      our      |  DET  | PRP$ |   counties   |      poss     |
+|   19  |      less     |  ADV  | RBR  |   populous   |     advmod    |
+|   20  |    populous   |  ADJ  |  JJ  |   counties   |      amod     |
+|   21  |    counties   |  NOUN | NNS  |      in      |      pobj     |
+|   22  |       ''      | PUNCT |  ''  |   disable    |     punct     |
+|   23  |       .       | PUNCT |  .   |     said     |     punct     |
++-------+---------------+-------+------+--------------+---------------+
+Nevertheless , `` we feel that in the future Fulton County should receive some portion of these available funds '' , the jurors said .
++-------+--------------+-------+-----+---------+---------------+
+| Index |     Text     |  POS  | TAG |   Head  | Syntactic dep |
++-------+--------------+-------+-----+---------+---------------+
+|   0   | Nevertheless |  ADV  |  RB |   feel  |     advmod    |
+|   1   |      ,       | PUNCT |  ,  |   feel  |     punct     |
+|   2   |      `       | PUNCT |  '' |   feel  |     punct     |
+|   3   |      `       | PUNCT |  '' |   feel  |     punct     |
+|   4   |      we      |  PRON | PRP |   feel  |     nsubj     |
+|   5   |     feel     |  VERB | VBP |   said  |     ccomp     |
+|   6   |     that     | SCONJ |  IN | receive |      mark     |
+|   7   |      in      |  ADP  |  IN | receive |      prep     |
+|   8   |     the      |  DET  |  DT |  future |      det      |
+|   9   |    future    |  ADJ  |  JJ |    in   |      pobj     |
+|   10  |    Fulton    | PROPN | NNP |  County |    compound   |
+|   11  |    County    | PROPN | NNP | receive |     nsubj     |
+|   12  |    should    |  VERB |  MD | receive |      aux      |
+|   13  |   receive    |  VERB |  VB |   feel  |     ccomp     |
+|   14  |     some     |  DET  |  DT | portion |      det      |
+|   15  |   portion    |  NOUN |  NN | receive |      dobj     |
+|   16  |      of      |  ADP  |  IN | portion |      prep     |
+|   17  |    these     |  DET  |  DT |  funds  |      det      |
+|   18  |  available   |  ADJ  |  JJ |  funds  |      amod     |
+|   19  |    funds     |  NOUN | NNS |    of   |      pobj     |
+|   20  |      ''      | PUNCT |  '' | receive |     punct     |
+|   21  |      ,       | PUNCT |  ,  |   said  |     punct     |
+|   22  |     the      |  DET  |  DT |  jurors |      det      |
+|   23  |    jurors    |  NOUN | NNS |   said  |     nsubj     |
+|   24  |     said     |  VERB | VBD |   said  |      ROOT     |
+|   25  |      .       | PUNCT |  .  |   said  |     punct     |
++-------+--------------+-------+-----+---------+---------------+
+`` Failure to do this will continue to place a disproportionate burden '' on Fulton taxpayers .
++-------+------------------+-------+-----+-----------+---------------+
+| Index |       Text       |  POS  | TAG |    Head   | Syntactic dep |
++-------+------------------+-------+-----+-----------+---------------+
+|   0   |        `         | PUNCT |  `` |  Failure  |     punct     |
+|   1   |        `         | PUNCT |  '' |  Failure  |     punct     |
+|   2   |     Failure      |  NOUN |  NN |  continue |     nsubj     |
+|   3   |        to        |  PART |  TO |     do    |      aux      |
+|   4   |        do        |  AUX  |  VB |  Failure  |      acl      |
+|   5   |       this       |  DET  |  DT |     do    |      dobj     |
+|   6   |       will       |  VERB |  MD |  continue |      aux      |
+|   7   |     continue     |  VERB |  VB |  continue |      ROOT     |
+|   8   |        to        |  PART |  TO |   place   |      aux      |
+|   9   |      place       |  VERB |  VB |  continue |     xcomp     |
+|   10  |        a         |  DET  |  DT |   burden  |      det      |
+|   11  | disproportionate |  ADJ  |  JJ |   burden  |      amod     |
+|   12  |      burden      |  NOUN |  NN |   place   |      dobj     |
+|   13  |        ''        | PUNCT |  '' |   burden  |     punct     |
+|   14  |        on        |  ADP  |  IN |   place   |      prep     |
+|   15  |      Fulton      | PROPN | NNP | taxpayers |    compound   |
+|   16  |    taxpayers     |  NOUN | NNS |     on    |      pobj     |
+|   17  |        .         | PUNCT |  .  |  continue |     punct     |
++-------+------------------+-------+-----+-----------+---------------+
+The jury also commented on the Fulton ordinary's court which has been under fire for its practices in the appointment of appraisers , guardians and administrators and the awarding of fees and compensation .
++-------+----------------+-------+------+-------------+---------------+
+| Index |      Text      |  POS  | TAG  |     Head    | Syntactic dep |
++-------+----------------+-------+------+-------------+---------------+
+|   0   |      The       |  DET  |  DT  |     jury    |      det      |
+|   1   |      jury      |  NOUN |  NN  |  commented  |     nsubj     |
+|   2   |      also      |  ADV  |  RB  |  commented  |     advmod    |
+|   3   |   commented    |  VERB | VBD  |  commented  |      ROOT     |
+|   4   |       on       |  ADP  |  IN  |  commented  |      prep     |
+|   5   |      the       |  DET  |  DT  |   ordinary  |      det      |
+|   6   |     Fulton     | PROPN | NNP  |   ordinary  |    compound   |
+|   7   |    ordinary    |  NOUN |  NN  |    court    |      poss     |
+|   8   |       's       |  PART | POS  |   ordinary  |      case     |
+|   9   |     court      |  NOUN |  NN  |      on     |      pobj     |
+|   10  |     which      |  DET  | WDT  |     been    |     nsubj     |
+|   11  |      has       |  AUX  | VBZ  |     been    |      aux      |
+|   12  |      been      |  AUX  | VBN  |  commented  |     ccomp     |
+|   13  |     under      |  ADP  |  IN  |     been    |      prep     |
+|   14  |      fire      |  NOUN |  NN  |    under    |      pobj     |
+|   15  |      for       |  ADP  |  IN  |     been    |      prep     |
+|   16  |      its       |  DET  | PRP$ |  practices  |      poss     |
+|   17  |   practices    |  NOUN | NNS  |     for     |      pobj     |
+|   18  |       in       |  ADP  |  IN  |  practices  |      prep     |
+|   19  |      the       |  DET  |  DT  | appointment |      det      |
+|   20  |  appointment   |  NOUN |  NN  |      in     |      pobj     |
+|   21  |       of       |  ADP  |  IN  | appointment |      prep     |
+|   22  |   appraisers   |  NOUN | NNS  |      of     |      pobj     |
+|   23  |       ,        | PUNCT |  ,   |  appraisers |     punct     |
+|   24  |   guardians    |  NOUN | NNS  |  appraisers |      conj     |
+|   25  |      and       | CCONJ |  CC  |  guardians  |       cc      |
+|   26  | administrators |  NOUN | NNS  |  guardians  |      conj     |
+|   27  |      and       | CCONJ |  CC  |  guardians  |       cc      |
+|   28  |      the       |  DET  |  DT  |   awarding  |      det      |
+|   29  |    awarding    |  NOUN |  NN  |  guardians  |      conj     |
+|   30  |       of       |  ADP  |  IN  |   awarding  |      prep     |
+|   31  |      fees      |  NOUN | NNS  |      of     |      pobj     |
+|   32  |      and       | CCONJ |  CC  |     fees    |       cc      |
+|   33  |  compensation  |  NOUN |  NN  |     fees    |      conj     |
+|   34  |       .        | PUNCT |  .   |  commented  |     punct     |
++-------+----------------+-------+------+-------------+---------------+
+Wards protected
++-------+-----------+------+-----+-----------+---------------+
+| Index |    Text   | POS  | TAG |    Head   | Syntactic dep |
++-------+-----------+------+-----+-----------+---------------+
+|   0   |   Wards   | NOUN | NNS | protected |     nsubj     |
+|   1   | protected | VERB | VBN | protected |      ROOT     |
++-------+-----------+------+-----+-----------+---------------+
+The jury said it found the court `` has incorporated into its operating procedures the recommendations '' of two previous grand juries , the Atlanta Bar Association and an interim citizens committee .
++-------+-----------------+-------+------+-----------------+---------------+
+| Index |       Text      |  POS  | TAG  |       Head      | Syntactic dep |
++-------+-----------------+-------+------+-----------------+---------------+
+|   0   |       The       |  DET  |  DT  |       jury      |      det      |
+|   1   |       jury      |  NOUN |  NN  |       said      |     nsubj     |
+|   2   |       said      |  VERB | VBD  |       said      |      ROOT     |
+|   3   |        it       |  PRON | PRP  |      found      |     nsubj     |
+|   4   |      found      |  VERB | VBD  |       said      |     ccomp     |
+|   5   |       the       |  DET  |  DT  |      court      |      det      |
+|   6   |      court      |  NOUN |  NN  |   incorporated  |     nsubj     |
+|   7   |        `        | PUNCT |  ''  |   incorporated  |     punct     |
+|   8   |        `        | PUNCT |  ''  |   incorporated  |     punct     |
+|   9   |       has       |  AUX  | VBZ  |   incorporated  |      aux      |
+|   10  |   incorporated  |  VERB | VBN  |      found      |     ccomp     |
+|   11  |       into      |  ADP  |  IN  |   incorporated  |      prep     |
+|   12  |       its       |  DET  | PRP$ |    procedures   |      poss     |
+|   13  |    operating    |  NOUN |  NN  |    procedures   |    compound   |
+|   14  |    procedures   |  NOUN | NNS  |       into      |      pobj     |
+|   15  |       the       |  DET  |  DT  | recommendations |      det      |
+|   16  | recommendations |  NOUN | NNS  |   incorporated  |      dobj     |
+|   17  |        ''       | PUNCT |  ''  | recommendations |     punct     |
+|   18  |        of       |  ADP  |  IN  | recommendations |      prep     |
+|   19  |       two       |  NUM  |  CD  |      juries     |     nummod    |
+|   20  |     previous    |  ADJ  |  JJ  |      juries     |      amod     |
+|   21  |      grand      |  ADJ  |  JJ  |      juries     |      amod     |
+|   22  |      juries     |  NOUN | NNS  |        of       |      pobj     |
+|   23  |        ,        | PUNCT |  ,   | recommendations |     punct     |
+|   24  |       the       |  DET  |  DT  |   Association   |      det      |
+|   25  |     Atlanta     | PROPN | NNP  |   Association   |    compound   |
+|   26  |       Bar       | PROPN | NNP  |   Association   |    compound   |
+|   27  |   Association   | PROPN | NNP  | recommendations |      conj     |
+|   28  |       and       | CCONJ |  CC  |   Association   |       cc      |
+|   29  |        an       |  DET  |  DT  |    committee    |      det      |
+|   30  |     interim     |  ADJ  |  JJ  |    committee    |      amod     |
+|   31  |     citizens    |  NOUN | NNS  |    committee    |    compound   |
+|   32  |    committee    |  NOUN |  NN  |   Association   |      conj     |
+|   33  |        .        | PUNCT |  .   |       said      |     punct     |
++-------+-----------------+-------+------+-----------------+---------------+
+`` These actions should serve to protect in fact and in effect the court's wards from undue costs and its appointed and elected servants from unmeritorious criticisms '' , the jury said .
++-------+---------------+-------+------+------------+---------------+
+| Index |      Text     |  POS  | TAG  |    Head    | Syntactic dep |
++-------+---------------+-------+------+------------+---------------+
+|   0   |       `       | PUNCT |  ''  |   serve    |     punct     |
+|   1   |       `       | PUNCT |  ''  |   serve    |     punct     |
+|   2   |     These     |  DET  |  DT  |  actions   |      det      |
+|   3   |    actions    |  NOUN | NNS  |   serve    |     nsubj     |
+|   4   |     should    |  VERB |  MD  |   serve    |      aux      |
+|   5   |     serve     |  VERB |  VB  |    said    |     ccomp     |
+|   6   |       to      |  PART |  TO  |  protect   |      aux      |
+|   7   |    protect    |  VERB |  VB  |   serve    |     xcomp     |
+|   8   |       in      |  ADP  |  IN  |  protect   |      prep     |
+|   9   |      fact     |  NOUN |  NN  |     in     |      pobj     |
+|   10  |      and      | CCONJ |  CC  |   serve    |       cc      |
+|   11  |       in      |  ADP  |  IN  |   serve    |      conj     |
+|   12  |     effect    |  NOUN |  NN  |     in     |      pobj     |
+|   13  |      the      |  DET  |  DT  |   court    |      det      |
+|   14  |     court     |  NOUN |  NN  |   wards    |      poss     |
+|   15  |       's      |  PART | POS  |   court    |      case     |
+|   16  |     wards     |  NOUN | NNS  |     in     |      pobj     |
+|   17  |      from     |  ADP  |  IN  |   wards    |      prep     |
+|   18  |     undue     |  ADJ  |  JJ  |   costs    |      amod     |
+|   19  |     costs     |  NOUN | NNS  |    from    |      pobj     |
+|   20  |      and      | CCONJ |  CC  |   costs    |       cc      |
+|   21  |      its      |  DET  | PRP$ |  servants  |      poss     |
+|   22  |   appointed   |  VERB | VBN  |  servants  |      amod     |
+|   23  |      and      | CCONJ |  CC  | appointed  |       cc      |
+|   24  |    elected    |  VERB | VBN  | appointed  |      conj     |
+|   25  |    servants   |  NOUN | NNS  |   costs    |      conj     |
+|   26  |      from     |  ADP  |  IN  |  servants  |      prep     |
+|   27  | unmeritorious |  ADJ  |  JJ  | criticisms |      amod     |
+|   28  |   criticisms  |  NOUN | NNS  |    from    |      pobj     |
+|   29  |       ''      | PUNCT |  ''  |     in     |     punct     |
+|   30  |       ,       | PUNCT |  ,   |    said    |     punct     |
+|   31  |      the      |  DET  |  DT  |    jury    |      det      |
+|   32  |      jury     |  NOUN |  NN  |    said    |     nsubj     |
+|   33  |      said     |  VERB | VBD  |    said    |      ROOT     |
+|   34  |       .       | PUNCT |  .   |    said    |     punct     |
++-------+---------------+-------+------+------------+---------------+
+Regarding Atlanta's new multi-million-dollar airport , the jury recommended `` that when the new management takes charge Jan. 1 the airport be operated in a manner that will eliminate political influences '' .
++-------+-------------+-------+------+-------------+---------------+
+| Index |     Text    |  POS  | TAG  |     Head    | Syntactic dep |
++-------+-------------+-------+------+-------------+---------------+
+|   0   |  Regarding  |  VERB | VBG  | recommended |      prep     |
+|   1   |   Atlanta   | PROPN | NNP  |   airport   |      poss     |
+|   2   |      's     |  PART | POS  |   Atlanta   |      case     |
+|   3   |     new     |  ADJ  |  JJ  |   airport   |      amod     |
+|   4   |    multi    |  ADJ  |  JJ  |    dollar   |      amod     |
+|   5   |      -      | PUNCT | HYPH |   million   |     punct     |
+|   6   |   million   |  NUM  |  CD  |    dollar   |     nummod    |
+|   7   |      -      | PUNCT | HYPH |    dollar   |     punct     |
+|   8   |    dollar   |  NOUN |  NN  |   airport   |    compound   |
+|   9   |   airport   |  NOUN |  NN  |  Regarding  |      pobj     |
+|   10  |      ,      | PUNCT |  ,   | recommended |     punct     |
+|   11  |     the     |  DET  |  DT  |     jury    |      det      |
+|   12  |     jury    |  NOUN |  NN  | recommended |     nsubj     |
+|   13  | recommended |  VERB | VBD  | recommended |      ROOT     |
+|   14  |      `      | PUNCT |  ''  | recommended |     punct     |
+|   15  |      `      | PUNCT |  ''  |   operated  |     punct     |
+|   16  |     that    | SCONJ |  IN  |   operated  |      mark     |
+|   17  |     when    |  ADV  | WRB  |    takes    |     advmod    |
+|   18  |     the     |  DET  |  DT  |  management |      det      |
+|   19  |     new     |  ADJ  |  JJ  |  management |      amod     |
+|   20  |  management |  NOUN |  NN  |    takes    |     nsubj     |
+|   21  |    takes    |  VERB | VBZ  |   operated  |     advcl     |
+|   22  |    charge   |  NOUN |  NN  |    takes    |      dobj     |
+|   23  |     Jan.    | PROPN | NNP  |    takes    |    npadvmod   |
+|   24  |      1      |  NUM  |  CD  |     Jan.    |     nummod    |
+|   25  |     the     |  DET  |  DT  |   airport   |      det      |
+|   26  |   airport   |  NOUN |  NN  |   operated  |   nsubjpass   |
+|   27  |      be     |  AUX  |  VB  |   operated  |    auxpass    |
+|   28  |   operated  |  VERB | VBN  | recommended |     ccomp     |
+|   29  |      in     |  ADP  |  IN  |   operated  |      prep     |
+|   30  |      a      |  DET  |  DT  |    manner   |      det      |
+|   31  |    manner   |  NOUN |  NN  |      in     |      pobj     |
+|   32  |     that    |  DET  | WDT  |  eliminate  |     nsubj     |
+|   33  |     will    |  VERB |  MD  |  eliminate  |      aux      |
+|   34  |  eliminate  |  VERB |  VB  |    manner   |     relcl     |
+|   35  |  political  |  ADJ  |  JJ  |  influences |      amod     |
+|   36  |  influences |  NOUN | NNS  |  eliminate  |      dobj     |
+|   37  |      ''     | PUNCT |  ''  |   operated  |     punct     |
+|   38  |      .      | PUNCT |  .   | recommended |     punct     |
++-------+-------------+-------+------+-------------+---------------+
+The jury did not elaborate , but it added that `` there should be periodic surveillance of the pricing practices of the concessionaires for the purpose of keeping the prices reasonable '' .
++-------+-----------------+-------+-----+-----------------+---------------+
+| Index |       Text      |  POS  | TAG |       Head      | Syntactic dep |
++-------+-----------------+-------+-----+-----------------+---------------+
+|   0   |       The       |  DET  |  DT |       jury      |      det      |
+|   1   |       jury      |  NOUN |  NN |    elaborate    |     nsubj     |
+|   2   |       did       |  AUX  | VBD |    elaborate    |      aux      |
+|   3   |       not       |  PART |  RB |    elaborate    |      neg      |
+|   4   |    elaborate    |  VERB |  VB |    elaborate    |      ROOT     |
+|   5   |        ,        | PUNCT |  ,  |    elaborate    |     punct     |
+|   6   |       but       | CCONJ |  CC |    elaborate    |       cc      |
+|   7   |        it       |  PRON | PRP |      added      |     nsubj     |
+|   8   |      added      |  VERB | VBD |    elaborate    |      conj     |
+|   9   |       that      | SCONJ |  IN |        be       |      mark     |
+|   10  |        `        | PUNCT |  '' |        be       |     punct     |
+|   11  |        `        | PUNCT |  '' |        be       |     punct     |
+|   12  |      there      |  PRON |  EX |        be       |      expl     |
+|   13  |      should     |  VERB |  MD |        be       |      aux      |
+|   14  |        be       |  AUX  |  VB |      added      |     ccomp     |
+|   15  |     periodic    |  ADJ  |  JJ |   surveillance  |      amod     |
+|   16  |   surveillance  |  NOUN |  NN |        be       |      attr     |
+|   17  |        of       |  ADP  |  IN |   surveillance  |      prep     |
+|   18  |       the       |  DET  |  DT |    practices    |      det      |
+|   19  |     pricing     |  NOUN |  NN |    practices    |    compound   |
+|   20  |    practices    |  NOUN | NNS |        of       |      pobj     |
+|   21  |        of       |  ADP  |  IN |    practices    |      prep     |
+|   22  |       the       |  DET  |  DT | concessionaires |      det      |
+|   23  | concessionaires |  NOUN | NNS |        of       |      pobj     |
+|   24  |       for       |  ADP  |  IN |   surveillance  |      prep     |
+|   25  |       the       |  DET  |  DT |     purpose     |      det      |
+|   26  |     purpose     |  NOUN |  NN |       for       |      pobj     |
+|   27  |        of       |  ADP  |  IN |     purpose     |      prep     |
+|   28  |     keeping     |  VERB | VBG |        of       |     pcomp     |
+|   29  |       the       |  DET  |  DT |      prices     |      det      |
+|   30  |      prices     |  NOUN | NNS |     keeping     |      dobj     |
+|   31  |    reasonable   |  ADJ  |  JJ |     keeping     |      oprd     |
+|   32  |        ''       | PUNCT |  '' |        be       |     punct     |
+|   33  |        .        | PUNCT |  .  |      added      |     punct     |
++-------+-----------------+-------+-----+-----------------+---------------+
+Ask jail deputies
++-------+----------+------+-----+----------+---------------+
+| Index |   Text   | POS  | TAG |   Head   | Syntactic dep |
++-------+----------+------+-----+----------+---------------+
+|   0   |   Ask    | VERB |  VB |   Ask    |      ROOT     |
+|   1   |   jail   | NOUN |  NN | deputies |    compound   |
+|   2   | deputies | NOUN | NNS |   Ask    |      dobj     |
++-------+----------+------+-----+----------+---------------+
+On other matters , the jury recommended that : ( 1 )
++-------+-------------+-------+-------+-------------+---------------+
+| Index |     Text    |  POS  |  TAG  |     Head    | Syntactic dep |
++-------+-------------+-------+-------+-------------+---------------+
+|   0   |      On     |  ADP  |   IN  | recommended |      prep     |
+|   1   |    other    |  ADJ  |   JJ  |   matters   |      amod     |
+|   2   |   matters   |  NOUN |  NNS  |      On     |      pobj     |
+|   3   |      ,      | PUNCT |   ,   | recommended |     punct     |
+|   4   |     the     |  DET  |   DT  |     jury    |      det      |
+|   5   |     jury    |  NOUN |   NN  | recommended |     nsubj     |
+|   6   | recommended |  VERB |  VBD  | recommended |      ROOT     |
+|   7   |     that    |  DET  |   DT  | recommended |     punct     |
+|   8   |      :      | PUNCT |   :   |      1      |     punct     |
+|   9   |      (      | PUNCT | -LRB- |      1      |     punct     |
+|   10  |      1      |  NUM  |   CD  |     that    |     appos     |
+|   11  |      )      | PUNCT | -RRB- |      1      |     punct     |
++-------+-------------+-------+-------+-------------+---------------+
+Four additional deputies be employed at the Fulton County Jail and `` a doctor , medical intern or extern be employed for night and weekend duty at the jail '' .
++-------+------------+-------+-----+----------+---------------+
+| Index |    Text    |  POS  | TAG |   Head   | Syntactic dep |
++-------+------------+-------+-----+----------+---------------+
+|   0   |    Four    |  NUM  |  CD | deputies |     nummod    |
+|   1   | additional |  ADJ  |  JJ | deputies |      amod     |
+|   2   |  deputies  |  NOUN | NNS | employed |   nsubjpass   |
+|   3   |     be     |  AUX  |  VB | employed |    auxpass    |
+|   4   |  employed  |  VERB | VBN | employed |      ROOT     |
+|   5   |     at     |  ADP  |  IN | employed |      prep     |
+|   6   |    the     |  DET  |  DT |   Jail   |      det      |
+|   7   |   Fulton   | PROPN | NNP |  County  |    compound   |
+|   8   |   County   | PROPN | NNP |   Jail   |    compound   |
+|   9   |    Jail    | PROPN | NNP |    at    |      pobj     |
+|   10  |    and     | CCONJ |  CC | employed |       cc      |
+|   11  |     `      | PUNCT |  '' |  doctor  |     punct     |
+|   12  |     `      | PUNCT |  '' |  doctor  |     punct     |
+|   13  |     a      |  DET  |  DT |  doctor  |      det      |
+|   14  |   doctor   |  NOUN |  NN | employed |   nsubjpass   |
+|   15  |     ,      | PUNCT |  ,  |  doctor  |     punct     |
+|   16  |  medical   |  ADJ  |  JJ |  intern  |      amod     |
+|   17  |   intern   |  NOUN |  NN |  doctor  |      conj     |
+|   18  |     or     | CCONJ |  CC |  intern  |       cc      |
+|   19  |   extern   | PROPN | NNP |  intern  |      conj     |
+|   20  |     be     |  AUX  |  VB | employed |    auxpass    |
+|   21  |  employed  |  VERB | VBN | employed |      conj     |
+|   22  |    for     |  ADP  |  IN | employed |      prep     |
+|   23  |   night    |  NOUN |  NN |   for    |      pobj     |
+|   24  |    and     | CCONJ |  CC |  night   |       cc      |
+|   25  |  weekend   |  NOUN |  NN |   duty   |    compound   |
+|   26  |    duty    |  NOUN |  NN |  night   |      conj     |
+|   27  |     at     |  ADP  |  IN | employed |      prep     |
+|   28  |    the     |  DET  |  DT |   jail   |      det      |
+|   29  |    jail    |  NOUN |  NN |    at    |      pobj     |
+|   30  |     ''     | PUNCT |  '' | employed |     punct     |
+|   31  |     .      | PUNCT |  .  | employed |     punct     |
++-------+------------+-------+-----+----------+---------------+
+( 2 )
+Fulton legislators `` work with city officials to pass enabling legislation that will permit the establishment of a fair and equitable '' pension plan for city employes .
++-------+---------------+-------+-----+---------------+---------------+
+| Index |      Text     |  POS  | TAG |      Head     | Syntactic dep |
++-------+---------------+-------+-----+---------------+---------------+
+|   0   |     Fulton    | PROPN | NNP |  legislators  |    compound   |
+|   1   |  legislators  |  NOUN | NNS |      work     |     nsubj     |
+|   2   |       `       |  VERB | VBP |      work     |     punct     |
+|   3   |       `       | PUNCT |  '' |      work     |     punct     |
+|   4   |      work     |  VERB | VBP |      work     |      ROOT     |
+|   5   |      with     |  ADP  |  IN |      work     |      prep     |
+|   6   |      city     |  NOUN |  NN |   officials   |    compound   |
+|   7   |   officials   |  NOUN | NNS |      with     |      pobj     |
+|   8   |       to      |  PART |  TO |      pass     |      aux      |
+|   9   |      pass     |  VERB |  VB |      work     |     advcl     |
+|   10  |    enabling   |  VERB | VBG |  legislation  |      amod     |
+|   11  |  legislation  |  NOUN |  NN |      pass     |      dobj     |
+|   12  |      that     |  DET  | WDT |     permit    |     nsubj     |
+|   13  |      will     |  VERB |  MD |     permit    |      aux      |
+|   14  |     permit    |  VERB |  VB |  legislation  |     relcl     |
+|   15  |      the      |  DET  |  DT | establishment |      det      |
+|   16  | establishment |  NOUN |  NN |     permit    |      dobj     |
+|   17  |       of      |  ADP  |  IN | establishment |      prep     |
+|   18  |       a       |  DET  |  DT |      plan     |      det      |
+|   19  |      fair     |  ADJ  |  JJ |      plan     |      amod     |
+|   20  |      and      | CCONJ |  CC |      fair     |       cc      |
+|   21  |   equitable   |  ADJ  |  JJ |      fair     |      conj     |
+|   22  |       ''      | PUNCT |  '' |      plan     |     punct     |
+|   23  |    pension    |  NOUN |  NN |      plan     |    compound   |
+|   24  |      plan     |  NOUN |  NN |       of      |      pobj     |
+|   25  |      for      |  ADP  |  IN |      plan     |      prep     |
+|   26  |      city     |  NOUN |  NN |    employes   |    compound   |
+|   27  |    employes   |  NOUN | NNS |      for      |      pobj     |
+|   28  |       .       | PUNCT |  .  |      work     |     punct     |
++-------+---------------+-------+-----+---------------+---------------+
+The jury praised the administration and operation of the Atlanta Police Department , the Fulton Tax Commissioner's Office , the Bellwood and Alpharetta prison farms , Grady Hospital and the Fulton Health Department .
++-------+----------------+-------+-----+----------------+---------------+
+| Index |      Text      |  POS  | TAG |      Head      | Syntactic dep |
++-------+----------------+-------+-----+----------------+---------------+
+|   0   |      The       |  DET  |  DT |      jury      |      det      |
+|   1   |      jury      |  NOUN |  NN |    praised     |     nsubj     |
+|   2   |    praised     |  VERB | VBD |    praised     |      ROOT     |
+|   3   |      the       |  DET  |  DT | administration |      det      |
+|   4   | administration |  NOUN |  NN |    praised     |      dobj     |
+|   5   |      and       | CCONJ |  CC | administration |       cc      |
+|   6   |   operation    |  NOUN |  NN | administration |      conj     |
+|   7   |       of       |  ADP  |  IN | administration |      prep     |
+|   8   |      the       |  DET  |  DT |   Department   |      det      |
+|   9   |    Atlanta     | PROPN | NNP |   Department   |    compound   |
+|   10  |     Police     | PROPN | NNP |   Department   |    compound   |
+|   11  |   Department   | PROPN | NNP |       of       |      pobj     |
+|   12  |       ,        | PUNCT |  ,  |    praised     |     punct     |
+|   13  |      the       |  DET  |  DT |  Commissioner  |      det      |
+|   14  |     Fulton     | PROPN | NNP |  Commissioner  |    compound   |
+|   15  |      Tax       | PROPN | NNP |  Commissioner  |    compound   |
+|   16  |  Commissioner  | PROPN | NNP |     Office     |      poss     |
+|   17  |       's       |  PART | POS |  Commissioner  |      case     |
+|   18  |     Office     | PROPN | NNP |    praised     |      dobj     |
+|   19  |       ,        | PUNCT |  ,  |     Office     |     punct     |
+|   20  |      the       |  DET  |  DT |     farms      |      det      |
+|   21  |    Bellwood    | PROPN | NNP |     farms      |      nmod     |
+|   22  |      and       | CCONJ |  CC |    Bellwood    |       cc      |
+|   23  |   Alpharetta   | PROPN | NNP |    Bellwood    |      conj     |
+|   24  |     prison     |  NOUN |  NN |     farms      |    compound   |
+|   25  |     farms      |  NOUN | NNS |     Office     |     appos     |
+|   26  |       ,        | PUNCT |  ,  |     farms      |     punct     |
+|   27  |     Grady      | PROPN | NNP |    Hospital    |    compound   |
+|   28  |    Hospital    | PROPN | NNP |     farms      |      conj     |
+|   29  |      and       | CCONJ |  CC |    Hospital    |       cc      |
+|   30  |      the       |  DET  |  DT |   Department   |      det      |
+|   31  |     Fulton     | PROPN | NNP |   Department   |    compound   |
+|   32  |     Health     | PROPN | NNP |   Department   |    compound   |
+|   33  |   Department   | PROPN | NNP |    Hospital    |      conj     |
+|   34  |       .        | PUNCT |  .  |    praised     |     punct     |
++-------+----------------+-------+-----+----------------+---------------+

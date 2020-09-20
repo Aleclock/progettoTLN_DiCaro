@@ -79,7 +79,8 @@ def main():
         # ---------------------------------------------
         # ----      2. PARSING
         # ---------------------------------------------
-
+        
+        # TODO verificare se s è una lista di termini o una stringa unica
         tree = dependencyParsing (s) # Siccome ogni frase è una lista di termini è necessario unirle (perchè previsto da spacy)
         subjects, objects = extractVerbSubjObj (verb, tree) # sentences arguments (fillers)
 
