@@ -52,7 +52,7 @@ Output:
 def getDependency(tree, argument, limit):
     full_arg = set ()
     if limit > 0:
-        for arg in [t for t in tree if str(t.head) == argument.text]:
+        for arg in [t for t in tree if str(t.head) == argument.text and t.head.i == argument.i]:
             full_arg |= set(getDependency(tree, arg, limit - 1))
     return full_arg | set([t for t in tree if str(t.head) == argument.text] + [argument])
 

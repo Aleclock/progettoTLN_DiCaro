@@ -3,7 +3,9 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import brown
 from leskUtils import lesk
-#from nltk.wsd import lesk
+from nltk.wsd import lesk as leskNLTK
+import matplotlib.pyplot as plt
+import numpy as np
 
 from utils import *
 
@@ -29,7 +31,7 @@ Input:
     verb: chosen verb
     verbs_pos: part-of-speech of verbs
 Output:
-    sentences: list of sentences
+    sentences: list of sentences (each sentence is a string)
 """
 def extractBrownSentences(verb, verbs_pos):
     lemmatizer = WordNetLemmatizer()
@@ -54,6 +56,7 @@ def main():
     # ---------------------------------------------
 
     verbs_pos = ['VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ']
+    personal_pronouns = ['i', 'you', 'he', 'she', 'we', 'they', 'them', 'him', 'her', 'us']
     #verb = "watch"
     verb = "get"
     #verb = "play"
@@ -62,11 +65,12 @@ def main():
     # ----      1. ESTRAZIONI FRASI - Recuperare da un corpus n istanze in cui esso viene usato
     # ---------------------------------------------
 
-    sentences = extractBrownSentences(verb, verbs_pos)
-    clear_file("./sentences_get.txt")
-    saveList("./sentences_get.txt", sentences)
-    #sentences = loadList("./sentences_play.txt")
+    #sentences = extractBrownSentences(verb, verbs_pos)
+    #clear_file("./sentences_get.txt")
     #sentences = loadList("./sentences_watch.txt")
+    #saveList("./sentences_get.txt", sentences)
+    #sentences = loadList("./sentences_play.txt")
+    sentences = loadList("./sentences_get.txt")
 
     print ("__ Loaded " + str(len(sentences)) + " sentences")
 
@@ -80,8 +84,8 @@ def main():
         # ----      2. PARSING
         # ---------------------------------------------
         
-        # TODO verificare se s è una lista di termini o una stringa unica
         tree = dependencyParsing (s) # Siccome ogni frase è una lista di termini è necessario unirle (perchè previsto da spacy)
+        #printTreeTable(tree)
         subjects, objects = extractVerbSubjObj (verb, tree) # sentences arguments (fillers)
 
         vi = VerbInstance(s, subjects, objects)
@@ -94,21 +98,32 @@ def main():
         if subjects and objects: 
             #saveTree(tree, "./graph_play/", str(s[:20].replace(" ", "_")))
             #saveToFile("./results/filler_play.txt", str((subjects,objects)))
-            for subj in subjects:
-                bestSense = lesk(subj, s) # personal lesk function
-                #bestSense = lesk(s, subj) # NLTK lesk funcion
-                #print ("subj \t" + str(subj) + "\t | " + str(bestSense))
-                if bestSense is not None:
-                    vi.subjs_ss.append ((bestSense.lexname()))  # con lexname() si ottiene il supersenso
-            for obj in objects:
-                bestSense = lesk(obj, s)
-                #bestSense = lesk(s, o)
-                #print ("obj \t" + str(obj) + "\t | " + str(bestSense))
-                if bestSense is not None:
-                    vi.objs_ss.append (bestSense.lexname())
+
+            for subj in subjects[:1]:
+                if subj in personal_pronouns:
+                    vi.subjs_ss.append ('noun.person')
+                elif subj == 'it':
+                    vi.subjs_ss.append ('noun.object')
+                else:
+                    #bestSense = lesk(subj, s) # personal lesk function
+                    bestSense = leskNLTK(s, subj, 'n') # NLTK lesk funcion
+                    if bestSense is not None:
+                        vi.subjs_ss.append ((bestSense.lexname()))  # lexname() return WordNet supersense
+
+            for obj in objects[:1]:
+                if obj in personal_pronouns:
+                    vi.objs_ss.append ('noun.person')
+                elif obj == 'it':
+                    vi.objs_ss.append ('noun.object')
+                else:
+                    #bestSense = lesk(obj, s)
+                    bestSense = leskNLTK(s, obj, 'n')
+                    if bestSense is not None:
+                        vi.objs_ss.append (bestSense.lexname())
 
             instances.append(vi)
-    
+            #print ("\n ++ \n")
+
     print ("__ Parsing and disambiguation completed")
     
     # ---------------------------------------------
@@ -116,8 +131,8 @@ def main():
     # ---------------------------------------------
     
     # Conteggio dei supersensi sui singoli argomenti
-    freq_subj = getFrequency (instances, "subjs_ss")
-    freq_obj = getFrequency (instances, "objs_ss")
+    #freq_subj = getFrequency (instances, "subjs_ss")
+    #freq_obj = getFrequency (instances, "objs_ss")
 
     semClusters = []   # Semantic clusters frequency
     
@@ -131,8 +146,22 @@ def main():
     semClusters_freq = getFrequency(semClusters, "_")
 
     print ("Total sentences: " + str(len(instances)))
-    print ("frequency of subjs: " + str(freq_subj) + "\n")
-    print ("frequency of obj: " + str(freq_obj) + "\n")
+    print ("Number of semantic clusters " + str(len(semClusters_freq)))
+    #print ("frequency of subjs: " + str(freq_subj) + "\n")
+    #print ("frequency of obj: " + str(freq_obj) + "\n")
     print ("frequency semantic clusters:" + str(semClusters_freq))
+
+    fig, ax = plt.subplots()
+
+    supersenses, frequencies = zip(*semClusters_freq[:15])
+    y_axis = np.arange(len(supersenses))
+    ax.barh(y_axis, frequencies, align='edge', color='gray', ecolor='black')
+    ax.set_xlabel('Frequencies')
+    ax.set_title('Semantic clusters (' + str(verb) + ")")
+    ax.set_yticks(y_axis)
+    ax.set_yticklabels(supersenses, fontsize=9)
+    plt.subplots_adjust(left=0.25)
+    plt.subplots_adjust(bottom=0.25)
+    plt.show()
 
 main()

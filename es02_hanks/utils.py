@@ -5,6 +5,7 @@ from spacy import displacy
 from pathlib import Path
 import os, os.path
 import collections
+from prettytable import PrettyTable
 
 """
 Get part-of-speech of sentence
@@ -23,14 +24,11 @@ Extract a dependency parse from a sentence (with spaCy https://spacy.io/usage/li
 Input:
     sentence: sentence to parse
 Output:
-    doc: dependency tree
+    dependency tree
 """
 def dependencyParsing (sentence):
     nlp = spacy.load('en_core_web_sm')
-    doc = nlp(sentence)
-    #saveTree(doc, "./graph/", str(sentence[:20].replace(" ", "_")))
-    #printTreeTable(doc)
-    return doc
+    return nlp(sentence)
 
 """
 Extract subjects and objects of verb selected
@@ -42,13 +40,19 @@ Output:
     object: object of verb
     
 https://spacy.io/api/token#attributes
+https://spacy.io/api/annotation
 https://stackoverflow.com/questions/39323325/can-i-find-subject-from-spacy-dependency-tree-using-nltk-in-python
 """
 def extractVerbSubjObj (verb, tree):
+    subj_dept = ['nsubj', 'nsubjpass']
+    obj_dept = ['dobj', 'obj']
+
     lemmatizer = WordNetLemmatizer()
     verbAddress = next(t.text for t in tree if lemmatizer.lemmatize(t.text, 'v') == verb)
-    subjects = list(t.text for t in tree if str(t.head) == verbAddress and "nsubj" in t.dep_ and "NN" in t.tag_)
-    objects = list(t.text for t in tree if str(t.head) == verbAddress and "obj" in t.dep_ and "NN" in t.tag_)
+    subjects = list(t.text for t in tree if str(t.head) == verbAddress and t.dep_ in subj_dept)
+    objects = list(t.text for t in tree if str(t.head) == verbAddress and t.dep_ in obj_dept) # and "NN" in t.tag_)
+    #subjects = list(t.text for t in tree if str(t.head) == verbAddress and "nsubj" in t.dep_ and "NN" in t.tag_)
+    #objects = list(t.text for t in tree if str(t.head) == verbAddress and "obj" in t.dep_ and "NN" in t.tag_)
     return subjects, objects
 
 
@@ -69,7 +73,6 @@ def getFrequency (instances, arg):
         print ("objs_ss " + str(len(b)))
         count = collections.Counter([s for i in instances for s in i.objs_ss]).most_common()
     elif arg == "_":
-        print ("sem_clu " + str(len(instances)))
         count = collections.Counter(instances).most_common()
     return count
 
@@ -88,18 +91,14 @@ def saveTree(doc, path, file_name):
 """
 Print in terminal a table containing tree token information
 Input: 
-    sentence
     tree: part-of-speech of sentence (tree)
 """
-def printTreeTable(sentence, tree):
-    # TODO valutare di usare PrettyTable
-    print ("=================================================================================")
-    print("Index", "\t | ", "Text", "\t\t | ","POS", "\t | " , "TAG",  "\t | " , "Head", "\t | ", "Syntactic dep")
-    print ("=================================================================================")
+def printTreeTable(tree):
+    table = PrettyTable()
+    table.field_names = ["Index", "Text", "POS", "TAG", "Head", "Syntactic dep"]
     for token in tree:
-        print(token.i, "\t | ", token.text, "\t\t | ",token.pos_, "\t | " , token.tag_,  "\t | " , token.head , "\t | " , token.dep_)
-        #token.dep_,token.shape_, token.is_alpha, token.is_stop)
-        #print (token.text, token.tag_, token.head.text, token.dep_)"""
+        table.add_row([str(token.i), str(token.text), str(token.pos_), str(token.tag_), str(token.head), str(token.dep_)])
+    print(table)
 
 # ----------------------------------------------------
 # Following funcions allow to load or save file

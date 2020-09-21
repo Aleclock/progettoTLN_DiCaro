@@ -2,177 +2,112 @@
 
 <br/><br/>
 
->L’esercitazione prevede l’implementazione, ispirandosi al Text Tiling, di un algoritmo di segmentazione del testo:
->
->1.	Usando informazioni come frequenze (globali, locali), co-occorrenze, risorse semantiche (WordNet, etc.), applicando step di preprocessing (as usual), etc.
->
->  * La scelta del testo è a discrezione dello studente.
+>L’esercitazione prevede l’implementazione di un sistema di OIE (lezione 5 Giugno)
 
 <br/>
 
-# 0. Lettura del documento, windowing e lettura Nasari
+# 0. Estrazione delle frasi da un corpus
 
-Il metodo del text tiling prevede che il testo venga separato in finestre di lunghezza fissa. Quindi il documento da analizzare (*document.txt*) viene letto come una stringa grazie alla funzione `loadDocument()` e successivamente diviso in finestre con la funzione `textWindowing()`. 
+Le frasi vengono estratte dal Brown corpus attraverso la funzione `extractSencenses()`, nella quale vengono estratte un numero preciso di frasi attraverso la funzione NLTK `brown.sents()`. Siccome le istanze ritornate dalla funzione sono liste di parole, queste vengono unite in un'unica stringa.
+
+<br/><br/>
+
+# 1. Parsing ed estrazione del verbo
+
+Per ogni frase viene estratto l'albero a dipendenze tramite la funzione `dependencyParsing()`. L'albero a dipendenze viene calcolato tramite spaCy
 
 ~~~~python
-def loadDocument(path):
-    with open(path) as file:
-        lines = file.readlines()
-    return ''.join(lines)
+def dependencyParsing (sentence):
+    nlp = spacy.load('en_core_web_sm')
+    return nlp(sentence)
 ~~~~
 
-Questa funzione prende in input il documento da dividere e la dimensione delle finestre (inteso come numero di frasi). Il documento viene diviso in frasi (`re.split("\.\s+", document)`) e ogni frase viene tokenizzata (`[nltk.word_tokenize(sentence.lower()) for sentence in tokens]`). In base alla dimensione della finestra, vengono create delle liste contenenti il numero scelto di frasi tokenizzate. Nel caso in cui non tutte le frasi siano state finestrate, le restanti vengono unite in un'unica finestra.
+Dopo aver calcolato l'albero a dipendenze, il verbo principale viene determinato con la funzione `extractMainVerb()`, la quale scorre tutti i token dell'albero e seleziona solo quello con il valore "ROOT" come relazione di dipendenza sintattica (`token.dep_`) e con il valore "VB" relativo al part-of-speech (`t.tag_`).
+
+<br/><br/>
+
+# 2. Calcolo del soggetto e dell'oggetto del verbo principale
+
+Nel caso in cui esista il verbo principale, vengono estratti il soggetto e l'oggetto del verbo principale attraverso la funzione `extractVerbSubjObj`. La funzione scorre tutti i token dell'albero a dipendenze e
+
+* il soggetto è la lista di token il cui reggente (`head`) è il verbo principale (`verb`) e la cui relazione sintattica (`dep_`) è `nsubj`;
+* il soggetto è la lista di token il cui reggente (`head`) è il verbo principale (`verb`) e la cui relazione sintattica (`dep_`) è `obj`. [1][2]
+
+Nel caso in cui non sia presente l'oggetto, ovvero se non è presente un token con la relazioen sintattica `dep_`, allora viene preso il token con la relazione `ccomp`.
 
 ~~~~python
-def textWindowing(document, length):
-    sequences = []
-    tokens = re.split("\.\s+", document)
-    tokens = [nltk.word_tokenize(sentence.lower()) for sentence in tokens]
-    j = 0
-    for i in range(length, len(tokens) + 1, length):
-        window = sum(tokens[j:i],[])
-        sequences.append(window)
-        j = i
-    
-    if len(tokens) != j:
-        diff = len(tokens) - j
-        sequences.append(sum(tokens[-diff:],[]))
-    return sequences
+def extractVerbSubjObj (tree, verb):
+    subjs = list(t for t in tree if str(t.head) == verb.text and "nsubj" in t.dep_)
+    objs = list(t for t in tree if str(t.head) == verb.text and "obj" in t.dep_)
+
+    if not objs:
+        objs = list(t for t in tree if str(t.head) == verb.text and "ccomp" in t.dep_)
+
+    return subjs, objs
 ~~~~
-
-<br/>
-
-Per valutare l'agreement tra finestre si utilizza la risorsa Nasari (*dd-nasari.txt*). Per questo motivo è necessario caricare i vettori Nasari grazie alla funzione `loadNasari()` la quale, a partire da un file *.txt*, crea un dizionario con la forma `{word: {term:score}}`
 
 <br/><br/>
 
-# 1. Calcolo della coesione tra finestre
+# 3. Calcolo delle dipendenze degli argomenti
 
-L'idea di questo procedimento è quella di calcolare la coesione di una finestra rispetto a quelle adiacenti, sulla base dei termini rilevanti (soggetti a pre-processing) presenti in ogni finestra. Invece di calcolare la coesione direttamente sui termini, per ogni termine si determina il vettore Nasari associato, in modo da determinare il concetto espresso dal termine.
-
-La funzione `getNasariVectors()` prende in ingresso la lista di termini (finestra) e il dizionario Nasari, la pre-processa (rimozione stopword e punteggiatura, lemmatizzazione) e, per ogni termine della lista pre-processata ritorna, se presente, il vettore Nasari associato.
+Nel caso in cui siano presenti sia il soggetto che l'oggetto del verbo, è possibile determinare la tripletta composta da:
 
 ~~~~python
-def getNasariVectors(sentence, nasari):
-    topic = bagOfWord(sentence)
-    vectors = []
-    for word in topic:
-        if word in nasari.keys():
-            vectors.append(nasari[word])
-    return vectors
+[arg1, verbal_phrase, arg2]
 ~~~~
 
-Per ogni finestra vengono calcolati i vettori Nasari della finestra corrente (`current`), della finestra precedente (`prev`) e quella successiva (`follo`). Successivamente si calcola la coesione tra le finestre  `current`-`prev` e `current`-`follo` grazie alla funzione `getSimilarity()`.
+I dipendenti del verbo si calcolano con la funzione `geVerbDependency()`, la quale estrae dall'albero tutti i token che hanno come reggente il verbo e come relazione sintattica `aux` (ausiliario). La lista di token viene successivamente ordinata in base all'indice nell'albero a dipendenze.
 
-Questa funzione calcola, per ogni vettore di entrambe le liste la Weighted Overlap tra i due vettori. La Weighted Overlap è una funzione che permette di calcolare la similarità semantica tra concetti e si calcola come:
+<br/>
+
+I dipendenti del soggetto e dell'oggetto si calcolano con la funzione `getDependency()`, la quale estrae dall'albero a dipendenze tutti i token che hanno come reggente l'argomento (soggetto o oggetto). Questa funzione permette di estrarre in maniera ricorsiva i dipendenti dei dipendenti. Anche in questo caso i token vengono ordinati in base all'indice nell'albero.
 
 ~~~~python
-n = sum(1 / (rank(q, list(vect1)) + rank(q, list(vect2))) for q in keys_overlap)
-d = sum(list(map(lambda x: 1 / (2 * x), list(range(1, len(keys_overlap) + 1)))))
+def getDependency(tree, argument, limit):
+    full_arg = set ()
+    if limit > 0:
+        for arg in [t for t in tree if str(t.head) == argument.text]:
+            full_arg |= set(getDependency(tree, arg, limit - 1))
+    return full_arg | set([t for t in tree if str(t.head) == argument.text] + [argument])
 
-wo = n/d
+def geVerbDependency(tree, verb):
+    return sorted([verb] + [t for t in tree if str(t.head) == verb.text and "aux" in t.dep_], key = lambda v: v.i)
 ~~~~
 
-dove:
-
-* `keys_overlap`: insieme delle chiavi comuni ai due vettori;
-* `rank`: calcola il rango del termine per un vettore, ovvero la sua rilevanza;
-* `n`: sommatoria del reciproco della somma tra i rank dei vettori Nasari e q, dove q è una chiave comune;
-* `d`: Sommatoria di i che va da 1 alla cardinalità dell'insieme delle chiavi in comune del reciproco del doppio di i.
-
-La funzione getWeightedOverlap() ritorna il rapporto se l'insieme delle chiavi in comuni non è vuoto, 0 altrimenti.
-
-La coesione tra due finestre è data dal massimo valore della radice quadrata della Weighted Overlap.
-
-<br/>
-
-Dopo aver determinato la coesine di una finestra rispetto a quelle adiacenti, la coesione della finestra è data dalla media dei due valori di coesine appena calcolati.
-
-<br/>
-
-Oltre a questo metodo, è stato introdotto anche un altro metodo basato sulle occorrenze statistiche dei termini. Date le liste di termini associato alle tre finestre (`prev`, `current` e `foll`), la funzione `getOverlap()` permette di calcolare l'overlap tra coppie di finestre. La funzione pre-processa le liste di frasi applicando le seguenti operazioni:
-
-* rimozione stopwords e punteggiatura;
-* lemmatizzazione.
-
-Il valore di overlap viene calcolato come
-
-~~~~plain
-s1.intersection(s2))) / min(len(s1), len(s2))
-~~~~
-
-ovvero la cardinalità dell'insieme intersezione diviso la cardinalità minore tra le due liste.
-
-Dopo aver determinato la coesine di una finestra rispetto a quelle adiacenti, la coesione della finestra è data dalla media dei due valori di coesine appena calcolati.
+Infine le liste di token relativi ai vari argomenti vengono convertiti in stringhe (funzione `joinArg()`) e uniti in una lista.
 
 <br/><br/>
 
-# 2. Calcolo split points
+# 4. Risultati
 
-Per determinare i punti in cui dividere il testo, in modo da determinare i paragrafi, si scorre la lista contenente i valori di coesione (`similarities`). Una finestra corrisponde ad un punto di divisione (split point) se il suo valore di coesione è minore rispetto la media dei valori totali e se il valore precedente non è già nella lista degli split points. Quest'ultima condizione viene ignorata solo nel caso in cui il valore di coesione corrente risulti essere più basso rispetto a quello precedente. Le valutazioni sugli elementi consecutivi dipendono dal fatto che finestre successive possono avere un valore correlato. Nel caso in cui due finestre successive abbiano valori simili ed entrambi minori rispetto alla media, questi verrebbero considerati come due punti di split.
+I test sono stati fatti su 30 frasi, ottenendo i seguenti risultati
 
-I possibili punti di split (`splits`) vengono poi ordinati in base al valore di similarità della finestra. Sapendo il numero di paragrafi in cui dividere il testo, vengono estratti dalla lista gli split points con valore più basso di coesione.
-
-<br/><br/>
-
-# 3. Analisi dei risultati
-
-Il testo su cui sono stati fatti i test è un estratto della pagina inglese Wikipedia relativa all'Italia [1], il quale aveva la seguente struttura:
-
-Sentences | Title
-:------------ | :------------ 
-15 | Etimology
-18 | Geography 
-32 | History (Early modern)
-27 | Economy
-19 | Cinema
-16 | Politics (Government)
-
-<br/>
-
-Nelle seguenti immagini si può notare il plot relativo all'analisi fatta sul testo. Nei quattro grafici il testo utilizzato e la risorsa Nasari resta invariata, mentre varia la dimensione delle finestre, ovvero il numero di frasi contenuto in ognuna. Nel grafico:
-
-* La linea nera indica i valori di coesione delle varie finestre;
-* la linea orizzontale indica il valore medio;
-* Le linee verticali rosse indicano i corretti punti di split (determinati manualmente dal testo);
-* Le linee verticali verdi indicano i punti di split individuati dall'algoritmo.
-
-<img src="./output/plot_text_italy01_w1.png" alt="alt text" width="40%" height="whatever">
-<img src="./output/plot_text_italy01_w2.png" alt="alt text" width="40%" height="whatever">
-<img src="./output/plot_text_italy01_w3.png" alt="alt text" width="40%" height="whatever">
-<img src="./output/plot_text_italy01_w4.png" alt="alt text" width="40%" height="whatever">
+Sentence | Triple
+------------ | ------------
+The Fulton County Grand Jury said Friday an investigation of Atlanta's recent primary election produced `` no evidence '' that any irregularities took place . | [The Fulton County Grand Jury] <br/> [said] <br/> [an investigation of election]
+The jury further said in term-end presentments that the City Executive Committee , which had over-all charge of the election , `` deserves the praise and thanks of the City of Atlanta '' for the manner in which the election was conducted . | [The jury] <br/> [said] <br/> [that the City Executive Committee , had , ` ` deserves the praise and thanks of '' for manner]
+`` Only a relative handful of such reports was received '' , the jury said , `` considering the widespread interest in the election , the number of voters and the size of this city '' . | [the jury] <br/> [said] <br/> [` ` Only a relative handful of was received '']
+The jury said it did find that many of Georgia's registration and election laws `` are outmoded or inadequate and often ambiguous '' . | [The jury] <br/> [said] <br/> [it did find that many ` ` are outmoded or inadequate]
+It recommended that Fulton legislators act `` to have these laws studied and revised to the end of modernizing and improving them '' . | [It] <br/> [recommended] <br/> [that Fulton legislators act ` ` to have studied '']
+The grand jury commented on a number of other topics , among them the Atlanta and Fulton County purchasing departments which it said `` are well operated and follow generally accepted practices which inure to the best interest of both governments '' . | [The grand jury] <br/> [commented] <br/> [among them the Atlanta and County purchasing departments which it said are]
+However , the jury said it believes `` these two offices should be combined to achieve greater efficiency and reduce the cost of administration '' . | [the jury] <br/> [said] <br/> [it believes ` ` offices should be combined achieve]
+It urged that the city `` take steps to remedy '' this problem . | [It] <br/> [urged] <br/> [that the city ` ` take steps to remedy '' problem]
+It urged that the next Legislature `` provide enabling funds and re-set the effective date so that an orderly implementation of the law may be effected '' . | [It] <br/> [urged] <br/> [that the next Legislature ` ` provide enabling funds and - set the effective date so that implementation may be effected]
+The grand jury took a swipe at the State Welfare Department's handling of federal funds granted for child welfare services in foster homes . | [The grand jury] <br/> [took] <br/> [a swipe]
+The jurors said they realize `` a proportionate distribution of these funds might disable this program in our less populous counties '' . | [The jurors] <br/> [said] <br/> [they realize ` distribution might disable program in '']
+Nevertheless , `` we feel that in the future Fulton County should receive some portion of these available funds '' , the jurors said . | [the jurors] <br/> [said] <br/> [Nevertheless , ` ` we feel that in County should receive portion '']
+The jury also commented on the Fulton ordinary's court which has been under fire for its practices in the appointment of appraisers , guardians and administrators and the awarding of fees and compensation . | [The jury] <br/> [commented] <br/> [which has been under fire for practices]
+The jury said it found the court `` has incorporated into its operating procedures the recommendations '' of two previous grand juries , the Atlanta Bar Association and an interim citizens committee . | [The jury] <br/> [said] <br/> [it found court ` ` has incorporated into recommendations]
+`` These actions should serve to protect in fact and in effect the court's wards from undue costs and its appointed and elected servants from unmeritorious criticisms '' , the jury said . | [the jury] <br/> [said] <br/> [` ` These actions should serve to protect in fact and in effect wards '']
+Regarding Atlanta's new multi-million-dollar airport , the jury recommended `` that when the new management takes charge Jan. 1 the airport be operated in a manner that will eliminate political influences '' . | [the jury] <br/> [recommended] <br/> [Atlanta new dollar ` that when management takes charge Jan. the airport be operated in manner '']
+The jury praised the administration and operation of the Atlanta Police Department , the Fulton Tax Commissioner's Office , the Bellwood and Alpharetta prison farms , Grady Hospital and the Fulton Health Department . | [The jury] <br/> [praised] <br/> [the Fulton Tax Commissioner 's Office , the Bellwood prison farms , Hospital]
 
 <br/><br/>
 
-Nel caso in cui la finestra sia molto stretta (grafico 1), l'individuazione dei punti di split risulta essere quasi sempre sbagliata, in quanto è molto più probabile imbattersi in falsi positivi, ovvero frasi scollegate (quindi con score basso) presenti nello stesso paragrafo. In ogni caso viene sempre calcolato un valore di coesione basso nel punti reali di split, anche se l'algoritmo non li nomina punti di split effettivi. Nel grafico si può notare come, in corrispondenza degli ultimi due punti di split corretti, il valore di coesione sia molto basso.
+# 5. Sitografia
 
-Aumentando la dimensione della finestra, diminuiscono i falsi positivi, ma aumentano i casi in cui non viene rilevata la variazione di coesione tipica di un split point. Nei grafici 2,3 e 4 il primo e l'ultimo split point non viene individuato. Questo può dipende dai seguenti fattori:
+[1] <https://spacy.io/api/token#attributes> <br/>
+[2] <https://spacy.io/api/annotation> <br/>
 
-* Nel caso in cui le finestre abbiamo dimensione 2, la finestra corrispondente allo split point contiene l'ultima frase del primo paragrafo e la prima frase del secondo. In questo modo la coesione viene ammortizzata.
-* Nel caso in cui le finestre abbiano dimensione 3, l'ultima frase del primo paragrafo e la prima frase del secondo risultano essere in due finestre separate. In questo caso non viene individuata la non coesione in quanto le due finestre contengono termini comuni.
 
-Nel grafico 3, il secondo e il quarto split point vengono individuati, mentre il terzo risulta essere sbagliato. La finestra corrispondente allo split (numero 20) contiene frasi riferite ad entrambi i paragrafi, non permettendo di individuare il cambio di paragrafo. Invece viene inviduato un breakpoint nella finestra numero 25 anche se l'ambito è sempre economico.
 
-Nel grafico 4 la dimensione delle finestre aumenta ancora, rendendo difficile l'individuazione dei breakpoints. L'algoritmo infatti ne determina solo 2, entrambi correttamente (finestre numero 9 e 23).
-
-<br/>
-
-<img src="./output/plot_compare_text_italy01_w1.png" alt="alt text" width="40%" height="whatever">
-<img src="./output/plot_compare_text_italy01_w2.png" alt="alt text" width="40%" height="whatever">
-<img src="./output/plot_compare_text_italy01_w3.png" alt="alt text" width="40%" height="whatever">
-<img src="./output/plot_compare_text_italy01_w4.png" alt="alt text" width="40%" height="whatever">
-<img src="./output/plot_compare_text_italy01_w5.png" alt="alt text" width="40%" height="whatever">
-
-<br/>
-
-Questi grafici permettono di confrontare i due metodi utilizzati per calcolare la coesione delle finestre:
-
-* Nel grafico relativo alle finestra con dimensione 1, sono presenti molti falsi positivi e in generale il sistema non risulta migliore rispetto a quello basato su vettori Nasari;
-* Nel grafico relativo alle finestre con dimensione 2 e 3 con il modello statistico vengono individuati dei bassi valori di coesione nei punti in cui sono presenti il primo e l'ultimo split points;
-* Aumentando la dimensione delle finestre (4 e 5), il modello statistico permette di individuare meglio dei punti di bassa coesione. 
-
-<br/><br/>
-
-# 4. Sitografia
-
-[1] <https://en.wikipedia.org/wiki/Italy> <br/>
