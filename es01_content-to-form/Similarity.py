@@ -9,13 +9,15 @@ import os
 from collections import Counter
 
 """
-Input: lista di definizioni per un termine (formato lista di liste di termini)
-Output: TODO
+Calculate most common terms from a list of lists (each containing tokens)
+Input: 
+    list of definition of a term 
+Output: 
+    ordered list based on token/word frequency
 """
 def getCommonTerms(dProcessed):
     d = list(itertools.chain.from_iterable(dProcessed)) # Unisce le liste in un'unica lista
     most_common_words = [word for word, word_count in Counter(d).most_common()] # Dizionario con le occorrenze dei termini nelle varie definizioni
-    #print (most_common_words)
     return most_common_words
 
 """
@@ -26,38 +28,59 @@ Genus-differentia mechanism: meccanismo che dice che per descrivere un concetto 
     - Differentia, tutto ciò che caratterizza quel concetto in maniera differenziale dagli altri. Si tratta della discriminante
 
 Mentre il genus dice cos’è il concetto, il secondo dice cosa lo differenzia da tutti gli altri.
+
+Input:
+    lemmas: list of lemmas
+    hyponyms_limit, hypernyms_limit: hyponyms/hypernyms depth limit
+Output:
+    list of synsets associated to term
 """
 def getSynsetsFromLemma(lemmas, hyponyms_limit, hypernyms_limit):
     concepts = []
     for l in lemmas:
         synsets = wn.synsets(l)
-        concepts += synsets
+        concepts +=  synsets
         for s in synsets:
             concepts += get_hyponyms(s, hyponyms_limit)
             concepts += get_hypernyms(s, hypernyms_limit)
-    #print (len(concepts))
     #print ([ (word,word_count) for word, word_count in Counter(concepts).most_common(10)])
     return set(concepts)
 
 
+"""
+Get synset hyponyms recursively (interrupted by limit)
+Input:
+    synset
+    limit: depth max
+Output:
+    list of hyponyms
+"""
 def get_hyponyms(synset, limit):
     hyponyms = set()
     if (limit > 0):
         for hyponym in synset.hyponyms():
             hyponyms |= set(get_hyponyms(hyponym, limit - 1))   # |= bitwise or, che sugli insiemi produce l'unione
-    #return hyponyms
     return hyponyms | set(synset.hyponyms())
 
+
+"""
+Get synset hypernyms recursively (interrupted by limit)
+Input:
+    synset
+    limit: depth max
+Output:
+    list of hypernyms
+"""
 def get_hypernyms(synset, limit):
     hypernyms = set()
     if (limit > 0):
         for hypernym in synset.hypernyms():
             hypernyms |= set(get_hypernyms(hypernym, limit - 1))    # |= bitwise or, che sugli insiemi produce l'unione
-    #return hypernyms
     return hypernyms | set(synset.hypernyms())
 
+
 """
-Return best synset compared to context terms
+Return best synset compared to context terms (bag-of-words approach)
 Input:
     synsets: list of synset
     context: context of a term (composed of terms)
@@ -81,7 +104,6 @@ def getBestSense(synsets,context):
 """
 Create the context of a synset
 The context include the definition and examples of synset
-TODO: non prendo anche le definizioni degli iponimi/iperonimi in quanto quelli vengono analizzati da soli
 Input:
     s: synset
 Output:
@@ -114,12 +136,12 @@ def preProcess(definition):
         tokens = nltk.word_tokenize(d.lower())
         tokens = list(filter(lambda x: x not in stop_words and x not in punct, tokens))
         tokens = list(set(wnl.lemmatize(t) for t in tokens))
-        #tokens = list(set(ps.stem(t) for t in tokens)) 
         processed.append(tokens)
     return processed
 
 
-""" Made the pre-process of a sentence
+""" 
+Made the pre-process of a sentence
     - stopword removal
     - puntualization removal
     - lemmatization
@@ -139,31 +161,6 @@ def preProcess_synset(d):
     tokens=list(set(wnl.lemmatize(t) for t in tokens))
     #tokens=list(set(ps.stem(t) for t in tokens))
     return tokens
-
-"""
-Allow to determinate the Part-of-Speech of sentence
-Input:
-    sentence: name
-Output:
-    pos_tags: part-of-speech tags
-"""
-def getPOS(sentence):
-    pos_tags=nltk.pos_tag(nltk.word_tokenize(sentence), tagset='universal')
-    return pos_tags
-
-"""
-Retrieve the main term from a part-of-speech tagging
-Input:
-    pos: part-of-speech
-Output:
-    main term
-"""
-def getNouns(pos):
-    terms = []
-    for word, tag in pos:
-        if tag == "NOUN":
-            terms.append(word)
-    return terms
 
 
 """
@@ -195,5 +192,8 @@ Return lemmas of synset
 def getLemmas(synset):
     return synset.lemma_names()
 
+"""
+Return synset definition
+"""
 def getDefinition(synset):
     return synset.definition()

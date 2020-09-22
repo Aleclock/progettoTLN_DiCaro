@@ -6,7 +6,7 @@ from prettytable import PrettyTable
 # cd /Users/aleclock/Desktop/uni/TLN/dicaro/progettoTLN_DiCaro/es00_Similarity
 
 """
-Allow to load a csv file
+Load a csv file
 Input:
     path: file path
 Output:
@@ -47,9 +47,16 @@ def main():
     #   - calcolo similarità media tra le definizioni di un termine
     # ---------------------------------------------
     for d in definitions:
+        print (definitions[d])
         dProcessed = preProcess(definitions[d])
         vSimilarity = getSimilarity(dProcessed)
         similarity[d].append(vSimilarity)
+
+    
+    # ---------------------------------------------
+    # ----  RISULTATO
+    # Stampa del risultato
+    # ---------------------------------------------
 
     table = PrettyTable()
     table.field_names = ["", "Abstract", "Concrete"]

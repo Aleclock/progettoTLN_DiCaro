@@ -90,34 +90,83 @@ screw | `Synset('band.n.11')` | a thin flat strip or loop of flexible material t
 
 # 3 Interpretazione dei risultati
 
-In base ai risultati, solo in un caso c'è perfetta corrispondenza (greed , `Synset('greed.n.01')`), mentre negli altri casi il synset si avvicina al contesto del termine oppure il synset è completamente sbagliato.
+In base ai risultati, solo in un caso c'è perfetta corrispondenza (greed , `Synset('greed.n.01')`), mentre in 4 casi viene individuato il contesto corretto (`'right.n.01'`, `'governed.n.01'`, `'carbohydrate.n.01'`, `'band.n.11'`). Nel caso dei termini “patience”, “radiator” e “vehicle” il synset trovato non è corretto.
 
-Nelle seguenti tabelle sono riportati i migliori 10 synset per un dato concetto. Come si può notare, in alcuni casi ci sono dei valori a pari merito. In altri casi il senso che sarebbe ottimale per il concetto risulta essere nelle prime 10 posizioni ma per poco non risulta essere il migliore
+Nelle seguenti tabelle è presente l’elenco ordinato dei 10 migliori synset per ogni termine. Come si può notare, molto spesso ci sono diversi synset con lo stesso valore massimo. Inoltre la variazione del punteggio è molto basso tra i primi dieci synset. Nel caso di termini come “radiator” e “vehicle”, il synset associato è rispettivamente `Synset('hot.a.01')` e `Synset('container.n.01')`( con punteggio 7 e 8), ma tra i primi dieci risultati ci sono anche synset più adatti come `Synset('heating_system.n.01')` (punteggio 5) e `Synset('wheeled_vehicle.n.01')` (punteggio 7).
+Mentre nella maggior parte delle definizioni è stato analizzato il synset perfettamente corrispondente al termine, nel caso dei termini “patience” e “screw” i synset associati direttamente a questi termini non sono stati analizzati.
+
+
+
 
 Term | Synset | Value | &nbsp; | Term | Synset | Value
 ------------ | ------------ | ------------- | ------------- | ------------ | ------------ | -------------
 justice | `Synset('right.n.01')` | 6 | &nbsp; | patience | `Synset('day.n.07')` | 5
-justice | `Synset('use.n.07')` | 4 | &nbsp; | patience | `Synset('digest.v.03')` | 5
-justice | `Synset('respect.n.01')` | 4 | &nbsp; | patience | `Synset('resourcefulness.n.01')` | 4
-justice | `Synset('force.n.04')` | 4 | &nbsp; | patience | `Synset('clock.v.01')` | 4
-justice | `Synset('jurisprudence.n.01')` | 4 | &nbsp; | patience | `Synset('convertibility.n.01')` | 4
-justice | `Synset('legal_right.n.01')` | 4 | &nbsp; | patience | `Synset('accept.v.07')` | 4
-justice | `Synset('entitlement.n.01')` | 4 | &nbsp; | patience | `Synset('end.n.02')` | 4
-justice | `Synset('interest.n.05')` | 4 | &nbsp; | patience | `Synset('duration.n.01')` | 4
-justice | `Synset('restraint.n.04')` | 4 | &nbsp; | patience | `Synset('stretch.n.06')` | 4
-justice | `Synset('law.n.01')` | 4 | &nbsp; | patience | `Synset('time_frame.n.01')` | 4
+justice | `Synset('human_right.n.01')` | 4 | &nbsp; | patience | `Synset('digest.v.03')` | 5
+justice | `Synset('jurisprudence.n.01')` | 4 | &nbsp; | patience | `Synset('long_run.n.01')` | 4
+justice | `Synset('rule.n.01')` | 4 | &nbsp; | patience | `Synset('stretch.n.06')` | 4
+justice | `Synset('law.n.02')` | 4 | &nbsp; | patience | `Synset('lunar_day.n.01')` | 4
+justice | `Synset('entitlement.n.01')` | 4 | &nbsp; | patience | `Synset('able.s.03')` | 4
+justice | `Synset('principle.n.04')` | 4 | &nbsp; | patience | `Synset('blue_moon.n.01')` | 4
+justice | `Synset('use.n.07')` | 4 | &nbsp; | patience | `Synset('spontaneity.n.01')` | 4
+justice | `Synset('military_law.n.01')` | 4 | &nbsp; | patience | `Synset('compassion.n.02')` | 4
+justice | `Synset('justice.n.01')` | 3 | &nbsp; | patience | `Synset('mental_quickness.n.01')` | 4
 
 <br/>
 
 Term | Synset | Value | &nbsp; | Term | Synset | Value
 ------------ | ------------ | ------------- | ------------- | ------------ | ------------ | -------------
-greed | `Synset('greed.n.01')` | 7 | &nbsp; | politics | `Synset('section.n.03')` | 6
-greed | `Synset('actor.n.02')` | 7 | &nbsp; | politics | `Synset('governed.n.01')` | 6
-greed | `Synset('longer.n.01')` | 6 | &nbsp; | politics | `Synset('wing.n.08')` | 5
-greed | `Synset('covet.v.01')` | 5 | &nbsp; | politics | `Synset('politics.n.05')` | 5
-greed | `Synset('acquisitiveness.n.01')` | 5 | &nbsp; | politics | `Synset('area.n.01')` | 5
-greed | `Synset('wanter.n.01')` | 5 | &nbsp; | politics | `Synset('state.n.04')` | 5
-greed | `Synset('maniac.n.02')` | 5 | &nbsp; | politics | `Synset('code.n.01')` | 5
-greed | `Synset('kin.n.01')` | 4 | &nbsp; | politics | `Synset('population.n.04')` | 5
-greed | `Synset('itch.v.04')` | 4 | &nbsp; | politics | `Synset('relationship.n.03')` | 5
-greed | `Synset('user.n.01')` | 4 | &nbsp; | politics | `Synset('government.n.03')` | 5
+greed | `Synset('greed.n.01')` | 7 | &nbsp; | politics | `Synset('governed.n.01')` | 6
+greed | `Synset'acquisitiveness.n.01')` | 5 | &nbsp; | politics | `Synset('section.n.03')` | 6
+greed | `Synset('air.n.03')` | 5 | &nbsp; | politics | `Synset('regulate.v.02')` | 5
+greed | `Synset('tone.n.10')` | 5 | &nbsp; | politics | `Synset('relationship.n.03')` | 5
+greed | `Synset('recommendation.n.03')` | 5 | &nbsp; | politics | `Synset('politics.n.05')` | 5
+greed | `Synset('covet.v.01')` | 5 | &nbsp; | politics | `Synset('government.n.01')` | 5
+greed | `Synset('color.n.08')` | 5 | &nbsp; | politics | `Synset('authoritarian_state.n.01')` | 5
+greed | `Synset('hunger.n.02')` | 4 | &nbsp; | politics | `Synset('population.n.04')` | 5
+greed | `Synset('magnificence.n.02')` | 4 | &nbsp; | politics | `Synset('state.n.04')` | 5
+greed | `Synset('possessiveness.n.01')` | 4 | &nbsp; | politics | `Synset('utopia.n.02')` | 5
+
+<br/>
+
+Term | Synset | Value | &nbsp; | Term | Synset | Value
+------------ | ------------ | ------------- | ------------- | ------------ | ------------ | -------------
+food | `Synset('carbohydrate.n.01')` | 5 | &nbsp; | radiator | `Synset('hot.a.01')` | 7
+food | `Synset('biology.n.02')` | 5 | &nbsp; | radiator | `Synset('central_heating.n.01')` | 6
+food | `Synset('animation.n.01')` | 5 | &nbsp; | radiator | `Synset('utility.n.06')` | 6
+food | `Synset('reservoir.n.04')` | 5 | &nbsp; | radiator | `Synset('furnace_room.n.01')` | 6
+food | `Synset('parasite.n.01')` | 5 | &nbsp; | radiator | `Synset('heating_system.n.01')` | 5
+food | `Synset('life.n.11')` | 5 | &nbsp; | radiator | `Synset('section.n.04')` | 5
+food | `Synset('parent.n.02')` | 5 | &nbsp; | radiator | `Synset('mineral_water.n.01')` | 5
+food | `Synset('embryo.n.02')` | 5 | &nbsp; | radiator | `Synset('position.n.07')` | 4
+food | `Synset('process.n.05')` | 5 | &nbsp; | radiator | `Synset('dining-hall.n.01')` | 4
+food | `Synset('life.n.03')` | 4 | &nbsp; | radiator | `Synset('component.n.03')` | 4
+
+<br/>
+
+Term | Synset | Value | &nbsp; | Term | Synset | Value
+------------ | ------------ | ------------- | ------------- | ------------ | ------------ | -------------
+vehicle | `Synset('container.n.01')` | 8 | &nbsp; | screw | `Synset('band.n.11')` | 7
+vehicle | `Synset('wheeled_vehicle.n.01')` | 8 | &nbsp; | screw | `Synset('slice.n.05')` | 6
+vehicle | `Synset('way.n.06')` | 7 | &nbsp; | screw | `Synset('solder.n.01')` | 6
+vehicle | `Synset('component.n.03')` | 6 | &nbsp; | screw | `Synset('counter.n.08')` | 6
+vehicle | `Synset('translocate.v.02')` | 6 | &nbsp; | screw | `Synset('beam.n.02')` | 6
+vehicle | `Synset('motion.n.06')` | 6 | &nbsp; | screw | `Synset('section.n.04')` | 6
+vehicle | `Synset('airlift.n.01')` | 6 | &nbsp; | screw | `Synset('connect.v.01')` | 6
+vehicle | `Synset('handcart.n.01')` | 6 | &nbsp; | screw | `Synset('bimetal.n.01')` | 5
+vehicle | `Synset('section.n.04')` | 6 | &nbsp; | screw | `Synset('join.v.02')` | 5
+vehicle | `Synset('teleportation.n.01')` | 5 | &nbsp; | screw | `Synset('ridge.n.06')` | 5
+
+<br/><br/>
+
+Nella seguente tabella sono riportati i valori di similarità corrispondenti ai synset che avrebbero dovuto ottenere il punteggio maggiore.
+
+Term | Synset | Value
+------------ | ------------ | -------------
+justice | `Synset('justice.n.01')` | 3
+patience | Not evaluated | &nbsp;
+greed | `Synset('greed.n.01'` | 7
+politics | `Synset('politics.n.02')` <br/> `Synset('politics.n.05')` | 4 <br/> 5
+food | `Synset('food.n.01')` | 4
+radiator | `Synset('radiator.n.01')` | 2
+vehicle | `Synset('vehicle.n.01')` | 4
+screw | Not evaluated | &nbsp;

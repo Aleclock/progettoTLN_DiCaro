@@ -32,15 +32,14 @@ Il file *definizioni.csv* in input viene convertito, grazie alla funzione `load_
 
 # 1.1 Preprocessing
 
-Per ogni termine definito (chiave del dizionario), viene applicato il pre-processing attraverso la funzione `preProcess()`, la quale applica le seguenti procedure:
+Per ogni lista contenente le definizioni di un termine, viene applicato il pre-processing attraverso la funzione `preProcess()`, la quale applica le seguenti procedure:
 
 * tokenizzazione;
 * rimozione stopword;
 * rimozione punteggiatura;
-* lemmatizzazione;
 * stemming.
 
-Per ogni definizione, viene applicato il preprocessing e la funzione ritorna una lista di liste contentenenti i termini presenti nelle varie definizioni.
+Per ogni lista di definizioni, viene applicato il preprocessing ad ogni elemento della lista (definizione). La funzione ritorna una lista di liste contentenenti i termini presenti nelle varie definizioni.
 
 <br/><br/>
 
@@ -58,7 +57,7 @@ Il valore di similarità totale viene calcolato come la media tra le similarità
 
 <br/><br/>
 
-# 2 Aggregazione sulle due dimensioni
+# 2. Aggregazione sulle due dimensioni
 
 Dopo aver calcolato la similarità generale per tutti e quattro i termini, il risultato è il seguente
 
@@ -69,6 +68,6 @@ Dopo aver calcolato la similarità generale per tutti e quattro i termini, il ri
 
 <br/><br/>
 
-# 3 Interpretazione dei risultati
+# 3. Interpretazione dei risultati
 
-Si può notare, come è normale che sia, che le definizioni riguardanti i termini astratti risultino meno simili tra loro rispetto a quelli concreti. Importante notare che, mentre le definizioni del concetto generico concreto risultano più simili rispetto a quelle del termine specifco concreto (10% più simili), nel caso dei termini astratti avviene il contrario.
+Si può notare che le definizioni riguardanti i termini astratti risultino meno simili tra loro rispetto a quelli concreti. Importante notare che, mentre le definizioni del concetto generico risultano più simili rispetto a quelle del termine specifco concreto (10% più simili), nel caso dei termini astratti avviene il contrario.

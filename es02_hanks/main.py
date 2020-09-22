@@ -58,8 +58,8 @@ def main():
     verbs_pos = ['VB', 'VBD', 'VBG', 'VBN', 'VBP', 'VBZ']
     personal_pronouns = ['i', 'you', 'he', 'she', 'we', 'they', 'them', 'him', 'her', 'us']
     #verb = "watch"
-    verb = "get"
-    #verb = "play"
+    #verb = "get"
+    verb = "play"
 
     # ---------------------------------------------
     # ----      1. ESTRAZIONI FRASI - Recuperare da un corpus n istanze in cui esso viene usato
@@ -69,8 +69,8 @@ def main():
     #clear_file("./sentences_get.txt")
     #sentences = loadList("./sentences_watch.txt")
     #saveList("./sentences_get.txt", sentences)
-    #sentences = loadList("./sentences_play.txt")
-    sentences = loadList("./sentences_get.txt")
+    sentences = loadList("./sentences_play.txt")
+    #sentences = loadList("./sentences_get.txt")
 
     print ("__ Loaded " + str(len(sentences)) + " sentences")
 
@@ -99,7 +99,7 @@ def main():
             #saveTree(tree, "./graph_play/", str(s[:20].replace(" ", "_")))
             #saveToFile("./results/filler_play.txt", str((subjects,objects)))
 
-            for subj in subjects[:1]:
+            for subj in subjects:
                 if subj in personal_pronouns:
                     vi.subjs_ss.append ('noun.person')
                 elif subj == 'it':
@@ -110,7 +110,7 @@ def main():
                     if bestSense is not None:
                         vi.subjs_ss.append ((bestSense.lexname()))  # lexname() return WordNet supersense
 
-            for obj in objects[:1]:
+            for obj in objects:
                 if obj in personal_pronouns:
                     vi.objs_ss.append ('noun.person')
                 elif obj == 'it':

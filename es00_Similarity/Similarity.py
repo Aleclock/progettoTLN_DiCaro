@@ -4,10 +4,9 @@ from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import statistics
 
-# TODO provare questo per calcolo similarità: SequenceMatcher, similarità del coseno
 
 """
-Calculate the mean similarity between each couple of definition
+Calculate the mean similarity between all couple of definition
 Input:
     definitions: list of definitions about one term
 Output:
@@ -24,9 +23,8 @@ def getSimilarity(definitions):
 
 """ 
 Apply sentence pre-process
-- stopword remuval
+- stopword removal
 - puntualization removal
-- lemmatization 
 - stemming
 Input:
     definitions: list of definitions of a term
@@ -38,12 +36,10 @@ def preProcess(definitions):
     for d in definitions:
         stop_words = set(stopwords.words('english'))
         punct = {',', ';', '(', ')', '{', '}', ':', '?', '!','.', "'s"}
-        #wnl = nltk.WordNetLemmatizer()
         ps = PorterStemmer()
         
         tokens = nltk.word_tokenize(d.lower())
         tokens = list(filter(lambda x: x not in stop_words and x not in punct, tokens))
-        #tokens = list(set(wnl.lemmatize(t) for t in tokens))
         tokens = list(set(ps.stem(t) for t in tokens)) 
         processed.append(tokens)
     return processed

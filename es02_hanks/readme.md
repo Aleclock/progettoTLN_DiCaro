@@ -86,7 +86,8 @@ L'algoritmo ritorna il senso migliore, ovvero il synset che ha ottenuto l'overla
 <br/>
 
 Successivamente, nel caso in cui l'algoritmo di Lesk abbia ritornato un senso, si determinano i tipi semantici, ovvero delle generalizzazioni concettuali strutturate come una gerarchia. Questo procedimento viene fatto in quanto il significato di un verbo dipende dagli argomenti e dai tipi semantici ad esso associati.
-Il tipo semantico di un synset si ottiene determinando il suo super senso (attraverso la funzione `synset.lexname()` [3]).
+Il tipo semantico di un synset si ottiene determinando il suo super senso (attraverso la funzione `synset.lexname()` [3]). 
+Nel caso in cui il soggetto o l’oggetto siano dei pronomi personali, viene associato il supersenso `noun.person` o `noun.object` (se il pronome è *it*).
 
 Infine gli argomenti del verbo con valenza 2 vengono aggiunti ad una lista (`instances`) in modo da semplificare il calcolo delle frequenze. `instances` è una lista contenente tutte le istanze (frasi) in cui il verbo ha valenza 2 (dove è presente sia il soggetto che l'oggetto del verbo).
 
@@ -139,10 +140,13 @@ ____ SEMANTIC CLUSTER (85)
 [(('noun.person', 'noun.communication'), 21), (('noun.quantity', 'noun.person'), 19), (('noun.person', 'noun.person'), 19), (('noun.person', 'noun.attribute'), 17), (('noun.person', 'noun.artifact'), 17), (('noun.person', 'noun.act'), 15), (('noun.quantity', 'noun.communication'), 12), (('noun.quantity', 'noun.artifact'), 12), (('noun.person', 'noun.quantity'), 10), (('noun.quantity', 'noun.attribute'), 9), (('noun.person', 'noun.state'), 8), (('noun.quantity', 'noun.object'), 8), (('noun.person', 'noun.cognition'), 7), (('noun.person', 'noun.group'), 7), (('noun.group', 'noun.act'), 5), (('noun.person', 'noun.object'), 5), (('noun.person', 'noun.possession'), 5), (('noun.substance', 'noun.attribute'), 4), (('noun.person', 'noun.food'), 4), (('noun.quantity', 'noun.cognition'), 4), (('noun.quantity', 'noun.state'), 4), (('noun.person', 'noun.event'), 3), (('noun.quantity', 'noun.possession'), 3), (('noun.person', 'noun.feeling'), 3), (('noun.person', 'noun.time'), 3), (('noun.group', 'noun.person'), 3), (('noun.Tops', 'noun.quantity'), 3), (('noun.body', 'noun.communication'), 2), (('noun.artifact', 'noun.act'), 2), (('noun.animal', 'noun.act'), 2), (('noun.artifact', 'noun.person'), 2), (('noun.person', 'noun.location'), 2), (('noun.person', 'noun.substance'), 2), (('noun.group', 'noun.time'), 2), (('noun.substance', 'noun.object'), 2), (('noun.cognition', 'noun.communication'), 2), (('noun.substance', 'noun.state'), 2), (('noun.person', 'noun.Tops'), 2), (('noun.substance', 'noun.quantity'), 2), (('noun.substance', 'noun.group'), 2), (('noun.quantity', 'noun.location'), 2), (('noun.substance', 'noun.possession'), 2), (('noun.state', 'noun.person'), 2), (('noun.group', 'noun.state'), 2), (('noun.quantity', 'noun.food'), 2), (('noun.substance', 'noun.cognition'), 2), (('noun.substance', 'noun.animal'), 2), (('noun.substance', 'noun.event'), 2), (('noun.substance', 'noun.artifact'), 2), (('noun.act', 'noun.person'), 2), (('noun.substance', 'noun.communication'), 2), (('noun.quantity', 'noun.group'), 2), (('noun.object', 'noun.feeling'), 1), (('noun.group', 'noun.cognition'), 1), (('noun.group', 'noun.possession'), 1), (('noun.attribute', 'noun.person'), 1), (('noun.act', 'noun.quantity'), 1), (('noun.group', 'noun.communication'), 1), (('noun.location', 'noun.attribute'), 1), (('noun.cognition', 'noun.cognition'), 1), (('noun.phenomenon', 'noun.communication'), 1), (('noun.person', 'noun.plant'), 1), (('noun.object', 'noun.animal'), 1), (('noun.person', 'noun.body'), 1), (('noun.animal', 'noun.object'), 1), (('noun.group', 'noun.food'), 1), (('noun.state', 'noun.possession'), 1), (('noun.act', 'noun.cognition'), 1), (('noun.communication', 'noun.object'), 1), (('noun.artifact', 'noun.attribute'), 1), (('noun.substance', 'noun.location'), 1), (('noun.location', 'noun.person'), 1), (('noun.location', 'noun.artifact'), 1), (('noun.animal', 'noun.communication'), 1), (('noun.substance', 'noun.time'), 1), (('noun.substance', 'noun.person'), 1), (('noun.group', 'noun.artifact'), 1), (('noun.quantity', 'noun.substance'), 1), (('noun.person', 'noun.phenomenon'), 1), (('noun.cognition', 'noun.object'), 1), (('noun.quantity', 'noun.quantity'), 1), (('noun.substance', 'noun.act'), 1), (('noun.object', 'noun.person'), 1), (('noun.communication', 'noun.state'), 1), (('noun.quantity', 'noun.act'), 1)]
 ~~~~
 
-Term | Synset | Value | &nbsp; | Term | Synset | Value
------------- | ------------ | ------------- | ------------- | ------------ | ------------ | -------------
-greed | `Synset('greed.n.01')` | 7 | &nbsp; | politics | `Synset('section.n.03')` | 6
-greed | `Synset('actor.n.02')` | 7 | &nbsp; | politics | `Synset('governed.n.01')` | 6
+<br/>
+
+Di seguito l’istogramma relativo ai 15 semantic clusters più frequenti.
+
+<img src="./results/sem_clusters_playNLTK.png" alt="alt text" width="60%" height="whatever">
+<img src="./results/sem_clusters_watchNLTK.png" alt="alt text" width="60%" height="whatever">
+<img src="./results/sem_clusters_getNLTK.png" alt="alt text" width="60%" height="whatever">
 
 <br/><br/>
 

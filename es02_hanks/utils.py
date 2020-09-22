@@ -7,17 +7,6 @@ import os, os.path
 import collections
 from prettytable import PrettyTable
 
-"""
-Get part-of-speech of sentence
-Input:
-    sentence: sentence as string
-Output:
-    pos_tags: list of tuple (term, POS)
-"""
-def getPOS(sentence):
-    pos_tags = nltk.pos_tag(nltk.word_tokenize(sentence), tagset='universal')
-    return pos_tags
-
 
 """
 Extract a dependency parse from a sentence (with spaCy https://spacy.io/usage/linguistic-features)
@@ -50,9 +39,7 @@ def extractVerbSubjObj (verb, tree):
     lemmatizer = WordNetLemmatizer()
     verbAddress = next(t.text for t in tree if lemmatizer.lemmatize(t.text, 'v') == verb)
     subjects = list(t.text for t in tree if str(t.head) == verbAddress and t.dep_ in subj_dept)
-    objects = list(t.text for t in tree if str(t.head) == verbAddress and t.dep_ in obj_dept) # and "NN" in t.tag_)
-    #subjects = list(t.text for t in tree if str(t.head) == verbAddress and "nsubj" in t.dep_ and "NN" in t.tag_)
-    #objects = list(t.text for t in tree if str(t.head) == verbAddress and "obj" in t.dep_ and "NN" in t.tag_)
+    objects = list(t.text for t in tree if str(t.head) == verbAddress and t.dep_ in obj_dept)
     return subjects, objects
 
 
