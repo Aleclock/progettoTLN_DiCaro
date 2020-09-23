@@ -30,11 +30,13 @@ Output:
     
 https://spacy.io/api/token#attributes
 https://spacy.io/api/annotation
-https://stackoverflow.com/questions/39323325/can-i-find-subject-from-spacy-dependency-tree-using-nltk-in-python
 """
 def extractVerbSubjObj (tree, verb):
-    subjs = list(t for t in tree if str(t.head) == verb.text and "nsubj" in t.dep_)
-    objs = list(t for t in tree if str(t.head) == verb.text and "obj" in t.dep_)
+    subj_dept = ['nsubj', 'nsubjpass']
+    obj_dept = ['dobj', 'obj']
+
+    subjs = list(t for t in tree if str(t.head) == verb.text and t.dep_ in subj_dept)
+    objs = list(t for t in tree if str(t.head) == verb.text and t.dep_ in obj_dept)
 
     if not objs:
         objs = list(t for t in tree if str(t.head) == verb.text and "ccomp" in t.dep_)
@@ -60,14 +62,13 @@ def getArgDependency(tree, argument):
     dep = sorted ([argument] + [t for t in tree if str(t.head) == argument.text], key=lambda v: v.i)
     return dep
 
-def geVerbDependency(tree, verb):
+def getVerbDependency(tree, verb):
     return sorted([verb] + [t for t in tree if str(t.head) == verb.text and "aux" in t.dep_], key = lambda v: v.i)
 
 def orderArguments(arguments):
     return sorted(arguments, key=lambda v: v.i)
 
 def joinArg(tokens):
-    #return " ".join([t.text for t in tokens if "punct" not in t.dep_])
     return " ".join([t.text for t in tokens])
 
 def printTreeTable(tree):
@@ -75,8 +76,14 @@ def printTreeTable(tree):
     table.field_names = ["Index", "Text", "POS", "TAG", "Head", "Syntactic dep"]
     for token in tree:
         table.add_row([str(token.i), str(token.text), str(token.pos_), str(token.tag_), str(token.head), str(token.dep_)])
-        #print(token.i, "\t | ", token.text, "\t\t | ",token.pos_, "\t | " , token.tag_,  "\t | " , token.head , "\t | " , token.dep_)
     print(table)
+
+def getTreTable(tree):
+    table = PrettyTable()
+    table.field_names = ["Index", "Text", "POS", "TAG", "Head", "Syntactic dep"]
+    for token in tree:
+        table.add_row([str(token.i), str(token.text), str(token.pos_), str(token.tag_), str(token.head), str(token.dep_)])
+    return table
 
 """
 Save an .svg image of dependency tree

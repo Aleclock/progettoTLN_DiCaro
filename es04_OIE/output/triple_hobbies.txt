@@ -1,0 +1,290 @@
+** 5
+Far from discouraging Henri , his parents urge him on to greater and greater accomplishments .
+
++-------+-----------------+-------+------+-----------------+---------------+
+| Index |       Text      |  POS  | TAG  |       Head      | Syntactic dep |
++-------+-----------------+-------+------+-----------------+---------------+
+|   0   |       Far       |  ADV  |  RB  |       urge      |     advmod    |
+|   1   |       from      |  ADP  |  IN  |       Far       |      prep     |
+|   2   |   discouraging  |  VERB | VBG  |       from      |     pcomp     |
+|   3   |      Henri      | PROPN | NNP  |   discouraging  |      dobj     |
+|   4   |        ,        | PUNCT |  ,   |       urge      |     punct     |
+|   5   |       his       |  DET  | PRP$ |     parents     |      poss     |
+|   6   |     parents     |  NOUN | NNS  |       urge      |     nsubj     |
+|   7   |       urge      |  VERB | VBP  |       urge      |      ROOT     |
+|   8   |       him       |  PRON | PRP  |       urge      |      dobj     |
+|   9   |        on       |  ADP  |  RP  |       urge      |      prt      |
+|   10  |        to       |  ADP  |  IN  |       urge      |      prep     |
+|   11  |     greater     |  ADJ  | JJR  | accomplishments |      amod     |
+|   12  |       and       | CCONJ |  CC  |     greater     |       cc      |
+|   13  |     greater     |  ADJ  | JJR  |     greater     |      conj     |
+|   14  | accomplishments |  NOUN | NNS  |        to       |      pobj     |
+|   15  |        .        | PUNCT |  .   |       urge      |     punct     |
++-------+-----------------+-------+------+-----------------+---------------+
+
+['his parents', 'urge', 'him']
+
+
+================ 
+
+** 7
+And they couldn't have entrusted Henri to better hands because `` le professeur '' knows his muscles from the sterno-cleido mastoideus of the neck right down to the tibialis anticus of the leg and better still , he knows just what exercises work best for them and what Weider principles to combine them with for fast , fast muscle growth .
+
++-------+------------+-------+------+------------+---------------+
+| Index |    Text    |  POS  | TAG  |    Head    | Syntactic dep |
++-------+------------+-------+------+------------+---------------+
+|   0   |    And     | CCONJ |  CC  | entrusted  |       cc      |
+|   1   |    they    |  PRON | PRP  | entrusted  |     nsubj     |
+|   2   |   could    |  VERB |  MD  | entrusted  |      aux      |
+|   3   |    n't     |  PART |  RB  | entrusted  |      neg      |
+|   4   |    have    |  AUX  |  VB  | entrusted  |      aux      |
+|   5   | entrusted  |  VERB | VBN  | entrusted  |      ROOT     |
+|   6   |   Henri    | PROPN | NNP  | entrusted  |      dobj     |
+|   7   |     to     |  ADP  |  IN  | entrusted  |      prep     |
+|   8   |   better   |  ADJ  | JJR  |   hands    |      amod     |
+|   9   |   hands    |  NOUN | NNS  |     to     |      pobj     |
+|   10  |  because   | SCONJ |  IN  |   knows    |      mark     |
+|   11  |     `      | PUNCT |  ''  | professeur |     punct     |
+|   12  |     `      | PUNCT |  ''  | professeur |     punct     |
+|   13  |     le     | PROPN | NNP  | professeur |    compound   |
+|   14  | professeur | PROPN | NNP  |   knows    |     nsubj     |
+|   15  |     ''     | PUNCT |  ''  | professeur |     punct     |
+|   16  |   knows    |  VERB | VBZ  | entrusted  |     advcl     |
+|   17  |    his     |  DET  | PRP$ |  muscles   |      poss     |
+|   18  |  muscles   |  NOUN | NNS  |   knows    |      dobj     |
+|   19  |    from    |  ADP  |  IN  |  muscles   |      prep     |
+|   20  |    the     |  DET  |  DT  | mastoideus |      det      |
+|   21  |   sterno   | PROPN | NNP  |   cleido   |    npadvmod   |
+|   22  |     -      | PUNCT | HYPH |   cleido   |     punct     |
+|   23  |   cleido   |  NOUN |  NN  | mastoideus |      amod     |
+|   24  | mastoideus |  NOUN |  NN  |    from    |      pobj     |
+|   25  |     of     |  ADP  |  IN  | mastoideus |      prep     |
+|   26  |    the     |  DET  |  DT  |    neck    |      det      |
+|   27  |    neck    |  NOUN |  NN  |     of     |      pobj     |
+|   28  |   right    |  ADV  |  RB  |    down    |     advmod    |
+|   29  |    down    |  ADP  |  IN  |   knows    |     advmod    |
+|   30  |     to     |  ADP  |  IN  |    down    |      prep     |
+|   31  |    the     |  DET  |  DT  |  anticus   |      det      |
+|   32  |  tibialis  | PROPN | NNP  |  anticus   |    compound   |
+|   33  |  anticus   | PROPN | NNP  |     to     |      pobj     |
+|   34  |     of     |  ADP  |  IN  |  anticus   |      prep     |
+|   35  |    the     |  DET  |  DT  |    leg     |      det      |
+|   36  |    leg     |  NOUN |  NN  |     of     |      pobj     |
+|   37  |    and     | CCONJ |  CC  |    down    |       cc      |
+|   38  |   better   |  ADJ  | JJR  |    down    |      conj     |
+|   39  |   still    |  ADV  |  RB  |   better   |     advmod    |
+|   40  |     ,      | PUNCT |  ,   |   knows    |     punct     |
+|   41  |     he     |  PRON | PRP  |   knows    |     nsubj     |
+|   42  |   knows    |  VERB | VBZ  |   knows    |      ROOT     |
+|   43  |    just    |  ADV  |  RB  |    work    |     advmod    |
+|   44  |    what    |  PRON |  WP  | exercises  |      det      |
+|   45  | exercises  |  VERB | VBZ  |    work    |     nsubj     |
+|   46  |    work    |  VERB | VBP  |   knows    |     ccomp     |
+|   47  |    best    |  ADV  | RBS  |    work    |     advmod    |
+|   48  |    for     |  ADP  |  IN  |    work    |      prep     |
+|   49  |    them    |  PRON | PRP  |    for     |      pobj     |
+|   50  |    and     | CCONJ |  CC  |    work    |       cc      |
+|   51  |    what    |  PRON |  WP  | principles |      det      |
+|   52  |   Weider   | PROPN | NNP  | principles |     nsubj     |
+|   53  | principles |  NOUN | NNS  |    work    |      conj     |
+|   54  |     to     |  PART |  TO  |  combine   |      aux      |
+|   55  |  combine   |  VERB |  VB  | principles |     advcl     |
+|   56  |    them    |  PRON | PRP  |  combine   |      dobj     |
+|   57  |    with    |  ADP  |  IN  |  combine   |      prep     |
+|   58  |    for     |  ADP  |  IN  |  combine   |      prep     |
+|   59  |    fast    |  ADJ  |  JJ  |   growth   |      amod     |
+|   60  |     ,      | PUNCT |  ,   |   growth   |     punct     |
+|   61  |    fast    |  ADJ  |  JJ  |   muscle   |      amod     |
+|   62  |   muscle   |  NOUN |  NN  |   growth   |    compound   |
+|   63  |   growth   |  NOUN |  NN  |    for     |      pobj     |
+|   64  |     .      | PUNCT |  .   |   knows    |     punct     |
++-------+------------+-------+------+------------+---------------+
+
+['they', 'could have entrusted', 'Henri']
+
+
+================ 
+
+** 9
+Undoubtedly you have read the case histories of some of his prize-winning pupils ( every pupil has a physique title of some kind or other ) .
+
++-------+-------------+-------+-------+-----------+---------------+
+| Index |     Text    |  POS  |  TAG  |    Head   | Syntactic dep |
++-------+-------------+-------+-------+-----------+---------------+
+|   0   | Undoubtedly |  ADV  |   RB  |    read   |     advmod    |
+|   1   |     you     |  PRON |  PRP  |    read   |     nsubj     |
+|   2   |     have    |  AUX  |  VBP  |    read   |      aux      |
+|   3   |     read    |  VERB |  VBN  |    has    |     ccomp     |
+|   4   |     the     |  DET  |   DT  |    case   |      det      |
+|   5   |     case    |  NOUN |   NN  | histories |    compound   |
+|   6   |  histories  |  NOUN |  NNS  |    read   |      dobj     |
+|   7   |      of     |  ADP  |   IN  | histories |      prep     |
+|   8   |     some    |  DET  |   DT  |     of    |      pobj     |
+|   9   |      of     |  ADP  |   IN  |    some   |      prep     |
+|   10  |     his     |  DET  |  PRP$ |   pupils  |      poss     |
+|   11  |    prize    |  NOUN |   NN  |  winning  |    npadvmod   |
+|   12  |      -      | PUNCT |  HYPH |  winning  |     punct     |
+|   13  |   winning   |  VERB |  VBG  |   pupils  |      amod     |
+|   14  |    pupils   |  NOUN |  NNS  |     of    |      pobj     |
+|   15  |      (      | PUNCT | -LRB- |    has    |     punct     |
+|   16  |    every    |  DET  |   DT  |   pupil   |      det      |
+|   17  |    pupil    |  NOUN |   NN  |    has    |     nsubj     |
+|   18  |     has     |  AUX  |  VBZ  |    has    |      ROOT     |
+|   19  |      a      |  DET  |   DT  |   title   |      det      |
+|   20  |   physique  |  ADJ  |   JJ  |   title   |      amod     |
+|   21  |    title    |  NOUN |   NN  |    has    |      dobj     |
+|   22  |      of     |  ADP  |   IN  |   title   |      prep     |
+|   23  |     some    |  DET  |   DT  |    kind   |      det      |
+|   24  |     kind    |  NOUN |   NN  |     of    |      pobj     |
+|   25  |      or     | CCONJ |   CC  |    kind   |       cc      |
+|   26  |    other    |  ADJ  |   JJ  |    kind   |      conj     |
+|   27  |      )      | PUNCT | -RRB- |    has    |     punct     |
+|   28  |      .      | PUNCT |   .   |    has    |     punct     |
++-------+-------------+-------+-------+-----------+---------------+
+
+['every pupil', 'has', 'some pupils a physique title of kind']
+
+
+================ 
+
+** 15
+Yesiree , the professor knows his muscles ! !
+
++-------+-----------+-------+------+-----------+---------------+
+| Index |    Text   |  POS  | TAG  |    Head   | Syntactic dep |
++-------+-----------+-------+------+-----------+---------------+
+|   0   |  Yesiree  | PROPN | NNP  |   knows   |    npadvmod   |
+|   1   |     ,     | PUNCT |  ,   |   knows   |     punct     |
+|   2   |    the    |  DET  |  DT  | professor |      det      |
+|   3   | professor |  NOUN |  NN  |   knows   |     nsubj     |
+|   4   |   knows   |  VERB | VBZ  |   knows   |      ROOT     |
+|   5   |    his    |  DET  | PRP$ |  muscles  |      poss     |
+|   6   |  muscles  |  NOUN | NNS  |   knows   |      dobj     |
+|   7   |     !     | PUNCT |  .   |   knows   |     punct     |
+|   8   |     !     | PUNCT |  .   |   knows   |     punct     |
++-------+-----------+-------+------+-----------+---------------+
+
+['the professor', 'knows', 'his muscles']
+
+
+================ 
+
+** 19
+Well , sir they did real great ! !
+
++-------+-------+-------+-----+-------+---------------+
+| Index |  Text |  POS  | TAG |  Head | Syntactic dep |
++-------+-------+-------+-----+-------+---------------+
+|   0   |  Well |  INTJ |  UH |  did  |      intj     |
+|   1   |   ,   | PUNCT |  ,  |  did  |     punct     |
+|   2   |  sir  |  NOUN |  NN |  did  |    npadvmod   |
+|   3   |  they |  PRON | PRP |  did  |     nsubj     |
+|   4   |  did  |  AUX  | VBD |  did  |      ROOT     |
+|   5   |  real |  ADV  |  RB | great |     advmod    |
+|   6   | great |  ADV  |  RB |  did  |      dobj     |
+|   7   |   !   | PUNCT |  .  |  did  |     punct     |
+|   8   |   !   | PUNCT |  .  |  did  |     punct     |
++-------+-------+-------+-----+-------+---------------+
+
+['they', 'did', 'real great']
+
+
+================ 
+
+** 21
+Of course he did some exercising .
+
++-------+------------+-------+-----+------------+---------------+
+| Index |    Text    |  POS  | TAG |    Head    | Syntactic dep |
++-------+------------+-------+-----+------------+---------------+
+|   0   |     Of     |  ADV  |  RB |   course   |     advmod    |
+|   1   |   course   |  ADV  |  RB |    did     |     advmod    |
+|   2   |     he     |  PRON | PRP |    did     |     nsubj     |
+|   3   |    did     |  AUX  | VBD |    did     |      ROOT     |
+|   4   |    some    |  DET  |  DT | exercising |      det      |
+|   5   | exercising |  VERB | VBG |    did     |      dobj     |
+|   6   |     .      | PUNCT |  .  |    did     |     punct     |
++-------+------------+-------+-----+------------+---------------+
+
+['he', 'did', 'some exercising']
+
+
+================ 
+
+** 22
+He's crazy about water skiing and swimming and this vigorous exercise in conjunction with the added food supplements packed pounds of solid muscle on his skinny frame .
+
++-------+-------------+-------+------+-------------+---------------+
+| Index |     Text    |  POS  | TAG  |     Head    | Syntactic dep |
++-------+-------------+-------+------+-------------+---------------+
+|   0   |      He     |  PRON | PRP  |      's     |     nsubj     |
+|   1   |      's     |  AUX  | VBZ  |      's     |      ROOT     |
+|   2   |    crazy    |  ADJ  |  JJ  |      's     |     acomp     |
+|   3   |    about    |  ADP  |  IN  |    crazy    |      prep     |
+|   4   |    water    |  NOUN |  NN  |    skiing   |    compound   |
+|   5   |    skiing   |  NOUN |  NN  |    about    |      pobj     |
+|   6   |     and     | CCONJ |  CC  |    skiing   |       cc      |
+|   7   |   swimming  |  NOUN |  NN  |    skiing   |      conj     |
+|   8   |     and     | CCONJ |  CC  |    skiing   |       cc      |
+|   9   |     this    |  DET  |  DT  |   exercise  |      det      |
+|   10  |   vigorous  |  ADJ  |  JJ  |   exercise  |      amod     |
+|   11  |   exercise  |  NOUN |  NN  |    skiing   |      conj     |
+|   12  |      in     |  ADP  |  IN  |   exercise  |      prep     |
+|   13  | conjunction |  NOUN |  NN  |      in     |      pobj     |
+|   14  |     with    |  ADP  |  IN  | conjunction |      prep     |
+|   15  |     the     |  DET  |  DT  | supplements |      det      |
+|   16  |    added    |  VERB | VBN  | supplements |      amod     |
+|   17  |     food    |  NOUN |  NN  | supplements |    compound   |
+|   18  | supplements |  NOUN | NNS  |     with    |      pobj     |
+|   19  |    packed   |  VERB | VBD  |      's     |     ccomp     |
+|   20  |    pounds   |  NOUN | NNS  |    packed   |      dobj     |
+|   21  |      of     |  ADP  |  IN  |    pounds   |      prep     |
+|   22  |    solid    |  ADJ  |  JJ  |    muscle   |      amod     |
+|   23  |    muscle   |  NOUN |  NN  |      of     |      pobj     |
+|   24  |      on     |  ADP  |  IN  |    packed   |      prep     |
+|   25  |     his     |  DET  | PRP$ |    frame    |      poss     |
+|   26  |    skinny   |  ADJ  |  JJ  |    frame    |      amod     |
+|   27  |    frame    |  NOUN |  NN  |      on     |      pobj     |
+|   28  |      .      | PUNCT |  .   |      's     |     punct     |
++-------+-------------+-------+------+-------------+---------------+
+
+['He', "'s", 'packed pounds of on frame']
+
+
+================ 
+
+** 23
+Henri has always had shapely legs from swimming and water skiing and really doesn't have to work them very much .
+
++-------+----------+-------+-----+----------+---------------+
+| Index |   Text   |  POS  | TAG |   Head   | Syntactic dep |
++-------+----------+-------+-----+----------+---------------+
+|   0   |  Henri   | PROPN | NNP |   had    |     nsubj     |
+|   1   |   has    |  AUX  | VBZ |   had    |      aux      |
+|   2   |  always  |  ADV  |  RB |   had    |     advmod    |
+|   3   |   had    |  VERB | VBN |   had    |      ROOT     |
+|   4   | shapely  |  ADV  |  RB |   legs   |      amod     |
+|   5   |   legs   |  NOUN | NNS |   had    |      dobj     |
+|   6   |   from   |  ADP  |  IN |   legs   |      prep     |
+|   7   | swimming |  NOUN |  NN |   from   |      pobj     |
+|   8   |   and    | CCONJ |  CC | swimming |       cc      |
+|   9   |  water   |  NOUN |  NN |  skiing  |    compound   |
+|   10  |  skiing  |  NOUN |  NN | swimming |      conj     |
+|   11  |   and    | CCONJ |  CC |   had    |       cc      |
+|   12  |  really  |  ADV  |  RB |   have   |     advmod    |
+|   13  |   does   |  AUX  | VBZ |   have   |      aux      |
+|   14  |   n't    |  PART |  RB |   have   |      neg      |
+|   15  |   have   |  AUX  |  VB |   had    |      conj     |
+|   16  |    to    |  PART |  TO |   work   |      aux      |
+|   17  |   work   |  VERB |  VB |   have   |     xcomp     |
+|   18  |   them   |  PRON | PRP |   work   |      dobj     |
+|   19  |   very   |  ADV  |  RB |   much   |     advmod    |
+|   20  |   much   |  ADV  |  RB |   work   |     advmod    |
+|   21  |    .     | PUNCT |  .  |   had    |     punct     |
++-------+----------+-------+-----+----------+---------------+
+
+['Henri', 'has had', 'shapely legs from swimming']
+
+
+================ 
+

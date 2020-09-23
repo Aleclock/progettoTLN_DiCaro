@@ -6,6 +6,14 @@ import math
 import numpy
 
 
+"""
+Compute similarity between Nasari vectors using the Weighted overlap function
+Input:
+    vector1, vector2: Nasari vectors
+Output:
+    maxSimilarity: maximum value of square of Weighted Overlap
+    mean: mean of all similarities
+"""
 def getSimilarity(vector1, vector2):
     similarity = []
     for v1 in vector1:
@@ -22,7 +30,7 @@ Input:
     s1: sentence 1 (as list)
     s2: sentence 2 (as list)
 Output:
-    similarity
+    statistical similarity
 """
 def getOverlap(s1,s2):
     s1 = bagOfWord(s1)
@@ -62,6 +70,13 @@ def rank(q, v):
         if v[i] == q:
             return i + 1
 
+"""
+Calculate potential split points based on similarities values
+Input:
+    similarities: list of coesion values between windows
+Ouput:
+    split_points: ordered list of potential split points
+"""
 def getSplitPoints(similarities):
     split_points = []
     mean = sum(similarities) / len(similarities)
@@ -125,5 +140,4 @@ def loadNasari(path):
 
             concepts[tokens[1].lower()] = lexical_dict
     file.close()
-
     return concepts

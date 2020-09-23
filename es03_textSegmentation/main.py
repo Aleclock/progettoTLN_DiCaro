@@ -31,7 +31,6 @@ def clear_file(path):
 
 """
 Apply text windowing, divide a text into windows with specified number of words
-TODO valutare di dividere il testo in frasi
 Input:
     document: document to tokenize/divide
     length: windows dimension
@@ -43,8 +42,6 @@ def textWindowing(document, length):
     tokens = re.split("\.\s+", document)
     print ("Number of sentences: " + str(len(tokens)))
     tokens = [nltk.word_tokenize(sentence.lower()) for sentence in tokens]
-    #tokens = nltk.word_tokenize(document.lower())
-    #print (tokens)
     j = 0
     for i in range(length, len(tokens) + 1, length):
         #sequences.append(list(itertools.chain(tokens[j:i])))
@@ -57,11 +54,18 @@ def textWindowing(document, length):
         sequences.append(sum(tokens[-diff:],[]))
     return sequences
 
+
+
 def main():
-    doc = loadDocument("./text_italy01.txt")
+
+    # ---------------------------------------------
+    # ----      0. Load document and windowing
+    # ---------------------------------------------
+
+    doc = loadDocument("./text_italy.txt")
 
     splitPoints = 5
-    windows_size = 5
+    windows_size = 2
     sequences = textWindowing(doc, windows_size) # get text windows (5: sentences in each windows)
 
     print ("Number of windows: " + str(len(sequences)))
@@ -69,26 +73,24 @@ def main():
     #nasari = loadNasari("./asset/dd-small-nasari-15.txt")
     nasari = loadNasari("./asset/dd-nasari.txt")
 
-    result_path = "./output/results_text_italy01_w5.txt"
-
-    clear_file(result_path)
-
-    saveString(result_path, "**************************************")
-    saveString(result_path, "Info:")
-    saveString(result_path, "./text_italy01.txt")
-    saveString(result_path, "./asset/dd-nasari.txt")
-    saveString(result_path, "Windows size: " + str(windows_size))
-    saveString(result_path, "Number of windows: " + str(len(sequences)))
-    saveString(result_path, "**************************************\n\n")
-
     similarities = []
     similarities_mean = []
-    similarities_correlation = [] # based on statistica occurrence
+    similarities_correlation = [] # based on statistic occurrence
 
     for i in range(1, len(sequences) - 1):
+        # ---------------------------------------------
+        # ----      1. Calcolate Nasari vectors
+        # ---------------------------------------------
+
         prev = getNasariVectors(sequences[i - 1], nasari) # previus sentence
         current = getNasariVectors(sequences[i], nasari)
         foll = getNasariVectors(sequences[i + 1], nasari) # following sentence
+
+        # ---------------------------------------------
+        # ----      2. Calculate similarity 
+        # ---- getSimilarity() returns the similarity based on Nasari vector (computed using Weighted Overlap)
+        # ---- getOverlap() returns the statistical similarity based on terms co-occurrence
+        # ---------------------------------------------
 
         max_sim_prev, mean_sim_prev = getSimilarity(current, prev)
         max_sim_foll, mean_sim_prev = getSimilarity(current, foll)
@@ -96,26 +98,20 @@ def main():
         corr_prev = getOverlap(sequences[i], sequences[i-1])
         corr_foll = getOverlap(sequences[i], sequences[i+1])
 
-        saveString(result_path, "\nWindow n:\t" + str(i))
-        saveString(result_path, "---------------------------\n")
-        saveString(result_path, "Prev: \n" + str(sequences[i - 1]) + "\n")
-        saveString(result_path, "Curr: \n" + str(sequences[i]) + "\n")
-        saveString(result_path, "Foll: \n" + str(sequences[i + 1]) + "\n")
-
-        saveString(result_path, "++++ Similarity \b")
-        saveString(result_path, "\tMax similarity: \t" + str(round(max_sim_prev,2)) + " , " + str(round(max_sim_foll,2)) + " | \t" + str(round((max_sim_prev + max_sim_foll) / 2,2)))
-        saveString(result_path, "\tStatistic similarity: \t" + str(round(corr_prev,2)) + " , " + str(round(corr_foll,2)) + " | \t" + str(round((corr_prev + corr_foll) / 2,2)))
-
         similarities.append((max_sim_prev + max_sim_foll) / 2)
         similarities_mean.append((mean_sim_prev + mean_sim_prev) / 2)
         similarities_correlation.append((corr_prev + corr_foll) / 2)
+
+
+    # ---------------------------------------------
+    # ----      3. Calculate split points
+    # ---------------------------------------------
 
     #minimum = (np.diff(np.sign(np.diff(similarities))) > 0).nonzero() [0] + 1 # local min
 
     split_maxSimilarity = getSplitPoints(similarities)
     split_corrSimilarity = getSplitPoints(similarities_correlation)
 
-    #splits = numpy.argsort(splits) # Returns the indices that would sort an array
     split_maxSimilarity = split_maxSimilarity[:splitPoints]
     split_corrSimilarity = split_corrSimilarity[:splitPoints]
 
@@ -135,11 +131,11 @@ def main():
             if set(tokenized).issubset(sequences[i]):
                 values.append(i)
         
-    """result = [i for i in sequences[i] if i.startswith(tuple(tokenized))]
-    print (len(result), len(tokenized))
-    print ("--")"""
+    # ---------------------------------------------
+    # ----      4. Plot resutls
+    # ---------------------------------------------
 
-    # Plot similarities
+    # Plot similarities (Nasari vectors)
 
     plt.xlabel("Sequence number ( windows size = " + str(windows_size) + ")")
     plt.ylabel("Coesion")

@@ -12,7 +12,7 @@
 
 # 0. Lettura del documento, windowing e lettura Nasari
 
-Il metodo del text tiling prevede che il testo venga separato in finestre di lunghezza fissa. Quindi il documento da analizzare (*document.txt*) viene letto come una stringa grazie alla funzione `loadDocument()` e successivamente diviso in finestre con la funzione `textWindowing()`. 
+Il metodo del text tiling prevede che il testo venga separato in finestre di lunghezza fissa. Quindi il documento da analizzare (*text_italy.txt*) viene letto come una stringa grazie alla funzione `loadDocument()` e successivamente diviso in finestre con la funzione `textWindowing()`. 
 
 ~~~~python
 def loadDocument(path):
@@ -90,7 +90,7 @@ Dopo aver determinato la coesine di una finestra rispetto a quelle adiacenti, la
 
 <br/>
 
-Oltre a questo metodo, è stato introdotto anche un altro metodo basato sulle occorrenze statistiche dei termini. Date le liste di termini associato alle tre finestre (`prev`, `current` e `foll`), la funzione `getOverlap()` permette di calcolare l'overlap tra coppie di finestre. La funzione pre-processa le liste di frasi applicando le seguenti operazioni:
+Oltre a questo metodo, è stato introdotto anche un altro metodo basato sulle occorrenze statistiche dei termini. Il calcolo della similarità viene fatto sempre sulla finestra corrente e quelle adiacenti (precedente e successiva). La funzione `getOverlap()` permette di calcolare l'overlap tra coppie di finestre. La funzione pre-processa le liste di frasi applicando le seguenti operazioni:
 
 * rimozione stopwords e punteggiatura;
 * lemmatizzazione.
@@ -109,7 +109,7 @@ Dopo aver determinato la coesine di una finestra rispetto a quelle adiacenti, la
 
 # 2. Calcolo split points
 
-Per determinare i punti in cui dividere il testo, in modo da determinare i paragrafi, si scorre la lista contenente i valori di coesione (`similarities`). Una finestra corrisponde ad un punto di divisione (split point) se il suo valore di coesione è minore rispetto la media dei valori totali e se il valore precedente non è già nella lista degli split points. Quest'ultima condizione viene ignorata solo nel caso in cui il valore di coesione corrente risulti essere più basso rispetto a quello precedente. Le valutazioni sugli elementi consecutivi dipendono dal fatto che finestre successive possono avere un valore correlato. Nel caso in cui due finestre successive abbiano valori simili ed entrambi minori rispetto alla media, questi verrebbero considerati come due punti di split.
+Per determinare i punti in cui dividere il testo, in modo da determinare i paragrafi, si scorre la lista contenente i valori di coesione (`similarities`). Una finestra corrisponde ad un punto di divisione (split point) se il suo valore di coesione è minore rispetto la media dei valori totali e se il valore precedente non è già nella lista degli split points. Quest'ultima condizione viene ignorata solo nel caso in cui il valore di coesione corrente risulti essere più basso rispetto a quello precedente. Le valutazioni sugli elementi precedenti dipendono dal fatto che finestre successive possono avere un valore correlato. Nel caso in cui due finestre successive abbiano valori simili ed entrambi minori rispetto alla media, questi verrebbero considerati come due punti di split.
 
 I possibili punti di split (`splits`) vengono poi ordinati in base al valore di similarità della finestra. Sapendo il numero di paragrafi in cui dividere il testo, vengono estratti dalla lista gli split points con valore più basso di coesione.
 
@@ -133,7 +133,7 @@ Sentences | Title
 Nelle seguenti immagini si può notare il plot relativo all'analisi fatta sul testo. Nei quattro grafici il testo utilizzato e la risorsa Nasari resta invariata, mentre varia la dimensione delle finestre, ovvero il numero di frasi contenuto in ognuna. Nel grafico:
 
 * La linea nera indica i valori di coesione delle varie finestre;
-* la linea orizzontale indica il valore medio;
+* La linea orizzontale indica il valore medio;
 * Le linee verticali rosse indicano i corretti punti di split (determinati manualmente dal testo);
 * Le linee verticali verdi indicano i punti di split individuati dall'algoritmo.
 
@@ -146,7 +146,7 @@ Nelle seguenti immagini si può notare il plot relativo all'analisi fatta sul te
 
 Nel caso in cui la finestra sia molto stretta (grafico 1), l'individuazione dei punti di split risulta essere quasi sempre sbagliata, in quanto è molto più probabile imbattersi in falsi positivi, ovvero frasi scollegate (quindi con score basso) presenti nello stesso paragrafo. In ogni caso viene sempre calcolato un valore di coesione basso nel punti reali di split, anche se l'algoritmo non li nomina punti di split effettivi. Nel grafico si può notare come, in corrispondenza degli ultimi due punti di split corretti, il valore di coesione sia molto basso.
 
-Aumentando la dimensione della finestra, diminuiscono i falsi positivi, ma aumentano i casi in cui non viene rilevata la variazione di coesione tipica di un split point. Nei grafici 2,3 e 4 il primo e l'ultimo split point non viene individuato. Questo può dipende dai seguenti fattori:
+Aumentando la dimensione della finestra, diminuiscono i falsi positivi, ma aumentano i casi in cui non viene rilevata la variazione di coesione tipica di un split point. Nei grafici 2,3 e 4 il primo e l'ultimo split point non vengono individuati. Questo può dipende dai seguenti fattori:
 
 * Nel caso in cui le finestre abbiamo dimensione 2, la finestra corrispondente allo split point contiene l'ultima frase del primo paragrafo e la prima frase del secondo. In questo modo la coesione viene ammortizzata.
 * Nel caso in cui le finestre abbiano dimensione 3, l'ultima frase del primo paragrafo e la prima frase del secondo risultano essere in due finestre separate. In questo caso non viene individuata la non coesione in quanto le due finestre contengono termini comuni.

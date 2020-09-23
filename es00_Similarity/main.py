@@ -47,7 +47,6 @@ def main():
     #   - calcolo similarità media tra le definizioni di un termine
     # ---------------------------------------------
     for d in definitions:
-        print (definitions[d])
         dProcessed = preProcess(definitions[d])
         vSimilarity = getSimilarity(dProcessed)
         similarity[d].append(vSimilarity)

@@ -5,36 +5,60 @@ from parsingUtils import *
 
 #cd /Users/aleclock/Desktop/uni/TLN/dicaro/progettoTLN_DiCaro/es04_OIE
 
+"""
+Extract sentences from Brown corpus
+Input:
+    limit: number of sentences to retrieve
+Output:
+    sentences: list of sentences
+"""
 def extractSencenses(limit):
     sentences = []
-    list_sent = brown.sents()
+    list_sent = brown.sents(categories = "hobbies")
     for sent in list_sent[:limit]:
         sentences.append(" ".join(sent))
     return sentences
+
+def clear_file(path):
+    os.remove(path)
+
+def saveString (path, str):
+    file = open(path, 'a')
+    file.write(str + "\n")
+    file.close()
     
 
 def main():
+
+    # ---------------------------------------------
+    # ----      0. Extract sentences
+    # ---------------------------------------------
+
     sentences = extractSencenses(30)
-    
-    print ("Sentence | Triple")
-    print ("------------ | ------------")
 
     for s in sentences:
-        #print (s)
 
+        # ---------------------------------------------
+        # ----      1. Calculate dependency tree, main verb and fillers
+        # ---------------------------------------------
+        
         tree = dependencyParsing (s)
         verb = extractMainVerb(tree)
         if verb:
             subjs, objs = extractVerbSubjObj (tree, verb) # sentences arguments (fillers)
 
             #printTreeTable(tree)
-            #saveTree(tree, "./output/", str(sentences.index(s)))
+            #saveTree(tree, "./output/", str(sentences.index(s)) + "_hobbies")
 
             if subjs and objs:
-                verbalPhrase = geVerbDependency(tree, verb)
+
+                # ---------------------------------------------
+                # ----      2. Calculate verbal phrase and arguments (arg1, arg2)
+                # ---------------------------------------------
+
+                verbalPhrase = getVerbDependency(tree, verb)
 
                 for sub in subjs:
-                    #https://github.com/explosion/spaCy/issues/259
                     #print ([t.text for t in sub.subtree])
                     #arg1 = getArgDependency(tree, sub)
                     arg1 = orderArguments(getDependency(tree, sub, 1))
@@ -46,10 +70,9 @@ def main():
                 arg1 = joinArg(arg1)
                 verbalPhrase = joinArg(verbalPhrase)
                 arg2 = joinArg(arg2)
-
-                print (s + " | [" + arg1 + "] <br/> [" + verbalPhrase + "] <br/> [" + arg2 + "]")
-
-                #print ([arg1, verbalPhrase, arg2])
-        #print ("----")
+                
+                print (s)
+                print ([arg1, verbalPhrase, arg2])
+                print ("----")
 
 main()

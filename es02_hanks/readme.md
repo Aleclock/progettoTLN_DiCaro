@@ -144,9 +144,9 @@ ____ SEMANTIC CLUSTER (85)
 
 Di seguito l’istogramma relativo ai 15 semantic clusters più frequenti.
 
-<img src="./results/sem_clusters_playNLTK.png" alt="alt text" width="60%" height="whatever">
-<img src="./results/sem_clusters_watchNLTK.png" alt="alt text" width="60%" height="whatever">
-<img src="./results/sem_clusters_getNLTK.png" alt="alt text" width="60%" height="whatever">
+<img src="./results/sem_clusters_playNLTK.png" alt="alt text" width="80%" height="whatever">
+<img src="./results/sem_clusters_watchNLTK.png" alt="alt text" width="80%" height="whatever">
+<img src="./results/sem_clusters_getNLTK.png" alt="alt text" width="80%" height="whatever">
 
 <br/><br/>
 

@@ -14,7 +14,6 @@ from utils import *
 
 os.chdir("/Users/aleclock/Desktop/uni/TLN/dicaro/progettoTLN_DiCaro/es02_hanks")
 
-# TODO Cambiare nome alla classe
 class VerbInstance:
     def __init__(self, sentence, subjs, objs):
         self.sentence = sentence
@@ -122,7 +121,6 @@ def main():
                         vi.objs_ss.append (bestSense.lexname())
 
             instances.append(vi)
-            #print ("\n ++ \n")
 
     print ("__ Parsing and disambiguation completed")
     
