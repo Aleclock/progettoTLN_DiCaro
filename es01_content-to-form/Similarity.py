@@ -118,7 +118,7 @@ def getSynsetContext(s):
 
 """ 
 Apply sentence pre-process
-- stopword remuval
+- stopword removal
 - puntualization removal
 - lemmatization 
 Input:

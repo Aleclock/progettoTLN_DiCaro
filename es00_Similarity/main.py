@@ -1,9 +1,11 @@
 import csv
-#import Similarity as ss
 from Similarity import *
 from prettytable import PrettyTable
+import os
 
 # cd /Users/aleclock/Desktop/uni/TLN/dicaro/progettoTLN_DiCaro/es00_Similarity
+
+os.chdir("/Users/aleclock/Desktop/uni/TLN/dicaro/progettoTLN_DiCaro/es00_Similarity")
 
 """
 Load a csv file

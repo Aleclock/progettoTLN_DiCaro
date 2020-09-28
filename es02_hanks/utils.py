@@ -53,11 +53,11 @@ def getFrequency (instances, arg):
     count = []
     if arg == "subjs_ss":
         a = [s for i in instances for s in i.subjs_ss]
-        print ("subjs_ss " + str(len(a)))
+        #print ("subjs_ss " + str(len(a)))
         count = collections.Counter([s for i in instances for s in i.subjs_ss]).most_common()
     elif arg == "objs_ss":
         b = [s for i in instances for s in i.objs_ss]
-        print ("objs_ss " + str(len(b)))
+        #print ("objs_ss " + str(len(b)))
         count = collections.Counter([s for i in instances for s in i.objs_ss]).most_common()
     elif arg == "_":
         count = collections.Counter(instances).most_common()

@@ -129,8 +129,8 @@ def main():
     # ---------------------------------------------
     
     # Conteggio dei supersensi sui singoli argomenti
-    #freq_subj = getFrequency (instances, "subjs_ss")
-    #freq_obj = getFrequency (instances, "objs_ss")
+    freq_subj = getFrequency (instances, "subjs_ss")
+    freq_obj = getFrequency (instances, "objs_ss")
 
     semClusters = []   # Semantic clusters frequency
     
@@ -145,9 +145,9 @@ def main():
 
     print ("Total sentences: " + str(len(instances)))
     print ("Number of semantic clusters " + str(len(semClusters_freq)))
-    #print ("frequency of subjs: " + str(freq_subj) + "\n")
-    #print ("frequency of obj: " + str(freq_obj) + "\n")
-    print ("frequency semantic clusters:" + str(semClusters_freq))
+    print ("\nfrequency of subjs: " + str(freq_subj) + "\n")
+    print ("\nfrequency of obj: " + str(freq_obj) + "\n")
+    print ("\nfrequency semantic clusters:" + str(semClusters_freq))
 
     fig, ax = plt.subplots()
 

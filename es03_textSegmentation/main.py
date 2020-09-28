@@ -7,7 +7,7 @@ import os
 from utils import * 
 
 #cd /Users/aleclock/Desktop/uni/TLN/dicaro/progettoTLN_DiCaro/es03_textSegmentation
-
+os.chdir("/Users/aleclock/Desktop/uni/TLN/dicaro/progettoTLN_DiCaro/es03_textSegmentation")
 
 """
 Load document in path line by line

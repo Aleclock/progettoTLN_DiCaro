@@ -1,9 +1,11 @@
+import os
 import nltk
 from nltk.corpus import brown
 
 from parsingUtils import *
 
 #cd /Users/aleclock/Desktop/uni/TLN/dicaro/progettoTLN_DiCaro/es04_OIE
+os.chdir("/Users/aleclock/Desktop/uni/TLN/dicaro/progettoTLN_DiCaro/es04_OIE")
 
 """
 Extract sentences from Brown corpus

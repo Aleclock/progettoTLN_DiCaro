@@ -1,8 +1,11 @@
+import os
 import csv
 from Similarity import *
 from prettytable import PrettyTable
 
 # cd /Users/aleclock/Desktop/uni/TLN/dicaro/progettoTLN_DiCaro/es01_content-to-form
+
+os.chdir("/Users/aleclock/Desktop/uni/TLN/dicaro/progettoTLN_DiCaro/es01_content-to-form")
 
 """
 Load csv file
